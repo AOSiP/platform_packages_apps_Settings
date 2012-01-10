@@ -156,6 +156,17 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
+        <!-- Build date -->
+        <com.android.settings.DividerPreference
+                android:key="build_date"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/build_date"
+                android:summary="@string/build_date_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
+
         <!-- Detailed build version -->
         <Preference android:key="build_number"
                 android:enabled="false"
