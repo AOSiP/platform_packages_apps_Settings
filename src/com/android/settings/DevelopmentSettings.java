@@ -88,6 +88,9 @@ import com.android.settings.widget.SwitchBar;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 import com.android.settingslib.RestrictedSwitchPreference;
+import com.android.settings.util.Helpers;
+
+import dalvik.system.VMRuntime;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -115,6 +118,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private static final String ENABLE_ADB = "enable_adb";
     private static final String CLEAR_ADB_KEYS = "clear_adb_keys";
     private static final String ENABLE_TERMINAL = "enable_terminal";
+    private static final String RESTART_SYSTEMUI = "restart_systemui";
     private static final String KEEP_SCREEN_ON = "keep_screen_on";
     private static final String BT_HCI_SNOOP_LOG = "bt_hci_snoop_log";
     private static final String WEBVIEW_PROVIDER_KEY = "select_webview_provider";
@@ -250,6 +254,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private Preference mBugreport;
     private SwitchPreference mBugreportInPower;
     private RestrictedSwitchPreference mKeepScreenOn;
+    private Preference mRestartSystemUI;
     private SwitchPreference mBtHciSnoopLog;
     private RestrictedSwitchPreference mEnableOemUnlock;
     private SwitchPreference mDebugViewAttributes;
@@ -386,6 +391,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mBugreport = findPreference(BUGREPORT);
         mBugreportInPower = findAndInitSwitchPref(BUGREPORT_IN_POWER_KEY);
         mKeepScreenOn = (RestrictedSwitchPreference) findAndInitSwitchPref(KEEP_SCREEN_ON);
+        mRestartSystemUI = findPreference(RESTART_SYSTEMUI);
         mBtHciSnoopLog = findAndInitSwitchPref(BT_HCI_SNOOP_LOG);
         mEnableOemUnlock = (RestrictedSwitchPreference) findAndInitSwitchPref(ENABLE_OEM_UNLOCK);
         if (!showEnableOemUnlockPreference()) {
@@ -1965,6 +1971,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 mVerifyAppsOverUsb.setChecked(false);
                 updateBugreportOptions();
             }
+        } else if (preference == mRestartSystemUI) {
+            Helpers.restartSystemUI(); 
         } else if (preference == mClearAdbKeys) {
             if (mAdbKeysDialog != null) dismissDialogs();
             mAdbKeysDialog = new AlertDialog.Builder(getActivity())

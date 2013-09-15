@@ -209,4 +209,7 @@
     <string name="op_doze_title">Doze</string>
     <string name="op_doze_summary">Control ambient display for your device</string>
 
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Restart SystemUI</string>
+
 </resources>
