@@ -309,4 +309,8 @@
     <string name="night_display_warning">Please note that Night Light may increase battery consumption.</string>
     <string name="night_display_hide">Do not show this warning</string>
     <string name="night_display_ok">Ok</string>
+
+   <!-- setting: show CPU info-->
+    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 </resources>
