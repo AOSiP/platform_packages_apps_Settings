@@ -59,6 +59,9 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
 
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">Processor</string>
+
     <!-- MSIM SIM status -->
     <string name="sim_card_status_title">SIM %d status</string>
     <string name="sim_card_lock_settings_title">SIM %d lock settings</string>
