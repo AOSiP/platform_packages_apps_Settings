@@ -47,4 +47,7 @@
     <string name="theme_applied_toast">Theme applied!</string>
     <string name="substratum_overlays_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
     <string name="systemui_theme_blackaf">BlackAF</string>
+
+    <!-- Screenshot shutter sound -->
+    <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
 </resources>
