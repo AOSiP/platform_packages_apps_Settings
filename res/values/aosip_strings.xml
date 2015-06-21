@@ -100,4 +100,9 @@
     <string name="systemui_theme_style_light">Light style</string>
     <string name="systemui_theme_style_dark">Dark style</string>
 
+    <!-- Battery stats -->
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+    <string name="ok">Ok</string>
+
 </resources>
