@@ -71,4 +71,9 @@
     <string name="screenshot_sound_title">Screenshot sound</string>
     <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
 
+    <!-- Battery stats -->
+    <string name="menu_stats_reset">Reset stats</string>
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+    <string name="ok">Ok</string>
+
 </resources>
