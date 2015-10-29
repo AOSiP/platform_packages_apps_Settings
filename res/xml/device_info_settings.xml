@@ -18,9 +18,10 @@
         android:title="@string/about_settings">
 
         <!-- AOSiP About -->
-        <PreferenceScreen
+        <Preference
                 android:key="aosip_logo"
-                android:layout="@layout/aosip_about" />
+                android:layout="@layout/aosip_about"
+		        android:fragment="com.android.settings.aosip.AOSiPAbout" />
 
         <!-- AOSiP version -->
         <Preference
