@@ -20,7 +20,8 @@
         <!-- AOSiP About -->
         <PreferenceScreen
                 android:key="aosip_logo"
-                android:layout="@layout/aosip_about" />
+                android:layout="@layout/aosip_about"
+		        android:fragment="com.android.settings.aosip.AosipAbout" />
 
         <!-- AOSiP version -->
         <Preference
