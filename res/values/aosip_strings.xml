@@ -16,6 +16,31 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- About AOSiP -->
+    <string name="aosip_about_title">About AOSiP</string>
+    <string name="aosip_about_info">ROM</string>
+    <string name="aosip_gplus_title">AOSiP G+ Community</string>
+    <string name="aosip_gplus_summary">Tap here to open our wonderful community!</string>
+    <string name="aosip_telegram_title">AOSiP Telegram Community</string>
+    <string name="aosip_telegram_summary">Tap here to join our Telegram Community chat!</string>
+    <string name="aosip_about_info_summary">AOSiP stands for Android Open Source illusion Project. We are an AOSP based custom ROM, twisted with the latest features from all over the Android development community. Quality and stability is our first priority as we are dedicated to bringing you the very best that Android has to offer.</string>
+    <string name="aosip_about_devs">Team Illusion</string>
+    <string name="aosip_about_dev_title">Josh Fox (xlxfoxxlx)</string>
+    <string name="aosip_about_dev_summary">Lead</string>
+    <string name="aosip_about_dev2_title">Akhil Narang</string>
+    <string name="aosip_about_dev2_summary">Derp, Food, Server stuff</string>
+    <string name="aosip_about_dev3_title">Sri Harsha (srisurya95)</string>
+    <string name="aosip_about_dev3_summary">Dev/Maintainer</string>
+    <string name="aosip_about_dev4_title">Paul Clark (dabug123)</string>
+    <string name="aosip_about_dev4_summary">crack builder</string>
+    <string name="aosip_about_dev5_title">Brett Montague (gtpitch)</string>
+    <string name="aosip_about_dev5_summary">Dev/Maintainer</string>
+    <string name="aosip_about_dev6_title">Branden M (xwasabi)</string>
+    <string name="aosip_about_dev6_summary">Themer(mint) and dev</string>
+    <string name="aosip_about_mentions">Contributors</string>
+    <string name="aosip_about_mention1_title">Mike Williams - AOSiP Founder</string>
+    <string name="aosip_about_mention2_title">Sean Grondin - Former graphics</string>
+
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
 
