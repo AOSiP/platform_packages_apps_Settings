@@ -15,6 +15,26 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About AOSiP -->
+    <string name="aosip_about_title">About AOSiP</string>
+    <string name="aosip_about_info">ROM</string>
+    <string name="aosip_gplus_title">AOSiP G+ Community</string>
+    <string name="aosip_gplus_summary">Tap here to open our wonderful community!</string>
+    <string name="aosip_about_info_summary">AOSiP stands for Android Open Source illusion Project. We are an AOSP based custom ROM, twisted with the latest features from all over the Android development community. Quality and stability is our first priority as we are dedicated to bringing you the very best that Android has to offer.</string>
+    <string name="aosip_about_devs">Developer</string>
+    <string name="aosip_about_dev_title">Josh Fox (xlxfoxxlx)</string>
+    <string name="aosip_about_dev_summary">Lead dev</string>
+    <string name="aosip_about_mentions">Team Illusion</string>
+    <string name="aosip_about_mention1_title">Mike Williams (sdroyds)</string>
+    <string name="aosip_about_mention1_summary">Founder of AOSiP</string>
+    <string name="aosip_about_mention2_title">Sean Grondin</string>
+    <string name="aosip_about_mention2_summary">AOSiP visionary, the man behind the owl logo/images.</string>
+    <string name="aosip_about_mention3_title">Akhil Narang</string>
+    <string name="aosip_about_mention3_summary">Pizza lover/Local Derper</string>
+    <string name="aosip_about_mention4_title">Sri Harsha (srisurya95)</string>
+    <string name="aosip_about_mention4_summary">Caf-Dev and Kenzo Maintainer</string>
+
     <!-- MSIM SIM status -->
     <string name="sim_card_status_title">SIM %d status</string>
     <string name="sim_card_lock_settings_title">SIM %d lock settings</string>

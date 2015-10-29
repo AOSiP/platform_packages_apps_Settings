@@ -20,7 +20,8 @@
 
         <!-- AOSiP About -->
         <PreferenceScreen android:key="aosip_logo"
-                android:layout="@layout/aosip_about" />
+                android:layout="@layout/aosip_about"
+		android:fragment="com.android.settings.aosip.AosipAbout" />
 
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
