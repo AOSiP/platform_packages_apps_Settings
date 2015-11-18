@@ -97,4 +97,6 @@
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
 
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+
 </resources>
