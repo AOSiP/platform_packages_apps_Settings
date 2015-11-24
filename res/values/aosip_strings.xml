@@ -208,6 +208,11 @@
     <!-- Device Specific Doze -->
     <string name="op_doze_title">Doze</string>
     <string name="op_doze_summary">Control ambient display for your device</string>
+    
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 
     <!-- Restart SystemUI -->
     <string name="restart_systemui">Restart SystemUI</string>
