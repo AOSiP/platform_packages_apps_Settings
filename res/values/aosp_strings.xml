@@ -155,4 +155,9 @@
     <string name="sub_activate_failed">Activation failed.</string>
     <string name="sub_deactivate_success">SIM deactivated.</string>
     <string name="sub_deactivate_failed">Deactivation failed.</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+    <string name="notification_volume_option_title">Notification volume</string>
+    <string name="ring_notification_volume_option_title">Ring and notification volume</string>
 </resources>
