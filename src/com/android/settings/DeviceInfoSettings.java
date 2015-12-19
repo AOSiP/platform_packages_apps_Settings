@@ -75,6 +75,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_MBN_VERSION = "persist.mbn.version";
     private static final String KEY_QGP_VERSION = "qgp_version";
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
+    private static final String KEY_DEVICE_MAINTAINER = "device_maintainer";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -123,6 +124,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
+        setMaintainerSummary(KEY_DEVICE_MAINTAINER, "ro.aosip.maintainer");
         // Remove QGP Version if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
                 PROPERTY_QGP_VERSION);
@@ -131,6 +133,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setValueSummary(KEY_MBN_VERSION, PROPERTY_MBN_VERSION);
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_MBN_VERSION,
                 PROPERTY_MBN_VERSION);
+
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
@@ -386,6 +389,20 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             findPreference(preference).setSummary(
                     SystemProperties.get(property,
                             getResources().getString(R.string.device_info_default)));
+        } catch (RuntimeException e) {
+            // No recovery
+        }
+    }
+
+    private void setMaintainerSummary(String preference, String property) {
+        try {
+            String maintainers = SystemProperties.get(property,
+                    getResources().getString(R.string.device_info_default));
+            findPreference(preference).setSummary(maintainers);
+            if (maintainers.contains(",")) {
+                findPreference(preference).setTitle(
+                        getResources().getString(R.string.device_maintainers));
+            }
         } catch (RuntimeException e) {
             // No recovery
         }
