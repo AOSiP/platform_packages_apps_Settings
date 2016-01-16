@@ -126,6 +126,10 @@
    <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+
    <!-- Encryption Prefernce summary -->
     <string name="decryption_settings_summary" product="default">Phone decrypted</string>
     <string name="decryption_settings_summary" product="tablet">Device decrypted</string>
