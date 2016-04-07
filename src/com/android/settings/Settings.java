@@ -182,4 +182,6 @@ public class Settings extends SettingsActivity {
     // AOSiP Settings
     public static class OwlsNestSettingsActivity extends SettingsActivity {}
 
+    // Aospa additions
+    public static class GesturesSettingsActivity extends SettingsActivity { /* empty */ }
 }

@@ -129,6 +129,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.aosip.owlsnest.OwlsNestSettings;
 
+import com.android.settings.GesturesSettings;
+
 public class SettingsGateway {
 
     /**
@@ -247,6 +249,7 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             OwlsNestSettings.class.getName(),
+            GesturesSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -287,5 +290,6 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             // AOSiP
             Settings.OwlsNestSettingsActivity.class.getName(),
+            Settings.GesturesSettingsActivity.class.getName(),
     };
 }
