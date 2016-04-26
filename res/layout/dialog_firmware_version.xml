@@ -25,6 +25,12 @@
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
+        <ImageView
+            android:src="@drawable/aosip_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
         <TextView
             style="@style/device_info_dialog_label"
             android:id="@+id/firmware_version_label"
