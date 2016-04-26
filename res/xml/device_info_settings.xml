@@ -17,6 +17,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+        <!-- AOSiP About -->
+        <PreferenceScreen
+                android:key="aosip_logo"
+                android:layout="@layout/aosip_about" />
+
         <!-- AOSiP version -->
         <Preference
                 android:key="aosip_version"
