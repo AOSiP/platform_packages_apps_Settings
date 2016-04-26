@@ -138,7 +138,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.aosip.owlsnest.OwlsNestSettings;
-import com.aosip.owlsnest.utils.GlobalActionsSettings;
+import com.aosip.owlsnest.categories.buttons.GlobalActionsSettings;
 
 public class SettingsGateway {
 
