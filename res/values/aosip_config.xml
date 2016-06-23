@@ -22,4 +22,11 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
+    <!-- Defines the location of the fingerprint sensor on the device
+         0 = back
+         1 = front
+         2 = left side
+         3 = right side
+    -->
+    <integer name="config_fingerprintSensorLocation">0</integer>
 </resources>
