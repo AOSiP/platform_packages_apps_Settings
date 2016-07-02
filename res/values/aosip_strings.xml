@@ -23,6 +23,9 @@
     <string name="theme_select_title">Themes</string>
     <string name="theme_select_summary">Browse and select installed themes</string>
 
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
     <!-- Density category -->
     <string name="density_category">Density options</string>
 </resources>
