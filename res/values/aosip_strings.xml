@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017 AOSiP
+     Copyright (C) 2016-2018 AOSiP
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,5 +18,8 @@
 
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
+
+   <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
 
 </resources>
