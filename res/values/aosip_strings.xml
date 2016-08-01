@@ -54,4 +54,7 @@
     <!-- Pixel color on sim card -->
     <string name="default_sim_color">Pixel</string>
 
+   <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
+
 </resources>
