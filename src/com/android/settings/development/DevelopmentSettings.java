@@ -88,6 +88,7 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.AnimationScalePreference;
 import com.android.settings.R;
 import com.android.settings.RestrictedSettingsFragment;
+import com.android.settings.Settings.AppOpsSummaryActivity;
 import com.android.settings.SettingsActivity;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFeatureProvider;
@@ -231,6 +232,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private static final String ROOT_ACCESS_KEY = "root_access";
     private static final String ROOT_ACCESS_PROPERTY = "persist.sys.root_access";
 
+    private static final String ROOT_APPOPS_KEY = "root_appops";
+
     private static final String IMMEDIATELY_DESTROY_ACTIVITIES_KEY
             = "immediately_destroy_activities";
     private static final String APP_PROCESS_LIMIT_KEY = "app_process_limit";
@@ -350,6 +353,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private SwitchPreference mShowNotificationChannelWarnings;
 
     private ColorModePreference mColorModePreference;
+
+    private Preference mRootAppops;
 
     private SwitchPreference mForceResizable;
 
@@ -634,8 +639,13 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
         mRootAccess = (ListPreference) findPreference(ROOT_ACCESS_KEY);
         mRootAccess.setOnPreferenceChangeListener(this);
+
+        mRootAppops = (Preference) findPreference(ROOT_APPOPS_KEY);
+        mRootAppops.setOnPreferenceClickListener(this);
+
         if (!removeRootOptionsIfRequired()) {
             mAllPrefs.add(mRootAccess);
+            mAllPrefs.add(mRootAppops);
         }
         addDashboardCategoryPreferences();
     }
@@ -974,6 +984,10 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mRootAccess.setValue(value);
         mRootAccess.setSummary(getResources()
                 .getStringArray(R.array.root_access_entries)[Integer.valueOf(value)]);
+
+        if (mRootAppops != null) {
+            mRootAppops.setEnabled(isRootForAppsEnabled());
+        }
     }
 
     public static boolean isRootForAppsEnabled() {
@@ -2569,6 +2583,14 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 preference == mTransitionAnimationScale ||
                 preference == mAnimatorDurationScale) {
             ((AnimationScalePreference) preference).click();
+            return true;
+        } else if (preference == mRootAppops) {
+            Activity mActivity = getActivity();
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.putExtra("appops_tab", getString(R.string.app_ops_categories_su));
+            intent.setClass(mActivity, AppOpsSummaryActivity.class);
+            mActivity.startActivity(intent);
+            return true;
         }
         return false;
     }
