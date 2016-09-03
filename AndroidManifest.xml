@@ -135,10 +135,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="Settings$CustomSettings"
-            android:label="@string/header_category_custom">
+        <activity android:name=".Settings$OwlsNest"
+            android:label="@string/header_category_owlsnest">
             <intent-filter android:priority="4">
-                <action android:name="com.android.settings.category.custom" />
+                <action android:name="com.android.settings.category.owlsnest" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -962,6 +962,31 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.notification.ZenModeExternalRuleSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
+
+        <activity android:name="Settings$OwlsNestActivity"
+            android:label="@string/owlsnest_title"
+            android:icon="@drawable/ic_settings_illusion"
+            android:taskAffinity="">
+            <intent-filter android:priority="1">
+                <action android:name="aosip.owlsnest.OwlsNestSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="9">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.owlsnest" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.aosip.owlsnest.OwlsNestSettings" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
@@ -2812,7 +2837,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.owlsnest" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.STweaks" />
             <meta-data android:name="com.android.settings.summary"
@@ -2835,7 +2860,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.owlsnest" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.Substratum" />
             <meta-data android:name="com.android.settings.summary"
@@ -2858,7 +2883,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.owlsnest" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.MagiskManager" />
             <meta-data android:name="com.android.settings.summary"
@@ -2879,7 +2904,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.owlsnest" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperUser" />
             <meta-data android:name="com.android.settings.summary"
@@ -2900,7 +2925,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.owlsnest" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperSU" />
             <meta-data android:name="com.android.settings.summary"
@@ -2923,7 +2948,7 @@
                 <action android:name="com.android.settings.action.SETTINGS" />
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                android:value="com.android.settings.category.custom" />
+                android:value="com.android.settings.category.owlsnest" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.Toolbox" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"

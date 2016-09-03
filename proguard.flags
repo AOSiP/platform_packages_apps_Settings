@@ -23,6 +23,9 @@
 -keep class com.android.settings.display.NightDisplaySettings
 -keep class com.android.settings.preference.*
 
+# OwlsNest
+-keep class com.aosip.owlsnest.**
+
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
   *** onClick*(...);

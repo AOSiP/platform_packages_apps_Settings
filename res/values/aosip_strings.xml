@@ -16,6 +16,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="attention">Attention</string>
+    <string name="enabled">Enabled</string>
+    <string name="default_string">Default</string>
+    <string name="add">Add</string>
+    <string name="choose_app">Choose app</string>
+
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">OwlsNest</string>
+    <string name="header_category_owlsnest">AOSiP Tweaks</string>
+
     <!-- About AOSiP -->
     <string name="aosip_about_title">About AOSiP</string>
     <string name="aosip_about_info">ROM</string>

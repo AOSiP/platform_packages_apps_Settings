@@ -162,7 +162,7 @@ public class Settings extends SettingsActivity {
     public static class PersonalSettings extends SettingsActivity { /* empty */ }
     public static class SystemSettings extends SettingsActivity { /* empty */ }
 
-    // JDCTeam Additions.
+    // AOSiP Additions.
     public static class ExpandedDesktopSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SubstratumActivity extends SettingsActivity { /* empty */ }
     public static class SuperSUActivity extends SettingsActivity { /* empty */ }
@@ -170,4 +170,5 @@ public class Settings extends SettingsActivity {
     public static class ToolboxActivity extends SettingsActivity { /* empty */ }
     public static class SuperUserActivity extends SettingsActivity { /* empty */ }
     public static class MagiskActivity extends SettingsActivity { /* empty */ }
+    public static class OwlsNestActivity extends SettingsActivity { /* empty */ }
 }
