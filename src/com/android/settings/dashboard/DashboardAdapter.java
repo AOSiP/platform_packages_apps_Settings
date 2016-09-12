@@ -21,6 +21,7 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.Icon;
 import android.graphics.PorterDuff.Mode;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
@@ -107,12 +108,24 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     }
 
     public List<Tile> getSuggestions() {
-        return mSuggestions;
+        if ((Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.DISABLE_SUGGESTIONS, 1) == 1)) {
+             return mSuggestions;
+        } else {
+             return null;
+        }
     }
 
     public void setCategoriesAndSuggestions(List<DashboardCategory> categories,
             List<Tile> suggestions) {
-        mSuggestions = suggestions;
+        if ((Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.DISABLE_SUGGESTIONS, 1) == 1)) {
+             mSuggestions = suggestions;
+             recountItems();
+        } else {
+             mSuggestions = null;
+             recountItems();
+        }
         mCategories = categories;
 
         TypedValue tintColorValue = new TypedValue();
@@ -351,8 +364,13 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
         holder.icon.setImageDrawable(mCache.getIcon(tile.icon));
         holder.title.setText(tile.title);
         if (!TextUtils.isEmpty(tile.summary)) {
-            holder.summary.setText(tile.summary);
-            holder.summary.setVisibility(View.VISIBLE);
+           if ((Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.REMOVE_TILE_SUMMARY, 0) == 1)) {
+                holder.summary.setVisibility(View.GONE);
+            } else {
+                holder.summary.setText(tile.summary);
+                holder.summary.setVisibility(View.VISIBLE);
+            }
         } else {
             holder.summary.setVisibility(View.GONE);
         }

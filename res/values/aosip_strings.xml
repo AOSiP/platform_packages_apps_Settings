@@ -150,4 +150,9 @@
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
 
+    <!-- Dashboard suggestions -->
+    <string name="dashboard_category">Dashboard options</string> 
+    <string name="disable_suggestions_title">Disable suggestions</string>
+    <string name="disable_suggestions_summary">Disable the suggestions that appear on top of the dashboard</string>
+
 </resources>
