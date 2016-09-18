@@ -169,4 +169,5 @@
         <attr name="showPercentString" format="boolean" />
         <attr name="thickness" format="dimension" />
     </declare-styleable>
+
 </resources>
