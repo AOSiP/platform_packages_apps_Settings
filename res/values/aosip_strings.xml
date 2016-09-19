@@ -103,4 +103,8 @@
     <string name="menu_stats_reset">Reset stats</string>
     <string name="reset_stats_msg">Battery history stats are going to be reset</string>
 
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version_default">Unknown</string>
+
 </resources>
