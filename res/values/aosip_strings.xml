@@ -79,4 +79,8 @@
     <string name="use_smart_clock">Smart Clock</string>
     <string name="use_smart_clock_summary">Show statusbar clock periodically</string>
 
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Music visualizer</string>
+    <string name="lockscreen_visualizer_summary">Toggles visualizer display on lockscreen</string>
+
 </resources>
