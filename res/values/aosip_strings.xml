@@ -82,6 +82,10 @@
     <string name="large_battery_icon_title">Show large icon</string>
     <string name="large_battery_icon_summary">Enlarge the battery icon in the status bar</string>
 
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+
     <!--Double Tap to Sleep Lockscreen-->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
 
