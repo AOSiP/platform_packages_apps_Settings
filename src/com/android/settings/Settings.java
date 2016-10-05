@@ -170,4 +170,5 @@ public class Settings extends SettingsActivity {
     public static class ToolboxActivity extends SettingsActivity { /* empty */ }
     public static class SuperUserActivity extends SettingsActivity { /* empty */ }
     public static class MagiskActivity extends SettingsActivity { /* empty */ }
+    public static class BatterySettingsActivity extends SettingsActivity { /* empty */ }
 }

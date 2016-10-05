@@ -2927,6 +2927,18 @@
                 android:value="true" />
         </activity>
 
+        <!-- JDCTeam Battery Settings -->
+        <activity android:name="Settings$BatterySettingsActivity"
+                android:label="@string/battery_title"
+                android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.settings.jdc.fragments.BATTERY_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.jdc.fragments.BatterySettings" />
+        </activity>
+
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
