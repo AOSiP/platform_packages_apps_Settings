@@ -140,6 +140,8 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.aosip.owlsnest.recent.HAFRAppListActivity" />
+
         <activity android:name=".Settings$DeviceSettings"
             android:label="@string/header_category_device">
             <intent-filter android:priority="3">
