@@ -23,6 +23,8 @@
 
     <uses-permission android:name="android.permission.NAVIGATION_EDITOR" />
 
+    <activity android:name="com.aosip.owlsnest.recent.HAFRAppListActivity" />
+
     <application>
 
         <activity android:name="Settings$RootManagementActivity"
