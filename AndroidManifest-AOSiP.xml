@@ -25,6 +25,8 @@
 
     <application>
 
+    <activity android:name="com.aosip.owlsnest.recent.HAFRAppListActivity" />
+
         <activity android:name="Settings$RootManagementActivity"
                 android:label="@string/rootmanagement_title"
                 android:icon="@drawable/ic_settings_rootmanagement"
