@@ -160,4 +160,13 @@
     <string name="link_volume_option_title">Link ring and notification volume</string>
     <string name="notification_volume_option_title">Notification volume</string>
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Brightness</string>
+    <string name="night_brightness_value_title">Night Light brightness</string>
+    <string name="night_brightness_text">When Night Light is enabled automatically set the desired brightness. The default brightness is set to low brightness</string>
+    <string name="night_bright_disabled">Disabled</string>
+    <string name="night_bright_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_medium">Medium brightness</string>
 </resources>
