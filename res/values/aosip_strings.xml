@@ -150,6 +150,7 @@
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
 
+
     <!-- Dashboard options -->
     <string name="dashboard_category">Dashboard options</string> 
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
@@ -160,6 +161,9 @@
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
+    <string name="dashboard_summary_double_lines_title">Dashboard summary lines</string>
+    <string name="dashboard_summary_double_lines_summary_on">Show dashboard tile summaries in more lines</string>
+    <string name="dashboard_summary_double_lines_summary_off">Show dashboard tile summaries in 1 line</string>
 
     <!-- Dashboard columns -->
     <string name="dashboard_columns_title">Dashboard Columns</string>
