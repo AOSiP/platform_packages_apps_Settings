@@ -169,4 +169,5 @@ public class Settings extends SettingsActivity {
     public static class STweaksActivity extends SettingsActivity { /* empty */ }
     public static class ToolboxActivity extends SettingsActivity { /* empty */ }
     public static class SuperUserActivity extends SettingsActivity { /* empty */ }
+    public static class MagiskActivity extends SettingsActivity { /* empty */ }
 }

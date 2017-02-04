@@ -238,6 +238,8 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     private static final String STWEAKS_FRAGMENT = "com.android.settings.STweaks";
 
+    private static final String MAGISK_FRAGMENT = "com.android.settings.MagiskManager";
+
     private static final String SUPERSU_FRAGMENT = "com.android.settings.SuperSU";
 
     private static final String SUPERUSER_FRAGMENT = "com.android.settings.SuperUser";
@@ -1064,6 +1066,13 @@ public class SettingsActivity extends SettingsDrawerActivity
             finish();
             return null;
         }
+        if (MAGISK_FRAGMENT.equals(fragmentName)) {
+            Intent magiskIntent = new Intent();
+            magiskIntent.setClassName("com.topjohnwu.magisk", "com.topjohnwu.magisk.SplashActivity");
+            startActivity(magiskIntent);
+            finish();
+            return null;
+        }
         if (SUPERSU_FRAGMENT.equals(fragmentName)) {
             Intent superSUIntent = new Intent();
             superSUIntent.setClassName("eu.chainfire.supersu", "eu.chainfire.supersu.MainActivity");
@@ -1194,6 +1203,16 @@ public class SettingsActivity extends SettingsDrawerActivity
         setTileEnabled(new ComponentName(packageName,
                         Settings.STweaksActivity.class.getName()),
                 stweaksSupported, isAdmin, pm);
+
+        // Magisk Manager
+        boolean magiskSupported = false;
+        try {
+            magiskSupported = (getPackageManager().getPackageInfo("com.topjohnwu.magisk", 0).versionCode > 0);
+        } catch (PackageManager.NameNotFoundException e) {
+        }
+        setTileEnabled(new ComponentName(packageName,
+                        Settings.MagiskActivity.class.getName()),
+                magiskSupported, isAdmin, pm);
 
         // Substratum
         boolean subSupported = false;

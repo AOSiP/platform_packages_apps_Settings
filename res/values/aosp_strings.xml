@@ -37,6 +37,8 @@
     <string name="substratum_title">Substratum</string>
     <string name="stweaks_title">STweaks</string>
     <string name="toolbox_title">Toolbox</string>
+    <string name="magisk_title">Magisk manager</string>
+    <string name="magisk_summary">Control modules and settings</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
