@@ -99,4 +99,8 @@
 
     <!-- Configurable lockscreen media blur strength -->
     <string name="lockscreen_media_blur_title">Lockscreen media art blur level</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>
