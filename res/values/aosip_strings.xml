@@ -262,4 +262,8 @@
     <!-- doze on charge -->
     <string name="doze_on_charge_title">Show when charging</string>
     <string name="doze_on_charge_summary">Wake screen when charging</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 </resources>
