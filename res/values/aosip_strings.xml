@@ -304,4 +304,9 @@
     <!-- Quick unlock information -->
     <string name="quick_unlock_alert_title">Alert</string>
     <string name="quick_unlock_alert_msg">This feature will only work if you use 4-digit PIN\'s, otherwise unwanted effects may occur with your device.</string>
+
+    <!-- Night Display -->
+    <string name="night_display_warning">Please note that Night Light may increase battery consumption.</string>
+    <string name="night_display_hide">Do not show this warning</string>
+    <string name="night_display_ok">Ok</string>
 </resources>
