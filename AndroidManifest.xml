@@ -3184,6 +3184,20 @@
             </intent-filter>
         </activity>
 
+        <!-- Tile Category -->
+        <activity android:name="Settings$TileCategorySettingsActivity"
+                android:label="@string/tile_category"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.aosip.owlsnest.qssettings.TileCategory" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/tile_category" />
+        </activity>
+
         <provider
             android:name=".search.SettingsSearchIndexablesProvider"
             android:authorities="com.android.settings"
