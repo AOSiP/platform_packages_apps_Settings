@@ -2812,6 +2812,8 @@
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.STweaks" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/stweaks_summary" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
@@ -2833,6 +2835,8 @@
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.Substratum" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/substratum_summary" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
@@ -2896,6 +2900,8 @@
                 android:value="com.android.settings.category.custom" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.SuperSU" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/supersu_summary" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>

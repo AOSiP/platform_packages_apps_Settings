@@ -33,9 +33,12 @@
     <string name="header_category_custom">AOSP Settings</string>
     <string name="buttons">Buttons</string>
     <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Manage root permissions</string>
     <string name="superuser_title">Superuser</string>
     <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Customize device theme</string>
     <string name="stweaks_title">STweaks</string>
+    <string name="stweaks_summary">Customize kernel settings</string>
     <string name="toolbox_title">Toolbox</string>
     <string name="magisk_title">Magisk manager</string>
     <string name="magisk_summary">Control modules and settings</string>
