@@ -261,7 +261,10 @@ public class ExpandedDesktopPreferenceFragment extends SettingsPreferenceFragmen
 
     @Override
     public void onRebuildComplete(ArrayList<ApplicationsState.AppEntry> entries) {
-        rebuild();
+        if (entries != null) {
+            handleAppEntries(entries);
+            mAllPackagesAdapter.notifyDataSetChanged();
+        }
     }
 
     @Override
@@ -327,12 +330,7 @@ public class ExpandedDesktopPreferenceFragment extends SettingsPreferenceFragmen
     }
 
     private void rebuild() {
-        ArrayList<ApplicationsState.AppEntry> newEntries = mSession.rebuild(
-                mActivityFilter, ApplicationsState.ALPHA_COMPARATOR);
-        if (newEntries != null) {
-            handleAppEntries(newEntries);
-            mAllPackagesAdapter.notifyDataSetChanged();
-        }
+        mSession.rebuild(mActivityFilter, ApplicationsState.ALPHA_COMPARATOR);
     }
 
     private void save() {
