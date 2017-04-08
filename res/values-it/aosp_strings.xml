@@ -15,13 +15,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- MSIM SIM status -->
-    <string name="sim_card_status_title">Stato SIM %d</string>
-    <string name="sim_card_lock_settings_title">Impostazioni blocco SIM %d</string>
-    <string name="sim_card_summary_empty">SIM non inserita</string>
-    <string name="sim_mobile_network_settings_category_title">Impostazioni rete mobile</string>
-    <string name="sim_mobile_network_settings_title">Impostazioni SIM %d</string>
-
     <!-- Change Log strings -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">AOSP 7.1.2 changelog</string>
@@ -76,7 +69,7 @@
     <!-- Power menu customization -->
     <string name="power_menu_reboot_title">Menù riavvio</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenrecord_title">Registra Screen</string>
+    <string name="power_menu_screenrecord_title">Registra Schermo</string>
     <string name="power_menu_torch_title">Torcia</string>
     <string name="power_menu_airplane_title">Modalità aereo</string>
     <string name="power_menu_users_title">Cambio utente</string>
@@ -115,15 +108,6 @@
     <!-- Phone info shortcut -->
     <string name="device_info_title">Informazioni telefono</string>
 
-    <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Posizione del lettore impronte sul <xliff:g id="sensor_location">%1$s</xliff:g> del tuo telefono.</string>
-
-    <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">retro</string>
-    <string name="security_settings_fingerprint_sensor_location_front">fronte</string>
-    <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
-    <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
-
     <!-- Key backlight -->
     <string name="button_backlight_title">Backlight tasti</string>
     <string name="button_backlight_enabled">Illuminazione tasti</string>
@@ -137,35 +121,10 @@
     <string name="backlight_summary_enabled">Abilitata</string>
     <string name="settings_reset_button">Reimposta</string>
 
-    <!-- Kill app long-press back -->
-    <string name="kill_app_longpress_back">Chiudi app con pulsante indietro</string>
-    <string name="kill_app_longpress_back_summary">Chiudere l\'app in primo piano tramite la pressione prolungata del pulsante indietro</string>
-
-    <!-- Gesture Settings -->
-    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
-    <string name="double_twist_for_camera_mode_summary_pn">Per abilitare/disabilitare la modalità selfie in Google Camera, eseguire un doppio twist con l\'app aperta</string>
-
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> è <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_enabled">abilitata</string>
-    <string name="sim_disabled">disabilitata</string>
-    <string name="sim_missing">assente o danneggiata</string>
-    <string name="sim_enabler_need_disable_sim">La SIM card verrà disattivata. Desiderate continuare?</string>
-    <string name="sim_enabler_will_disable_sim_title">Attenzione</string>
-    <string name="sim_enabler_need_switch_data_service">Questa SIM verrà disattivata e la SIM <xliff:g id="slotid">%1$s</xliff:g> verrà utilizzata per il servizio dati. Siete sicuri di voler continuare?</string>
-    <string name="sim_enabler_airplane_on">Impossibile completare l'operazione finchè la modalità aereo è attiva.</string>
-    <string name="sim_enabler_in_call">Impossibile completare l'operazione finchè la chiamata è attiva.</string>
-    <string name="sim_enabler_both_inactive">Impossibile disabilitare tutte le SIM cards</string>
-    <string name="sim_enabler_enabling">Attivazione\u2026</string>
-    <string name="sim_enabler_disabling">Disattivazione\u2026</string>
-    <string name="sub_activate_success">SIM attivata.</string>
-    <string name="sub_activate_failed">Attivazione fallita.</string>
-    <string name="sub_deactivate_success">SIM disattivata.</string>
-    <string name="sub_deactivate_failed">Disattivazione fallita.</string>
-
     <!-- Linked / unlinked notification volume -->
-    <string name="link_volume_option_title">Collega volume suoneria e notifica</string>
-    <string name="notification_volume_option_title">Volume notifica</string>
-    <string name="ring_notification_volume_option_title">Volume suoneria e notifica</string>
+    <string name="link_volume_option_title">Collega volume suoneria e notifiche</string>
+    <string name="notification_volume_option_title">Volume notifiche</string>
+    <string name="ring_notification_volume_option_title">Volume suoneria e notifiche</string>
 
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Luminosità</string>
@@ -189,16 +148,9 @@
     <!-- Battery percentage options -->
     <string name="status_bar_battery_percentage_title">Mostra percentuale batteria</string>
     <string name="status_bar_battery_percentage_default">Nascosta</string>
-    <string name="status_bar_battery_percentage_text_inside">Interna all\'icona</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro all\'icona</string>
     <string name="status_bar_battery_percentage_text_next">Vicino all\'icona</string>
 
     <!-- Battery tuner -->
     <string name="battery_title">Tuner batteria</string>
-
-    <!-- Wi-Fi region code -->
-    <string name="wifi_setting_countrycode_title">Codice regione Wi\u2011Fi</string>
-    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
-    <string name="wifi_setting_countrycode_summary">Specificare il codice regione per il Wi\u2011Fi</string>
-    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
-    <string name="wifi_setting_countrycode_error">C\'è stato un problema sull'impostazione del codice regione.</string>
 </resources>

@@ -14,7 +14,7 @@
 
      <!-- Titles for window animation scale preference. [CHAR LIMIT=35] -->
     <string-array name="window_animation_scale_entries_aosp">
-        <item>Animazione off</item>
+        <item>Animazione disattivata</item>
         <item>Scala animazione 0,5x</item>
         <item>Scala animazione 0,75x</item>
         <item>Scala animazione 1x</item>
@@ -22,23 +22,11 @@
         <item>Scala animazione 2x</item>
         <item>Scala animazione 5x</item>
         <item>Scala animazione 10x</item>
-    </string-array>
-
-    <!-- Values for window animation scale preference. -->
-    <string-array name="window_animation_scale_values_aosp" translatable="false" >
-        <item>0</item>
-        <item>.5</item>
-        <item>.75</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
     </string-array>
 
     <!-- Titles for transition animation scale preference. [CHAR LIMIT=35] -->
     <string-array name="transition_animation_scale_entries_aosp">
-        <item>Animazione off</item>
+        <item>Animazione disattivata</item>
         <item>Scala animazione 0,5x</item>
         <item>Scala animazione 0,75x</item>
         <item>Scala animazione 1x</item>
@@ -46,23 +34,11 @@
         <item>Scala animazione 2x</item>
         <item>Scala animazione 5x</item>
         <item>Scala animazione 10x</item>
-    </string-array>
-
-    <!-- Values for transition animation scale preference. -->
-    <string-array name="transition_animation_scale_values_aosp" translatable="false" >
-        <item>0</item>
-        <item>.5</item>
-        <item>.75</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
     </string-array>
 
     <!-- Titles for animator duration scale preference. [CHAR LIMIT=35] -->
     <string-array name="animator_duration_scale_entries_aosp">
-        <item>Animazione off</item>
+        <item>Animazione disattivata</item>
         <item>Scala animazione 0,5x</item>
         <item>Scala animazione 0,75x</item>
         <item>Scala animazione 1x</item>
@@ -70,130 +46,6 @@
         <item>Scala animazione 2x</item>
         <item>Scala animazione 5x</item>
         <item>Scala animazione 10x</item>
-    </string-array>
-
-    <!-- Values for animator duration scale preference. -->
-    <string-array name="animator_duration_scale_values_aosp" translatable="false" >
-        <item>0</item>
-        <item>.5</item>
-        <item>.75</item>
-        <item>1</item>
-        <item>1.5</item>
-        <item>2</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
-
-    <!-- Expanded Desktop entries -->
-    <string-array name="expanded_desktop_entries" translatable="false">
-        <item>@string/expanded_hide_both</item>
-        <item>@string/expanded_hide_status</item>
-        <item>@string/expanded_hide_navigation</item>
-    </string-array>
-
-    <string-array name="expanded_desktop_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <!-- Hardware key rebinding -->
-    <string-array name="hardware_keys_action_entries" translatable="false">
-        <item>@string/hardware_keys_action_nothing</item>
-        <item>@string/hardware_keys_action_menu</item>
-        <item>@string/hardware_keys_action_app_switch</item>
-        <item>@string/hardware_keys_action_search</item>
-        <item>@string/hardware_keys_action_voice_search</item>
-        <item>@string/hardware_keys_action_in_app_search</item>
-        <item>@string/hardware_keys_action_sleep</item>
-        <item>@string/hardware_keys_action_last_app</item>
-        <item>@string/hardware_keys_action_split_screen</item>
-        <item>@string/hardware_keys_action_single_handed_left</item>
-        <item>@string/hardware_keys_action_single_handed_right</item>
-    </string-array>
-
-    <string-array name="hardware_keys_action_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-    </string-array>
-
-    <!-- PowerMenu entries -->
-    <string-array name="power_menu_actions_array" translatable="false">
-        <item>power</item>
-        <item>restart</item>
-        <item>screenshot</item>
-        <item>screenrecord</item>
-        <item>torch</item>
-        <item>airplane</item>
-        <item>users</item>
-        <item>settings</item>
-        <item>lockdown</item>
-        <item>assist</item>
-        <item>voiceassist</item>
-        <item>silent</item>
-    </string-array>
-
-    <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
-         config_fingerprintSensorLocation -->
-    <string-array name="security_settings_fingerprint_sensor_locations" translatable="false">
-        <item>@string/security_settings_fingerprint_sensor_location_back</item>
-        <item>@string/security_settings_fingerprint_sensor_location_front</item>
-        <item>@string/security_settings_fingerprint_sensor_location_left</item>
-        <item>@string/security_settings_fingerprint_sensor_location_right</item>
-    </string-array>
-
-    <!-- Night mode tile brightness value  -->
-    <string-array name="night_brightness_value_entries" translatable="false">
-        <item>@string/night_bright_disabled</item>
-        <item>@string/night_bright_min</item>
-        <item>@string/night_bright_low</item>
-        <item>@string/night_bright_medium</item>
-    </string-array>
-
-    <string-array name="night_brightness_value_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-    <!-- Battery Icon entries -->
-    <string-array name="status_bar_battery_style_entries" translatable="false">
-        <item>@string/status_bar_battery_style_icon_portrait</item>
-        <item>@string/status_bar_battery_style_icon_landscape</item>
-        <item>@string/status_bar_battery_style_circle</item>
-        <item>@string/status_bar_battery_style_text</item>
-        <item>@string/status_bar_battery_style_hidden</item>
-    </string-array>
-
-    <string-array name="status_bar_battery_style_values" translatable="false">
-        <item>0</item>
-        <item>5</item>
-        <item>2</item>
-        <item>6</item>
-        <item>4</item>
-    </string-array>
-
-    <!-- Battery Percentage entries -->
-    <string-array name="status_bar_battery_percentage_entries" translatable="false">
-        <item>@string/status_bar_battery_percentage_default</item>
-        <item>@string/status_bar_battery_percentage_text_inside</item>
-        <item>@string/status_bar_battery_percentage_text_next</item>
-    </string-array>
-
-    <string-array name="status_bar_battery_percentage_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 
     <!-- Wi-Fi settings. Presented as a list dialog to the user to choose the Wi-Fi region code. -->
@@ -210,20 +62,5 @@
         <item>Israele, Singapore</item>
         <item>Brasile</item>
         <item>India</item>
-    </string-array>
-
-    <string-array name="wifi_countrycode_values" translatable="false">
-        <item>US</item>
-        <item>CA</item>
-        <item>DE</item>
-        <item>GB</item>
-        <item>JP</item>
-        <item>AU</item>
-        <item>CN</item>
-        <item>KR</item>
-        <item>TR</item>
-        <item>SG</item>
-        <item>BR</item>
-        <item>IN</item>
     </string-array>
 </resources> 
