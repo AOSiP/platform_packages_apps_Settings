@@ -32,9 +32,6 @@
          Can be overridden for specific product builds. -->
     <bool name="auto_confirm_bluetooth_activation_dialog">false</bool>
 
-    <!-- Whether to show a preference item for the manual in About phone -->
-    <bool name="config_show_manual">false</bool>
-
     <!-- only one provider that matches,flag show one email -->
     <bool name="config_show_email">true</bool>
 

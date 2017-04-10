@@ -54,7 +54,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
     private static final String LOG_TAG = "DeviceInfoSettings";
 
-    private static final String KEY_MANUAL = "manual";
     private static final String KEY_REGULATORY_INFO = "regulatory_info";
     private static final String PROPERTY_URL_SAFETYLEGAL = "ro.url.safetylegal";
     private static final String PROPERTY_SELINUX_STATUS = "ro.build.selinux";
@@ -174,9 +173,6 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
          * info.
          */
         final Activity act = getActivity();
-
-        // These are contained by the root preference screen
-        PreferenceGroup parentPreference = getPreferenceScreen();
 
         // Remove regulatory information if none present or config_show_regulatory_info is disabled
         final Intent intent = new Intent(Settings.ACTION_SHOW_REGULATORY_INFO);
