@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The JDCTeam
+	 
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+	 
+          http://www.apache.org/licenses/LICENSE-2.0
+		  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Change Log strings -->
+    <string name="changelog_title">Registro de cambios</string>
+    <string name="changelog_summary">Registro de cambios de AOSP 7.1.1</string>
+    <string name="changelog_loading">Cargando el registro de cambios\u2026</string>
+    <string name="changelog_error">Imposible cargar el registro de cambios</string>
+
+    <!-- Custom Settings -->   
+    <!-- Dashboard -->
+    <string name="header_category_custom">Ajustes AOSP</string>
+    <string name="buttons">Botones</string>
+    <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Ajustes permisos Root</string>
+    <string name="superuser_title">Superusuario</string>
+    <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Personalizar el tema del dispositivo</string>
+    <string name="stweaks_title">STweaks</string>
+    <string name="stweaks_summary">Personalizar la configuración del kernel</string>
+    <string name="toolbox_title">Toolbox</string>
+    <string name="magisk_title">Ajustes de Magisk</string>
+    <string name="magisk_summary">Módulos de control y configuraciones </string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Escritorio expandido</string>
+    <string name="keywords_expanded_desktop">Escritorio expandido</string>
+    <string name="expanded_hide_nothing">No ocultar nada</string>
+    <string name="expanded_hide_status">Ocultar la barra de estado</string>
+    <string name="expanded_hide_navigation">Ocultar la barra de navegación</string>
+    <string name="expanded_hide_both">Ocultar las dos</string>
+    <string name="expanded_nothing_to_show">Para agregar una configuración personalizada de escritorio extendido para cada aplicación, establezca "Habilitado para todos" en posición de apagado</string>
+    <string name="expanded_desktop_state">Estado extendido</string>
+    <string name="expanded_enabled_for_all">Habilitado para todos</string>
+    <string name="expanded_user_configurable">Configurable por el usuario</string>
+    <string name="expanded_desktop_style">Estilo de escritorio expandido</string>
+    <string name="expanded_desktop_style_description">Elegir un estilo predeterminado para el escritorio expandido</string>
+    <string name="expanded_desktop_title">Ajustes para escritorio expandido</string>
+
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam on Google+</string>
+    <string name="community_summary">Únete a nuestra comunidad oficial y mantente informado sobre el mejor software para tu dispositivo</string>
+
+     <!-- Volume button track change -->
+    <string name="volbtn_music_controls_title">Control de Musica</string>
+    <string name="volbtn_music_controls_summary">Con la pantalla apagada, presionando las teclas de volumen cambiará pistas</string>
+
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_title">Menu de Encendido</string>
+    <string name="powermenu_settings_summary">Opciones del Menu de Encendido</string>
+
+    <!-- Power menu customization -->
+    <string name="power_menu_reboot_title">Menu de Reinicio</string>
+    <string name="power_menu_screenshot_title">Capturar Pantalla</string>
+    <string name="power_menu_screenrecord_title">Grabar Pantalla</string>
+    <string name="power_menu_torch_title">Flash</string>
+    <string name="power_menu_airplane_title">Modo Avion</string>
+    <string name="power_menu_users_title">Menu de Usuarios</string>
+    <string name="power_menu_search_title">Buscar</string>
+    <string name="power_menu_voice_title">Buscar por Voz</string>
+    <string name="power_menu_settings_title">Acceso directo de configuraciónes</string>
+    <string name="power_menu_lockdown_title">Bloqueo de dispositivo</string>
+    <string name="power_menu_bug_report_title">Informe de error</string>
+    <string name="power_menu_sound_title">Panel de Sonido</string>
+    <string name="power_menu_bug_report_disabled">Los informes de error están deshabilitados en las opciones de desarrollo</string>
+
+    <!-- Button customisations fragment -->
+    <string name="rebindings_settings_title">Personalizaciones de los HW botones</string>
+    <string name="rebindings_settings_summary">Ajustes y personalizaciones de los HW botones</string>
+
+    <!-- Hardware Keys -->
+    <string name="button_pref_title">Botones</string>
+    <string name="hardware_keys_home_key_title">Botón de inicio</string>
+    <string name="hardware_keys_menu_key_title">Botón de menú</string>
+    <string name="hardware_keys_appswitch_key_title">Botón Recents</string>
+    <string name="hardware_keys_short_press_title">Acción de presion corta</string>
+    <string name="hardware_keys_long_press_title">Acción de presion larga</string>
+    <string name="hardware_keys_double_tap_title">Acción de doble presion</string>
+    <string name="hardware_keys_action_nothing">Sin acción</string>
+    <string name="hardware_keys_action_menu">Abrir / Cerrar el menú</string>
+    <string name="hardware_keys_action_app_switch">Aplicaciones recientes</string>
+    <string name="hardware_keys_action_search">Asistente de búsqueda</string>
+    <string name="hardware_keys_action_voice_search">Búsqueda por voz</string>
+    <string name="hardware_keys_action_in_app_search">Búsqueda In-app</string>
+    <string name="hardware_keys_action_sleep">Desactivar la pantalla</string>
+    <string name="hardware_keys_action_last_app">Última aplicación</string>
+    <string name="hardware_keys_action_split_screen">Pantalla dividida</string>
+    <string name="hardware_keys_action_single_handed_left">Modo de una sola mano (izquierda)</string>
+    <string name="hardware_keys_action_single_handed_right">Modo de una sola mano (derecha)</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Información del teléfono</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Luz de fondo</string>
+    <string name="button_backlight_enabled">Iluminación de los botones</string>
+    <string name="keyboard_backlight_enabled">Iluminación del teclado</string>
+    <string name="button_backlight_seekbar_title">Brillo del botón</string>
+    <string name="keyboard_backlight_seekbar_title">Brillo del teclado</string>
+    <string name="backlight_timeout_title">Tiempo de espera de la iluminación</string>
+    <string name="backlight_timeout_unlimited">No apagar</string>
+    <string name="backlight_summary_disabled">Deshabilitado</string>
+    <string name="backlight_summary_enabled_with_timeout">Habilitado por <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Habilitado</string>
+    <string name="settings_reset_button">Restablecer</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Tono y Volumen de notificación</string>
+    <string name="notification_volume_option_title">Volumen de notificación</string>
+    <string name="ring_notification_volume_option_title">Tono y Volumen de notificación</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Brillo</string>
+    <string name="night_brightness_value_title">Brillo de la Luz Nocturna</string>
+    <string name="night_brightness_text">Cuando la Luz Nocturna está habilitada, ajuste automáticamente el brillo deseado. El brillo predeterminado se establece en un brillo bajo</string>
+    <string name="night_bright_disabled">Deshabilitado</string>
+    <string name="night_bright_min">Brillo Mínimo</string>
+    <string name="night_bright_low">Brillo Bajo</string>
+    <string name="night_bright_medium">Brillo Medio</string>
+
+    <!-- Battery settings -->
+    <string name="battery_settings_title">Ajustes Batería</string>
+    <string name="battery_settings_summary">Cambiar el icono de bateria y el porcentaje</string>
+    <!-- Battery icon options -->
+    <string name="status_bar_battery_style_title">Estado de la batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_icon_landscape">Icono horizontal</string>
+    <string name="status_bar_battery_style_circle">Icono circular</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <!-- Battery percentage options -->
+     <string name="status_bar_battery_percentage_title">Mostrar porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+
+    <!-- Battery tuner -->
+    <string name="battery_title">Tuner de batería</string>
+</resources>
