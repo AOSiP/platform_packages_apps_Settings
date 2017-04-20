@@ -143,7 +143,7 @@
 
     <!-- Gesture Settings -->
     <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
-    <string name="double_twist_for_camera_mode_summary_pn">Для того чтобы переключить в режим селфи в Google Camera, встряхните ваше устройство когда �re вы в приложении</string>
+    <string name="double_twist_for_camera_mode_summary_pn">Для того чтобы переключить в режим селфи в Google Camera, встряхните ваше устройство когда re вы в приложении</string>
 
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">Включена</string>
