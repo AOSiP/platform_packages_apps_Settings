@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The JDCTeam
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- MSIM SIM status -->
+    <string name="sim_card_status_title">Статус %d SIM </string>
+    <string name="sim_card_lock_settings_title">Настройка блокировки  %d SIM </string>
+    <string name="sim_card_summary_empty">SIM не обнаружена</string>
+    <string name="sim_mobile_network_settings_category_title">Настройка мобильной сети</string>
+    <string name="sim_mobile_network_settings_title">Настройки %d SIM</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">Список изменений в AOSP 7.1.1 </string>
+    <string name="changelog_loading">Загрузка списка изменений\u2026</string>
+    <string name="changelog_error">Невозможно отобразить список изменений</string>
+
+    <!-- Custom Settings -->   
+    <!-- Dashboard -->
+    <string name="header_category_custom">Расширенные настройки AOSP</string>
+    <string name="buttons">Кнопки</string>
+    <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Управление правами суперпельзователя</string>
+    <string name="superuser_title">Суперпользователь</string>
+    <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Изменение оформления уст-ва</string>
+    <string name="stweaks_title">STweaks</string>
+    <string name="stweaks_summary">Изменение настроек ядра</string>
+    <string name="toolbox_title">Набор инструментов</string>
+    <string name="magisk_title">Magisk</string>
+    <string name="magisk_summary">Управление модулями и настройками</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Расширенный рабочий стол </string>
+    <string name="keywords_expanded_desktop">Расширенный рабочий стол</string>
+    <string name="expanded_hide_nothing">Не скрывать ничего</string>
+    <string name="expanded_hide_status">Скрывать статус бар</string>
+    <string name="expanded_hide_navigation">Скрывать панель навигации</string>
+    <string name="expanded_hide_both">Скрывать обе</string>
+    <string name="expanded_nothing_to_show">Чтобы добавить пользовательскую конфигурацию  переведите "Включено для всех" в положении "Выкл"</string>
+    <string name="expanded_desktop_state">Расширенная форма</string>
+    <string name="expanded_enabled_for_all">Включено для всех</string>
+    <string name="expanded_user_configurable">Редактирование пользователем</string>
+    <string name="expanded_desktop_style">Стиль расширенного стола</string>
+    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+    <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
+
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam на Google+</string>
+    <string name="community_summary">Присоединяйтесь к нашему сообществу и будеть в курсе всех обновление для вашего устройства</string>
+
+     <!-- Volume button track change -->
+    <string name="volbtn_music_controls_title">Управление плеером</string>
+    <string name="volbtn_music_controls_summary">Переключать музыкальные треки долгим нажатием кнопок громкости при выключенном экране</string>
+
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_title">Кнопка питания</string>
+    <string name="powermenu_settings_summary">Меню кнопки питания</string>
+
+    <!-- Power menu customization -->
+    <string name="power_menu_reboot_title">Перезагрузка</string>
+    <string name="power_menu_screenshot_title">Снимок экрана</string>
+    <string name="power_menu_screenrecord_title">Запись экрана</string>
+    <string name="power_menu_torch_title">Фонарик</string>
+    <string name="power_menu_airplane_title">Режим полета</string>
+    <string name="power_menu_users_title">Смена пользователя</string>
+    <string name="power_menu_search_title">Поиск</string>
+    <string name="power_menu_voice_title">Голосовой поиск</string>
+    <string name="power_menu_settings_title">ярлык Настроек</string>
+    <string name="power_menu_lockdown_title">Блокировка уст-ва</string>
+    <string name="power_menu_bug_report_title">Сообщить об ощибке</string>
+    <string name="power_menu_sound_title">Звуковая панель</string>
+    <string name="power_menu_bug_report_disabled">Сообщения об ошибках отключены в настройках разработчика</string>
+
+    <!-- Button customisations fragment -->
+    <string name="rebindings_settings_title">Сенсорные кнопки</string>
+    <string name="rebindings_settings_summary">Настройка сенсорных кнопок</string>
+
+    <!-- Hardware Keys -->
+    <string name="button_pref_title">Кнопки</string>
+    <string name="hardware_keys_home_key_title">Кнопка "Домой"</string>
+    <string name="hardware_keys_menu_key_title">Кнопка "Меню"</string>
+    <string name="hardware_keys_appswitch_key_title">Кнопка "Недавние приложения" </string>
+    <string name="hardware_keys_short_press_title">Действие при коротком нажатии</string>
+    <string name="hardware_keys_long_press_title">Действие при длинном нажатии</string>
+    <string name="hardware_keys_double_tap_title">Действие при двойном нажатии </string>
+    <string name="hardware_keys_action_nothing">Нету действия</string>
+    <string name="hardware_keys_action_menu">Открыть или закрыть меню</string>
+    <string name="hardware_keys_action_app_switch">Недавние приложение</string>
+    <string name="hardware_keys_action_search">Поисковой помощник</string>
+    <string name="hardware_keys_action_voice_search">Голосовой поиск</string>
+    <string name="hardware_keys_action_in_app_search">Поиск в приложении</string>
+    <string name="hardware_keys_action_sleep">Отключить экран</string>
+    <string name="hardware_keys_action_last_app">Последнее приложение</string>
+    <string name="hardware_keys_action_split_screen">Разделить экран</string>
+    <string name="hardware_keys_action_single_handed_left">Режим для одной руки (слева)</string>
+    <string name="hardware_keys_action_single_handed_right">Режим для одной руки (справа)</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">О телефоне</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Обнаруживать сканер отпечатков <xliff:g id="sensor_location">%1$s</xliff:g> вашего телефона.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">сзади</string>
+    <string name="security_settings_fingerprint_sensor_location_front">снаружи</string>
+    <string name="security_settings_fingerprint_sensor_location_left">слева</string>
+    <string name="security_settings_fingerprint_sensor_location_right">справа</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Клавиши навигации</string>
+    <string name="button_backlight_enabled">Подсветка клавиш</string>
+    <string name="keyboard_backlight_enabled">Подсветка клавиш навигации</string>
+    <string name="button_backlight_seekbar_title">Яркость подсветки</string>
+    <string name="keyboard_backlight_seekbar_title">Яркость клавиатуры</string>
+    <string name="backlight_timeout_title">Длительность подсветки</string>
+    <string name="backlight_timeout_unlimited">Не отключать</string>
+    <string name="backlight_summary_disabled">Отключено</string>
+    <string name="backlight_summary_enabled_with_timeout">Включено для <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Включено</string>
+    <string name="settings_reset_button">Сбросить</string>
+
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Кнопка "Назад"</string>
+    <string name="kill_app_longpress_back_summary">Закрыть текушее приложение нажатием на кнопку "Назад"</string>
+
+    <!-- Gesture Settings -->
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary_pn">Для того чтобы переключить в режим селфи в Google Camera, встряхните ваше устройство когда �re вы в приложении</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">Включена</string>
+    <string name="sim_disabled">Отключена</string>
+    <string name="sim_missing">Не найждена</string>
+    <string name="sim_enabler_need_disable_sim">SIM будет отключена. Вы действительно хотите продолжить?</string>
+    <string name="sim_enabler_will_disable_sim_title">Предупреждение</string>
+    <string name="sim_enabler_need_switch_data_service">Данная SIM будет отключена и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использовать для передачи данных. Вы действительно хотите продолжить?</string>
+    <string name="sim_enabler_airplane_on">Невозможно выполнить данную операцию в режиме полета.</string>
+    <string name="sim_enabler_in_call">Невозможно выполнить данную операцию при звонки.</string>
+    <string name="sim_enabler_both_inactive">Невозможно отключить обе SIM</string>
+    <string name="sim_enabler_enabling">Активация\u2026</string>
+    <string name="sim_enabler_disabling">Отключение\u2026</string>
+    <string name="sub_activate_success">SIM активирована.</string>
+    <string name="sub_activate_failed">Активация не удалась.</string>
+    <string name="sub_deactivate_success">SIM отключена.</string>
+    <string name="sub_deactivate_failed">Деактивация не удалась.</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Связать громкость рингтона и уведомлений</string>
+    <string name="notification_volume_option_title">Громкость уведомлений</string>
+    <string name="ring_notification_volume_option_title">Громкость звонка и уведомлений</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Яркость</string>
+    <string name="night_brightness_value_title">Яркость ночного режима</string>
+    <string name="night_brightness_text">Когда ночной режим активирован автоматически устанавливать желаемую яркость. По умолчацию яркость установлена на минимальные значения</string>
+    <string name="night_bright_disabled">Отключено</string>
+    <string name="night_bright_min">Минимальная яркость</string>
+    <string name="night_bright_low">Маленькая яркость</string>
+    <string name="night_bright_medium">Средняя яркость </string>
+
+    <!-- Battery settings -->
+    <string name="battery_settings_title">Настройки батареи</string>
+    <string name="battery_settings_summary">Изменение стиля индикатора батареи,процентов</string>
+    <!-- Battery icon options -->
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальная иконка</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрыта</string>
+    <!-- Battery percentage options -->
+    <string name="status_bar_battery_percentage_title">Показывать проценты батареи</string>
+    <string name="status_bar_battery_percentage_default">Скрыть проценты</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_text_next">Справа от иконки</string>
+
+    <!-- Battery tuner -->
+    <string name="battery_title">Управлением батарей</string>
+
+    <!-- Wi-Fi region code -->
+    <string name="wifi_setting_countrycode_title">Wi\u2011Fi код региона</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_countrycode_summary">Указать код региона для Wi\u2011Fi</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_countrycode_error">Обнаружена проблема с настройками региона.</string>
+</resources>
