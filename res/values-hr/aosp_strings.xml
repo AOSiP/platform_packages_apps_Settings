@@ -24,7 +24,7 @@
 
     <!-- Change Log strings -->
     <string name="changelog_title">Izmjene</string>
-    <string name="changelog_summary">AOSP 7.1.1 izmjene</string>
+    <string name="changelog_summary">AOSP 7.1.2 izmjene</string>
     <string name="changelog_loading">Učitavanje izmjena\u2026</string>
     <string name="changelog_error">Ne mogu učitati izmjene</string>
 
