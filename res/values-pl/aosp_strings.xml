@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The JDCTeam
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- MSIM SIM status -->
+    <string name="sim_card_status_title">Stan karty SIM %d</string>
+    <string name="sim_card_lock_settings_title">Ustawienia blokady karty SIM %d</string>
+    <string name="sim_card_summary_empty">Brak karty SIM</string>
+    <string name="sim_mobile_network_settings_category_title">Ustawienia sieci komórkowej</string>
+    <string name="sim_mobile_network_settings_title">Ustawienia karty SIM %d</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">Lista zmian</string>
+    <string name="changelog_summary">Lista zmian AOSP 7.1.1</string>
+    <string name="changelog_loading">Ładowanie listy zmian\u2026</string>
+    <string name="changelog_error">Nie można załadować listy zmian</string>
+
+    <!-- Custom Settings -->   
+    <!-- Dashboard -->
+    <string name="header_category_custom">Ustawienia AOSP</string>
+    <string name="buttons">Przyciski</string>
+    <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Zarządzaj uprawnieniami root-a</string>
+    <string name="superuser_title">Superuser</string>
+    <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Dostosuj motyw urządzenia</string>
+    <string name="stweaks_title">STweaks</string>
+    <string name="stweaks_summary">Dostosuj ustawienia kernela</string>
+    <string name="toolbox_title">Toolbox</string>
+    <string name="magisk_title">Magisk manager</string>
+    <string name="magisk_summary">Zarządzaj modułami i ustawieniami</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Rozszerzony pulpit</string>
+    <string name="keywords_expanded_desktop">Rozszerzony pulpit</string>
+    <string name="expanded_hide_nothing">Nie ukrywaj niczego</string>
+    <string name="expanded_hide_status">Ukryj pasek stanu</string>
+    <string name="expanded_hide_navigation">Ukryj pasek nawigacyjny</string>
+    <string name="expanded_hide_both">Ukryj oba</string>
+    <string name="expanded_nothing_to_show">Aby dodać niestandardową konfigurację trybu rozszerzonego, indywidualną dla każdej aplikacji, ustaw "Odblokuj dla wszystkich" w pozycji wyłączonej</string>
+    <string name="expanded_desktop_state">Tryb rozszerzony</string>
+    <string name="expanded_enabled_for_all">Odblokuj dla wszystkich</string>
+    <string name="expanded_user_configurable">Konfigurowalny przez użytkownika</string>
+    <string name="expanded_desktop_style">Styl rozszerzonego pulpitu</string>
+    <string name="expanded_desktop_style_description">Wybierz domyślny styl rozszerzonego pulpitu</string>
+    <string name="expanded_desktop_title">Opcje rozszerzonego pulpitu</string>
+
+    <!-- JDCTeam Google+ Community shortcut -->
+    <string name="community">JDCTeam na Google+</string>
+    <string name="community_summary">Dołącz do naszej oficjalnej społeczności i bądź na bieżąco w kwestii najlepszego oprogramowania dla swojego telefonu</string>
+
+     <!-- Volume button track change -->
+    <string name="volbtn_music_controls_title">Przełączanie utworów</string>
+    <string name="volbtn_music_controls_summary">Gdy ekran będzie wyłączony, długie przytrzymanie klawiszy głośności spowoduje przełączanie utworów</string>
+
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_title">Menu zasilania</string>
+    <string name="powermenu_settings_summary">Ustawienia i dostosowywanie Menu zasilania</string>
+
+    <!-- Power menu customization -->
+    <string name="power_menu_reboot_title">Uruchom ponownie</string>
+    <string name="power_menu_screenshot_title">Zrzut ekranu</string>
+    <string name="power_menu_screenrecord_title">Nagrywanie ekranu</string>
+    <string name="power_menu_torch_title">Latarka</string>
+    <string name="power_menu_airplane_title">Tryb samolotowy</string>
+    <string name="power_menu_users_title">Przełącznik użytkowników</string>
+    <string name="power_menu_search_title">Wyszukiwanie</string>
+    <string name="power_menu_voice_title">Wyszukiwanie głosowe</string>
+    <string name="power_menu_settings_title">Skrót do ustawień</string>
+    <string name="power_menu_lockdown_title">Blokowanie urządzenia</string>
+    <string name="power_menu_bug_report_title">Zgłaszanie błędów</string>
+    <string name="power_menu_sound_title">Panel dźwięku</string>
+    <string name="power_menu_bug_report_disabled">Zgłaszanie błędów jest wyłączone w opcjach programistycznych</string>
+
+    <!-- Button customisations fragment -->
+    <string name="rebindings_settings_title">Dostosowywanie przycisków fizycznych</string>
+    <string name="rebindings_settings_summary">Ustawienia i dostosowywanie przycisków fizycznych</string>
+
+    <!-- Hardware Keys -->
+    <string name="button_pref_title">Przyciski</string>
+    <string name="hardware_keys_home_key_title">Przycisk Home</string>
+    <string name="hardware_keys_menu_key_title">Przycisk menu</string>
+    <string name="hardware_keys_appswitch_key_title">Przycisk ostatnich aplikacji</string>
+    <string name="hardware_keys_short_press_title">Krótkie naciśnięcie</string>
+    <string name="hardware_keys_long_press_title">Długie naciśnięcie</string>
+    <string name="hardware_keys_double_tap_title">Dwukrotne naciśnięcie</string>
+    <string name="hardware_keys_action_nothing">Brak akcji</string>
+    <string name="hardware_keys_action_menu">Otwórz/zamknij menu</string>
+    <string name="hardware_keys_action_app_switch">Przełączanie ostatnich aplikacji</string>
+    <string name="hardware_keys_action_search">Asystent wyszukiwania</string>
+    <string name="hardware_keys_action_voice_search">Wyszukiwanie głosowe</string>
+    <string name="hardware_keys_action_in_app_search">Wyszukiwanie w aplikacjach</string>
+    <string name="hardware_keys_action_sleep">Wyłączenie ekranu</string>
+    <string name="hardware_keys_action_last_app">Ostatnia aplikacja</string>
+    <string name="hardware_keys_action_split_screen">Podzielony ekran</string>
+    <string name="hardware_keys_action_single_handed_left">Tryb jednej ręki (lewej)</string>
+    <string name="hardware_keys_action_single_handed_right">Tryb jednej ręki (prawej)</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Informacje o telefonie</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Zlokalizuj czytnik lnii papilarnych <xliff:g id="sensor_location">%1$s</xliff:g> twojego telefonu.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">z tyłu</string>
+    <string name="security_settings_fingerprint_sensor_location_front">z przodu</string>
+    <string name="security_settings_fingerprint_sensor_location_left">z lewej strony</string>
+    <string name="security_settings_fingerprint_sensor_location_right">z prawej strony</string>
+
+    <!-- Key backlight -->
+    <string name="button_backlight_title">Podświetlenie</string>
+    <string name="button_backlight_enabled">Podświetlaj przyciski</string>
+    <string name="keyboard_backlight_enabled">Podświetlaj klawiaturę</string>
+    <string name="button_backlight_seekbar_title">Jasność przycisków</string>
+    <string name="keyboard_backlight_seekbar_title">Jasność klawiatury</string>
+    <string name="backlight_timeout_title">Czas podświetlenia</string>
+    <string name="backlight_timeout_unlimited">Nie wyłączaj</string>
+    <string name="backlight_summary_disabled">Wyłączone</string>
+    <string name="backlight_summary_enabled_with_timeout">Włączone przez <xliff:g id="timeout">%s</xliff:g></string>
+    <string name="backlight_summary_enabled">Włączone</string>
+    <string name="settings_reset_button">Zresetuj</string>
+
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Zabijaj aplikacje przyciskiem wstecz</string>
+    <string name="kill_app_longpress_back_summary">Przytrzymanie przycisku wstecz zabija aktywną aplikację</string>
+
+    <!-- Gesture Settings -->
+    <!-- Summary text for double twist for camera mode  [CHAR LIMIT=160]-->
+    <string name="double_twist_for_camera_mode_summary_pn">By włączyć lub wyłączyć tryb selfie w Aparacie Google, będąc w aplikacji obróć telefon dwukrotnie</string>
+
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> jest <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">Włączona</string>
+    <string name="sim_disabled">Wyłączona</string>
+    <string name="sim_missing">Brak lub uszkodzona</string>
+    <string name="sim_enabler_need_disable_sim">Karta SIM zostanie wyłączona. Czy chcesz kontynuować?</string>
+    <string name="sim_enabler_will_disable_sim_title">Uwaga</string>
+    <string name="sim_enabler_need_switch_data_service">Ta karta SIM zostanie wyłączona, a karta SIM <xliff:g id="slotid">%1$s</xliff:g> będzie używana do transmisji danych. Czy jesteż pewny, że chcesz kontynuować?</string>
+    <string name="sim_enabler_airplane_on">Nie można wykonać tej operacji, gdy włączony jest tryb samolotowy.</string>
+    <string name="sim_enabler_in_call">Nie można wykonać tej operacji w czasie rozmowy.</string>
+    <string name="sim_enabler_both_inactive">Nie można wyłączyć wszystkich kart SIM</string>
+    <string name="sim_enabler_enabling">Aktywacja\u2026</string>
+    <string name="sim_enabler_disabling">Dezaktywacja\u2026</string>
+    <string name="sub_activate_success">Karta SIM aktywowana.</string>
+    <string name="sub_activate_failed">Aktywacja nie powiodła się.</string>
+    <string name="sub_deactivate_success">Karta SIM dezaktywowana.</string>
+    <string name="sub_deactivate_failed">Dezaktywacja nie powiodła się.</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Połącz głośność dzwonka i powiadomień</string>
+    <string name="notification_volume_option_title">Głośność powiadomień</string>
+    <string name="ring_notification_volume_option_title">Głośność dzwonka i powiadomień</string>
+
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_category">Jasność</string>
+    <string name="night_brightness_value_title">Jasność Podświetlenia nocnego</string>
+    <string name="night_brightness_text">Gdy Podświetlenie nocne jest włączone, automatycznie ustawia żądaną jasność. Domyślna jasność jest ustawiona na niską jasność</string>
+    <string name="night_bright_disabled">Wyłączone</string>
+    <string name="night_bright_min">Minimalna jasność</string>
+    <string name="night_bright_low">Niska jasność</string>
+    <string name="night_bright_medium">Średnia jasność</string>
+
+    <!-- Battery settings -->
+    <string name="battery_settings_title">Ustawienia baterii</string>
+    <string name="battery_settings_summary">Zmień ikonę baterii, procent</string>
+    <!-- Battery icon options -->
+    <string name="status_bar_battery_style_title">Styl wskaźnika baterii</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikona pionowa</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikona pozioma</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_text">Tekst</string>
+    <string name="status_bar_battery_style_hidden">Ukryty</string>
+    <!-- Battery percentage options -->
+    <string name="status_bar_battery_percentage_title">Pokaż procent baterii</string>
+    <string name="status_bar_battery_percentage_default">Ukryty</string>
+    <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
+    <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
+
+    <!-- Battery tuner -->
+    <string name="battery_title">Kalibrator baterii</string>
+
+    <!-- Wi-Fi region code -->
+    <string name="wifi_setting_countrycode_title">Kod regionu Wi\u2011Fi</string>
+    <!-- Wi-Fi settings screen, setting summary for setting the wifi frequency band [CHAR LIMIT=50]-->
+    <string name="wifi_setting_countrycode_summary">Określ kod regionu Wi\u2011Fi</string>
+    <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
+    <string name="wifi_setting_countrycode_error">Wystąpił problem podczas ustawiania kodu regionu.</string>
+</resources>
