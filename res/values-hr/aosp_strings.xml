@@ -102,7 +102,7 @@
     <string name="hardware_keys_double_tap_title">Radnja dvostrukog dodira</string>
     <string name="hardware_keys_action_nothing">Ništa</string>
     <string name="hardware_keys_action_menu">Izbornik otvori/zatvori</string>
-    <string name="hardware_keys_action_app_switch">Promjena nedavne splikacije</string>
+    <string name="hardware_keys_action_app_switch">Promjena nedavne aplikacije</string>
     <string name="hardware_keys_action_search">Pomoćnik traženja</string>
     <string name="hardware_keys_action_voice_search">Glasovno pretraživanje</string>
     <string name="hardware_keys_action_in_app_search">Traženje unutar aplikacije</string>
