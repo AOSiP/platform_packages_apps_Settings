@@ -24,7 +24,7 @@
 
     <!-- Change Log strings -->
     <string name="changelog_title">Lista zmian</string>
-    <string name="changelog_summary">Lista zmian AOSP 7.1.1</string>
+    <string name="changelog_summary">Lista zmian AOSP 7.1.2</string>
     <string name="changelog_loading">Ładowanie listy zmian\u2026</string>
     <string name="changelog_error">Nie można załadować listy zmian</string>
 
