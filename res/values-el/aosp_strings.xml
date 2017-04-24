@@ -149,7 +149,7 @@
     <string name="sim_enabled">ενεργοποιημένο</string>
     <string name="sim_disabled">απενεργοποιημένο</string>
     <string name="sim_missing">Εκλείπει ή εσφαλμένη</string>
-    <string name="sim_enabler_need_disable_sim">Η SIM θα απενεργοποιηθεί.Θέλετε να συνεχίσετε;<string>
+    <string name="sim_enabler_need_disable_sim">Η SIM θα απενεργοποιηθεί.Θέλετε να συνεχίσετε;</string>
     <string name="sim_enabler_will_disable_sim_title">Προσοχή</string>
     <string name="sim_enabler_need_switch_data_service">Αυτή η SIM θα απενεργοποιηθεί και η <xliff:g id="slotid">%1$s</xliff:g> θα χρησιμοποιηθεί για σήμα επικοινωνίας.Είστε σίγουροι οτι θέλετε να συνεχίσετε;</string>
     <string name="sim_enabler_airplane_on">Αδυναμία εκτέλεσης της εντολής εν ώρα λειτουργείας πτήσης.</string>
@@ -201,4 +201,6 @@
     <string name="wifi_setting_countrycode_summary">Εισάγετε τον κωδικό περιοχής του Wi\u2011Fi</string>
     <!-- Wi-Fi settings screen, error message when the frequency band could not be set [CHAR LIMIT=50]. -->
     <string name="wifi_setting_countrycode_error">Υπήρξε πρόβλημα κατά την εισαγωγή του κωδικού περιοχής.</string>
+
 </resources>
+
