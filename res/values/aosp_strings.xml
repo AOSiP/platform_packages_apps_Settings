@@ -63,7 +63,7 @@
 
     <!-- JDCTeam Google+ Community shortcut -->
     <string name="community">JDCTeam on Google+</string>
-    <string name="community_summary">Join our official community and keep yourself updated about the best software for your device</string>
+    <string name="community_summary">Join our official community and keep in touch with us</string>
 
      <!-- Volume button track change -->
     <string name="volbtn_music_controls_title">Music control</string>
