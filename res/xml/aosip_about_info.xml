@@ -79,7 +79,7 @@
         android:summary="@string/aosip_about_mention4_summary" >
      <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://plus.google.com/+SriHarsha-srisurya95" />
+        android:data="http://srisurya95.net" />
     </PreferenceScreen>
     </PreferenceCategory>
 </PreferenceScreen>
