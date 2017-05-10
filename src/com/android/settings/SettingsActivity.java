@@ -99,7 +99,6 @@ import com.android.settings.inputmethod.KeyboardLayoutPickerFragment2;
 import com.android.settings.inputmethod.PhysicalKeyboardFragment;
 import com.android.settings.inputmethod.SpellCheckersSettings;
 import com.android.settings.inputmethod.UserDictionaryList;
-import com.android.settings.jdc.fragments.BatterySettings;
 import com.android.settings.localepicker.LocaleListEditor;
 import com.android.settings.location.LocationSettings;
 import com.android.settings.nfc.AndroidBeam;
@@ -384,8 +383,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
-            ExpandedDesktopPreferenceFragment.class.getName(),
-            BatterySettings.class.getName()
+            ExpandedDesktopPreferenceFragment.class.getName()
     };
 
 

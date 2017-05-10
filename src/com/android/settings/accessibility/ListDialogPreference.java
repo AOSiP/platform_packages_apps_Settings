@@ -155,7 +155,7 @@ public abstract class ListDialogPreference extends CustomDialogPreference {
                     setValue((int) id);
                 }
 
-                final DialogInterface dialog = getDialog();
+                final Dialog dialog = getDialog();
                 if (dialog != null) {
                     dialog.dismiss();
                 }
