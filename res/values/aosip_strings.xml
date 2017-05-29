@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017 The JDCTeam
+     Copyright (C) 2017 AOSiP
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -204,5 +204,9 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
     <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+
+    <!-- Device Specific Doze -->
+    <string name="op_doze_title">Doze</string>
+    <string name="op_doze_summary">Control ambient display for your device</string>
 
 </resources>

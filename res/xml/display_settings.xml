@@ -89,6 +89,13 @@
                 android:title="@string/doze_title"
                 android:summary="@string/doze_summary" />
 
+        <PreferenceScreen
+                android:key="doze_device"
+                android:title="@string/op_doze_title"
+                android:summary="@string/op_doze_summary" >
+                <intent android:action="org.cyanogenmod.settings.device.DOZE_SETTINGS" />
+        </PreferenceScreen>
+
         <SwitchPreference
                 android:key="tap_to_wake"
                 android:title="@string/tap_to_wake"
