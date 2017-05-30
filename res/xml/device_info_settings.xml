@@ -23,7 +23,7 @@
                 android:layout="@layout/aosip_about"
 		android:fragment="com.android.settings.aosip.AosipAbout" />
 
-        <!-- System update settings - launches activity -->
+        <!-- System update settings - launches activity
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title"
                 android:summary="@string/system_update_settings_list_item_summary">
@@ -36,9 +36,9 @@
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="@string/additional_system_update"
                     android:targetClass="@string/additional_system_update_menu" />
-        </PreferenceScreen>
+        </PreferenceScreen> -->
 
-        <!-- Our OTA Updates -->
+        <!-- Our OTA Updates
         <PreferenceScreen android:key="ota_updates"
                 android:title="@string/system_update_settings_list_item_title" 
                 android:summary="@string/system_update_settings_list_item_summary">
@@ -46,7 +46,7 @@
                     android:action="android.intent.action.MAIN"
                     android:targetPackage="com.ota.updates"
                     android:targetClass="com.ota.updates.activities.MainActivity" />
-        </PreferenceScreen>
+        </PreferenceScreen> -->
 
         <!-- Device Maintainer -->
         <Preference android:key="device_maintainer"
