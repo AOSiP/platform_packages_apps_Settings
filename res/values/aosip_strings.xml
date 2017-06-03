@@ -199,7 +199,6 @@
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
-    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
 
     <!-- Device Specific Doze -->
     <string name="op_doze_title">Doze</string>
