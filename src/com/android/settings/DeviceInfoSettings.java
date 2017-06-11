@@ -77,6 +77,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
     private static final String KEY_DEVICE_MAINTAINER = "device_maintainer";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
+    private static final String KEY_AOSIP_VERSION = "aosip_version";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -127,6 +128,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setValueSummary(KEY_QGP_VERSION, PROPERTY_QGP_VERSION);
         setMaintainerSummary(KEY_DEVICE_MAINTAINER, "ro.aosip.maintainer");
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
+        setValueSummary(KEY_AOSIP_VERSION, "ro.aosip.version");
         // Remove QGP Version if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_QGP_VERSION,
                 PROPERTY_QGP_VERSION);

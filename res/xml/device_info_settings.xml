@@ -19,9 +19,10 @@
         android:title="@string/about_settings">
 
         <!-- AOSiP About -->
-        <PreferenceScreen android:key="aosip_logo"
+        <PreferenceScreen
+                android:key="aosip_logo"
                 android:layout="@layout/aosip_about"
-		android:fragment="com.android.settings.aosip.AosipAbout" />
+		        android:fragment="com.android.settings.aosip.AosipAbout" />
 
         <!-- System update settings - launches activity
         <PreferenceScreen android:key="system_update_settings"
@@ -38,18 +39,20 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen> -->
 
-        <!-- Our OTA Updates
-        <PreferenceScreen android:key="ota_updates"
-                android:title="@string/system_update_settings_list_item_title" 
-                android:summary="@string/system_update_settings_list_item_summary">
-            <intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.ota.updates"
-                    android:targetClass="com.ota.updates.activities.MainActivity" />
-        </PreferenceScreen> -->
+        <!-- AOSiP version -->
+        <com.android.settings.DividerPreference
+                android:key="aosip_version"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/aosip_version"
+                android:summary="@string/device_info_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
 
         <!-- Device Maintainer -->
-        <Preference android:key="device_maintainer"
+        <Preference 
+                android:key="device_maintainer"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/device_maintainer"
                 android:summary="@string/device_info_default" />
