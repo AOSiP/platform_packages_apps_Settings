@@ -25,6 +25,10 @@
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
+    <!-- AOSiP Version -->
+    <string name="aosip_version">AOSiP Version</string>
+    <string name="aosip_version_default">Unknown</string>
+
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
 
