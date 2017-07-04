@@ -506,6 +506,7 @@
                 android:label="@string/tether_settings_title_all"
                 android:icon="@drawable/ic_settings_wireless"
                 android:taskAffinity="">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
