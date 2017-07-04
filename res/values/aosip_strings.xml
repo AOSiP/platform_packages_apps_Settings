@@ -300,4 +300,8 @@
     <!-- Disable Battery Saver Warning Color -->
     <string name="battery_saver_color_title">Warning color</string>
     <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
+
+    <!-- Quick unlock information -->
+    <string name="quick_unlock_alert_title">Alert</string>
+    <string name="quick_unlock_alert_msg">This feature will only work if you use 4-digit PIN\'s, otherwise unwanted effects may occur with your device.</string>
 </resources>
