@@ -31,6 +31,15 @@
         android:action="android.intent.action.VIEW"
         android:data="https://plus.google.com/u/0/communities/111510412594093155165" />
     </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="@string/aosip_telegram_title"
+        android:summary"@string/aosip_telegram_summary">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://t.me/AOSiPRom" />
+    </PreferenceScreen>
+
     </PreferenceCategory>
 
     <!-- Developers -->

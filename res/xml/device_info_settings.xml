@@ -22,7 +22,7 @@
         <PreferenceScreen
                 android:key="aosip_logo"
                 android:layout="@layout/aosip_about"
-		        android:fragment="com.android.settings.aosip.AosipAbout" />
+		        android:fragment="com.android.settings.aosip.AOSiPAbout" />
 
         <!-- AOSiP version -->
         <com.android.settings.DividerPreference
@@ -46,17 +46,27 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
-        <!-- Device status - launches activity -->
-        <PreferenceScreen android:key="status_info"
-                android:title="@string/device_status"
-                android:summary="@string/device_status_summary"
-                android:fragment="com.android.settings.deviceinfo.Status">
-        </PreferenceScreen>
+        <!-- Device Kernel version -->
+        <com.android.settings.DividerPreference
+                android:key="kernel_version"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="true"
+                android:title="@string/kernel_version"
+                android:summary="@string/device_info_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
 
-        <!-- Feedback on the device -->
-        <PreferenceScreen android:key="device_feedback"
-                android:title="@string/device_feedback">
-        </PreferenceScreen>
+        <!-- Build date -->
+        <com.android.settings.DividerPreference
+                android:key="build_date"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:selectable="false"
+                android:title="@string/build_date"
+                android:summary="@string/build_date_default"
+                settings:allowDividerAbove="true"
+                settings:allowDividerBelow="true"/>
 
         <!-- Device hardware model -->
         <com.android.settings.DividerPreference
@@ -68,6 +78,18 @@
                 android:summary="@string/device_info_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
+
+        <!-- Device status - launches activity -->
+        <PreferenceScreen android:key="status_info"
+                android:title="@string/device_status"
+                android:summary="@string/device_status_summary"
+                android:fragment="com.android.settings.deviceinfo.Status">
+        </PreferenceScreen>
+
+        <!-- Feedback on the device -->
+        <PreferenceScreen android:key="device_feedback"
+                android:title="@string/device_feedback">
+        </PreferenceScreen>
 
         <!-- Device hardware processor -->
         <com.android.settings.DividerPreference
@@ -120,28 +142,6 @@
                 android:selectable="false"
                 android:title="@string/baseband_version"
                 android:summary="@string/device_info_default"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true"/>
-
-        <!-- Device Kernel version -->
-        <com.android.settings.DividerPreference
-                android:key="kernel_version"
-                android:enabled="false"
-                android:shouldDisableView="false"
-                android:selectable="true"
-                android:title="@string/kernel_version"
-                android:summary="@string/device_info_default"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true"/>
-
-        <!-- Build date -->
-        <com.android.settings.DividerPreference
-                android:key="build_date"
-                android:enabled="false"
-                android:shouldDisableView="false"
-                android:selectable="false"
-                android:title="@string/build_date"
-                android:summary="@string/build_date_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
