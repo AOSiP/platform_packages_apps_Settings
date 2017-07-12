@@ -34,6 +34,8 @@
     <string name="aosip_about_info">ROM</string>
     <string name="aosip_gplus_title">AOSiP G+ Community</string>
     <string name="aosip_gplus_summary">Tap here to open our wonderful community!</string>
+    <string name="aosip_telegram_title">AOSiP Telegram Community</string>
+    <string name="aosip_telegram_summary">Tap here to join our Telegram Community chat!</string>
     <string name="aosip_about_info_summary">AOSiP stands for Android Open Source illusion Project. We are an AOSP based custom ROM, twisted with the latest features from all over the Android development community. Quality and stability is our first priority as we are dedicated to bringing you the very best that Android has to offer.</string>
     <string name="aosip_about_devs">Developer</string>
     <string name="aosip_about_dev_title">Josh Fox (xlxfoxxlx)</string>
@@ -57,7 +59,7 @@
     <string name="build_date_default">2017-01-01-0000</string>
 
     <!-- AOSiP Version -->
-    <string name="aosip_version">AOSiP Build</string>
+    <string name="aosip_version">AOSiP Version</string>
 
     <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
     <string name="processor_info">Processor</string>
