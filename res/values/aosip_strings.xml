@@ -57,7 +57,7 @@
     <string name="build_date_default">2017-01-01-0000</string>
 
     <!-- AOSiP Version -->
-    <string name="aosip_version">AOSiP Build</string>
+    <string name="aosip_version">AOSiP Version</string>
 
     <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
     <string name="processor_info">Processor</string>
