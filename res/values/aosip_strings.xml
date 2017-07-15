@@ -331,4 +331,6 @@
     <string name="quick_pulldown_fp_title">Fingerprint quick pulldown</string>
     <string name="quick_pulldown_fp_summary">Enable expanding the Quick Settings with only one swipe on the fingerprint sensor</string>
 
+    <string name="background_processes_settings_title">Background processes</string>
+
 </resources>
