@@ -140,9 +140,11 @@ import com.android.settingslib.drawer.Tile;
 
 import java.net.URISyntaxException;
 import com.aosip.owlsnest.OwlsNestSettings;
+import com.aosip.owlsnest.buttons.ButtonSettings;
 import com.aosip.owlsnest.navigation.FlingSettings;
 import com.aosip.owlsnest.navigation.NavbarSettings;
 import com.aosip.owlsnest.navigation.SmartbarSettings;
+import com.aosip.owlsnest.navigation.PieSettings;
 import com.aosip.owlsnest.navigation.PulseSettings;
 import com.aosip.owlsnest.qssettings.TileCategory;
 
@@ -398,7 +400,9 @@ public class SettingsActivity extends SettingsDrawerActivity
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
             DisplayRotation.class.getName(),
-            TileCategory.class.getName()
+            TileCategory.class.getName(),
+            PieSettings.class.getName(),
+            ButtonSettings.class.getName()
     };
 
 

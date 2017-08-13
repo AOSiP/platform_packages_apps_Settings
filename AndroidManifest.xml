@@ -2951,8 +2951,6 @@
                 android:value="true" />
         </activity>
 
-=======
->>>>>>> f5f1ba1... Remove all Google Legal Information, System Update Settings
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"
@@ -3179,6 +3177,35 @@
                 android:value="com.aosip.owlsnest.qssettings.TileCategory" />
             <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
                 android:resource="@string/tile_category" />
+        </activity>
+
+        <!-- Pie Settings -->
+        <activity android:name="Settings$PieSettingsActivity"
+                android:label="@string/pie_settings"
+                android:excludeFromRecents="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.PIE_SETTINGS" />
+                <action android:name="android.settings.PIE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.aosip.owlsnest.navigation.PieSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/pie_settings" />
+        </activity>
+
+        <!-- Button Settings -->
+        <activity android:name="Settings$ButtonSettingsActivity"
+                android:label="@string/hardware_keys_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.aosip.owlsnest.buttons.ButtonSettings" />
+            <meta-data android:name="com.android.settings.TOP_LEVEL_HEADER_ID"
+                android:resource="@string/hardware_keys_title" />
         </activity>
 
         <provider
