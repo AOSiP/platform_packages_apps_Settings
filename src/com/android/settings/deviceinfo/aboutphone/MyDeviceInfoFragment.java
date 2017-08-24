@@ -29,6 +29,7 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.deviceinfo.AOSIPVersionPreferenceController;
 import com.android.settings.deviceinfo.BluetoothAddressPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
@@ -117,6 +118,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new FccEquipmentIdPreferenceController(context));
         controllers.add(new UptimePreferenceController(context, lifecycle));
         controllers.add(new SELinuxStatusPreferenceController(context));
+        controllers.add(new AOSIPVersionPreferenceController(context));
         return controllers;
     }
 
