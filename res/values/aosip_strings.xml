@@ -21,6 +21,9 @@
     <string name="update_package" translatable="false">org.lineageos.updater</string>
     <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 
+    <!-- AOSiP version -->
+    <string name="aosip_version_title">AOSiP version</string>
+
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
