@@ -33,7 +33,6 @@ import com.android.settings.deviceinfo.BasebandVersionPreferenceController;
 import com.android.settings.deviceinfo.BuildNumberPreferenceController;
 import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
-import com.android.settings.deviceinfo.FeedbackPreferenceController;
 import com.android.settings.deviceinfo.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.KernelVersionPreferenceController;
 import com.android.settings.deviceinfo.ManualPreferenceController;
@@ -123,7 +122,6 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new AdditionalSystemUpdatePreferenceController(context));
         controllers.add(new AosipVersionPreferenceController(context));
         controllers.add(new ManualPreferenceController(context));
-        controllers.add(new FeedbackPreferenceController(fragment, context));
         controllers.add(new KernelVersionPreferenceController(context));
         controllers.add(new BasebandVersionPreferenceController(context));
         controllers.add(new FirmwareVersionPreferenceController(context, lifecycle));
