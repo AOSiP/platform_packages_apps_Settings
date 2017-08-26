@@ -144,5 +144,17 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
+        <!-- Device parts -->
+        <activity android:name="Settings$DevicePartsActivity"
+                android:label="@string/custom_device_parts"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.aosip.device.DeviceParts" />
+        </activity>
     </application>
 </manifest>

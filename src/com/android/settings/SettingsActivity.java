@@ -158,6 +158,7 @@ public class SettingsActivity extends SettingsDrawerActivity
     private int mInitialTitleResId;
 
     private static final String ROOT_MANAGER_FRAGMENT = "com.android.settings.RootManagement";
+    private static final String DEVICE_PARTS_FRAGMENT = "com.aosip.device.DeviceParts";
 
     private boolean mRootSupport;
     private String mRootPackage;
@@ -728,6 +729,13 @@ public class SettingsActivity extends SettingsDrawerActivity
                 finish();
                 return null;
             }
+        }
+        if (DEVICE_PARTS_FRAGMENT.equals(fragmentName)) {
+            Intent devicePartsIntent = new Intent();
+            devicePartsIntent.setClassName("com.aosip.device", "com.aosip.device.DeviceSettings");
+            startActivity(devicePartsIntent);
+            finish();
+            return null;
         }
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
