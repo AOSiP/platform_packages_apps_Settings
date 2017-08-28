@@ -138,6 +138,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.aosip.owlsnest.OwlsNestSettings;
+import com.aosip.owlsnest.categories.buttons.GlobalActionsSettings;
 
 public class SettingsGateway {
 
@@ -264,6 +265,7 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             OwlsNestSettings.class.getName(),
+            GlobalActionsSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

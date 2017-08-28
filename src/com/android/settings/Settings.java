@@ -167,5 +167,5 @@ public class Settings extends SettingsActivity {
 
     // AOSiP Settings
     public static class OwlsNestSettingsActivity extends SettingsActivity {}
-
+    public static class GlobalActionsSettingsActivity extends SettingsActivity { /* empty */ }
 }

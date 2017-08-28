@@ -24,4 +24,7 @@
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Home Of the Kronic</string>
 
+    <!-- Power Menu -->
+    <string name="global_actions_title">Power menu</string>
+
 </resources>
