@@ -159,7 +159,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
             </intent-filter>
-            <intent-filter android:priority="11">
+            <intent-filter android:priority="12">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -186,7 +186,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.VOICE_LAUNCH" />
             </intent-filter>
-            <intent-filter android:priority="10">
+            <intent-filter android:priority="11">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
@@ -3032,6 +3032,20 @@
                        android:value="com.android.settings.dashboard.SupportFragment"/>
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/support_summary"/>
+        </activity>
+
+        <activity android:name=".Settings$OwlsNestSettingsActivity"
+                  android:label="@string/owlsnest_title"
+                  android:icon="@drawable/ic_settings_illusion">
+            <intent-filter android:priority="10">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.aosip.owlsnest.OwlsNestSettings"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/owlsnest_activity_summary"/>
         </activity>
 
         <!-- End of information architecture host activities -->
