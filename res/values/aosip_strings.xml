@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">OwlsNest</string>
+    <string name="owlsnest_activity_summary">Home of the Kronic</string>
+
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
 
