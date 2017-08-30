@@ -47,6 +47,14 @@
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
 
     <Preference
+        android:key="top_level_owlsnest"
+        android:title="@string/owlsnest_title"
+        android:summary="@string/owlsnest_activity_summary"
+        android:icon="@drawable/ic_homepage_owlsnest"
+        android:order="-95"
+        android:fragment="com.aosip.owlsnest.OwlsNestSettings"/>
+
+    <Preference
         android:key="top_level_battery"
         android:title="@string/power_usage_summary_title"
         android:summary="@string/summary_placeholder"
