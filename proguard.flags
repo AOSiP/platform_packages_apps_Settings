@@ -66,3 +66,6 @@
 -keepclasseswithmembers class * extends com.android.settings.slices.SliceBackgroundWorker {
     public <init>(android.content.Context, android.net.Uri);
 }
+
+# OwlsNest
+-keep class com.aosip.owlsnest.**
