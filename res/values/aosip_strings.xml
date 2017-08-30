@@ -15,6 +15,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">OwlsNest</string>
+    <string name="owlsnest_activity_summary">Home of the Kronic</string>
+
     <!-- AOSiP Updater -->
     <string name="update_settings_title">AOSiP Updater</string>
     <string name="update_settings_summary">Check for the latest version of the rom</string>
@@ -45,4 +49,5 @@
 
     <!-- Density category -->
     <string name="density_category">Density options</string>
+
 </resources>
