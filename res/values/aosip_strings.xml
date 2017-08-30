@@ -44,4 +44,8 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
 
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">OwlsNest</string>
+    <string name="owlsnest_activity_summary">Home Of the Kronic</string>
+
 </resources>
