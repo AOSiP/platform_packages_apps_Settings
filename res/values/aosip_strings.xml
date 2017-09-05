@@ -44,6 +44,9 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
 
+    <!-- AOSiP device maintainer name -->
+    <string name="device_maintainer">Maintainer</string>
+
     <!-- AOSiP Updater -->
     <string name="update_settings_title">AOSiP Updater</string>
     <string name="update_settings_summary">Check for the latest version of the rom</string>
