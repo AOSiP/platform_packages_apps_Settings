@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "6aca2db2_0453d13e",
+        "filename": "res/values/aosip_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2017-09-06T09:42:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d7d12dd4_e30abc73",
+      "revId": "d26192bd9e212966782dc12c3cde7d548d48134f",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0ce57fdc_ede9edf3",
         "filename": "res/xml/aosip_about_info.xml",
         "patchSetId": 6
