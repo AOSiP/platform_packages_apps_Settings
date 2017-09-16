@@ -78,6 +78,15 @@
     <string name="night_bright_low">Low brightness</string>
     <string name="night_bright_medium">Medium brightness</string>
 
+    <!-- Custom light color -->
+    <string name="light_customization">Led light notification</string>
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">"Light ON time during led pulse (ms)"</string>
+    <string name="custom_light_off_time_title">"Light OFF time during led pulse (ms)"</string>
+    <string name="app_notifications_info_desc">Tap on one of above channels to configure their light colors and other options</string>
+    <string name="value_equals_default">Def</string>
+    <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+
     <!-- Volume Steps -->
     <string name="volume_steps_title">Volume steps</string>
     <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
