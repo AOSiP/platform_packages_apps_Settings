@@ -264,5 +264,11 @@
 
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
+
+    <!-- About device screen, Updater -->
+    <string name="update_settings_title">AOSiP updates</string>
+    <string name="update_package" translatable="false">org.lineageos.updater</string>
+    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
+
     <string name="substratum_overlays_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
 </resources>
