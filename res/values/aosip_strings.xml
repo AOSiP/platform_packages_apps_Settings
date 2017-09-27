@@ -116,4 +116,10 @@
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_package" translatable="false">org.lineageos.updater</string>
+    <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 </resources>
