@@ -177,4 +177,7 @@
     <string name="dialog_delete_message">Remove selected item?</string>
     <string name="dialog_delete_title">Delete</string>
 
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string> 
+
 </resources>
