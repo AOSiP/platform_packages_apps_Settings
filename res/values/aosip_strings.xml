@@ -51,4 +51,7 @@
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
     <string name="local_backup_password_title">Desktop backup password</string>
 
+    <!-- Pixel color on sim card -->
+    <string name="default_sim_color">Pixel</string>
+
 </resources>
