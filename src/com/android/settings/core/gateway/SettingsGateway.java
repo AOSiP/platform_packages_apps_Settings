@@ -133,6 +133,10 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.aosip.owlsnest.OwlsNestSettings;
+import com.aosip.owlsnest.navigation.FlingSettings;
+import com.aosip.owlsnest.navigation.NavigationCategory;
+import com.aosip.owlsnest.navigation.PulseSettings;
+import com.aosip.owlsnest.navigation.SmartbarSettings;
 
 public class SettingsGateway {
 
@@ -255,7 +259,11 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
-            OwlsNestSettings.class.getName()
+            OwlsNestSettings.class.getName(),
+            NavigationCategory.class.getName(),
+            FlingSettings.class.getName(),
+            SmartbarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -296,5 +304,9 @@ public class SettingsGateway {
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             // AOSiP
             Settings.OwlsNestSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName()
     };
 }
