@@ -97,4 +97,7 @@
     <!-- Dummy string needed to hide SuperSU from launcher, no need to translate -->
     <string name="supersu_title">SuperSU</string>
 
+    <!-- SIM selector for SMS -->
+    <string name="select_sim_for_sms">Select a SIM for SMS</string>
+
 </resources>
