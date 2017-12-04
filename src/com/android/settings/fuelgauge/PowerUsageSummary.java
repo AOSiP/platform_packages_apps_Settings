@@ -264,7 +264,7 @@ public class PowerUsageSummary extends PowerUsageBase {
                 public void onClick(DialogInterface dialog, int which) {
                     // Reset stats
                     mStatsHelper.resetStatistics();
-                    updateScreenPreference();
+                    refreshUi();
                 }
             })
             .setNegativeButton(R.string.cancel, null)
