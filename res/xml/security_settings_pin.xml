@@ -34,6 +34,12 @@
             android:summary="@string/unlock_quick_unlock_control_summary" 
             android:defaultValue="false" />
 
+        <com.aosip.owlsnest.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_pin_ripple"
+            android:title="@string/lockscreen_pin_ripple_title"
+            android:summary="@string/lockscreen_pin_ripple_summary"
+            android:defaultValue="true" />
+
         <Preference android:key="lockscreen_preferences"
             android:title="@string/lockscreen_settings_title"
             android:fragment="com.android.settings.security.LockscreenDashboardFragment"/>
