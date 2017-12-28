@@ -279,7 +279,7 @@
     <string name="security_settings_fingerprint_sensor_location_back">back</string>
     <string name="security_settings_fingerprint_sensor_location_front">front</string>
     <string name="security_settings_fingerprint_sensor_location_left">left side</string>
-<string name="security_settings_fingerprint_sensor_location_right">right side</string>
+    <string name="security_settings_fingerprint_sensor_location_right">right side</string>
 
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
@@ -299,5 +299,9 @@
     <!-- USB mode dialog -->
     <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
     <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
+
+    <!-- Pin ripple -->
+    <string name="lockscreen_pin_ripple_title">Pin Ripple</string>
+    <string name="lockscreen_pin_ripple_summary">Disable to remove ripple when entering your pin</string>
 
 </resources>
