@@ -20,10 +20,12 @@ import android.os.SystemProperties;
 import android.support.v7.preference.Preference;
 
 import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.R;
 import com.android.settings.Utils;
 
-public class AosipVersionPreferenceController extends AbstractPreferenceController {
+public class AosipVersionPreferenceController extends AbstractPreferenceController implements
+        PreferenceControllerMixin {
 
     private static final String AOSIP_VERSION = "aosip_version";
     private static final String AOSIP_PROP = "ro.aosip.version";
