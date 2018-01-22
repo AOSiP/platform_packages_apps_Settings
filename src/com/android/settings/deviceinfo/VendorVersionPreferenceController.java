@@ -25,7 +25,8 @@ import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 
-public class VendorVersionPreferenceController extends AbstractPreferenceController {
+public class VendorVersionPreferenceController extends AbstractPreferenceController implements
+        PreferenceControllerMixin {
 
     private static final String PROPERTY_VENDOR_VERSION = "ro.vendor.build.fingerprint";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
