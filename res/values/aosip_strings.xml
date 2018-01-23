@@ -62,6 +62,9 @@
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
     <string name="less_notification_sounds_5m">Every 5 minutes</string>
 
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
