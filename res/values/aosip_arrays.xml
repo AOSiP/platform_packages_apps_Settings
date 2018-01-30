@@ -98,11 +98,11 @@
     <!-- User display names for app ops codes -->
     <string-array name="app_ops_labels_aosip" translatable="false">
         <!-- OP_COARSE_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_coarse_location</item>
         <!-- OP_FINE_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_fine_location</item>
         <!-- OP_GPS -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_gps</item>
         <!-- OP_VIBRATE -->
         <item>@string/app_ops_use_vibrate</item>
         <!-- OP_READ_CONTACTS -->
@@ -122,7 +122,7 @@
         <!-- OP_POST_NOTIFICATION -->
         <item>@string/app_ops_post_notification</item>
         <!-- OP_NEIGHBORING_CELLS -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_neighboring_cells</item>
         <!-- OP_CALL_PHONE -->
         <item>@string/app_ops_make_phone_call</item>
         <!-- OP_READ_SMS -->
@@ -180,9 +180,9 @@
         <!-- OP_WAKE_LOCK -->
         <item>@string/app_ops_keep_device_awake</item>
         <!-- OP_MONITOR_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_monitor_location</item>
         <!-- OP_MONITOR_HIGH_POWER_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_monitor_high_power_location</item>
         <!-- OP_GET_USAGE_STATS -->
         <item>@string/app_ops_get_usage_stats</item>
         <!-- OP_MUTE_MICROPHONE -->
