@@ -137,7 +137,12 @@
 
     <!-- [CHAR LIMIT=NONE] App ops labels -->
     <string name="app_ops_access_camera">camera</string>
-    <string name="app_ops_access_location">location</string>
+    <string name="app_ops_access_gps">gps</string>
+    <string name="app_ops_access_coarse_location">coarse location</string>
+    <string name="app_ops_access_fine_location">fine location</string>
+    <string name="app_ops_access_monitor_location">monitor location</string>
+    <string name="app_ops_monitor_high_power_location">monitor high power location</string>
+    <string name="app_ops_neighboring_cells">cell scan</string>
     <string name="app_ops_access_notifications">notifications</string>
     <string name="app_ops_activate_vpn">VPN</string>
     <string name="app_ops_auto_start">autostart</string>
@@ -154,7 +159,7 @@
     <string name="app_ops_modify_clipboard">modify clipboard</string>
     <string name="app_ops_modify_contacts">update contacts</string>
     <string name="app_ops_modify_settings">update settings</string>
-    <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
+    <string name="app_ops_mute_unmute_microphone">mute/unmute mic</string>
     <string name="app_ops_play_audio">play audio</string>
     <string name="app_ops_post_notification">post notification</string>
     <string name="app_ops_project_media">project media</string>
@@ -180,7 +185,7 @@
     <string name="app_ops_use_vibrate">haptic feedback</string>
     <string name="app_ops_use_voice_volume">voice call volume</string>
     <string name="app_ops_write_mms">write MMS</string>
-    <string name="app_ops_write_sms">write SMSe</string>
+    <string name="app_ops_write_sms">write SMS</string>
     <string name="app_ops_use_fingerprint">fingerprint</string>
     <string name="app_ops_add_voicemail">voicemail</string>
     <string name="app_ops_read_phone_state">access phone state</string>
