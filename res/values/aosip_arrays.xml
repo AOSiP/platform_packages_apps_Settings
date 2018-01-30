@@ -98,11 +98,11 @@
     <!-- User display names for app ops codes -->
     <string-array name="app_ops_labels_aosip" translatable="false">
         <!-- OP_COARSE_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_coarse_location</item>
         <!-- OP_FINE_LOCATION -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_fine_location</item>
         <!-- OP_GPS -->
-        <item>@string/app_ops_access_location</item>
+        <item>@string/app_ops_access_gps</item>
         <!-- OP_VIBRATE -->
         <item>@string/app_ops_use_vibrate</item>
         <!-- OP_READ_CONTACTS -->
