@@ -86,7 +86,7 @@
         android:summary="@string/aosip_about_dev3_summary" >
      <intent
         android:action="android.intent.action.VIEW"
-        android:data="http://srisurya95.net" />
+        android:data="https://srisurya95.github.io" />
     </Preference>
 
     </PreferenceCategory>
