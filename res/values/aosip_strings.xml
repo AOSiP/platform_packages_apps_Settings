@@ -208,4 +208,7 @@
     <string name="app_ops_app_start_foreground">start foreground</string>
     <string name="app_ops_answer_phone_calls">answer calls</string>
     <string name="app_ops_boot_completed">auto start</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 </resources>
