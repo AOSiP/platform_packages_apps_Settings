@@ -57,7 +57,8 @@
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="custom_light"
             android:title="@string/custom_light_title"
-            settings:defaultColorValue="0xFFFFFFFF" />
+            settings:defaultColorValue="0xFFFFFFFF"
+            ledPreview="true" />
 
         <com.aosip.owlsnest.preference.CustomSeekBarPreference
             android:key="custom_light_on_time"
