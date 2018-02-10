@@ -265,4 +265,8 @@
     <string name="sub_activate_failed">Activation failed.</string>
     <string name="sub_deactivate_success">SIM deactivated.</string>
     <string name="sub_deactivate_failed">Deactivation failed.</string>
+
+    <string name="applying_theme_toast">Applying theme, please wait...</string>
+    <string name="theme_applied_toast">Theme applied!</string>
+    <string name="substratum_installed_title">System themes are unavailable because Substratum is installed. Uninstall it if you wish to use these themes instead.</string>
 </resources>
