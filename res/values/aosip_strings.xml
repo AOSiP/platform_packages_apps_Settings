@@ -64,4 +64,10 @@
     <!--  [CHAR LIMIT=160]-->
     <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
 
+    <!-- Systemui theme -->
+    <string name="systemui_theme_style_title">SystemUI Theme</string>
+    <string name="systemui_theme_style_auto">Wallpaper based</string>
+    <string name="systemui_theme_style_light">Light style</string>
+    <string name="systemui_theme_style_dark">Dark style</string>
+
 </resources>
