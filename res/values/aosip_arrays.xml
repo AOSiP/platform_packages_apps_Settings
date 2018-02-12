@@ -126,6 +126,38 @@
         <item>1</item>
     </string-array>
 
+    <!-- Battery styles -->
+    <string-array name="battery_style_entries" translatable="false">
+        <item>@string/battery_style_port</item>
+        <item>@string/battery_style_land</item>
+        <item>@string/battery_style_circle</item>
+        <item>@string/battery_style_dotted_circle</item>
+        <item>@string/battery_style_text</item>
+        <item>@string/battery_style_hidden</item>
+    </string-array>
+
+    <string-array name="battery_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <!-- Battery styles -->
+    <string-array name="battery_percent_entries" translatable="false">
+        <item>@string/battery_percent_hidden</item>
+        <item>@string/battery_percent_outside</item>
+        <item>@string/battery_percent_inside</item>
+    </string-array>
+
+    <string-array name="battery_percent_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <string-array name="systemui_theme_style_entries" translatable="false">
         <item>@string/systemui_theme_style_auto</item>
         <item>@string/systemui_theme_style_light</item>
