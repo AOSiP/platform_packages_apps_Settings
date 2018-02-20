@@ -20,8 +20,11 @@ import android.app.UiModeManager;
 import android.content.Context;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
 
 import com.android.settings.R;
+import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstalled;
+
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 
@@ -31,7 +34,6 @@ public class DarkUIPreferenceController extends AbstractPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
 
     private static final String DARK_UI_KEY = "dark_ui_mode";
-    private static final String SUBS_PACKAGE = "projekt.substratum";
 
     private final UiModeManager mUiModeManager;
 
@@ -41,8 +43,16 @@ public class DarkUIPreferenceController extends AbstractPreferenceController
     }
 
     @Override
+    public void displayPreference(PreferenceScreen screen) {
+        final Preference mDarkUiPref = ((Preference) screen.findPreference(DARK_UI_KEY));
+        if (isSubstratumOverlayInstalled(mContext))
+            mDarkUiPref.setEnabled(false);
+        updateSummary(mDarkUiPref);
+    }
+
+    @Override
     public boolean isAvailable() {
-        return !aosipUtils.isPackageInstalled(mContext, SUBS_PACKAGE);
+        return true;
     }
 
     @Override
@@ -63,9 +73,14 @@ public class DarkUIPreferenceController extends AbstractPreferenceController
     }
 
     private void updateSummary(Preference preference) {
-        int mode = mUiModeManager.getNightMode();
-        ((ListPreference) preference).setValue(modeToString(mode));
-        preference.setSummary(modeToDescription(mode));
+        if (!isSubstratumOverlayInstalled(mContext)) {
+            preference.setSummary(mContext.getString(
+                    com.android.settings.R.string.theme_accent_picker_summary));
+        } else {
+            int mode = mUiModeManager.getNightMode();
+            ((ListPreference) preference).setValue(modeToString(mode));
+            preference.setSummary(modeToDescription(mode));
+       }
     }
 
     private String modeToDescription(int mode) {
