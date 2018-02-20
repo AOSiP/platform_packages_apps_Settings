@@ -26,11 +26,11 @@ import android.text.TextUtils;
 import android.widget.Toast;
 
 import com.android.settings.R;
+import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstalled;
+
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
-
-import com.android.internal.util.aosip.aosipUtils;
 
 import libcore.util.Objects;
 import java.util.ArrayList;
@@ -62,7 +62,7 @@ public class SystemThemePreferenceController extends AbstractPreferenceControlle
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mSystemThemeStyle = (ListPreference) screen.findPreference(SYSTEM_THEME);
-        if (!aosipUtils.isPackageInstalled(mContext, SUBS_PACKAGE)) {
+        if (!isSubstratumOverlayInstalled(mContext)) {
             int systemThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
                     Settings.System.SYSTEM_THEME, 0);
             int valueIndex = mSystemThemeStyle.findIndexOfValue(String.valueOf(systemThemeStyle));
@@ -71,7 +71,7 @@ public class SystemThemePreferenceController extends AbstractPreferenceControlle
             mSystemThemeStyle.setOnPreferenceChangeListener(this);
         } else {
             mSystemThemeStyle.setEnabled(false);
-            mSystemThemeStyle.setSummary(R.string.disable_themes_installed_title);
+            mSystemThemeStyle.setSummary(R.string.substratum_overlays_installed_title);
         }
     }
     @Override
