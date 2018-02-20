@@ -22,6 +22,8 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 
 import com.android.settings.R;
+import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstalled;
+
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 
@@ -31,7 +33,6 @@ public class DarkUIPreferenceController extends AbstractPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
 
     private static final String DARK_UI_KEY = "dark_ui_mode";
-    private static final String SUBS_PACKAGE = "projekt.substratum";
 
     private final UiModeManager mUiModeManager;
 
@@ -42,7 +43,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController
 
     @Override
     public boolean isAvailable() {
-        return !aosipUtils.isPackageInstalled(mContext, SUBS_PACKAGE);
+        return !isSubstratumOverlayInstalled(mContext);
     }
 
     @Override
