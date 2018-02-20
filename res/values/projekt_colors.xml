@@ -52,9 +52,8 @@
     <color name="suggestion_condition_card_header_summary_text_color">@*android:color/accent_device_default_light</color>
 
     <!-- MSIM Color picker dialog colors -->
-    <color name="sim_color_picker_edit_text_color">@android:color/black</color>
-    <color name="sim_color_picker_list_text_color">@android:color/black</color>
-    <color name="sim_color_picker_carrier_text_color">@android:color/black</color>
-    <color name="sim_color_picker_number_text_color">@android:color/black</color>
-    
+    <color name="sim_color_picker_edit_text_color">?android:attr/textColorPrimary</color>
+    <color name="sim_color_picker_list_text_color">?android:attr/textColorPrimary</color>
+    <color name="sim_color_picker_carrier_text_color">?android:attr/textColorPrimary</color>
+    <color name="sim_color_picker_number_text_color">?android:attr/textColorPrimary</color>
 </resources>
