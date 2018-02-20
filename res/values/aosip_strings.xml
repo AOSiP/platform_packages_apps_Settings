@@ -69,6 +69,7 @@
     <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
     <string name="system_theme_light">Light</string>
     <string name="system_theme_dark">Dark</string>
+    <string name="substratum_overlays_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
 
     <!-- Selinux -->
     <string name="selinux_status">SELinux status</string>

@@ -18,12 +18,12 @@ package com.android.settings.display;
 
 import android.app.Fragment;
 import android.content.Context;
-import android.os.UserHandle;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceClickListener;
 import android.support.v7.preference.PreferenceScreen;
 
 import com.android.settings.core.PreferenceControllerMixin;
+import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstalled;
 
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -38,9 +38,6 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
         implements PreferenceControllerMixin, LifecycleObserver, OnResume {
 
     private static final String KEY_ACCENT_PICKER_FRAGMENT_PREF = "accent_picker";
-    private static final String SUBS_PACKAGE = "projekt.substratum";
-
-    private static final int MY_USER_ID = UserHandle.myUserId();
 
     private final Fragment mParent;
     private Preference mAccentPickerPref;
@@ -56,7 +53,8 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
     @Override
     public void displayPreference(PreferenceScreen screen) {
         mAccentPickerPref  = (Preference) screen.findPreference(KEY_ACCENT_PICKER_FRAGMENT_PREF);
-        mAccentPickerPref.setEnabled(true);
+        if (isSubstratumOverlayInstalled(mContext))
+            mAccentPickerPref.setEnabled(false);
     }
 
     @Override
@@ -67,7 +65,7 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
 
     @Override
     public boolean isAvailable() {
-        return !aosipUtils.isPackageInstalled(mContext, SUBS_PACKAGE);
+        return !isSubstratumOverlayInstalled(mContext);
     }
 
     @Override
@@ -81,19 +79,28 @@ public class AccentPickerPreferenceController extends AbstractPreferenceControll
         }
 
         mAccentPickerPref.setOnPreferenceClickListener(
-                new OnPreferenceClickListener() {
-                    @Override
-                    public boolean onPreferenceClick(Preference preference) {
+            new OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+                   if (!isSubstratumOverlayInstalled(mContext)) {
                         AccentPicker.show(mParent);
                         return true;
-                    }
-                });
+                   } else {
+                        return false;
+                   }
+                }
+            });
     }
 
     private void updateSummary() {
         if (mAccentPickerPref != null) {
-            mAccentPickerPref.setSummary(mContext.getString(
-                    com.android.settings.R.string.theme_accent_picker_summary));
+            if (!isSubstratumOverlayInstalled(mContext)) {
+                mAccentPickerPref.setSummary(mContext.getString(
+                        com.android.settings.R.string.theme_accent_picker_summary));
+            } else {
+                mAccentPickerPref.setSummary(mContext.getString(
+                        com.android.settings.R.string.substratum_overlays_installed_title));
+            }
         }
     }
 }
