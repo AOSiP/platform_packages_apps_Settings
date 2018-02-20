@@ -169,7 +169,8 @@
             android:key="use_blackaf_theme"
             android:title="@string/blackaf_theme_title"
             android:summary="@string/blackaf_theme_summary"
-            android:defaultValue="false" />
+            android:defaultValue="false"
+            android:dependency="dark_ui_mode" />
 
         <Preference
             android:key="accent_picker"
