@@ -62,10 +62,6 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
-    <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Screenshot sound</string>
-    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
-
     <!-- Wake on Plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
