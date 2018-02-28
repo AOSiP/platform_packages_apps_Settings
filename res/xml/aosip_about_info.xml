@@ -37,7 +37,7 @@
         android:summary="@string/aosip_telegram_summary">
     <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://t.me/AOSiPRom" />
+        android:data="https://t.me/AOSiP" />
     </Preference>
     </PreferenceCategory>
 
