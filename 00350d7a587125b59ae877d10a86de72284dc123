@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f4058e2e_440d8119",
+        "filename": "src/com/android/settings/aosip/AOSiPAbout.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-03-31T19:13:28Z",
+      "side": 1,
+      "message": "`.setTitle(getString(R.string.aosip_about_title));` maibi",
+      "revId": "00350d7a587125b59ae877d10a86de72284dc123",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    }
+  ]
+}
