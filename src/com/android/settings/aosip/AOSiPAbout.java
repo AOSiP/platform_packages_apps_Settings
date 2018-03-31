@@ -29,6 +29,7 @@ public class AOSiPAbout extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.aosip_about_info);
+        getActivity().getActionBar().setTitle("About AOSiP");
     }
 
     @Override
