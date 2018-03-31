@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2017 AOSiP
+ * Copyright (C) 2016-2018 AOSiP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,6 +29,7 @@ public class AOSiPAbout extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.aosip_about_info);
+        getActivity().getActionBar().setTitle(getString(R.string.aosip_about_title));
     }
 
     @Override
