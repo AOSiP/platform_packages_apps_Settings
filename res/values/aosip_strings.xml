@@ -41,6 +41,9 @@
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
     <string name="mobile_data_settings_summary_unavailable">No SIM card available</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
