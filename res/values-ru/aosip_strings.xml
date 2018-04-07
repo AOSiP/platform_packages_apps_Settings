@@ -36,6 +36,8 @@
   <string name="aosip_about_mention2_title">Sean Grondin - Изначальный граф. дизайн</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">Версия AOSiP</string>
+  <!-- AOSiP device maintainer name -->
+  <string name="device_maintainer">Maintainer</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">Обновления AOSiP</string>
   <string name="update_settings_summary">Проверить наличие свежей версии прошивки</string>
@@ -237,6 +239,17 @@
   <string name="security_settings_fingerprint_sensor_location_front">спереди</string>
   <string name="security_settings_fingerprint_sensor_location_left">слева</string>
   <string name="security_settings_fingerprint_sensor_location_right">справа</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+  <plurals name="show_dev_countdown_custom">
+    <item quantity="one">Остался <xliff:g id="step_count">%1$d</xliff:g> шаг для включения настроек для разработчиков.</item>
+    <item quantity="few">Осталось <xliff:g id="step_count">%1$d</xliff:g> шагов для включения настроек для разработчиков.</item>
+    <item quantity="many">Осталось <xliff:g id="step_count">%1$d</xliff:g> шагов для включения настроек для разработчиков.</item>
+    <item quantity="other">Осталось <xliff:g id="step_count">%1$d</xliff:g> шагов для включения настроек для разработчиков.</item>
+  </plurals>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+  <string name="show_dev_on_custom">Настройки для разработчиков включены! Будьте осторожны!</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+  <string name="show_dev_already_custom">Настройки для разработчиков уже включены!</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Предотвращать случайные пробуждения</string>
   <string name="proximity_wake_summary">Проверять датчик приближения при выходе из режима сна</string>
@@ -251,4 +264,6 @@
   <!-- USB mode dialog -->
   <string name="show_usb_mode_dialog_title">Показать диалог режима USB</string>
   <string name="show_usb_mode_dialog_summary">Показать диалоговое окно для выбора режима USB при подключении к компьютеру</string>
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
 </resources>

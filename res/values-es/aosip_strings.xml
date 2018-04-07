@@ -36,6 +36,8 @@
   <string name="aosip_about_mention2_title">Sean Grondin - Diseñador grafico</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">Version de AOSIP</string>
+  <!-- AOSiP device maintainer name -->
+  <string name="device_maintainer">Maintainer</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">Actualizador de AOSIP</string>
   <string name="update_settings_summary">Buscar la última versión de la rom</string>
@@ -57,7 +59,7 @@
   <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar o desconectar el cargador</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Brillo</string>
-  <string name="night_brightness_value_title">Lower brightness if Night Light is active?</string>
+  <string name="night_brightness_value_title">¿Reducir el brillo si esta activada la luz nocturna?</string>
   <string name="night_bright_disabled">Deshabilitado</string>
   <string name="night_bright_minimum">Brillo mínimo</string>
   <string name="night_bright_low">Brillo bajo</string>
@@ -237,6 +239,15 @@
   <string name="security_settings_fingerprint_sensor_location_front">frontal</string>
   <string name="security_settings_fingerprint_sensor_location_left">lado Izquierdo</string>
   <string name="security_settings_fingerprint_sensor_location_right">lado derecho</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+  <plurals name="show_dev_countdown_custom">
+    <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling developer options.</item>
+    <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
+  </plurals>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+  <string name="show_dev_on_custom">Developer options enabled! Be careful!</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+  <string name="show_dev_already_custom">Developer options already enabled!</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Prevenir encendido accidental</string>
   <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
@@ -251,4 +262,6 @@
   <!-- USB mode dialog -->
   <string name="show_usb_mode_dialog_title">Mostrar el dialogo para seleccionar el modo del USB</string>
   <string name="show_usb_mode_dialog_summary">Mostrar el dialogo de configuracion del Usb cuando el telefono se conecte a un ordenador</string>
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
 </resources>

@@ -36,6 +36,8 @@
   <string name="aosip_about_mention2_title">Sean Grondin - Eski grafikler</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">AOSiP Sürümü</string>
+  <!-- AOSiP device maintainer name -->
+  <string name="device_maintainer">Maintainer</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">AOSiP Güncelleyici</string>
   <string name="update_settings_summary">Rom\'un son sürümünü kontrol edin</string>
@@ -237,6 +239,15 @@
   <string name="security_settings_fingerprint_sensor_location_front">ön</string>
   <string name="security_settings_fingerprint_sensor_location_left">sol</string>
   <string name="security_settings_fingerprint_sensor_location_right">sağ</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+  <plurals name="show_dev_countdown_custom">
+    <item quantity="one">Geliştirici seçeneklerinin etkinleştirilmesi için <xliff:g id="step_count">%1$d</xliff:g> adım kaldı.</item>
+    <item quantity="other">Geliştirici seçeneklerinin etkinleştirilmesi için <xliff:g id="step_count">%1$d</xliff:g> adım kaldı.</item>
+  </plurals>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+  <string name="show_dev_on_custom">Geliştirici seçenekleri etkin! Dikkatli olun!</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+  <string name="show_dev_already_custom">Geliştirici seçenekleri zaten etkin!</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Yanlışlıkla uyandırmayı önle</string>
   <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol eder</string>
@@ -251,4 +262,6 @@
   <!-- USB mode dialog -->
   <string name="show_usb_mode_dialog_title">USB modu iletişimini göster</string>
   <string name="show_usb_mode_dialog_summary">Bir bilgisayara takıldığında hangi USB modunun kullanılacağını seçmek için bir iletişim kutusu gösterir</string>
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
 </resources>

@@ -36,6 +36,8 @@
   <string name="aosip_about_mention2_title">Sean Grondin - Former graphics</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">AOSiP Build</string>
+  <!-- AOSiP device maintainer name -->
+  <string name="device_maintainer">Maintainer</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">AOSiP Updater</string>
   <string name="update_settings_summary">Check for the latest version of the rom</string>
@@ -237,6 +239,16 @@
   <string name="security_settings_fingerprint_sensor_location_front">front</string>
   <string name="security_settings_fingerprint_sensor_location_left">left side</string>
   <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+  <plurals name="show_dev_countdown_custom">
+    <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling developer options.</item>
+    <item quantity="few">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
+    <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
+  </plurals>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+  <string name="show_dev_on_custom">Developer options enabled! Be careful!</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+  <string name="show_dev_already_custom">Developer options already enabled!</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Prevent accidental wake-up</string>
   <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
@@ -251,4 +263,6 @@
   <!-- USB mode dialog -->
   <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
   <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Google Play</string>
 </resources>

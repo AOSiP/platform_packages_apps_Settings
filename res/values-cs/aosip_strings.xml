@@ -36,6 +36,8 @@
   <string name="aosip_about_mention2_title">Sean Grondin - Dřívější grafik</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">Sestavení AOSiP</string>
+  <!-- AOSiP device maintainer name -->
+  <string name="device_maintainer">Maintainer</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">Aktualizace AOSiP</string>
   <string name="update_settings_summary">Zkontrolujte nejnovější verzi ROM</string>
@@ -237,6 +239,17 @@
   <string name="security_settings_fingerprint_sensor_location_front">vpředu</string>
   <string name="security_settings_fingerprint_sensor_location_left">levá strana</string>
   <string name="security_settings_fingerprint_sensor_location_right">pravá strana</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+  <plurals name="show_dev_countdown_custom">
+    <item quantity="one">Jste <xliff:g id="step_count">%1$d</xliff:g> krok od povolení vývojářských nástrojů.</item>
+    <item quantity="few">Jste <xliff:g id="step_count">%1$d</xliff:g> kroky od povolení vývojářských nástrojů.</item>
+    <item quantity="many">Jste <xliff:g id="step_count">%1$d</xliff:g> kroků od povolení vývojářských nástrojů.</item>
+    <item quantity="other">Jste <xliff:g id="step_count">%1$d</xliff:g> kroků od povolení vývojářských nástrojů.</item>
+  </plurals>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+  <string name="show_dev_on_custom">Možnosti pro vývojáře jsou povoleny! Dávejte si pozor!</string>
+  <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+  <string name="show_dev_already_custom">Možnosti pro vývojáře jsou již povoleny!</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
   <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
@@ -251,4 +264,6 @@
   <!-- USB mode dialog -->
   <string name="show_usb_mode_dialog_title">Zobrazit dialog režimu USB</string>
   <string name="show_usb_mode_dialog_summary">Zobrazit dialog, ve kterém se zobrazí režim USB při připojení k počítači</string>
+  <!-- App details: open play store link if app is user installed -->
+  <string name="app_play_store">Obchod Play</string>
 </resources>
