@@ -137,6 +137,7 @@ import com.aosip.owlsnest.navigation.FlingSettings;
 import com.aosip.owlsnest.navigation.NavigationCategory;
 import com.aosip.owlsnest.navigation.PulseSettings;
 import com.aosip.owlsnest.navigation.SmartbarSettings;
+import com.aosip.owlsnest.advanced.SmartPixels;
 
 public class SettingsGateway {
 
@@ -263,7 +264,8 @@ public class SettingsGateway {
             NavigationCategory.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
+            PulseSettings.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -307,6 +309,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
