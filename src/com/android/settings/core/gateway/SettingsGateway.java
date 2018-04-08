@@ -154,6 +154,7 @@ import com.aosip.owlsnest.statusbar.CarrierCategory;
 import com.aosip.owlsnest.statusbar.ClockDateSettings;
 import com.aosip.owlsnest.statusbar.IconsCategory;
 import com.aosip.owlsnest.statusbar.TrafficCategory;
+import com.aosip.owlsnest.advanced.SmartPixels;
 
 public class SettingsGateway {
 
@@ -296,6 +297,7 @@ public class SettingsGateway {
             ClockDateSettings.class.getName(),
             IconsCategory.class.getName(),
             TrafficCategory.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -336,5 +338,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             // AOSiP
             Settings.OwlsNestSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
