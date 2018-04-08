@@ -47,6 +47,17 @@
                 android:resource="@string/rootmanagement_dashboard_summary" />
         </activity>
 
+        <!-- Smart Pixels -->
+        <activity android:name="Settings$SmartPixelsActivity"
+                android:label="@string/smart_pixels_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.dirtyunicorns.tweaks.fragments.SmartPixels" />
+        </activity>
+
         <!-- Global navbar settings -->
         <activity android:name="Settings$NavigationSettingsActivity"
                 android:label="@string/navigation_title"
