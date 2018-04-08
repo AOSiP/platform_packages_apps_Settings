@@ -183,4 +183,5 @@ public class Settings extends SettingsActivity {
     public static class ClockDateSettingsActivity extends SettingsActivity { /* empty */ }
     public static class IconsCategoryActivity extends SettingsActivity { /* empty */ }
     public static class TrafficCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
 }
