@@ -25,6 +25,13 @@
         android:order="-250"
         android:fragment="com.android.settings.gestures.GestureSettings" />
 
+    <Preference
+        android:key="navigation_settings"
+        android:title="@string/button_settings_title"
+        android:summary="@string/button_settings_title_summary"
+        android:fragment="com.android.settings.aosip.ButtonSettings"
+        android:icon="@drawable/ic_navigation_settings" />
+
     <!-- Backup -->
     <Preference
         android:key="backup_settings"
