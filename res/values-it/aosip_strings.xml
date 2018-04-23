@@ -30,7 +30,6 @@
   <string name="aosip_about_dev3_summary">Maintainer</string>
   <string name="aosip_about_dev4_summary">Dev/Dominant Kat</string>
   <string name="aosip_about_dev5_summary">Maintainer</string>
-  <string name="aosip_about_dev6_summary">Themer(mint) e sviluppatore</string>
   <string name="aosip_about_mentions">Collaboratori</string>
   <string name="aosip_about_mention1_title">Mike Williams - Fondatore AOSiP</string>
   <string name="aosip_about_mention2_title">Sean Grondin - Ex grafico</string>
@@ -264,4 +263,7 @@
   <string name="show_usb_mode_dialog_summary">Mostra una finestra di dialogo per scegliere quale modalità USB usare una volta connesso il telefono al computer</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
+  <!-- Scramble PIN layout when unlocking -->
+  <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
+  <string name="unlock_scramble_pin_layout_summary">Mescola la disposizione del tastierino PIN per lo sblocco del dispositivo</string>
 </resources>

@@ -30,7 +30,6 @@
   <string name="aosip_about_dev3_summary">Dev/Maintainer</string>
   <string name="aosip_about_dev4_summary">Dev/Dominant Kat</string>
   <string name="aosip_about_dev5_summary">Dev/Maintainer</string>
-  <string name="aosip_about_dev6_summary">Themer(mint) and dev</string>
   <string name="aosip_about_mentions">Contributors</string>
   <string name="aosip_about_mention1_title">Mike Williams - AOSiP Founder</string>
   <string name="aosip_about_mention2_title">Sean Grondin - Former graphics</string>
@@ -265,4 +264,7 @@
   <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
+  <!-- Scramble PIN layout when unlocking -->
+  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>

@@ -30,14 +30,13 @@
   <string name="aosip_about_dev3_summary">开发者/维护者</string>
   <string name="aosip_about_dev4_summary">开发者/主要人员</string>
   <string name="aosip_about_dev5_summary">开发者/维护者</string>
-  <string name="aosip_about_dev6_summary">主题开发者 (mint) 以及开发者</string>
   <string name="aosip_about_mentions">贡献者</string>
   <string name="aosip_about_mention1_title">Mike Williams - AOSiP 创始人</string>
   <string name="aosip_about_mention2_title">Sean Grondin - 前任图形设计师</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">AOSiP 版本</string>
   <!-- AOSiP device maintainer name -->
-  <string name="device_maintainer">Maintainer</string>
+  <string name="device_maintainer">维护者</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">AOSiP 更新</string>
   <string name="update_settings_summary">检查 Rom 的最新版本</string>
@@ -263,4 +262,7 @@
   <string name="show_usb_mode_dialog_summary">当插入电脑时显示 USB 模式选择对话框</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
+  <!-- Scramble PIN layout when unlocking -->
+  <string name="unlock_scramble_pin_layout_title">乱序布局</string>
+  <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
 </resources>

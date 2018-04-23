@@ -30,14 +30,13 @@
   <string name="aosip_about_dev3_summary">Vývojář/Správce</string>
   <string name="aosip_about_dev4_summary">Vývojář/Dominant Kat</string>
   <string name="aosip_about_dev5_summary">Vývojář/Maintainer</string>
-  <string name="aosip_about_dev6_summary">Themer(mint) a vývojář</string>
   <string name="aosip_about_mentions">Přispěvatelé</string>
   <string name="aosip_about_mention1_title">Mike Williams - Zakladatel AOSiP</string>
   <string name="aosip_about_mention2_title">Sean Grondin - Dřívější grafik</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">Sestavení AOSiP</string>
   <!-- AOSiP device maintainer name -->
-  <string name="device_maintainer">Maintainer</string>
+  <string name="device_maintainer">Správce</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">Aktualizace AOSiP</string>
   <string name="update_settings_summary">Zkontrolujte nejnovější verzi ROM</string>
@@ -266,4 +265,7 @@
   <string name="show_usb_mode_dialog_summary">Zobrazit dialog, ve kterém se zobrazí režim USB při připojení k počítači</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Obchod Play</string>
+  <!-- Scramble PIN layout when unlocking -->
+  <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
+  <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PINu při odemykání zařízení</string>
 </resources>

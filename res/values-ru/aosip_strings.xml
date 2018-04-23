@@ -30,14 +30,13 @@
   <string name="aosip_about_dev3_summary">Разработчик/сопровождающий</string>
   <string name="aosip_about_dev4_summary">Разработчик/доминирующий котэ</string>
   <string name="aosip_about_dev5_summary">Разработчик/сопровождающий</string>
-  <string name="aosip_about_dev6_summary">Создатель тем (мятная) и разработчик</string>
   <string name="aosip_about_mentions">Участники проекта</string>
   <string name="aosip_about_mention1_title">Mike Williams - основатель AOSiP</string>
   <string name="aosip_about_mention2_title">Sean Grondin - Изначальный граф. дизайн</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">Версия AOSiP</string>
   <!-- AOSiP device maintainer name -->
-  <string name="device_maintainer">Maintainer</string>
+  <string name="device_maintainer">Сопровождающий</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">Обновления AOSiP</string>
   <string name="update_settings_summary">Проверить наличие свежей версии прошивки</string>
@@ -113,7 +112,7 @@
   <string name="expanded_desktop_style_description">Выбрать стиль расширенного рабочего стола по умолчанию</string>
   <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
   <!-- [CHAR LIMIT=80]-->
-  <string name="fp_swipe_to_dismiss_notifications_title">Проведите пальцем по сканеру отпечатка пальца влево или вправо, чтобы убрать уведомления</string>
+  <string name="fp_swipe_to_dismiss_notifications_title">Проведите пальцем по сканеру отпечатков влево/вправо, чтобы убрать уведомления</string>
   <!--  [CHAR LIMIT=160]-->
   <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы убрать Ваши уведомления, проведите пальцем влево или право по сканеру отпечатка пальца.</string>
   <!-- Sizes for pattern lockscreen -->
@@ -266,4 +265,7 @@
   <string name="show_usb_mode_dialog_summary">Показать диалоговое окно для выбора режима USB при подключении к компьютеру</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
+  <!-- Scramble PIN layout when unlocking -->
+  <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
+  <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
 </resources>
