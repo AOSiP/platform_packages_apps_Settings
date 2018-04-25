@@ -24,4 +24,12 @@
         <attr name="digits" format="integer" />
     </declare-styleable>
 
+    <!-- Whether to override specific vendor properties for
+         displaying information in about phone. Supported properties include:
+         Device Model(String) = "config_overridenVendorProductModel"
+         Security Patch = "ro.vendor.override.security_patch"
+         Build number = "ro.vendor.override.build_display"
+    -->
+    <string name="config_overridenVendorProductModel" translatable="false"></string>
+
 </resources>
