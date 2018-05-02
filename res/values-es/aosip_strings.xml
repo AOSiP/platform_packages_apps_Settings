@@ -36,7 +36,7 @@
   <!-- AOSiP Version -->
   <string name="aosip_version">Version de AOSIP</string>
   <!-- AOSiP device maintainer name -->
-  <string name="device_maintainer">Responsable de mantenimiento</string>
+  <string name="device_maintainer">Desarrollador</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">Actualizador de AOSIP</string>
   <string name="update_settings_summary">Buscar la última versión de la rom</string>
@@ -264,6 +264,6 @@
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Scramble PIN layout when unlocking -->
-  <string name="unlock_scramble_pin_layout_title">Diseño entremezclado</string>
+  <string name="unlock_scramble_pin_layout_title">Disposición aleatoria</string>
   <string name="unlock_scramble_pin_layout_summary">Cambiar la disposición de los números del PIN para desbloquear el dispositivo</string>
 </resources>
