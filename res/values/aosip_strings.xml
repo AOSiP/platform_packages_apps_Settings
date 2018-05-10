@@ -35,6 +35,8 @@
     <string name="aosip_about_dev4_summary">Dev/Dominant Kat</string>
     <string name="aosip_about_dev5_title" translatable="false">Brett Montague (gtpitch)</string>
     <string name="aosip_about_dev5_summary">Dev/Maintainer</string>
+    <string name="aosip_about_dev6_title" translatable="false">Harsh Shandilya (MSFJarvis)</string>
+    <string name="aosip_about_dev6_summary">Dev/Maintainer/Code Janitor</string>
     <string name="aosip_about_mentions">Contributors</string>
     <string name="aosip_about_mention1_title">Mike Williams - AOSiP Founder</string>
     <string name="aosip_about_mention2_title">Sean Grondin - Former graphics</string>
