@@ -55,7 +55,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.dirtyunicorns.tweaks.fragments.SmartPixels" />
+                android:value="com.aosip.owlsnest.advanced.SmartPixels" />
         </activity>
 
         <!-- Global navbar settings -->
