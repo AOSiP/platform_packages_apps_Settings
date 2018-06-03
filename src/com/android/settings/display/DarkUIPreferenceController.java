@@ -22,8 +22,7 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 
-import static com.android.settings.display.ThemeUtils.isSubstratumOverlayInstalled;
-
+import com.android.settingslib.ThemeUtils;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
@@ -61,7 +60,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mSystemUiThemeStyle = (ListPreference) screen.findPreference(SYSTEM_UI_THEME);
-        if (!isSubstratumOverlayInstalled(mContext)) {
+        if (!ThemeUtils.isSubstratumOverlayInstalled(mContext)) {
             int systemuiThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
                     Settings.System.SYSTEM_UI_THEME, 0);
             int valueIndex = mSystemUiThemeStyle.findIndexOfValue(String.valueOf(systemuiThemeStyle));
