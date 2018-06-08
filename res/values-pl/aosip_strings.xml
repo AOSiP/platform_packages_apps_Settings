@@ -30,6 +30,7 @@
   <string name="aosip_about_dev3_summary">Opiekun</string>
   <string name="aosip_about_dev4_summary">Developer</string>
   <string name="aosip_about_dev5_summary">Opiekun</string>
+  <string name="aosip_about_dev6_summary">Deweloper/Opiekun projektu</string>
   <string name="aosip_about_mentions">Wnieśli wkład</string>
   <string name="aosip_about_mention1_title">Mike Williams - Założyciel AOSiP</string>
   <string name="aosip_about_mention2_title">Sean Grondin</string>
@@ -268,4 +269,9 @@
   <!-- Scramble PIN layout when unlocking -->
   <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
   <string name="unlock_scramble_pin_layout_summary">Pomieszany układ cyfr przy odblokowywaniu urządzenia kodem PIN</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

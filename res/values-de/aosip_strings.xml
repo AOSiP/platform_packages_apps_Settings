@@ -30,13 +30,14 @@
   <string name="aosip_about_dev3_summary">Entwickler/Maintainer</string>
   <string name="aosip_about_dev4_summary">Entwickler/Dominante Katze</string>
   <string name="aosip_about_dev5_summary">Entwickler/Maintainer</string>
+  <string name="aosip_about_dev6_summary">Dev/Maintainer/Code Janitor</string>
   <string name="aosip_about_mentions">Beitragende</string>
   <string name="aosip_about_mention1_title">Mike Williams - AOSiP Gründer</string>
   <string name="aosip_about_mention2_title">Sean Grondin - Ehemalige Grafiken</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">AOSiP Build</string>
   <!-- AOSiP device maintainer name -->
-  <string name="device_maintainer">Maintainer</string>
+  <string name="device_maintainer">Entwickler</string>
   <!-- AOSiP Updater -->
   <string name="update_settings_title">AOSiP Updater</string>
   <string name="update_settings_summary">Nach der aktuellsten ROM Version suchen</string>
@@ -240,13 +241,13 @@
   <string name="security_settings_fingerprint_sensor_location_right">rechten Seite</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
   <plurals name="show_dev_countdown_custom">
-    <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling developer options.</item>
-    <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
+    <item quantity="one">Du bist noch <xliff:g id="step_count">%1$d</xliff:g> Schritte von der Aktivierung der Entwickleroptionen entfernt.</item>
+    <item quantity="other">Du bist noch <xliff:g id="step_count">%1$d</xliff:g> Schritte von der Aktivierung der Entwickleroptionen entfernt.</item>
   </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-  <string name="show_dev_on_custom">Developer options enabled! Be careful!</string>
+  <string name="show_dev_on_custom">Entwickleroptionen aktiviert! Sei vorsicht!</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-  <string name="show_dev_already_custom">Developer options already enabled!</string>
+  <string name="show_dev_already_custom">Entwickleroptionen sind bereits aktiviert!</string>
   <!-- Proximity wake -->
   <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
   <string name="proximity_wake_summary">Vor dem Aufwecken des Gerätes Näherungssensor überprüfen</string>
@@ -264,6 +265,11 @@
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Scramble PIN layout when unlocking -->
-  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <string name="unlock_scramble_pin_layout_title">Zufällige Anordnung</string>
+  <string name="unlock_scramble_pin_layout_summary">Bei jedem Entsperrversuch die Ziffernanordnung zufällig neu wählen</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

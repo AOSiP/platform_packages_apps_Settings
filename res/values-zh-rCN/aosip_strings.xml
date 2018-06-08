@@ -30,6 +30,7 @@
   <string name="aosip_about_dev3_summary">开发者/维护者</string>
   <string name="aosip_about_dev4_summary">开发者/主要人员</string>
   <string name="aosip_about_dev5_summary">开发者/维护者</string>
+  <string name="aosip_about_dev6_summary">开发者/维护者/代码审核人</string>
   <string name="aosip_about_mentions">贡献者</string>
   <string name="aosip_about_mention1_title">Mike Williams - AOSiP 创始人</string>
   <string name="aosip_about_mention2_title">Sean Grondin - 前任图形设计师</string>
@@ -265,4 +266,9 @@
   <!-- Scramble PIN layout when unlocking -->
   <string name="unlock_scramble_pin_layout_title">乱序布局</string>
   <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

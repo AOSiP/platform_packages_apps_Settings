@@ -17,70 +17,71 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About AOSiP -->
-  <string name="aosip_about_title">About AOSiP</string>
-  <string name="aosip_about_info">About the ROM</string>
-  <string name="aosip_gplus_title">AOSiP G+ Community</string>
-  <string name="aosip_gplus_summary">Tap here to open our wonderful community!</string>
-  <string name="aosip_telegram_title">AOSiP Telegram Community</string>
-  <string name="aosip_telegram_summary">Tap here to join our Telegram Community chat!</string>
-  <string name="aosip_about_info_summary">AOSiP stands for Android Open Source illusion Project. We are an AOSP based custom ROM, twisted with the latest features from all over the Android development community. Quality and stability is our first priority as we are dedicated to bringing you the very best that Android has to offer.</string>
-  <string name="aosip_about_devs">Team Illusion</string>
-  <string name="aosip_about_dev_summary">Lead/Nothing Else Matas</string>
-  <string name="aosip_about_dev2_summary">Derp, Food, Server stuff</string>
-  <string name="aosip_about_dev3_summary">Dev/Maintainer</string>
-  <string name="aosip_about_dev4_summary">Dev/Dominant Kat</string>
-  <string name="aosip_about_dev5_summary">Dev/Maintainer</string>
-  <string name="aosip_about_mentions">Contributors</string>
-  <string name="aosip_about_mention1_title">Mike Williams - AOSiP Founder</string>
-  <string name="aosip_about_mention2_title">Sean Grondin - Former graphics</string>
+  <string name="aosip_about_title">AOSiPについて</string>
+  <string name="aosip_about_info">このROMについて</string>
+  <string name="aosip_gplus_title">AOSiP Google+ コミュニティ</string>
+  <string name="aosip_gplus_summary">ここをタップして私達の素晴らしいコミュニティを表示！</string>
+  <string name="aosip_telegram_title">AOSiP Telegram コミュニティ</string>
+  <string name="aosip_telegram_summary">ここをタップして私達のTelegramコミュニティチャットに参加！</string>
+  <string name="aosip_about_info_summary">AOSiPはAndroid Open Source illusion Projectを表しています。私達は様々なAndroid開発コミュニティからの機能を織り込んだAOSPベースのカスタムROMです。Androidが提供する最高のものをお届けすることに専念しているため、品質と安定性が私達の最優先事項です。</string>
+  <string name="aosip_about_devs">チーム Illusion</string>
+  <string name="aosip_about_dev_summary">リーダー/それだけ Matas</string>
+  <string name="aosip_about_dev2_summary">Derp、食料供給スタッフ</string>
+  <string name="aosip_about_dev3_summary">開発者/メンテナー</string>
+  <string name="aosip_about_dev4_summary">開発者/Dominant Kat</string>
+  <string name="aosip_about_dev5_summary">開発者/メンテナー</string>
+  <string name="aosip_about_dev6_summary">開発者/メンテナー/コード管理者</string>
+  <string name="aosip_about_mentions">貢献者</string>
+  <string name="aosip_about_mention1_title">Mike Williams - AOSiP創設者</string>
+  <string name="aosip_about_mention2_title">Sean Grondin - 以前のグラフィッカー</string>
   <!-- AOSiP Version -->
-  <string name="aosip_version">AOSiP Build</string>
+  <string name="aosip_version">AOSiPビルド</string>
   <!-- AOSiP device maintainer name -->
-  <string name="device_maintainer">Maintainer</string>
+  <string name="device_maintainer">メンテナー</string>
   <!-- AOSiP Updater -->
-  <string name="update_settings_title">AOSiP Updater</string>
-  <string name="update_settings_summary">Check for the latest version of the rom</string>
+  <string name="update_settings_title">AOSiP アップデーター</string>
+  <string name="update_settings_summary">ROMの最新バージョンを確認</string>
   <!-- OwlsNest -->
   <string name="owlsnest_title">OwlsNest</string>
   <string name="owlsnest_activity_summary">Home Of the Kronic</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-  <string name="local_backup_password_title">Desktop backup password</string>
+  <string name="local_backup_password_title">PCバックアップパスワード</string>
   <!-- Pixel color on sim card -->
   <string name="default_sim_color">Pixel</string>
   <!-- Phone info shortcut -->
-  <string name="device_info_title">Phone info</string>
+  <string name="device_info_title">携帯電話情報</string>
   <!-- Increasing ring tone volume -->
-  <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-  <string name="increasing_ring_min_volume_title">Start volume</string>
-  <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+  <string name="increasing_ring_volume_option_title">着信音量を上げる</string>
+  <string name="increasing_ring_min_volume_title">スタート音量</string>
+  <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
   <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+  <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>
+  <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯させる</string>
   <!-- Advanced night mode brightness -->
-  <string name="night_brightness_category">Brightness</string>
-  <string name="night_brightness_value_title">Lower brightness if Night Light is active?</string>
-  <string name="night_bright_disabled">Disabled</string>
-  <string name="night_bright_minimum">Minimum brightness</string>
-  <string name="night_bright_low">Low brightness</string>
-  <string name="night_bright_medium">Medium brightness</string>
+  <string name="night_brightness_category">画面の明るさ</string>
+  <string name="night_brightness_value_title">ナイトライトの起動中は明るさを下げますか？</string>
+  <string name="night_bright_disabled">無効</string>
+  <string name="night_bright_minimum">最低輝度</string>
+  <string name="night_bright_low">低輝度</string>
+  <string name="night_bright_medium">中輝度</string>
   <!-- Custom light color -->
-  <string name="light_customization">Led light notification</string>
-  <string name="custom_light_title">Light color</string>
-  <string name="custom_light_on_time_title">"Light ON time during led pulse (ms)"</string>
-  <string name="custom_light_off_time_title">"Light OFF time during led pulse (ms)"</string>
-  <string name="app_notifications_info_desc">Tap on one of above channels to configure their light colors and other options</string>
-  <string name="value_equals_default">Def</string>
-  <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+  <string name="light_customization">LEDライトの通知</string>
+  <string name="custom_light_title">ライトカラー</string>
+  <string name="custom_light_on_time_title">"LEDの点滅している時の光っている時間（ms）"</string>
+  <string name="custom_light_off_time_title">"LEDの点滅している時の消えている時間（ms）"</string>
+  <string name="app_notifications_info_desc">上記のいずれかのチャンネルをタップして、LEDの色やその他のオプションを設定します。</string>
+  <string name="value_equals_default">既定</string>
+  <string name="show_light_on_zen_title">おやすみモードの間はライトを点滅させる</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">Volume steps</string>
-  <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-  <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-  <string name="volume_steps_music_title">Volume steps: Music</string>
-  <string name="volume_steps_notification_title">Volume steps: Notification</string>
-  <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-  <string name="volume_steps_system_title">Volume steps: System</string>
-  <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-  <string name="volume_steps_reset">Reset</string>
+  <string name="volume_steps_title">音量レベル</string>
+  <string name="volume_steps_alarm_title">音量レベル : アラーム</string>
+  <string name="volume_steps_dtmf_title">音量レベル : DTMF</string>
+  <string name="volume_steps_music_title">音量レベル : メディア</string>
+  <string name="volume_steps_notification_title">音量レベル : 通知</string>
+  <string name="volume_steps_ring_title">音量レベル : 着信音</string>
+  <string name="volume_steps_system_title">音量レベル : システム</string>
+  <string name="volume_steps_voice_call_title">音量レベル : 音声通話</string>
+  <string name="volume_steps_reset">リセット</string>
   <string name="volume_steps_60">60</string>
   <string name="volume_steps_45">45</string>
   <string name="volume_steps_30">30</string>
@@ -88,181 +89,186 @@
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
   <!-- Root Management -->
-  <string name="rootmanagement_title">Root management</string>
-  <string name="rootmanagement_dashboard_summary">Manage root access</string>
+  <string name="rootmanagement_title">ルート権限の管理</string>
+  <string name="rootmanagement_dashboard_summary">ルートアクセスを管理</string>
   <!-- Dummy string needed to hide SuperSU from launcher -->
-  <string name="link_volume_option_title">Link ring and notification volume</string>
+  <string name="link_volume_option_title">着信と通知の音量をリンク</string>
   <!-- Battery stats -->
-  <string name="menu_stats_reset">Reset stats</string>
-  <string name="reset_stats_msg">Battery history stats are going to be reset</string>
+  <string name="menu_stats_reset">使用状況のリセット</string>
+  <string name="reset_stats_msg">バッテリの使用履歴はリセットされます</string>
   <!-- Vendor version -->
-  <string name="vendor_version">Vendor version</string>
-  <string name="vendor_version_default">Unknown</string>
+  <string name="vendor_version">ベンダーバージョン</string>
+  <string name="vendor_version_default">不明</string>
   <!-- Expanded desktop -->
-  <string name="power_menu_expanded_desktop">Expanded desktop</string>
-  <string name="expanded_hide_nothing">Hide nothing</string>
-  <string name="expanded_hide_status">Hide status bar</string>
-  <string name="expanded_hide_navigation">Hide navigation bar</string>
-  <string name="expanded_hide_both">Hide both</string>
-  <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \"Enabled for all\" to the off position</string>
-  <string name="expanded_desktop_state">Expanded state</string>
-  <string name="expanded_enabled_for_all">Enabled for all</string>
-  <string name="expanded_user_configurable">User configurable</string>
-  <string name="expanded_desktop_style">Expanded desktop style</string>
-  <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-  <string name="expanded_desktop_title">Expanded desktop options</string>
+  <string name="power_menu_expanded_desktop">拡張デスクトップ</string>
+  <string name="expanded_hide_nothing">非表示にしない</string>
+  <string name="expanded_hide_status">ステータスバーを隠す</string>
+  <string name="expanded_hide_navigation">ナビゲーションバーを隠す</string>
+  <string name="expanded_hide_both">両方を隠す</string>
+  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「すべて拡張」をOFFにしてください。</string>
+  <string name="expanded_desktop_state">拡張デスクトップの状態</string>
+  <string name="expanded_enabled_for_all">すべて拡張</string>
+  <string name="expanded_user_configurable">ユーザー設定</string>
+  <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
+  <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
+  <string name="expanded_desktop_title">拡張デスクトップの設定</string>
   <!-- [CHAR LIMIT=80]-->
-  <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
+  <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
   <!--  [CHAR LIMIT=160]-->
-  <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+  <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには、端末裏側の指紋センサー上で左右にスワイプしてください。</string>
   <!-- Sizes for pattern lockscreen -->
-  <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+  <string name="lock_settings_picker_pattern_size_message">パターンサイズを選択する</string>
   <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-  <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+  <string name="lockpattern_settings_enable_error_path_title">パターンエラーを表示</string>
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-  <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+  <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
   <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
-  <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+  <string name="lockscreen_vibrate_enabled_title">マナーモード</string>
+  <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動</string>
   <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-  <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+  <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
+  <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
   <!-- App Ops Settings -->
   <!-- App Ops Categories -->
-  <string name="app_ops_cat_location">Location</string>
-  <string name="app_ops_cat_personal">Personal</string>
-  <string name="app_ops_cat_messaging">Messaging</string>
-  <string name="app_ops_cat_media">Media</string>
-  <string name="app_ops_cat_device">Device</string>
-  <string name="app_ops_cat_bootup">Bootup</string>
+  <string name="app_ops_cat_location">位置情報</string>
+  <string name="app_ops_cat_personal">個人情報</string>
+  <string name="app_ops_cat_messaging">メッセージ</string>
+  <string name="app_ops_cat_media">メディア</string>
+  <string name="app_ops_cat_device">端末</string>
+  <string name="app_ops_cat_bootup">ブート時の実行</string>
   <!-- [CHAR LIMIT=NONE] App ops labels -->
-  <string name="app_ops_access_camera">camera</string>
-  <string name="app_ops_access_gps">gps</string>
-  <string name="app_ops_access_coarse_location">coarse location</string>
-  <string name="app_ops_access_fine_location">fine location</string>
-  <string name="app_ops_access_monitor_location">monitor location</string>
-  <string name="app_ops_monitor_high_power_location">monitor high power location</string>
-  <string name="app_ops_neighboring_cells">cell scan</string>
-  <string name="app_ops_access_notifications">notifications</string>
+  <string name="app_ops_access_camera">カメラ</string>
+  <string name="app_ops_access_gps">GPS</string>
+  <string name="app_ops_access_coarse_location">おおよその位置情報</string>
+  <string name="app_ops_access_fine_location">精細な位置情報</string>
+  <string name="app_ops_access_monitor_location">場所の監視</string>
+  <string name="app_ops_monitor_high_power_location">正確な場所の監視</string>
+  <string name="app_ops_neighboring_cells">セルスキャン</string>
+  <string name="app_ops_access_notifications">通知</string>
   <string name="app_ops_activate_vpn">VPN</string>
-  <string name="app_ops_auto_start">autostart</string>
-  <string name="app_ops_delete_call_log">delete call log</string>
-  <string name="app_ops_delete_contacts">delete contacts</string>
-  <string name="app_ops_delete_mms">delete MMS</string>
-  <string name="app_ops_delete_sms">delete SMS</string>
-  <string name="app_ops_draw_on_top">draw on top</string>
-  <string name="app_ops_get_usage_stats">get usage stats</string>
-  <string name="app_ops_keep_device_awake">keep awake</string>
-  <string name="app_ops_make_phone_call">make call</string>
-  <string name="app_ops_modify_calendar">update calendar</string>
-  <string name="app_ops_modify_call_log">update call log</string>
-  <string name="app_ops_modify_clipboard">modify clipboard</string>
-  <string name="app_ops_modify_contacts">update contacts</string>
-  <string name="app_ops_modify_settings">update settings</string>
-  <string name="app_ops_mute_unmute_microphone">mute/unmute mic</string>
-  <string name="app_ops_play_audio">play audio</string>
-  <string name="app_ops_post_notification">post notification</string>
-  <string name="app_ops_project_media">project media</string>
-  <string name="app_ops_read_calendar">read calendar</string>
-  <string name="app_ops_read_call_log">read call log</string>
-  <string name="app_ops_read_clipboard">read clipboard</string>
-  <string name="app_ops_read_contacts">read contacts</string>
-  <string name="app_ops_read_mms">read MMS</string>
-  <string name="app_ops_read_sms">read SMS</string>
-  <string name="app_ops_receive_sms">receive SMS</string>
-  <string name="app_ops_record_audio">record audio</string>
-  <string name="app_ops_send_mms">send MMS</string>
-  <string name="app_ops_send_sms">send SMS</string>
-  <string name="app_ops_toast_window">toast messages</string>
-  <string name="app_ops_use_alarm_volume">alarm volume</string>
-  <string name="app_ops_use_audio_focus">audio focus</string>
-  <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-  <string name="app_ops_use_master_volume">master volume</string>
-  <string name="app_ops_use_media_buttons">media buttons</string>
-  <string name="app_ops_use_media_volume">media volume</string>
-  <string name="app_ops_use_notification_volume">notification volume</string>
-  <string name="app_ops_use_ring_volume">ringtone volume</string>
-  <string name="app_ops_use_vibrate">haptic feedback</string>
-  <string name="app_ops_use_voice_volume">voice call volume</string>
-  <string name="app_ops_write_mms">write MMS</string>
-  <string name="app_ops_write_sms">write SMS</string>
-  <string name="app_ops_use_fingerprint">fingerprint</string>
-  <string name="app_ops_add_voicemail">voicemail</string>
-  <string name="app_ops_read_phone_state">access phone state</string>
-  <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-  <string name="app_ops_change_wallpaper">change wallpaper</string>
-  <string name="app_ops_assist_structure">assist structure</string>
-  <string name="app_ops_assist_screenshot">screenshot</string>
-  <string name="app_ops_use_body_sensors">body sensors</string>
-  <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-  <string name="app_ops_mock_location">mock location</string>
-  <string name="app_ops_read_external_storage">read ext. stor.</string>
-  <string name="app_ops_write_external_storage">write ext. stor.</string>
-  <string name="app_ops_turn_on_screen">turn screen on</string>
-  <string name="app_ops_get_accounts">device accounts</string>
-  <string name="app_ops_run_in_background">run in background</string>
-  <string name="app_ops_accessibility_volume">accessibility volume</string>
-  <string name="app_ops_read_phone_numbers">read phone num.</string>
-  <string name="app_ops_request_install_packages">install packages</string>
+  <string name="app_ops_auto_start">自動起動</string>
+  <string name="app_ops_delete_call_log">通話履歴の削除</string>
+  <string name="app_ops_delete_contacts">連絡先の削除</string>
+  <string name="app_ops_delete_mms">MMSの削除</string>
+  <string name="app_ops_delete_sms">SMSの削除</string>
+  <string name="app_ops_draw_on_top">上部に描画</string>
+  <string name="app_ops_get_usage_stats">使用統計の取得</string>
+  <string name="app_ops_keep_device_awake">スリープモードにしない</string>
+  <string name="app_ops_make_phone_call">発信</string>
+  <string name="app_ops_modify_calendar">カレンダーの更新</string>
+  <string name="app_ops_modify_call_log">通話履歴の更新</string>
+  <string name="app_ops_modify_clipboard">クリップボードの変更</string>
+  <string name="app_ops_modify_contacts">連絡先の更新</string>
+  <string name="app_ops_modify_settings">設定の更新</string>
+  <string name="app_ops_mute_unmute_microphone">マイクの有効/無効</string>
+  <string name="app_ops_play_audio">音声の再生</string>
+  <string name="app_ops_post_notification">通知の配信</string>
+  <string name="app_ops_project_media">メディアの投影</string>
+  <string name="app_ops_read_calendar">カレンダーの読み取り</string>
+  <string name="app_ops_read_call_log">通話履歴の読み取り</string>
+  <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
+  <string name="app_ops_read_contacts">連絡先の読み取り</string>
+  <string name="app_ops_read_mms">MMSの読み取り</string>
+  <string name="app_ops_read_sms">SMSの読み取り</string>
+  <string name="app_ops_receive_sms">SMSの受信</string>
+  <string name="app_ops_record_audio">音声の録音</string>
+  <string name="app_ops_send_mms">MMSの送信</string>
+  <string name="app_ops_send_sms">SMSの送信</string>
+  <string name="app_ops_toast_window">トーストメッセージ</string>
+  <string name="app_ops_use_alarm_volume">アラームの音量</string>
+  <string name="app_ops_use_audio_focus">音声フォーカス</string>
+  <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+  <string name="app_ops_use_master_volume">主音量</string>
+  <string name="app_ops_use_media_buttons">メディアボタン</string>
+  <string name="app_ops_use_media_volume">メディアの音量</string>
+  <string name="app_ops_use_notification_volume">通知の音量</string>
+  <string name="app_ops_use_ring_volume">着信の音量</string>
+  <string name="app_ops_use_vibrate">振動フィードバック</string>
+  <string name="app_ops_use_voice_volume">音声通話の音量</string>
+  <string name="app_ops_write_mms">MMSの書き込み</string>
+  <string name="app_ops_write_sms">SMSの書き込み</string>
+  <string name="app_ops_use_fingerprint">指紋</string>
+  <string name="app_ops_add_voicemail">ボイスメール</string>
+  <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
+  <string name="app_ops_scan_wifi">WiFiネットワークのスキャン</string>
+  <string name="app_ops_change_wallpaper">壁紙の変更</string>
+  <string name="app_ops_assist_structure">ストラクチャーのアシスト</string>
+  <string name="app_ops_assist_screenshot">スクリーンショット</string>
+  <string name="app_ops_use_body_sensors">ボディーセンサー</string>
+  <string name="app_ops_read_cell_broadcasts">緊急警報</string>
+  <string name="app_ops_mock_location">仮想位置情報</string>
+  <string name="app_ops_read_external_storage">外部ストレージの読み取り</string>
+  <string name="app_ops_write_external_storage">外部ストレージの書き込み</string>
+  <string name="app_ops_turn_on_screen">画面の点灯</string>
+  <string name="app_ops_get_accounts">端末のアカウント</string>
+  <string name="app_ops_run_in_background">バックグラウンドで実行する</string>
+  <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
+  <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
+  <string name="app_ops_request_install_packages">パッケージのインストール</string>
   <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">start foreground</string>
-  <string name="app_ops_answer_phone_calls">answer calls</string>
-  <string name="app_ops_boot_completed">auto start</string>
+  <string name="app_ops_app_start_foreground">フォアグラウンドで起動</string>
+  <string name="app_ops_answer_phone_calls">着信への応答</string>
+  <string name="app_ops_boot_completed">自動実行</string>
   <!-- Notification log -->
-  <string name="notification_log_summary">Show notifications history log</string>
+  <string name="notification_log_summary">通知履歴ログを表示</string>
   <!-- Volume settings - Volume adjustment sound -->
-  <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+  <string name="volume_adjust_sounds_title">音量調整の音</string>
   <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_disabled">disabled</string>
-  <string name="sim_missing">missing or faulty</string>
-  <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-  <string name="sim_enabler_will_disable_sim_title">Attention</string>
-  <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-  <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-  <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-  <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-  <string name="sim_enabler_enabling">Activating\u2026</string>
-  <string name="sim_enabler_disabling">Deactivating\u2026</string>
-  <string name="sub_activate_success">SIM activated.</string>
-  <string name="sub_activate_failed">Activation failed.</string>
-  <string name="sub_deactivate_success">SIM deactivated.</string>
-  <string name="sub_deactivate_failed">Deactivation failed.</string>
-  <string name="applying_theme_toast">Applying theme, please wait...</string>
-  <string name="theme_applied_toast">Theme applied!</string>
-  <string name="substratum_installed_title">System themes are unavailable because a Substratum overlay is installed. Please uninstall all overlays targeting Android System to proceed.</string>
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+  <string name="sim_disabled">無効</string>
+  <string name="sim_missing">挿入されていないか、問題があります。</string>
+  <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続行しますか？</string>
+  <string name="sim_enabler_will_disable_sim_title">注意</string>
+  <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
+  <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
+  <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
+  <string name="sim_enabler_both_inactive">すべてのSIMカードを無効にはできません</string>
+  <string name="sim_enabler_enabling">アクティベート中\u2026</string>
+  <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
+  <string name="sub_activate_success">SIMをアクティベートしました</string>
+  <string name="sub_activate_failed">アクティベーションに失敗しました</string>
+  <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+  <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
+  <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください。</string>
+  <string name="theme_applied_toast">テーマが適用されました</string>
+  <string name="substratum_installed_title">Substratumオーバーレイがインストールされているため、システムテーマは使用できません。続行するには、Android システムを対象とするすべてのオーバーレイをアンインストールしてください。</string>
   <!-- Format string for fingerprint location message -->
-  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your phone.</string>
+  <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
   <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">back</string>
-  <string name="security_settings_fingerprint_sensor_location_front">front</string>
-  <string name="security_settings_fingerprint_sensor_location_left">left side</string>
-  <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+  <string name="security_settings_fingerprint_sensor_location_back">戻る</string>
+  <string name="security_settings_fingerprint_sensor_location_front">前面</string>
+  <string name="security_settings_fingerprint_sensor_location_left">左側面</string>
+  <string name="security_settings_fingerprint_sensor_location_right">右側面</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
   <plurals name="show_dev_countdown_custom">
-    <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
+    <item quantity="other">開発者向けオプションが有効になるまであと<xliff:g id="step_count">%1$d</xliff:g>ステップです</item>
   </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-  <string name="show_dev_on_custom">Developer options enabled! Be careful!</string>
+  <string name="show_dev_on_custom">開発者向けオプションが有効化されました！お気を付けて！</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-  <string name="show_dev_already_custom">Developer options already enabled!</string>
+  <string name="show_dev_already_custom">開発者向けオプションは既に有効です！</string>
   <!-- Proximity wake -->
-  <string name="proximity_wake_title">Prevent accidental wake-up</string>
-  <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+  <string name="proximity_wake_title">誤起動を防止</string>
+  <string name="proximity_wake_summary">画面をスリープ解除する前に接近センサーを確認する</string>
   <!-- Default USB configuration -->
-  <string name="select_default_usb_configuration_title">Select default USB configuration</string>
-  <string name="select_default_usb_configuration_dialog_title">Select USB Configuration</string>
-  <string name="select_usb_default_confguration_warning">WARNING: Default USB configuration is enabled also when device is locked!\n\nDo you really want to enable this configuration?</string>
+  <string name="select_default_usb_configuration_title">標準のUSB設定を選択</string>
+  <string name="select_default_usb_configuration_dialog_title">USB設定の選択</string>
+  <string name="select_usb_default_confguration_warning">警告：標準のUSB設定はデバイスロック時も有効です！\n\n本当に設定を有効にしますか？</string>
   <!-- USB paranoia mode -->
-  <string name="usb_paranoia_connect_title">USB secure connect</string>
-  <string name="usb_paranoia_connect_summary">Only enable charging and disable ADB when USB plugged on secure lock screens</string>
+  <string name="usb_paranoia_connect_title">USB セキュア接続</string>
+  <string name="usb_paranoia_connect_summary">セキュリティロック画面時にUSB接続した時は充電だけ有効化するようにする</string>
   <string name="usb_category_title">USB</string>
   <!-- USB mode dialog -->
-  <string name="show_usb_mode_dialog_title">Show USB mode dialog</string>
-  <string name="show_usb_mode_dialog_summary">Show a dialog to choose which USB mode to use when plugged into a computer</string>
+  <string name="show_usb_mode_dialog_title">USBモードダイアログを表示する</string>
+  <string name="show_usb_mode_dialog_summary">コンピュータに接続した時にUSBモード選択のダイアログを表示する</string>
   <!-- App details: open play store link if app is user installed -->
   <string name="app_play_store">Google Play</string>
   <!-- Scramble PIN layout when unlocking -->
-  <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-  <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+  <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
+  <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINレイアウトをランダムにする</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

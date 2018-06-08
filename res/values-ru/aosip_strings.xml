@@ -30,6 +30,7 @@
   <string name="aosip_about_dev3_summary">Разработчик/сопровождающий</string>
   <string name="aosip_about_dev4_summary">Разработчик/доминирующий котэ</string>
   <string name="aosip_about_dev5_summary">Разработчик/сопровождающий</string>
+  <string name="aosip_about_dev6_summary">Разработчик/Сопровождающий/Чистильщик кода</string>
   <string name="aosip_about_mentions">Участники проекта</string>
   <string name="aosip_about_mention1_title">Mike Williams - основатель AOSiP</string>
   <string name="aosip_about_mention2_title">Sean Grondin - Изначальный граф. дизайн</string>
@@ -268,4 +269,9 @@
   <!-- Scramble PIN layout when unlocking -->
   <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
   <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>

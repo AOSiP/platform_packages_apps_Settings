@@ -30,8 +30,9 @@
   <string name="aosip_about_dev3_summary">Geliştirici/Cihaz sorumlusu</string>
   <string name="aosip_about_dev4_summary">Geliştirici</string>
   <string name="aosip_about_dev5_summary">Geliştirici/Cihaz sorumlusu</string>
+  <string name="aosip_about_dev6_summary">Geliştirici/Cihaz sorumlusu/Kod sorumlusu</string>
   <string name="aosip_about_mentions">Katkıda bulunanlar</string>
-  <string name="aosip_about_mention1_title">Mike Williams - AOSiP kurucusu</string>
+  <string name="aosip_about_mention1_title">Mike Williams - AOSiP Kurucusu</string>
   <string name="aosip_about_mention2_title">Sean Grondin - Eski grafikler</string>
   <!-- AOSiP Version -->
   <string name="aosip_version">AOSiP Sürümü</string>
@@ -55,12 +56,12 @@
   <string name="increasing_ring_ramp_up_time_title">Yükselme zamanı</string>
   <!-- Wake on Plug -->
   <string name="wake_when_plugged_or_unplugged_title">Takıp çıkarmada uyan</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Şarj aleti takıldığında ya da çıkarıldığında ekranı aç</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Bir güç kaynağına bağlanırken ya da bağlantısını keserken ekranı aç</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Parlaklık</string>
   <string name="night_brightness_value_title">Gece ışığında düşük parlaklık</string>
   <string name="night_bright_disabled">Devre dışı</string>
-  <string name="night_bright_minimum">Minimum parlaklık</string>
+  <string name="night_bright_minimum">En düşük parlaklık</string>
   <string name="night_bright_low">Düşük parlaklık</string>
   <string name="night_bright_medium">Orta parlaklık</string>
   <!-- Custom light color -->
@@ -88,8 +89,8 @@
   <string name="volume_steps_7">7</string>
   <string name="volume_steps_5">5</string>
   <!-- Root Management -->
-  <string name="rootmanagement_title">Root yönetimi</string>
-  <string name="rootmanagement_dashboard_summary">Root erişimini yönetme</string>
+  <string name="rootmanagement_title">Kök erişimi yönetimi</string>
+  <string name="rootmanagement_dashboard_summary">Kök erişimini yönetin</string>
   <!-- Dummy string needed to hide SuperSU from launcher -->
   <string name="link_volume_option_title">Zil sesi ve bildirim sesini bağla</string>
   <!-- Battery stats -->
@@ -204,7 +205,7 @@
   <string name="app_ops_accessibility_volume">erişilebilirlik sesi</string>
   <string name="app_ops_read_phone_numbers">telefon numarasını oku</string>
   <string name="app_ops_request_install_packages">paketleri yükle</string>
-  <string name="app_ops_picture_in_picture">pip</string>
+  <string name="app_ops_picture_in_picture">rir</string>
   <string name="app_ops_app_start_foreground">ön plana başlat</string>
   <string name="app_ops_answer_phone_calls">aramalara cevap ver</string>
   <string name="app_ops_boot_completed">otomatik başlatma</string>
@@ -230,14 +231,14 @@
   <string name="sub_deactivate_failed">Devre dışı bırakma başarısız.</string>
   <string name="applying_theme_toast">Tema uygulanıyor, lütfen bekleyin...</string>
   <string name="theme_applied_toast">Tema uygulandı!</string>
-  <string name="substratum_installed_title">Bir substratum teması yüklü olduğu için sistem temaları kullanılamıyor. Devam etmek için lütfen android sistemini hedefleyen tüm temaları kaldırın.</string>
+  <string name="substratum_installed_title">Bir substratum teması yüklü olduğu için sistem temaları kullanılamıyor. Devam etmek için lütfen Android Sistemini hedefleyen tüm temaları kaldırın.</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Telefonunuzun <xliff:g id="sensor_location">%1$s</xliff:g> parmak izi sensörünü bulun.</string>
   <!-- Fingerprint sensor locations -->
-  <string name="security_settings_fingerprint_sensor_location_back">arka</string>
-  <string name="security_settings_fingerprint_sensor_location_front">ön</string>
-  <string name="security_settings_fingerprint_sensor_location_left">sol</string>
-  <string name="security_settings_fingerprint_sensor_location_right">sağ</string>
+  <string name="security_settings_fingerprint_sensor_location_back">arkasındaki</string>
+  <string name="security_settings_fingerprint_sensor_location_front">önündeki</string>
+  <string name="security_settings_fingerprint_sensor_location_left">sol tarafındaki</string>
+  <string name="security_settings_fingerprint_sensor_location_right">sağ tarafındaki</string>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
   <plurals name="show_dev_countdown_custom">
     <item quantity="one">Geliştirici seçeneklerinin etkinleştirilmesine <xliff:g id="step_count">%1$d</xliff:g> adım kaldı.</item>
@@ -251,8 +252,8 @@
   <string name="proximity_wake_title">Yanlış uyandırmaları önle</string>
   <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
   <!-- Default USB configuration -->
-  <string name="select_default_usb_configuration_title">Varsayılan USB yapılandırması seç</string>
-  <string name="select_default_usb_configuration_dialog_title">USB yapılandırması seçin</string>
+  <string name="select_default_usb_configuration_title">Varsayılan USB yapılandırması seçin</string>
+  <string name="select_default_usb_configuration_dialog_title">USB Yapılandırması Seçin</string>
   <string name="select_usb_default_confguration_warning">UYARI: Cihaz kilitlendiğinde varsayılan USB yapılandırması da etkinleştirilmiştir!\n\nBu yapılandırmayı gerçekten etkinleştirmek istiyor musunuz?</string>
   <!-- USB paranoia mode -->
   <string name="usb_paranoia_connect_title">USB güvenli bağlantı</string>
@@ -266,4 +267,9 @@
   <!-- Scramble PIN layout when unlocking -->
   <string name="unlock_scramble_pin_layout_title">Karışık düzen</string>
   <string name="unlock_scramble_pin_layout_summary">Cihazın kilidini açarken PIN düzenini karıştır</string>
+  <!-- Per-app data restrictions -->
+  <string name="data_usage_app_restrict_data">Cellular data</string>
+  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
 </resources>
