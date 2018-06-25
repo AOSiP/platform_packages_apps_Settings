@@ -30,6 +30,7 @@ import android.graphics.Typeface;
 import android.net.TrafficStats;
 import android.net.Uri;
 import android.os.AsyncResult;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -1259,7 +1260,11 @@ public class RadioInfo extends Activity {
     };
 
     private boolean isEabProvisioned() {
-        return isFeatureProvisioned(EAB_PROVISIONED_CONFIG_ID, false);
+        if (Build.BOARD.contains("shamu")) {
+            return false;
+        } else {
+            return isFeatureProvisioned(EAB_PROVISIONED_CONFIG_ID, false);
+        }
     }
 
     OnCheckedChangeListener mEabCheckedChangeListener = new OnCheckedChangeListener() {
