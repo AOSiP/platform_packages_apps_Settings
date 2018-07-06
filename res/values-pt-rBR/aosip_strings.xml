@@ -268,8 +268,8 @@
   <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
   <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Dados móveis</string>
+  <string name="data_usage_app_restrict_data_summary">Ativar o uso de dados móveis</string>
+  <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Ativar o uso de dados Wi\u2011Fi</string>
 </resources>

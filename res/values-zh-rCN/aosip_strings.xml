@@ -267,8 +267,8 @@
   <string name="unlock_scramble_pin_layout_title">乱序布局</string>
   <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">移动数据流量</string>
+  <string name="data_usage_app_restrict_data_summary">启用移动网络流量使用统计</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
+  <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 流量使用统计</string>
 </resources>

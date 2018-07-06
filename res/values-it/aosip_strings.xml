@@ -30,7 +30,7 @@
   <string name="aosip_about_dev3_summary">Maintainer</string>
   <string name="aosip_about_dev4_summary">Dev/Dominant Kat</string>
   <string name="aosip_about_dev5_summary">Maintainer</string>
-  <string name="aosip_about_dev6_summary">Dev/Maintainer/Code Janitor</string>
+  <string name="aosip_about_dev6_summary">Sviluppatore/Manutentore/Code Janitor</string>
   <string name="aosip_about_mentions">Collaboratori</string>
   <string name="aosip_about_mention1_title">Mike Williams - Fondatore AOSiP</string>
   <string name="aosip_about_mention2_title">Sean Grondin - Ex grafico</string>
@@ -268,8 +268,8 @@
   <string name="unlock_scramble_pin_layout_title">Disposizione casuale</string>
   <string name="unlock_scramble_pin_layout_summary">Mescola la disposizione del tastierino PIN per lo sblocco del dispositivo</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Dati mobili</string>
+  <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
+  <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
 </resources>

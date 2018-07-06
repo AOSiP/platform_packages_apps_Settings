@@ -71,7 +71,7 @@
   <string name="custom_light_off_time_title">"LEDの点滅している時の消えている時間（ms）"</string>
   <string name="app_notifications_info_desc">上記のいずれかのチャンネルをタップして、LEDの色やその他のオプションを設定します。</string>
   <string name="value_equals_default">既定</string>
-  <string name="show_light_on_zen_title">おやすみモードの間はライトを点滅させる</string>
+  <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">音量レベル</string>
   <string name="volume_steps_alarm_title">音量レベル : アラーム</string>
@@ -123,8 +123,8 @@
   <!-- Whether the dots will be drawn when using the lockscreen pattern -->
   <string name="lockpattern_settings_enable_dots_title">パターンのドットを表示</string>
   <!-- Lock screen vibrate settings -->
-  <string name="lockscreen_vibrate_enabled_title">マナーモード</string>
-  <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動</string>
+  <string name="lockscreen_vibrate_enabled_title">振動</string>
+  <string name="lockscreen_vibrate_enabled_head">ロック解除時に振動させる</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">クイックアンロック</string>
   <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
@@ -205,8 +205,8 @@
   <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
   <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
   <string name="app_ops_request_install_packages">パッケージのインストール</string>
-  <string name="app_ops_picture_in_picture">pip</string>
-  <string name="app_ops_app_start_foreground">フォアグラウンドで起動</string>
+  <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
+  <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
   <string name="app_ops_answer_phone_calls">着信への応答</string>
   <string name="app_ops_boot_completed">自動実行</string>
   <!-- Notification log -->
@@ -267,8 +267,8 @@
   <string name="unlock_scramble_pin_layout_title">ランダムなレイアウト</string>
   <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINレイアウトをランダムにする</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">モバイルデータ</string>
+  <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
+  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ使用量</string>
+  <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
 </resources>

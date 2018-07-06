@@ -270,8 +270,8 @@
   <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
   <string name="unlock_scramble_pin_layout_summary">Переставлять кнопки ввода PIN-кода в случайном порядке</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Мобильные данные</string>
+  <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+  <string name="data_usage_app_restrict_wifi">Данные Wi-Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi-Fi</string>
 </resources>

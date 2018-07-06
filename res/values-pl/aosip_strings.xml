@@ -59,7 +59,7 @@
   <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran, gdy zostanie podłączone lub rozłączone źródło zasilania</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">Jasność</string>
-  <string name="night_brightness_value_title">Mniejsza jasność przy świetle nocnym?</string>
+  <string name="night_brightness_value_title">Mniejsza jasność jeśli funkcja światło nocne jest włączona?</string>
   <string name="night_bright_disabled">Wyłączony</string>
   <string name="night_bright_minimum">Minimalna jasność</string>
   <string name="night_bright_low">Niska jasność</string>
@@ -242,9 +242,9 @@
   <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
   <plurals name="show_dev_countdown_custom">
     <item quantity="one">Jesteś teraz <xliff:g id="step_count">%1$d</xliff:g> krok od włączenia opcji programistycznych.</item>
-    <item quantity="few">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
-    <item quantity="many">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
-    <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling developer options.</item>
+    <item quantity="few">Jesteś teraz <xliff:g id="step_count">%1$d</xliff:g> kroków od włączenia opcji programistycznych.</item>
+    <item quantity="many">Jesteś teraz <xliff:g id="step_count">%1$d</xliff:g> kroków od włączenia opcji programistycznych.</item>
+    <item quantity="other">Jesteś teraz <xliff:g id="step_count">%1$d</xliff:g> kroki od włączenia opcji programistycznych.</item>
   </plurals>
   <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
   <string name="show_dev_on_custom">Włączono opcje programistyczne! Ostrożnie!</string>
@@ -270,8 +270,8 @@
   <string name="unlock_scramble_pin_layout_title">Pomieszany układ</string>
   <string name="unlock_scramble_pin_layout_summary">Pomieszany układ cyfr przy odblokowywaniu urządzenia kodem PIN</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Komórkowa transmisja danych</string>
+  <string name="data_usage_app_restrict_data_summary">Włącz użycie danych komórkowych</string>
+  <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
 </resources>
