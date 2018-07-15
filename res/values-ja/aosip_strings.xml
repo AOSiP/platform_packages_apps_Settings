@@ -74,13 +74,13 @@
   <string name="show_light_on_zen_title">マナーモードの間はライトを点滅させる</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">音量レベル</string>
-  <string name="volume_steps_alarm_title">音量レベル : アラーム</string>
-  <string name="volume_steps_dtmf_title">音量レベル : DTMF</string>
-  <string name="volume_steps_music_title">音量レベル : メディア</string>
-  <string name="volume_steps_notification_title">音量レベル : 通知</string>
-  <string name="volume_steps_ring_title">音量レベル : 着信音</string>
-  <string name="volume_steps_system_title">音量レベル : システム</string>
-  <string name="volume_steps_voice_call_title">音量レベル : 音声通話</string>
+  <string name="volume_steps_alarm_title">音量レベル：アラーム</string>
+  <string name="volume_steps_dtmf_title">音量レベル：DTMF</string>
+  <string name="volume_steps_music_title">音量レベル：メディア</string>
+  <string name="volume_steps_notification_title">音量レベル：通知</string>
+  <string name="volume_steps_ring_title">音量レベル：着信音</string>
+  <string name="volume_steps_system_title">音量レベル：システム</string>
+  <string name="volume_steps_voice_call_title">音量レベル：音声通話</string>
   <string name="volume_steps_reset">リセット</string>
   <string name="volume_steps_60">60</string>
   <string name="volume_steps_45">45</string>
@@ -105,9 +105,9 @@
   <string name="expanded_hide_status">ステータスバーを隠す</string>
   <string name="expanded_hide_navigation">ナビゲーションバーを隠す</string>
   <string name="expanded_hide_both">両方を隠す</string>
-  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「すべて拡張」をOFFにしてください。</string>
+  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「すべて拡張」をオフにしてください</string>
   <string name="expanded_desktop_state">拡張デスクトップの状態</string>
-  <string name="expanded_enabled_for_all">すべて拡張</string>
+  <string name="expanded_enabled_for_all">すべて拡張済</string>
   <string name="expanded_user_configurable">ユーザー設定</string>
   <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
   <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
@@ -205,7 +205,7 @@
   <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
   <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
   <string name="app_ops_request_install_packages">パッケージのインストール</string>
-  <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
+  <string name="app_ops_picture_in_picture">Picture in Picture</string>
   <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
   <string name="app_ops_answer_phone_calls">着信への応答</string>
   <string name="app_ops_boot_completed">自動実行</string>
@@ -251,9 +251,9 @@
   <string name="proximity_wake_title">誤起動を防止</string>
   <string name="proximity_wake_summary">画面をスリープ解除する前に接近センサーを確認する</string>
   <!-- Default USB configuration -->
-  <string name="select_default_usb_configuration_title">標準のUSB設定を選択</string>
+  <string name="select_default_usb_configuration_title">既定のUSB設定を選択</string>
   <string name="select_default_usb_configuration_dialog_title">USB設定の選択</string>
-  <string name="select_usb_default_confguration_warning">警告：標準のUSB設定はデバイスロック時も有効です！\n\n本当に設定を有効にしますか？</string>
+  <string name="select_usb_default_confguration_warning">警告：既定のUSB設定はデバイスロック時も有効です！\n\n本当に設定を有効にしますか？</string>
   <!-- USB paranoia mode -->
   <string name="usb_paranoia_connect_title">USB セキュア接続</string>
   <string name="usb_paranoia_connect_summary">セキュリティロック画面時にUSB接続した時は充電だけ有効化するようにする</string>
