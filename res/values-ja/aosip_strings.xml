@@ -205,7 +205,7 @@
   <string name="app_ops_accessibility_volume">ユーザー補助の音量</string>
   <string name="app_ops_read_phone_numbers">電話番号の読み取り</string>
   <string name="app_ops_request_install_packages">パッケージのインストール</string>
-  <string name="app_ops_picture_in_picture">Picture in Picture</string>
+  <string name="app_ops_picture_in_picture">ピクチャーインピクチャー</string>
   <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
   <string name="app_ops_answer_phone_calls">着信への応答</string>
   <string name="app_ops_boot_completed">自動実行</string>
@@ -229,7 +229,7 @@
   <string name="sub_activate_failed">アクティベーションに失敗しました</string>
   <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
   <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
-  <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください。</string>
+  <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
   <string name="theme_applied_toast">テーマが適用されました</string>
   <string name="substratum_installed_title">Substratumオーバーレイがインストールされているため、システムテーマは使用できません。続行するには、Android システムを対象とするすべてのオーバーレイをアンインストールしてください。</string>
   <!-- Format string for fingerprint location message -->
