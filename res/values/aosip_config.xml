@@ -20,4 +20,7 @@
          and currently depends on QC's proprietary telephony stack -->
     <bool name="config_enableManualSubProvisioning">true</bool>
 
+    <!-- Whether USB host mode is supported -->
+    <bool name="config_isUsbDataRoleHostSupported">true</bool>
+
 </resources>
