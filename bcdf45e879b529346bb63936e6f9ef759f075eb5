@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2053e953_b4658dda",
+        "filename": "src/com/android/settings/sim/SimSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-08-16T04:01:29Z",
+      "side": 1,
+      "message": "Should do something like this in SystemUI instead of reverting maibi, gotta check later \u003e.\u003c\nDon\u0027t merge yet, I\u0027ll try to push something today/tomorrow.",
+      "revId": "bcdf45e879b529346bb63936e6f9ef759f075eb5",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    }
+  ]
+}
