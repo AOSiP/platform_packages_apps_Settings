@@ -44,6 +44,11 @@
   <!-- OwlsNest -->
   <string name="owlsnest_title">OwlsNest</string>
   <string name="owlsnest_activity_summary">Το σπίτι του Κρόνικ</string>
+  <!-- Hardware info -->
+  <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+  <string name="platform_revision">Platform</string>
+  <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+  <string name="total_ram">Total RAM</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Εφ/κός κωδικός desktop</string>
   <!-- Pixel color on sim card -->
@@ -268,8 +273,8 @@
   <string name="unlock_scramble_pin_layout_title">Ανακάτεμα κουμπιών</string>
   <string name="unlock_scramble_pin_layout_summary">Ανακάτεμα των πλήκτρων εισαγωγής PIN κατά το ξεκλείδωμα της συσκευής</string>
   <!-- Per-app data restrictions -->
-  <string name="data_usage_app_restrict_data">Cellular data</string>
-  <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-  <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-  <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+  <string name="data_usage_app_restrict_data">Δεδομένα κινητής τηλεφωνίας</string>
+  <string name="data_usage_app_restrict_data_summary">Ενεργοποίηση χρήσης δεδομένων κινητής τηλεφωνίας</string>
+  <string name="data_usage_app_restrict_wifi">Δεδομένα Wi\u2011Fi</string>
+  <string name="data_usage_app_restrict_wifi_summary">Ενεργοποίηση χρήσης δεδομένων Wi\u2011Fi</string>
 </resources>

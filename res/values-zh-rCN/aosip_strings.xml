@@ -44,6 +44,11 @@
   <!-- OwlsNest -->
   <string name="owlsnest_title">鹰巢</string>
   <string name="owlsnest_activity_summary">Kronic 之家</string>
+  <!-- Hardware info -->
+  <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+  <string name="platform_revision">平台</string>
+  <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+  <string name="total_ram">内存总计</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">桌面备份密码</string>
   <!-- Pixel color on sim card -->

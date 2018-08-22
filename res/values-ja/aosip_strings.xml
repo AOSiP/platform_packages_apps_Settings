@@ -43,7 +43,12 @@
   <string name="update_settings_summary">ROMの最新バージョンを確認</string>
   <!-- OwlsNest -->
   <string name="owlsnest_title">OwlsNest</string>
-  <string name="owlsnest_activity_summary">Home Of the Kronic</string>
+  <string name="owlsnest_activity_summary">Kronicの住処</string>
+  <!-- Hardware info -->
+  <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+  <string name="platform_revision">プラットフォーム</string>
+  <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+  <string name="total_ram">RAMの合計</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">PCバックアップパスワード</string>
   <!-- Pixel color on sim card -->

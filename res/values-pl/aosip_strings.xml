@@ -44,6 +44,11 @@
   <!-- OwlsNest -->
   <string name="owlsnest_title">Konfiguruj urządzenie</string>
   <string name="owlsnest_activity_summary">Wkrocz do świata modyfikacji systemu AOSiP</string>
+  <!-- Hardware info -->
+  <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+  <string name="platform_revision">Platform</string>
+  <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+  <string name="total_ram">Total RAM</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Hasło kopii zapasowej</string>
   <!-- Pixel color on sim card -->
