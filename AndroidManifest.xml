@@ -3359,6 +3359,19 @@
                 android:resource="@string/owlsnest_activity_summary"/>
         </activity>
 
+        <!-- Heads up settings activity. -->
+        <activity android:name="Settings$HeadsUpCategoryActivity"
+                android:label="@string/headsup_category"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.aosip.owlsnest.notification.HeadsUpCategory" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+        </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
