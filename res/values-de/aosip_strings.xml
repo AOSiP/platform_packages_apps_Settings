@@ -277,4 +277,7 @@
   <string name="data_usage_app_restrict_data_summary">Mobile Datennutzung aktivieren</string>
   <string name="data_usage_app_restrict_wifi">WLAN-Daten</string>
   <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable colored status - navigation bars when battery saver is activated</string>
 </resources>

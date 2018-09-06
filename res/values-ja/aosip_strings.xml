@@ -39,7 +39,7 @@
   <!-- AOSiP device maintainer name -->
   <string name="device_maintainer">メンテナー</string>
   <!-- AOSiP Updater -->
-  <string name="update_settings_title">AOSiP アップデーター</string>
+  <string name="update_settings_title">AOSiPアップデーター</string>
   <string name="update_settings_summary">ROMの最新バージョンを確認</string>
   <!-- OwlsNest -->
   <string name="owlsnest_title">OwlsNest</string>
@@ -60,7 +60,7 @@
   <string name="increasing_ring_min_volume_title">スタート音量</string>
   <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
   <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>
+  <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除させる</string>
   <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯させる</string>
   <!-- Advanced night mode brightness -->
   <string name="night_brightness_category">画面の明るさ</string>
@@ -110,9 +110,9 @@
   <string name="expanded_hide_status">ステータスバーを隠す</string>
   <string name="expanded_hide_navigation">ナビゲーションバーを隠す</string>
   <string name="expanded_hide_both">両方を隠す</string>
-  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「すべて拡張」をオフにしてください</string>
+  <string name="expanded_nothing_to_show">アプリごとの拡張の状態のカスタム設定を追加するには「全て拡張」をオフにしてください</string>
   <string name="expanded_desktop_state">拡張デスクトップの状態</string>
-  <string name="expanded_enabled_for_all">すべて拡張済</string>
+  <string name="expanded_enabled_for_all">全て拡張</string>
   <string name="expanded_user_configurable">ユーザー設定</string>
   <string name="expanded_desktop_style">拡張デスクトップのスタイル</string>
   <string name="expanded_desktop_style_description">既定の拡張デスクトップスタイルを選択する</string>
@@ -227,7 +227,7 @@
   <string name="sim_enabler_need_switch_data_service">このSIMは無効になり、SIM <xliff:g id="slotid">%1$s</xliff:g>がデータサービスに使用されます。続けてもよろしいですか？</string>
   <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
   <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
-  <string name="sim_enabler_both_inactive">すべてのSIMカードを無効にはできません</string>
+  <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
   <string name="sim_enabler_enabling">アクティベート中\u2026</string>
   <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
   <string name="sub_activate_success">SIMをアクティベートしました</string>
@@ -236,7 +236,7 @@
   <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
   <string name="applying_theme_toast">テーマを適用中です。しばらくお待ちください...</string>
   <string name="theme_applied_toast">テーマが適用されました</string>
-  <string name="substratum_installed_title">Substratumオーバーレイがインストールされているため、システムテーマは使用できません。続行するには、Android システムを対象とするすべてのオーバーレイをアンインストールしてください。</string>
+  <string name="substratum_installed_title">Substratumオーバーレイがインストールされているため、システムテーマは使用できません。続行するには、Androidシステムを対象とする全てのオーバーレイをアンインストールしてください。</string>
   <!-- Format string for fingerprint location message -->
   <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
   <!-- Fingerprint sensor locations -->
@@ -258,7 +258,7 @@
   <!-- Default USB configuration -->
   <string name="select_default_usb_configuration_title">既定のUSB設定を選択</string>
   <string name="select_default_usb_configuration_dialog_title">USB設定の選択</string>
-  <string name="select_usb_default_confguration_warning">警告：既定のUSB設定はデバイスロック時も有効です！\n\n本当に設定を有効にしますか？</string>
+  <string name="select_usb_default_confguration_warning">警告：既定のUSB設定は端末ロック時も有効です！\n\n本当に設定を有効にしますか？</string>
   <!-- USB paranoia mode -->
   <string name="usb_paranoia_connect_title">USB セキュア接続</string>
   <string name="usb_paranoia_connect_summary">セキュリティロック画面時にUSB接続した時は充電だけ有効化するようにする</string>
@@ -276,4 +276,7 @@
   <string name="data_usage_app_restrict_data_summary">モバイルデータ使用量を有効化する</string>
   <string name="data_usage_app_restrict_wifi">Wi\u2011Fi データ使用量</string>
   <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable colored status - navigation bars when battery saver is activated</string>
 </resources>

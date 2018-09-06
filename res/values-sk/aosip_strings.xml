@@ -279,4 +279,7 @@
   <string name="data_usage_app_restrict_data_summary">Povoliť používanie mobilných dát</string>
   <string name="data_usage_app_restrict_wifi">Wi\u2011Fi dáta</string>
   <string name="data_usage_app_restrict_wifi_summary">Povoliť používanie Wi\u2011Fi dát</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable colored status - navigation bars when battery saver is activated</string>
 </resources>

@@ -46,9 +46,9 @@
   <string name="owlsnest_activity_summary">Home Of the Kronic</string>
   <!-- Hardware info -->
   <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-  <string name="platform_revision">Platform</string>
+  <string name="platform_revision">Piattaforma</string>
   <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-  <string name="total_ram">Total RAM</string>
+  <string name="total_ram">RAM totale</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Password di backup locale</string>
   <!-- Pixel color on sim card -->
@@ -277,4 +277,7 @@
   <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
   <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
   <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable colored status - navigation bars when battery saver is activated</string>
 </resources>

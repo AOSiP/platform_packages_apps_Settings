@@ -46,9 +46,9 @@
   <string name="owlsnest_activity_summary">Дом Кроника</string>
   <!-- Hardware info -->
   <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-  <string name="platform_revision">Platform</string>
+  <string name="platform_revision">Платформа</string>
   <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-  <string name="total_ram">Total RAM</string>
+  <string name="total_ram">Всего ОЗУ</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Пароль для резервного копирования</string>
   <!-- Pixel color on sim card -->
@@ -279,4 +279,7 @@
   <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
   <string name="data_usage_app_restrict_wifi">Данные Wi-Fi</string>
   <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi-Fi</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable colored status - navigation bars when battery saver is activated</string>
 </resources>

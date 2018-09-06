@@ -277,4 +277,7 @@
   <string name="data_usage_app_restrict_data_summary">Habilitar el uso de datos móviles</string>
   <string name="data_usage_app_restrict_wifi">Datos sobre Wi-Fi</string>
   <string name="data_usage_app_restrict_wifi_summary">Habilitar el uso de datos Wi\u2011Fi</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable colored status - navigation bars when battery saver is activated</string>
 </resources>

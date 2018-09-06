@@ -46,9 +46,9 @@
   <string name="owlsnest_activity_summary">Wkrocz do świata modyfikacji systemu AOSiP</string>
   <!-- Hardware info -->
   <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-  <string name="platform_revision">Platform</string>
+  <string name="platform_revision">Platforma</string>
   <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-  <string name="total_ram">Total RAM</string>
+  <string name="total_ram">Pamięć RAM telefonu</string>
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
   <string name="local_backup_password_title">Hasło kopii zapasowej</string>
   <!-- Pixel color on sim card -->
@@ -279,4 +279,7 @@
   <string name="data_usage_app_restrict_data_summary">Włącz użycie danych komórkowych</string>
   <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
   <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
+  <!-- Battery saver color -->
+  <string name="battery_saver_color_title">Warning color</string>
+  <string name="battery_saver_color_summary">Enable colored status - navigation bars when battery saver is activated</string>
 </resources>
