@@ -146,6 +146,10 @@
             settings:userRestriction="no_ambient_display" />
 
         <Preference
+            android:key="ambient_display_custom"
+            android:title="@string/ambient_display_screen_title" />
+
+        <Preference
             android:key="force_ambient_for_media_pref"
             android:fragment="com.aosip.owlsnest.notification.AmbientTicker"
             android:title="@string/force_ambient_for_media_pref_title"
