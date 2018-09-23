@@ -71,6 +71,9 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
 
+    <!-- Ambient display -->
+    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
+
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Enable full gesture mode</string>
     <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
