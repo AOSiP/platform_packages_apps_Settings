@@ -46,6 +46,21 @@
         <item>300000</item>
     </string-array>
 
+    <!-- QS tile styles -->
+    <string-array name="qs_tile_style_selector_entries" translatable="false">
+        <item>@string/qs_tile_style_default</item>
+        <item>@string/qs_tile_style_circle_trim</item>
+        <item>@string/qs_tile_style_two_tone_circle</item>
+        <item>@string/qs_tile_style_squircle_trim</item>
+    </string-array>
+
+    <string-array name="qs_tile_style_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
          config_fingerprintSensorLocation -->
     <string-array name="security_settings_fingerprint_sensor_locations" translatable="false">
@@ -421,4 +436,5 @@
         <item>@string/app_ops_permissions_ignored</item>
         <item>@string/app_ops_permissions_always_ask</item>
     </string-array>
+
 </resources>
