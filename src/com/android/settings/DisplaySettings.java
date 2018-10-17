@@ -33,6 +33,7 @@ import com.android.settings.display.DarkUIPreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
 import com.android.settings.display.NightDisplayPreferenceController;
 import com.android.settings.display.NightModePreferenceController;
+import com.android.settings.display.ProximityOnWakePreferenceController;
 import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
@@ -40,6 +41,7 @@ import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.display.WallpaperPreferenceController;
+import com.android.settings.display.QsTileStylePreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -90,6 +92,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new LiftToWakePreferenceController(context));
         controllers.add(new NightDisplayPreferenceController(context));
         controllers.add(new NightModePreferenceController(context));
+        controllers.add(new QsTileStylePreferenceController(context));
         controllers.add(new ScreenSaverPreferenceController(context));
         controllers.add(new AccentPickerPreferenceController(context, lifecycle, fragment));
         controllers.add(new AmbientDisplayPreferenceController(
