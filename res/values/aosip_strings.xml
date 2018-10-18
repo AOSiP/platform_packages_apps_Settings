@@ -94,6 +94,10 @@
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
 
+    <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
