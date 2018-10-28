@@ -138,7 +138,22 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.aosip.owlsnest.OwlsNestSettings;
+import com.aosip.owlsnest.advanced.SystemCategory;
+import com.aosip.owlsnest.buttons.PowermenuCategory;
+import com.aosip.owlsnest.buttons.VolumeCategory;
+import com.aosip.owlsnest.gesture.GestureCategory;
+import com.aosip.owlsnest.lockscreen.OptionsCategory;
+import com.aosip.owlsnest.navigation.NavigationCategory;
+import com.aosip.owlsnest.notification.BatteryLightSettings;
 import com.aosip.owlsnest.notification.HeadsUpCategory;
+import com.aosip.owlsnest.notification.NotificationCategory;
+import com.aosip.owlsnest.quicksettings.ExpandedCategory;
+import com.aosip.owlsnest.recent.StockRecentCategory;
+import com.aosip.owlsnest.statusbar.BatteryCategory;
+import com.aosip.owlsnest.statusbar.CarrierCategory;
+import com.aosip.owlsnest.statusbar.ClockDateSettings;
+import com.aosip.owlsnest.statusbar.IconsCategory;
+import com.aosip.owlsnest.statusbar.TrafficCategory;
 
 public class SettingsGateway {
 
@@ -265,7 +280,22 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             OwlsNestSettings.class.getName(),
-            HeadsUpCategory.class.getName()
+            HeadsUpCategory.class.getName(),
+            SystemCategory.class.getName(),
+            PowermenuCategory.class.getName(),
+            VolumeCategory.class.getName(),
+            GestureCategory.class.getName(),
+            OptionsCategory.class.getName(),
+            NavigationCategory.class.getName(),
+            BatteryLightSettings.class.getName(),
+            NotificationCategory.class.getName(),
+            ExpandedCategory.class.getName(),
+            StockRecentCategory.class.getName(),
+            BatteryCategory.class.getName(),
+            CarrierCategory.class.getName(),
+            ClockDateSettings.class.getName(),
+            IconsCategory.class.getName(),
+            TrafficCategory.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
