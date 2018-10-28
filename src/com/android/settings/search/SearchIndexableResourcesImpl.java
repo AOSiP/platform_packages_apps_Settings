@@ -98,6 +98,23 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import com.aosip.owlsnest.advanced.SystemCategory;
+import com.aosip.owlsnest.buttons.PowermenuCategory;
+import com.aosip.owlsnest.buttons.VolumeCategory;
+import com.aosip.owlsnest.gesture.GestureCategory;
+import com.aosip.owlsnest.lockscreen.OptionsCategory;
+import com.aosip.owlsnest.navigation.NavigationCategory;
+import com.aosip.owlsnest.notification.BatteryLightSettings;
+import com.aosip.owlsnest.notification.HeadsUpCategory;
+import com.aosip.owlsnest.notification.NotificationCategory;
+import com.aosip.owlsnest.quicksettings.ExpandedCategory;
+import com.aosip.owlsnest.recent.StockRecentCategory;
+import com.aosip.owlsnest.statusbar.BatteryCategory;
+import com.aosip.owlsnest.statusbar.CarrierCategory;
+import com.aosip.owlsnest.statusbar.ClockDateSettings;
+import com.aosip.owlsnest.statusbar.IconsCategory;
+import com.aosip.owlsnest.statusbar.TrafficCategory;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -191,6 +208,23 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
+        //AOSiP
+        addIndex(HeadsUpCategory.class);
+        addIndex(SystemCategory.class);
+        addIndex(PowermenuCategory.class);
+        addIndex(VolumeCategory.class);
+        addIndex(GestureCategory.class);
+        addIndex(OptionsCategory.class);
+        addIndex(NavigationCategory.class);
+        addIndex(BatteryLightSettings.class);
+        addIndex(NotificationCategory.class);
+        addIndex(ExpandedCategory.class);
+        addIndex(StockRecentCategory.class);
+        addIndex(BatteryCategory.class);
+        addIndex(CarrierCategory.class);
+        addIndex(ClockDateSettings.class);
+        addIndex(IconsCategory.class);
+        addIndex(TrafficCategory.class);
     }
 
     @Override

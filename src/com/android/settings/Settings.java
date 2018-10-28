@@ -168,5 +168,19 @@ public class Settings extends SettingsActivity {
     // AOSiP Settings
     public static class OwlsNestSettingsActivity extends SettingsActivity {}
     public static class HeadsUpCategoryActivity extends SettingsActivity { /* empty */ }
-
+    public static class SystemCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class PowermenuCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class VolumeCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class GestureCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class OptionsCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class NavigationCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class BatteryLightSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class NotificationCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class ExpandedCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class StockRecentCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class BatteryCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class CarrierCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class ClockDateSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class IconsCategoryActivity extends SettingsActivity { /* empty */ }
+    public static class TrafficCategoryActivity extends SettingsActivity { /* empty */ }
 }
