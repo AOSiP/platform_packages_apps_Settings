@@ -59,4 +59,9 @@
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
+    <!-- System theme -->
+    <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
+    <string name="system_theme_light">Light</string>
+    <string name="system_theme_dark">Dark</string>
+
 </resources>
