@@ -46,4 +46,11 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Flashlight with power button</string>
+    <string name="double_tap_power_flashlight_title">Hold in button while screen is off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double-tap power for flashlight</string>
+    <string name="torch_power_button_gesture_lp">Long-press power for flashlight</string>
+
 </resources>
