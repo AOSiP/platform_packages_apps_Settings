@@ -23,6 +23,10 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text" translatable="false"><xliff:g id="package_name">%1$s</xliff:g></string>
 
+    <!-- Nav Gesture -->
+    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_summary">This mode will disable also the back button and you will be able to trigger a back button action by a left swipe on navbar. Right swipe will still trigger the last-app action.</string>
+
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
