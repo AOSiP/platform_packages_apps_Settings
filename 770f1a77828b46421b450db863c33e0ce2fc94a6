@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "323c9265_206342c2",
+        "filename": "res/xml/security_lockscreen_settings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2018-11-06T14:13:58Z",
+      "side": 1,
+      "message": "This preference shouldn\u0027t be here",
+      "revId": "770f1a77828b46421b450db863c33e0ce2fc94a6",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": true
+    }
+  ]
+}
