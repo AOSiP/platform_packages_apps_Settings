@@ -90,7 +90,12 @@ import android.util.Log;
             return FontInfo.getDefaultFontInfo();
         }
     }
-     private boolean isPackageInstalled(String package_name, Context context) {
+	
+	public void stopProgress() {
+        mFontPreference.stopProgress();
+    }
+    
+	private boolean isPackageInstalled(String package_name, Context context) {
         try {
             PackageManager pm = context.getPackageManager();
             pm.getPackageInfo(package_name, PackageManager.GET_ACTIVITIES);
