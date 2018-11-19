@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- package com.android.settings.display;
- import java.util.ArrayList;
+package com.android.settings.display;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
- import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.aosip.owlsnest.AccentPicker;
- import android.app.Fragment;
+import android.app.Fragment;
 import android.content.Context;
 import android.content.FontInfo;
 import android.content.IFontService;
@@ -39,14 +39,15 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceClickListener;
 import android.text.TextUtils;
 import android.util.Log;
- public class FontPickerPreferenceController extends AbstractPreferenceController
-        implements PreferenceControllerMixin, LifecycleObserver, OnResume {
+public class FontPickerPreferenceController extends AbstractPreferenceController
+    implements PreferenceControllerMixin, LifecycleObserver, OnResume {
+
     private static final String TAG = "FontPickerPreferenceController";
     private static final String KEY_FONT_PICKER_FRAGMENT_PREF = "custom_font";
     private static final String SUBS_PACKAGE = "projekt.substratum";
-     private FontDialogPreference mFontPreference;
+    private FontDialogPreference mFontPreference;
     private IFontService mFontService;
-     public FontPickerPreferenceController(Context context, Lifecycle lifecycle, Fragment parent) {
+    public FontPickerPreferenceController(Context context, Lifecycle lifecycle, Fragment parent) {
         super(context);
         if (lifecycle != null) {
             lifecycle.addObserver(this);
@@ -54,7 +55,8 @@ import android.util.Log;
         mFontService = IFontService.Stub.asInterface(
                 ServiceManager.getService("dufont"));
     }
-     @Override
+
+    @Override
     public void onResume() {
         if (mFontPreference == null) {
             return;
@@ -66,7 +68,8 @@ import android.util.Log;
                     com.android.settings.R.string.disable_fonts_installed_title));
         }
     }
-     @Override
+
+    @Override
     public void displayPreference(PreferenceScreen screen) {
         mFontPreference = (FontDialogPreference) screen.findPreference(KEY_FONT_PICKER_FRAGMENT_PREF);
         if (!isPackageInstalled(SUBS_PACKAGE, mContext)) {
@@ -75,22 +78,30 @@ import android.util.Log;
             mFontPreference.setEnabled(false);
         }
     }
-     @Override
+
+    @Override
     public boolean isAvailable() {
         return true;
     }
-     @Override
+
+    @Override
     public String getPreferenceKey() {
         return KEY_FONT_PICKER_FRAGMENT_PREF;
     }
-     private FontInfo getCurrentFontInfo() {
+
+    private FontInfo getCurrentFontInfo() {
         try {
             return mFontService.getFontInfo();
         } catch (RemoteException e) {
             return FontInfo.getDefaultFontInfo();
         }
     }
-     private boolean isPackageInstalled(String package_name, Context context) {
+
+    public void stopProgress() {
+        mFontPreference.stopProgress();
+    }
+
+    private boolean isPackageInstalled(String package_name, Context context) {
         try {
             PackageManager pm = context.getPackageManager();
             pm.getPackageInfo(package_name, PackageManager.GET_ACTIVITIES);
