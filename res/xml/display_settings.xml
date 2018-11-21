@@ -86,12 +86,6 @@
         android:title="@string/screensaver_settings_title"
         android:fragment="com.android.settings.dream.DreamSettings" />
 
-    <com.android.settingslib.RestrictedPreference
-        android:key="ambient_display"
-        android:title="@string/ambient_display_screen_title"
-        android:fragment="com.android.settings.display.AmbientDisplaySettings"
-        settings:userRestriction="no_ambient_display" />
-
     <!-- Hide night mode for now
     <ListPreference
         android:key="night_mode"
@@ -119,6 +113,25 @@
         android:key="theme"
         android:title="@string/color_theme"
         android:summary="@string/summary_placeholder" />
+
+    <PreferenceCategory
+        android:key="ambient_display_category"
+        android:title="@string/ambient_display_category">
+
+        <com.android.settingslib.RestrictedPreference
+            android:key="ambient_display"
+            android:title="@string/ambient_display_screen_title"
+            android:fragment="com.android.settings.display.AmbientDisplaySettings"
+            settings:userRestriction="no_ambient_display" />
+
+        <Preference
+            android:key="force_ambient_for_media_pref"
+            android:fragment="com.aosip.owlsnest.notification.AmbientTicker"
+            android:title="@string/force_ambient_for_media_pref_title"
+            android:summary="@string/force_ambient_for_media_pref_summary"
+            settings:userRestriction="no_ambient_display" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="theme_category"
