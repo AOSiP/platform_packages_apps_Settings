@@ -98,6 +98,7 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+import com.aosip.owlsnest.advanced.SmartPixels;
 import com.aosip.owlsnest.advanced.SystemCategory;
 import com.aosip.owlsnest.buttons.PowermenuCategory;
 import com.aosip.owlsnest.buttons.VolumeCategory;
@@ -223,6 +224,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(ClockDateSettings.class);
         addIndex(IconsCategory.class);
         addIndex(TrafficCategory.class);
+        addIndex(SmartPixels.class);
     }
 
     @Override
