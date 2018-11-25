@@ -109,6 +109,17 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+    <Preference
+        android:key="vr_display_pref"
+        android:title="@string/display_vr_pref_title"
+        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+    <com.aosip.owlsnest.preference.SystemSettingSwitchPreference
+        android:key="wake_when_plugged_or_unplugged"
+        android:title="@string/wake_when_plugged_or_unplugged_title"
+        android:summary="@string/wake_when_plugged_or_unplugged_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="theme"
         android:title="@string/color_theme"
@@ -149,11 +160,6 @@
             android:title="@string/theme_accent_picker_title" />
 
      </PreferenceCategory>
-
-    <Preference
-        android:key="vr_display_pref"
-        android:title="@string/display_vr_pref_title"
-        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
     <PreferenceCategory
         android:key="density_category"
