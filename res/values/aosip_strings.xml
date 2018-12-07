@@ -73,7 +73,7 @@
     <string name="less_notification_sounds_5m">Every 5 minutes</string>
 
     <!-- Manage applications, package string displayed in app snippet -->
-    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <string name="packagename_text" translatable="false"><xliff:g id="package_name">%1$s</xliff:g></string>
 
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
