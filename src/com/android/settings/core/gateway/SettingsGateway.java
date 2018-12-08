@@ -144,11 +144,11 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.aosip.owlsnest.OwlsNestSettings;
 import com.aosip.owlsnest.advanced.SystemCategory;
+import com.aosip.owlsnest.buttons.NavigationCategory;
 import com.aosip.owlsnest.buttons.PowermenuCategory;
 import com.aosip.owlsnest.buttons.VolumeCategory;
 import com.aosip.owlsnest.gesture.GestureCategory;
 import com.aosip.owlsnest.lockscreen.OptionsCategory;
-import com.aosip.owlsnest.navigation.NavigationCategory;
 import com.aosip.owlsnest.notification.HeadsUpCategory;
 import com.aosip.owlsnest.notification.NotificationCategory;
 import com.aosip.owlsnest.quicksettings.ExpandedCategory;
