@@ -75,4 +75,8 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
+    <!-- Smart Clock -->
+    <string name="use_smart_clock">Smart Clock</string>
+    <string name="use_smart_clock_summary">Show statusbar clock periodically</string>
+
 </resources>
