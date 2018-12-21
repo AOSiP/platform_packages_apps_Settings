@@ -23,20 +23,20 @@
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Home Of the Kronic</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Rotação</string>
+    <string name="display_rotation_disabled">Desativada</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Modos de rotação</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="battery_stats_reset">Repor estatísticas</string>
+    <string name="battery_stats_message">O histórico de estatísticas da bateria vai ser apagado</string>
     <string name="ok_string">Ok</string>
     <!-- Screenshot shutter sound -->
-    <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
+    <string name="screenshot_shutter_sound_title">Som quando tira captura de ecrã</string>
     <!-- Ambient category -->
     <string name="ambient_display_category">Ambient options</string>
     <!-- Wake on plug -->
@@ -53,32 +53,32 @@
     <string name="less_notification_sounds_title">Less frequent notification sounds</string>
     <string name="less_notification_sounds_summary">Play the notification sound of each app only once per set time period</string>
     <string name="less_notification_sounds_default">Default Behaviour</string>
-    <string name="less_notification_sounds_3s">Every 3 seconds</string>
-    <string name="less_notification_sounds_5s">Every 5 seconds</string>
-    <string name="less_notification_sounds_10s">Every 10 seconds</string>
-    <string name="less_notification_sounds_15s">Every 15 seconds</string>
-    <string name="less_notification_sounds_30s">Every 30 seconds</string>
-    <string name="less_notification_sounds_45s">Every 45 seconds</string>
-    <string name="less_notification_sounds_1m">Every 1 minute</string>
-    <string name="less_notification_sounds_2m">Every 2 minutes</string>
-    <string name="less_notification_sounds_5m">Every 5 minutes</string>
+    <string name="less_notification_sounds_3s">A cada 30 segundos</string>
+    <string name="less_notification_sounds_5s">A cada 5 segundos</string>
+    <string name="less_notification_sounds_10s">A cada 10 segundos</string>
+    <string name="less_notification_sounds_15s">A cada 15 segundos</string>
+    <string name="less_notification_sounds_30s">A cada 30 segundos</string>
+    <string name="less_notification_sounds_45s">A cada 45 segundos</string>
+    <string name="less_notification_sounds_1m">A cada minuto</string>
+    <string name="less_notification_sounds_2m">A cada 2 minutos</string>
+    <string name="less_notification_sounds_5m">A cada 5 minutos</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Custom light color -->
-    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_title">Cor da luz</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
     <string name="value_equals_default">def</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_volume_option_title">Volume de toque crescente</string>
+    <string name="increasing_ring_min_volume_title">Volume inicial</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Density category -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Opções de densidade</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Dados móveis</string>
+    <string name="data_usage_app_restrict_data_summary">Ativar a utilização de dados móveis</string>
+    <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Ativar a utilização de dados Wi\u2011Fi</string>
     <!-- FP swype dismiss -->
     <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>

@@ -18,34 +18,34 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
-    <string name="aosip_version_default">Unknown</string>
+    <string name="aosip_version_default">Unbekannt</string>
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Ursprungsland der Kronic</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_title">Umdrehung</string>
+    <string name="display_rotation_disabled">Deaktiviert</string>
     <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_category_title">Rotationsmodus</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">Statistiken rücksetzen</string>
+    <string name="battery_stats_message">Die Batterieverlauf statistiken werden rückgesetzt</string>
+    <string name="ok_string">iO</string>
     <!-- Screenshot shutter sound -->
-    <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
+    <string name="screenshot_shutter_sound_title">Screenshot-Auslöseton</string>
     <!-- Ambient category -->
-    <string name="ambient_display_category">Ambient options</string>
+    <string name="ambient_display_category">Ambient Optionen</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Beim Anschließen aufwecken</string>
     <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle das Display anschalten</string>
     <!-- Vibrate on plug -->
-    <string name="vibration_on_charge_state_changed_title">Vibrate on USB plug</string>
+    <string name="vibration_on_charge_state_changed_title">Vibrieren beim Anschließen</string>
     <!-- Nav Gesture -->
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_title">Voll-Gesten modus aktivieren</string>
     <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
     <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
     <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
