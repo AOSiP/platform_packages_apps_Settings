@@ -149,6 +149,7 @@ import com.aosip.owlsnest.buttons.PowermenuCategory;
 import com.aosip.owlsnest.buttons.VolumeCategory;
 import com.aosip.owlsnest.gesture.GestureCategory;
 import com.aosip.owlsnest.lockscreen.OptionsCategory;
+import com.aosip.owlsnest.notification.BatteryLightSettings;
 import com.aosip.owlsnest.notification.HeadsUpCategory;
 import com.aosip.owlsnest.notification.NotificationCategory;
 import com.aosip.owlsnest.quicksettings.ExpandedCategory;
@@ -305,7 +306,8 @@ public class SettingsGateway {
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
-            PulseSettingsActivity.class.getName()
+            PulseSettingsActivity.class.getName(),
+            BatteryLightSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -349,7 +351,7 @@ public class SettingsGateway {
             Settings.SmartPixelsActivity.class.getName(),
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
-            Settings.FlingSettingsActivity.class.getName(), 
+            Settings.FlingSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName()
     };
 }
