@@ -105,6 +105,7 @@ import com.aosip.owlsnest.buttons.PowermenuCategory;
 import com.aosip.owlsnest.buttons.VolumeCategory;
 import com.aosip.owlsnest.gesture.GestureCategory;
 import com.aosip.owlsnest.lockscreen.OptionsCategory;
+import com.aosip.owlsnest.notification.BatteryLightSettings;
 import com.aosip.owlsnest.notification.HeadsUpCategory;
 import com.aosip.owlsnest.notification.NotificationCategory;
 import com.aosip.owlsnest.quicksettings.ExpandedCategory;
@@ -225,6 +226,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(IconsCategory.class);
         addIndex(TrafficCategory.class);
         addIndex(SmartPixels.class);
+	addIndex(BatteryLightSettings.class);
     }
 
     @Override
