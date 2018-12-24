@@ -87,6 +87,11 @@
     <string name="lockscreen_charging_current_title">Charging info</string>
     <string name="lockscreen_charging_current_summary">Display negociated charger max current and voltage on lockscreen</string>
 
+    <!-- Weather -->
+    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_unit_metric" translatable="false">Celsius</string>
+    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
+
     <!-- Status bar clock and date options -->
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_style_title">Style</string>
