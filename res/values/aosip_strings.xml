@@ -20,6 +20,9 @@
     <string name="aosip_version">AOSiP Build</string>
     <string name="aosip_version_default">Unknown</string>
 
+    <string name="clock_category">Clock Customizations</string>
+    <string name="clock_category_summary">Disable or change how the time is displayed</string>
+
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text" translatable="false"><xliff:g id="package_name">%1$s</xliff:g></string>
 

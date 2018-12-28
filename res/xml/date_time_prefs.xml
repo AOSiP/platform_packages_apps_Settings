@@ -77,4 +77,15 @@
             android:title="@string/date_time_24hour" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="time_custom_preference_category"
+        android:layout="@layout/preference_category_no_label">
+        <Preference
+            android:key="clock_customizations"
+            android:title="@string/clock_category"
+            android:summary="@string/clock_category_summary"
+            android:fragment="com.android.settings.aosip.ClockCategory" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
