@@ -38,7 +38,7 @@
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">화면 캡처음</string>
     <!-- Ambient category -->
-    <string name="ambient_display_category">주변 옵션</string>
+    <string name="ambient_display_category">앰비언트 옵션</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">충전 시 켜짐</string>
     <string name="wake_when_plugged_or_unplugged_summary">전원이 연결되거나 분리될 때 화면 켜기</string>

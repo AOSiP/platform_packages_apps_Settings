@@ -174,14 +174,14 @@
     <string name="app_ops_run_any_in_background">запускаться в фоновом режиме</string>
     <string name="app_ops_change_wifi_state">изменять состояние wifi</string>
     <string name="app_ops_request_delete_packages">удалять пакеты</string>
-    <string name="app_ops_bind_accessibility_service">bind to accessibility</string>
+    <string name="app_ops_bind_accessibility_service">назначать на спец. возможности</string>
     <string name="app_ops_accept_handover">accept handover</string>
-    <string name="app_ops_manage_ipsec_tunnels">manage ip tunnels</string>
+    <string name="app_ops_manage_ipsec_tunnels">управлять ip туннелями</string>
     <string name="app_ops_start_foreground">запуск на переднем плане</string>
     <string name="app_ops_bluetooth_scan">поиск Bluetooth-устройств</string>
     <string name="app_ops_boot_completed">автозапуск</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">Без звука, без мультимедиа</string>
     <string name="prevent_ringing_option_mute_no_media_summary">Включено (без звука, без мультимедиа)</string>

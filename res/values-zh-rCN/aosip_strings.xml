@@ -43,11 +43,11 @@
     <string name="wake_when_plugged_or_unplugged_title">充电唤醒</string>
     <string name="wake_when_plugged_or_unplugged_summary">连接或断开电源时点亮屏幕</string>
     <!-- Vibrate on plug -->
-    <string name="vibration_on_charge_state_changed_title">USB接口连接/移除时震动</string>
+    <string name="vibration_on_charge_state_changed_title">USB 接口连接/移除时震动</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">启用完整手势模式</string>
     <string name="full_gesture_mode_summary">此模式将禁用后退按钮，您可以通过在导航栏上向左滑动触发后退按钮操作。右滑动仍会触发开启的应用滚动。如要使用主页, 你需要点击导航栏上的空白处，而不仅是点击Home键。显示键盘时，长按导航栏以移动文本光标。</string>
-    <string name="full_gesture_mode_dt2s_title">启用双击睡眠</string>
+    <string name="full_gesture_mode_dt2s_title">启用双击息屏</string>
     <string name="full_gesture_mode_dt2s_summary">点击空白的导航栏，但不点击Home键来关闭屏幕。</string>
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">不太频繁的通知声音</string>
