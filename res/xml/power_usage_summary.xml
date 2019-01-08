@@ -70,4 +70,9 @@
         android:summary="@string/battery_temp_summary"
         android:selectable="true" />
 
+    <Preference
+        android:key="thermal_settings"
+        android:title="Thermal Mode"
+        android:fragment="com.android.settings.fuelgauge.ThermalSettings" />
+
 </PreferenceScreen>
