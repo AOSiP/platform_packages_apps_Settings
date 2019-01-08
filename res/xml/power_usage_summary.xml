@@ -64,4 +64,9 @@
         android:title="@string/device_screen_usage"
         android:selectable="false" />
 
+    <Preference
+        android:key="thermal_settings"
+        android:title="Thermal Mode"
+        android:fragment="com.android.settings.fuelgauge.ThermalSettings" />
+
 </PreferenceScreen>
