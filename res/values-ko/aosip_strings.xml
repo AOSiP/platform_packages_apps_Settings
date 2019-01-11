@@ -47,7 +47,7 @@
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">전체 제스처 모드를 활성화</string>
     <string name="full_gesture_mode_summary">이 모드에서는 뒤로 가기 버튼이 비활성화되며, 내비게이션 바에서 왼쪽으로 밀어서 뒤로 가기 버튼 기능을 대체할 수 있습니다. 오른쪽 밀기는 여전히 최근 앱 목록을 불러들이게 됩니다. 홈으로 가려면 홈 버튼이나 내비게이션 바의 아무 곳이나 누르십시오. 키보드가 표시되면 내비게이션 바를 길게 눌러 텍스트 커서를 이동하십시오.</string>
-    <string name="full_gesture_mode_dt2s_title">두 번 탭하여 끄기</string>
+    <string name="full_gesture_mode_dt2s_title">두 번 눌러서 끄기</string>
     <string name="full_gesture_mode_dt2s_summary">화면을 끄려면 홈 버튼을 제외한 내비게이션 바의 빈 공간을 누르십시오.</string>
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">알림 소리 주기 변경</string>
@@ -63,6 +63,27 @@
     <string name="less_notification_sounds_2m">2분 마다</string>
     <string name="less_notification_sounds_5m">5분 마다</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <!-- MSIM Manual provisioning -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">enabled</string>
+    <string name="sim_disabled">disabled</string>
+    <string name="sim_missing">missing or faulty</string>
+    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+    <string name="sim_enabler_will_disable_sim_title">Attention</string>
+    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
+    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
+    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
+    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
+    <string name="sim_enabler_enabling">Activating\u2026</string>
+    <string name="sim_enabler_disabling">Deactivating\u2026</string>
+    <string name="sub_activate_success">SIM activated.</string>
+    <string name="sub_activate_failed">Activation failed.</string>
+    <string name="sub_deactivate_success">SIM deactivated.</string>
+    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="available_sims_title">Available SIM cards</string>
+    <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
     <!-- Custom light color -->
     <string name="custom_light_title">알림 색상</string>
     <string name="custom_light_on_time_title">LED 점등 지연시간 (ms)</string>
@@ -88,7 +109,7 @@
     <string name="system_theme_dark">다크</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux 상태</string>
-    <string name="selinux_status_disabled">사용 안함</string>
+    <string name="selinux_status_disabled">사용 안 함</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- App Ops Categories -->
@@ -194,8 +215,8 @@
     <string name="security_settings_fingerprint_sensor_location_right">오른쪽 측면</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">손전등 실행</string>
-    <string name="double_tap_power_flashlight_title">화면 끈 상태에서 전원 버튼으로 손전등 사용</string>
+    <string name="double_tap_power_flashlight_title">화면 꺼졌을 때 전원 버튼으로 손전등 사용</string>
     <string name="torch_power_button_gesture_none">비활성화됨</string>
-    <string name="torch_power_button_gesture_dt">전원 버튼을 두 번 눌러 손전등 사용</string>
-    <string name="torch_power_button_gesture_lp">전원 버튼을 길게 눌러 손전등 사용</string>
+    <string name="torch_power_button_gesture_dt">두 번 전원 버튼을 눌러 손전등 사용</string>
+    <string name="torch_power_button_gesture_lp">길게 전원 버튼을 눌러 손전등 사용</string>
 </resources>

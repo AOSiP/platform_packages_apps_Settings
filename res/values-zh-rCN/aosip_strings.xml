@@ -50,12 +50,12 @@
     <string name="full_gesture_mode_dt2s_title">启用双击息屏</string>
     <string name="full_gesture_mode_dt2s_summary">点击空白的导航栏，但不点击Home键来关闭屏幕。</string>
     <!-- Less Notification sounds -->
-    <string name="less_notification_sounds_title">不太频繁的通知声音</string>
+    <string name="less_notification_sounds_title">降低通知声音频率</string>
     <string name="less_notification_sounds_summary">在设置的时间段内只播放每个应用的通知声音一次</string>
     <string name="less_notification_sounds_default">预设行为</string>
     <string name="less_notification_sounds_3s">每 3 秒</string>
     <string name="less_notification_sounds_5s">每 5 秒</string>
-    <string name="less_notification_sounds_10s">每隔 10 秒</string>
+    <string name="less_notification_sounds_10s">每 10 秒</string>
     <string name="less_notification_sounds_15s">每 15 秒</string>
     <string name="less_notification_sounds_30s">每 30 秒</string>
     <string name="less_notification_sounds_45s">每 45 秒</string>
@@ -63,6 +63,27 @@
     <string name="less_notification_sounds_2m">每 2 分钟</string>
     <string name="less_notification_sounds_5m">每 5 分钟</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <!-- MSIM Manual provisioning -->
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabled">enabled</string>
+    <string name="sim_disabled">disabled</string>
+    <string name="sim_missing">missing or faulty</string>
+    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
+    <string name="sim_enabler_will_disable_sim_title">Attention</string>
+    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
+    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
+    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
+    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
+    <string name="sim_enabler_enabling">Activating\u2026</string>
+    <string name="sim_enabler_disabling">Deactivating\u2026</string>
+    <string name="sub_activate_success">SIM activated.</string>
+    <string name="sub_activate_failed">Activation failed.</string>
+    <string name="sub_deactivate_success">SIM deactivated.</string>
+    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="available_sims_title">Available SIM cards</string>
+    <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
+    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
+    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
     <!-- Custom light color -->
     <string name="custom_light_title">LED 灯颜色</string>
     <string name="custom_light_on_time_title">呼吸灯闪烁时亮灯时间 (毫秒)</string>
@@ -188,13 +209,13 @@
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">在您的手机 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指纹感应器。</string>
     <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">返回</string>
+    <string name="security_settings_fingerprint_sensor_location_back">后面</string>
     <string name="security_settings_fingerprint_sensor_location_front">前面</string>
     <string name="security_settings_fingerprint_sensor_location_left">左侧</string>
     <string name="security_settings_fingerprint_sensor_location_right">右侧</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">启动手电筒</string>
-    <string name="double_tap_power_flashlight_title">荧幕关闭时按电源键启动手电筒</string>
+    <string name="double_tap_power_flashlight_title">屏幕关闭时按电源键启动手电筒</string>
     <string name="torch_power_button_gesture_none">已停用</string>
     <string name="torch_power_button_gesture_dt">双击电源键以开关手电筒</string>
     <string name="torch_power_button_gesture_lp">长按电源键以开关手电筒</string>
