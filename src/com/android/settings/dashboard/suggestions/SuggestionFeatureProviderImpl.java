@@ -43,7 +43,6 @@ import com.android.settingslib.drawer.Tile;
 import com.android.settingslib.suggestions.SuggestionControllerMixin;
 
 import java.util.List;
-import java.lang.String;
 
 public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider {
 
@@ -62,19 +61,10 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     }
 
     @Override
-    public ComponentName getSuggestionServiceComponent(Context context) {
-        String intelligencePkg = FeatureFactory.getFactory(context)
-                                               .getSearchFeatureProvider()
-                                               .getSettingsIntelligencePkgName(context);
-
-        StringBuilder intelligence = new StringBuilder(intelligencePkg);
-        String serviceBase = intelligencePkg.contains("google") ?
-                                    ".modules" : "";
-        String suggestionService = intelligence.append(serviceBase)
-                                               .append(".suggestions.SuggestionService")
-                                               .toString();
-
-        return new ComponentName(intelligencePkg, suggestionService);
+    public ComponentName getSuggestionServiceComponent() {
+        return new ComponentName(
+                "com.android.settings.intelligence",
+                "com.android.settings.intelligence.suggestions.SuggestionService");
     }
 
     @Override

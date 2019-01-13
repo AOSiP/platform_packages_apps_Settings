@@ -39,7 +39,7 @@ public interface SuggestionFeatureProvider {
     /**
      * Returns the component name for SuggestionService.
      */
-    ComponentName getSuggestionServiceComponent(Context context);
+    ComponentName getSuggestionServiceComponent();
 
     /**
      * Returns true if smart suggestion should be used instead of xml based SuggestionParser.
