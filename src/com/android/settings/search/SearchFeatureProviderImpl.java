@@ -22,7 +22,6 @@ import android.content.Context;
 import android.text.TextUtils;
 
 import com.android.internal.annotations.VisibleForTesting;
-import com.android.settings.external.SignatureVerifier;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.search.indexing.IndexData;
 
@@ -83,7 +82,7 @@ public class SearchFeatureProviderImpl implements SearchFeatureProvider {
     }
 
     protected boolean isSignatureWhitelisted(Context context, String callerPackage) {
-        return SignatureVerifier.isPackageWhitelisted(context, callerPackage);
+        return false;
     }
 
     /**
