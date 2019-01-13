@@ -19,9 +19,6 @@ package com.android.settings.search;
 
 import android.content.ComponentName;
 import android.content.Context;
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.text.TextUtils;
 
 import com.android.internal.annotations.VisibleForTesting;
@@ -50,7 +47,7 @@ public class SearchFeatureProviderImpl implements SearchFeatureProvider {
         }
         final String packageName = caller.getPackageName();
         final boolean isSettingsPackage = TextUtils.equals(packageName, context.getPackageName())
-                || TextUtils.equals(getSettingsIntelligencePkgName(context), packageName);
+                || TextUtils.equals(getSettingsIntelligencePkgName(), packageName);
         final boolean isWhitelistedPackage =
                 isSignatureWhitelisted(context, caller.getPackageName());
         if (isSettingsPackage || isWhitelistedPackage) {
@@ -103,26 +100,5 @@ public class SearchFeatureProviderImpl implements SearchFeatureProvider {
             query = IndexData.normalizeJapaneseString(query);
         }
         return query.trim();
-    }
-
-    @Override
-    public String getSettingsIntelligencePkgName(Context context) {
-        String googleIntelligence = "com.google.android.settings.intelligence";
-        String aospIntelligence = "com.android.settings.intelligence";
-        boolean useGoogle = false;
-
-        // Check if Google SettingIntelligence is available
-        try {
-            useGoogle = context.getPackageManager().getPackageInfo(googleIntelligence,
-                            PackageManager.MATCH_DISABLED_COMPONENTS).applicationInfo.enabled;
-        }
-        catch (PackageManager.NameNotFoundException nameNotFoundException) {
-            return aospIntelligence;
-        }
-
-        // Return the correct Settings Intelligence package
-        if (useGoogle)
-            return googleIntelligence;
-        return aospIntelligence;
     }
 }
