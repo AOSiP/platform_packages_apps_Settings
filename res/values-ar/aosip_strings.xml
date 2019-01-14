@@ -63,27 +63,23 @@
     <string name="less_notification_sounds_2m">كل دقيقتين</string>
     <string name="less_notification_sounds_5m">كل 5 دقائق</string>
     <!-- Manage applications, package string displayed in app snippet -->
-    <!-- MSIM Manual provisioning -->
+    <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_enabled">enabled</string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-    <string name="sim_enabler_will_disable_sim_title">Attention</string>
-    <string name="sim_enabler_need_switch_data_service">This SIM will be disabled and SIM <xliff:g id="slotid">%1$s</xliff:g> will be used for data services. Are you sure you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-    <string name="sim_enabler_enabling">Activating\u2026</string>
-    <string name="sim_enabler_disabling">Deactivating\u2026</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
-    <string name="available_sims_title">Available SIM cards</string>
+    <string name="sim_disabled">معطّل</string>
+    <string name="sim_missing">مفقود أو به خلل</string>
+    <string name="sim_enabler_need_disable_sim">سيتم إلغاء تنشيط بطاقة SIM. هل تريد الاستمرار؟</string>
+    <string name="sim_enabler_airplane_on">غير قادر على القيام بالعملية أثناء وضع الطيران.</string>
+    <string name="sim_enabler_in_call">تعذر القيام بالعملية أثناء إجراء مكالمة.</string>
+    <string name="sim_enabler_both_inactive">لا يمكن تعطيل جميع شرائح SIM</string>
+    <string name="sim_enabler_enabling">تنشيط..</string>
+    <string name="sim_enabler_disabling">إلغاء تنشيط..</string>
+    <string name="sub_activate_success">تم تنشيط SIM.</string>
+    <string name="sub_activate_failed">فشل التنشيط.</string>
+    <string name="sub_deactivate_success">تم إلغاء تنشيط SIM.</string>
+    <string name="sub_deactivate_failed">فشل إلغاء التنشيط.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone1_title">نغمة رنين الهاتف - بطاقة SIM 1</string>
+    <string name="ringtone2_title">نغمة رنين الهاتف - بطاقة SIM 2</string>
     <!-- Custom light color -->
     <string name="custom_light_title">لون الضوء</string>
     <string name="custom_light_on_time_title">مدة تشغيل الضوء النابض (ملي ثانية)</string>
