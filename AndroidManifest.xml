@@ -3396,6 +3396,16 @@
                 android:resource="@string/owlsnest_activity_summary"/>
         </activity>
 
+        <!-- Changelog -->
+        <activity android:name="com.bytehamster.changelog.Main"
+                  android:taskAffinity=""
+                  android:parentActivityName="Settings"
+                  android:configChanges="orientation|screenLayout|screenSize"
+                  android:label="@string/changelog_title" />
+        <activity android:name="com.bytehamster.changelog.Preferences"
+                  android:configChanges="orientation|screenLayout|screenSize"
+                  android:label="@string/settings_label" />
+
         <!-- Heads up settings activity. -->
         <activity android:name="Settings$HeadsUpCategoryActivity"
                 android:label="@string/headsup_category"
