@@ -19,6 +19,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../Changelog/app/src/main/java)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../OwlsNest/src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../SmartNavSettings/src)
 
@@ -55,7 +56,8 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
     packages/apps/OwlsNest/res \
-    packages/apps/SmartNavSettings/res
+    packages/apps/SmartNavSettings/res \
+    packages/apps/Changelog/app/src/main/res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -65,6 +67,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
+    --extra-packages com.bytehamster.changelog \
     --extra-packages com.aosip.owlsnest
 
 ifneq ($(INCREMENTAL_BUILDS),)
