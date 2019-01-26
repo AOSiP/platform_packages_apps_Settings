@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">Скинути статистику</string>
     <string name="battery_stats_message">Історія використання акумулятора буде скинута</string>
     <string name="ok_string">Ок</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Звук знімку екрана</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">Ввікнути екран під час підключення чи відключення зарядного пристрою</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Вібрувати при підключенні через USB</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Увімкнути повний режим жестів</string>
     <string name="full_gesture_mode_summary">Цей режим вимикає кнопку «Назад» і ви зможете назначити дію кнопки «Назад» за допомогою свайпу вліво в рядку навігації. Свайп вправо, як і раніше, викликає останній додаток і огляд нещодавніх додатків. Щоб повернутися на домашній екран, ви можете натиснути на будь-яке пусте місце панелі навігації, а не тільки кнопку «Додому». Коли клавіатура активна, утримуйте натискання у рядку навігації для того, щоб перемістити курсор.</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">Автоматично (в залежності від часу доби)</string>
     <string name="system_theme_light">Світла</string>
     <string name="system_theme_dark">Темна</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Вимкнено</string>

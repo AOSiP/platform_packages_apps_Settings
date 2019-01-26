@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">Statistiken rücksetzen</string>
     <string name="battery_stats_message">Die Batterieverlauf statistiken werden rückgesetzt</string>
     <string name="ok_string">iO</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Screenshot-Auslöseton</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">Beim Anschließen oder Trennen einer Stromquelle das Display anschalten</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Vibrieren beim Anschließen</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Voll-Gesten modus aktivieren</string>
     <string name="full_gesture_mode_summary">In diesem Modus wird  die Schaltfläche \"zurück\" deaktiviert und Sie können eine \"zurück\"-Geste durch einen linken Wisch auf der Navigationsleiste auslösen. Von rechts Wischen öffnet den Anwendungsverlauf. Um zum Startbildschirm zu gelangen, berühren sie eine freie Stelle der Navigationsleiste. Wenn die Tastatur angezeigt wird, führt langes Drücken auf die Navigationsleiste zu einer Bewegung des Textcursors.</string>
@@ -65,21 +74,21 @@
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-    <string name="sim_enabler_enabling">Activating\u2026</string>
-    <string name="sim_enabler_disabling">Deactivating\u2026</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="sim_disabled">deaktiviert</string>
+    <string name="sim_missing">fehlt oder fehlerhaft</string>
+    <string name="sim_enabler_need_disable_sim">SIM-Karte wird deaktiviert. Willst du fortfahren?</string>
+    <string name="sim_enabler_airplane_on">Vorgang kann nicht bei aktiviertem Flugmodus durchgeführt werden.</string>
+    <string name="sim_enabler_in_call">Vorgang kann nicht während eines Anrufes durchgeführt werden.</string>
+    <string name="sim_enabler_both_inactive">Es können nicht alle SIM-Karten deaktiviert werden</string>
+    <string name="sim_enabler_enabling">Aktiviere\u2026</string>
+    <string name="sim_enabler_disabling">Deaktiviere\u2026</string>
+    <string name="sub_activate_success">SIM aktiviert.</string>
+    <string name="sub_activate_failed">Aktivierung fehlgeschlagen.</string>
+    <string name="sub_deactivate_success">SIM deaktiviert.</string>
+    <string name="sub_deactivate_failed">Deaktivierung fehlgeschlagen.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone1_title">Klingelton - SIM 1</string>
+    <string name="ringtone2_title">Klingelton - SIM 2</string>
     <!-- Custom light color -->
     <string name="custom_light_title">LED Farbe</string>
     <string name="custom_light_on_time_title">Licht-an-Zeit während LED Puls (ms)</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">Automatisch (Ausgehend von Tageszeit)</string>
     <string name="system_theme_light">Hell</string>
     <string name="system_theme_dark">Dunkel</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux Stellung</string>
     <string name="selinux_status_disabled">Deaktiviert</string>

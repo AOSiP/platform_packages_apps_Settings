@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">重置統計資訊</string>
     <string name="battery_stats_message">電池歷史記錄統計資訊將被重置</string>
     <string name="ok_string">確定</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">螢幕截圖快門聲音</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">接上或移除電源時開啟螢幕</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">接上 USB 時震動</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">啟用完整的手勢模式</string>
     <string name="full_gesture_mode_summary">此模式將禁用後退按鈕，您可以通過在導覽列上向左滑動觸發後退按鈕操作。向右滑動仍會在最近使用的應用中滾動。如要使用主頁，你需要點擊導覽列上的空白處，而不是點擊主頁鍵。顯示鍵盤時，長按導覽列以移動文本游標。</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">自動（基於一天中的時間）</string>
     <string name="system_theme_light">淺色</string>
     <string name="system_theme_dark">深色</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux 狀態</string>
     <string name="selinux_status_disabled">已停用</string>

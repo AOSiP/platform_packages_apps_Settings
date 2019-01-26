@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">إعادة تعيين الإحصائيات</string>
     <string name="battery_stats_message">سيتم إعادة تعيين إحصائيات البطارية</string>
     <string name="ok_string">حسناً</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">صوت لقطة الشاشة</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">تشغيل الشاشة عند توصيل أو قطع مصدر الطاقة</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">الاهتزاز عند توصيل USB</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">تمكين وضع إيماءات الشاشة الكاملة</string>
     <string name="full_gesture_mode_summary">سيؤدي هذا الوضع إلى تعطيل زر الرجوع، ستتمكن من تشغيل إجراء زر الرجوع عن طريق السحب لليسار على شريط التنقل. سيؤدي السحب لليمين إلى تشغيل التطبيق الأخير والتمرير لعرض التطبيقات الأخيرة. للانتقال إلى الصفحة الرئيسية قم بالنقر على أي مساحة فارغة في شريط التنقل، وليس فقط على زر الصفحة الرئيسية. عندما تكون لوحة المفاتيح ظاهرة، ستقوم ضغطة طويلة على شريط التنقل بنقل مؤشر النصوص.</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">تلقائي (استناداً إلى الوقت من اليوم)</string>
     <string name="system_theme_light">فاتح</string>
     <string name="system_theme_dark">مظلم</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">‏حالة SELinux</string>
     <string name="selinux_status_disabled">معطّل</string>

@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">A statisztikák törlése</string>
     <string name="battery_stats_message">Az akkumulátorhasználati statisztikák törlésre kerülnek</string>
     <string name="ok_string">OK</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Képernyőmentéskor hallható hang</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">A képernyő bekapcsolása a töltő csatlakoztatása/eltávolítása után</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Rezgés töltőre helyezéskor</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Teljes mozdulatvezérlés-mód engedélyezése</string>
     <string name="full_gesture_mode_summary">Ez a mód letiltja a Vissza-gombot, amit a navigációs sávon balra csúsztatással helyettesíthet. Jobbra csúsztatással a legutóbbi alkalmazásokat tekintheti át. A Kezdőoldalra való visszatérést a navigációs sávot bárhol megérintve érheti el (kivéve a Kezdőoldal gomb helyét). Ha a billentyűzet meg van nyitva a navigációs sáv hosszú nyomásával mozgathatja a kurzort.</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">Automatikus (napszakhoz időzítve)</string>
     <string name="system_theme_light">Világos</string>
     <string name="system_theme_dark">Sötét</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux állapota</string>
     <string name="selinux_status_disabled">Letiltva</string>

@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">Сбросить статистику</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
     <string name="ok_string">Ok</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Звук снятия скриншота</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">Включить экран при подключении или отключении источника питания</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Вибрировать при подключении зарядки</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Включить полный режим жестов</string>
     <string name="full_gesture_mode_summary">Этот режим отключает кнопку \"Назад\" и вы можете вызвать действие кнопки \"Назад\" с помощью свайпа влево на панели навигации. Правый свайп по-прежнему вызывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран, вы можете нажать на любое пустое место панели навигации, а не только на кнопку \"Домой\". Когда клавиатура активна, то удерживаете нажатие на панели навигации для того, чтобы переместить курсор.</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">Автоматически (в зависимости от времени суток)</string>
     <string name="system_theme_light">Светлая</string>
     <string name="system_theme_dark">Тёмная</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">Режим SELinux</string>
     <string name="selinux_status_disabled">Выключен</string>

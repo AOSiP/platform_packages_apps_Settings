@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">Zresetuj statystyki</string>
     <string name="battery_stats_message">Statystyki baterii zostaną zresetowane</string>
     <string name="ok_string">Ok</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran, gdy zostanie podłączone lub rozłączone źródło zasilania</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Wibruj przy wpięciu wtyczki USB</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Włącz tryb gestów pełnoekranowych</string>
     <string name="full_gesture_mode_summary">Ten tryb wyłącza przycisk cofania, możesz cofnąć przesuwając po lewej części paska nawigacyjnego. Przesunięcie po prawej części dalej włącza ostatnią aplikację oraz przewijanie aplikacji. Aby wrócić do ekranu domowego możesz nacisnąć wolną przestrzeń na pasku nawigacyjnym. Długie przyciśnięcie paska nawigacyjnego pozwala przesuwać kursor, gdy klawiatura jest widoczna.</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">Automatycznie (w zależności od pory dnia)</string>
     <string name="system_theme_light">Jasny</string>
     <string name="system_theme_dark">Ciemny</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">Status SELinux</string>
     <string name="selinux_status_disabled">Wyłączony</string>

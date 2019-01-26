@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">Reiniciar estadísticas</string>
     <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
     <string name="ok_string">Aceptar</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">Encender la pantalla al conectar o desconectar el cargador</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Vibrar al conectar por USB</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Activar el control completo mediante gestos</string>
     <string name="full_gesture_mode_summary">Este modo desactivará el botón de retroceso, a partir de ahora podrás realizar esta función deslizando de izquierda a derecha en la barra de navegación. Para acceder a la multitarea, desliza de derecha a izquierda. En caso de querer pulsar el botón de inicio, puedes tocar el cualquier espacio vacío de la barra de navegación. Si estás usando el teclado virtual, podrás mover el cursor del texto si deslizas el dedo en la barra de navegación.</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">Automático (dependiendo de la hora del día)</string>
     <string name="system_theme_light">Claro</string>
     <string name="system_theme_dark">Oscuro</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">Estado de SELinux</string>
     <string name="selinux_status_disabled">Desactivado</string>

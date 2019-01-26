@@ -35,6 +35,12 @@
     <string name="battery_stats_reset">統計をリセット</string>
     <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
     <string name="ok_string">OK</string>
+    <!-- Advanced night mode brightness -->
+    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
+    <string name="night_auto_value_disabled">Disabled</string>
+    <string name="night_auto_value_min">Minimum brightness</string>
+    <string name="night_bright_low">Low brightness</string>
+    <string name="night_bright_midlow">Mid low brightness</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">スクリーンショットのシャッター音</string>
     <!-- Ambient category -->
@@ -44,6 +50,9 @@
     <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断した時に画面を点灯させる</string>
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">USB接続時の振動</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">全てのジェスチャーモードを有効化</string>
     <string name="full_gesture_mode_summary">このモードでは戻るボタンが無効になり、ナビゲーションバーの左スワイプで戻るアクションをすることができます。右スワイプはアプリ履歴アクションを起動しアプリ一覧をスクロールできます。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。キーボード表示時はナビゲーションバー長押しでテキストカーソルに移動します。</string>
@@ -64,22 +73,22 @@
     <string name="less_notification_sounds_5m">5分ごと</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-    <string name="sim_enabler_enabling">Activating\u2026</string>
-    <string name="sim_enabler_disabling">Deactivating\u2026</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+    <string name="sim_disabled">無効</string>
+    <string name="sim_missing">挿入されていないか、問題があります。</string>
+    <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続行しますか？</string>
+    <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
+    <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
+    <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
+    <string name="sim_enabler_enabling">アクティベート中\u2026</string>
+    <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
+    <string name="sub_activate_success">SIMをアクティベートしました</string>
+    <string name="sub_activate_failed">アクティベーションに失敗しました</string>
+    <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+    <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone1_title">着信音 - SIM 1</string>
+    <string name="ringtone2_title">着信音 - SIM 2</string>
     <!-- Custom light color -->
     <string name="custom_light_title">ライトカラー</string>
     <string name="custom_light_on_time_title">LEDの点滅している時の光っている時間（ms）</string>
@@ -103,6 +112,8 @@
     <string name="system_theme_wallpaper">自動（時間帯ベース）</string>
     <string name="system_theme_light">ライト</string>
     <string name="system_theme_dark">ダーク</string>
+    <string name="blackaf_theme_title">Use BlackAF theme</string>
+    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinuxのステータス</string>
     <string name="selinux_status_disabled">無効</string>
