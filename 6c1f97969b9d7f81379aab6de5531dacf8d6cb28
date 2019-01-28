@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dd308b40_152102ec",
+        "filename": "src/com/android/settings/fuelgauge/PowerUsageSummary.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 409,
+      "author": {
+        "id": 1000192
+      },
+      "writtenOn": "2019-01-28T23:30:18Z",
+      "side": 1,
+      "message": ".du.",
+      "revId": "6c1f97969b9d7f81379aab6de5531dacf8d6cb28",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f454ebb4_f52fa7c1",
+        "filename": "src/com/android/settings/fuelgauge/PowerUsageSummary.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1000192
+      },
+      "writtenOn": "2019-01-28T23:30:18Z",
+      "side": 1,
+      "message": ".du.",
+      "revId": "6c1f97969b9d7f81379aab6de5531dacf8d6cb28",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": true
+    }
+  ]
+}
