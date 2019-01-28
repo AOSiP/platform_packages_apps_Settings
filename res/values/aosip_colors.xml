@@ -27,5 +27,7 @@
     <string name="theme_customization_device_default">Device default</string>
     <!-- OwlsNest settings icon background-->
     <color name="homepage_owlsnest_background">#ff6868</color>
+    <!-- Shortcuts -->
+    <color name="icon_accent_custom">@*android:color/accent_device_default_light</color>
 
 </resources>
