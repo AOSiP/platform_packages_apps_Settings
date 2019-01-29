@@ -20,7 +20,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.support.v7.preference.Preference;
 
-import com.android.internal.util.du.Utils;
+import com.android.internal.util.aosip.aosipUtils;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -58,15 +58,9 @@ public class AmbientDisplayCustomPreferenceController extends AbstractPreference
             mMetricsFeatureProvider.action(mContext, ACTION_AMBIENT_DISPLAY);
             try {
                 Intent intent = new Intent();
-                if (Build.PRODUCT.equals("potter")) {
-                    intent.setClassName(
-                            "com.dirtyunicorns.settings.device",
-                            "com.dirtyunicorns.settings.device.DozeSettingsActivity");
-                } else {
-                    intent.setClassName(
-                            "com.custom.ambient.display",
-                            "com.custom.ambient.display.DozeSettings");
-                }
+                intent.setClassName(
+                        "com.custom.ambient.display",
+                        "com.custom.ambient.display.DozeSettings");
                 intent.setAction("com.android.settings.action.EXTRA_SETTINGS");
                 mContext.startActivity(intent);
             } catch (Exception ignored) {
@@ -77,7 +71,7 @@ public class AmbientDisplayCustomPreferenceController extends AbstractPreference
 
     @Override
     public boolean isAvailable() {
-        return Utils.hasAltAmbientDisplay(mContext.getApplicationContext());
+        return aosipUtils.hasAltAmbientDisplay(mContext.getApplicationContext());
     }
 
     @Override
