@@ -22,6 +22,9 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">사용자 정의 설정</string>
     <string name="owlsnest_activity_summary">AOSiP 기능 및 설정 변경</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">회전</string>
     <string name="display_rotation_disabled">사용 안 함</string>
@@ -36,11 +39,11 @@
     <string name="battery_stats_message">배터리 사용 기록이 초기화됩니다</string>
     <string name="ok_string">확인</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">야간 조명을 사용할 때 밝기 낮춤</string>
+    <string name="night_auto_value_disabled">비활성화됨</string>
+    <string name="night_auto_value_min">최소 밝기</string>
+    <string name="night_bright_low">낮은 밝기</string>
+    <string name="night_bright_midlow">중간 낮은 밝기</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">화면 캡처음</string>
     <!-- Ambient category -->
@@ -51,8 +54,8 @@
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">USB 연결 시 진동</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">배터리 온도</string>
+    <string name="battery_temp_summary">스케일을 바꾸려면 누르기</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">전체 제스처 모드를 활성화</string>
     <string name="full_gesture_mode_summary">이 모드에서는 뒤로 가기 버튼이 비활성화되며, 내비게이션 바에서 왼쪽으로 밀어서 뒤로 가기 버튼 기능을 대체할 수 있습니다. 오른쪽 밀기는 여전히 최근 앱 목록을 불러들이게 됩니다. 홈으로 가려면 홈 버튼이나 내비게이션 바의 아무 곳이나 누르십시오. 키보드가 표시되면 내비게이션 바를 길게 눌러 텍스트 커서를 이동하십시오.</string>
@@ -112,8 +115,8 @@
     <string name="system_theme_wallpaper">자동 (시간에 따라)</string>
     <string name="system_theme_light">라이트</string>
     <string name="system_theme_dark">다크</string>
-    <string name="blackaf_theme_title">Use BlackAF theme</string>
-    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
+    <string name="blackaf_theme_title">BlackAF 테마 사용</string>
+    <string name="blackaf_theme_summary">어두운 테마 대신 검은색 테마를 사용합니다</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux 상태</string>
     <string name="selinux_status_disabled">사용 안 함</string>
@@ -226,4 +229,7 @@
     <string name="torch_power_button_gesture_none">비활성화됨</string>
     <string name="torch_power_button_gesture_dt">두 번 전원 버튼을 눌러 손전등 사용</string>
     <string name="torch_power_button_gesture_lp">길게 전원 버튼을 눌러 손전등 사용</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>

@@ -22,6 +22,9 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">鷹巢</string>
     <string name="owlsnest_activity_summary">Kronic 之家</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">旋轉</string>
     <string name="display_rotation_disabled">已停用</string>
@@ -226,4 +229,7 @@
     <string name="torch_power_button_gesture_none">已停用</string>
     <string name="torch_power_button_gesture_dt">按兩下電源鍵以啓/停用手電筒</string>
     <string name="torch_power_button_gesture_lp">長按電源鍵以啓/停用手電筒</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>

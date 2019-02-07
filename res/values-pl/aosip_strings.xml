@@ -22,6 +22,9 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">Konfiguruj urządzenie</string>
     <string name="owlsnest_activity_summary">Wkrocz do świata modyfikacji systemu AOSiP</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Obrót</string>
     <string name="display_rotation_disabled">Wyłączony</string>
@@ -226,4 +229,7 @@
     <string name="torch_power_button_gesture_none">Wyłączony</string>
     <string name="torch_power_button_gesture_dt">Podwójne wciśnięcie przycisku zasilania w celu włączenia Latarki</string>
     <string name="torch_power_button_gesture_lp">Długie wciśnięcie przycisku zasilania w celu włączenia Latarki</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>

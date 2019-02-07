@@ -22,6 +22,9 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Ursprungsland der Kronic</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Umdrehung</string>
     <string name="display_rotation_disabled">Deaktiviert</string>
@@ -36,11 +39,11 @@
     <string name="battery_stats_message">Die Batterieverlauf statistiken werden rückgesetzt</string>
     <string name="ok_string">iO</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Helligkeit bei aktiviertem Nachtlicht reduzieren</string>
+    <string name="night_auto_value_disabled">Deaktiviert</string>
+    <string name="night_auto_value_min">Minimale Helligkeit</string>
+    <string name="night_bright_low">Niedrige Helligkeit</string>
+    <string name="night_bright_midlow">Mittlere Helligkeit</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Screenshot-Auslöseton</string>
     <!-- Ambient category -->
@@ -51,8 +54,8 @@
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Vibrieren beim Anschließen</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Batterietemperatur</string>
+    <string name="battery_temp_summary">Zum Wechseln der Skala tippen</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Voll-Gesten modus aktivieren</string>
     <string name="full_gesture_mode_summary">In diesem Modus wird  die Schaltfläche \"zurück\" deaktiviert und Sie können eine \"zurück\"-Geste durch einen linken Wisch auf der Navigationsleiste auslösen. Von rechts Wischen öffnet den Anwendungsverlauf. Um zum Startbildschirm zu gelangen, berühren sie eine freie Stelle der Navigationsleiste. Wenn die Tastatur angezeigt wird, führt langes Drücken auf die Navigationsleiste zu einer Bewegung des Textcursors.</string>
@@ -112,8 +115,8 @@
     <string name="system_theme_wallpaper">Automatisch (Ausgehend von Tageszeit)</string>
     <string name="system_theme_light">Hell</string>
     <string name="system_theme_dark">Dunkel</string>
-    <string name="blackaf_theme_title">Use BlackAF theme</string>
-    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
+    <string name="blackaf_theme_title">BlackAF Design anwenden</string>
+    <string name="blackaf_theme_summary">Benutze unser schwarzes Design anstelle des dunklen</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux Stellung</string>
     <string name="selinux_status_disabled">Deaktiviert</string>
@@ -226,4 +229,7 @@
     <string name="torch_power_button_gesture_none">Deaktiviert</string>
     <string name="torch_power_button_gesture_dt">Zum Umschalten der Taschenlampe die Ein-/Aus-Taste doppelt drücken</string>
     <string name="torch_power_button_gesture_lp">Ein-/Aus-Taste lange drücken zum Anschalten der Taschenlampe</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>
