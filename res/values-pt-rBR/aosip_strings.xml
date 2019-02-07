@@ -22,6 +22,9 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Home Of the Kronic</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotação</string>
     <string name="display_rotation_disabled">Desabilitada</string>
@@ -36,11 +39,11 @@
     <string name="battery_stats_message">Os históricos e estatísticas da bateria serão reiniciados</string>
     <string name="ok_string">Ok</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Diminuir o brilho com luz noturna</string>
+    <string name="night_auto_value_disabled">Desabilitado</string>
+    <string name="night_auto_value_min">Brilho mínimo</string>
+    <string name="night_bright_low">Brilho baixo</string>
+    <string name="night_bright_midlow">Brilho baixo médio</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Som ao tirar a captura de tela</string>
     <!-- Ambient category -->
@@ -51,8 +54,8 @@
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Vibrar ao plugar</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_title">Temperatura da bateria</string>
+    <string name="battery_temp_summary">Toque para trocar escala</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Ativar modo de gestos completo</string>
     <string name="full_gesture_mode_summary">Este modo também desativará o botão voltar. Para usar o gesto voltar deslize a barra para a esquerda, O ato de deslizar para a direita ainda acionará a ação do último aplicativo, e o deslizamento para a esquerda moverá os aplicativos caso deslize e segure. Para ir para o Home, você poderá tocar em qualquer espaço vazio da barra de navegação, não apenas no botão de início.</string>
@@ -112,8 +115,8 @@
     <string name="system_theme_wallpaper">Automático (com base na hora do dia)</string>
     <string name="system_theme_light">Claro</string>
     <string name="system_theme_dark">Escuro</string>
-    <string name="blackaf_theme_title">Use BlackAF theme</string>
-    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
+    <string name="blackaf_theme_title">Usar tema preto</string>
+    <string name="blackaf_theme_summary">Use nosso tema preto ao invés do escuro</string>
     <!-- Selinux -->
     <string name="selinux_status">Status do SELinux</string>
     <string name="selinux_status_disabled">Desabilitado</string>
@@ -226,4 +229,7 @@
     <string name="torch_power_button_gesture_none">Desabilitado</string>
     <string name="torch_power_button_gesture_dt">Toque duplo no botão liga/desliga para ativar a lanterna</string>
     <string name="torch_power_button_gesture_lp">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>

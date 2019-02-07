@@ -22,6 +22,9 @@
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Casa de Kronic</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotación</string>
     <string name="display_rotation_disabled">Deshabilitado</string>
@@ -226,4 +229,7 @@
     <string name="torch_power_button_gesture_none">Desactivado</string>
     <string name="torch_power_button_gesture_dt">Encender/Apagar la linterna al pulsar dos veces el botón de encendido</string>
     <string name="torch_power_button_gesture_lp">Encender la linterna al realizar una pulsación larga en el botón de encendido</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>
