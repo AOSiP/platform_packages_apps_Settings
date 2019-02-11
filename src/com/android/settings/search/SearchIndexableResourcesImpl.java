@@ -103,6 +103,7 @@ import com.aosip.owlsnest.advanced.SystemCategory;
 import com.aosip.owlsnest.buttons.NavigationCategory;
 import com.aosip.owlsnest.buttons.PowermenuCategory;
 import com.aosip.owlsnest.buttons.VolumeCategory;
+import com.aosip.owlsnest.gesture.ActiveEdge;
 import com.aosip.owlsnest.gesture.GestureCategory;
 import com.aosip.owlsnest.lockscreen.OptionsCategory;
 import com.aosip.owlsnest.notification.BatteryLightSettings;
@@ -210,6 +211,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
         //AOSiP
+        addIndex(ActiveEdge.class);
         addIndex(HeadsUpCategory.class);
         addIndex(SystemCategory.class);
         addIndex(PowermenuCategory.class);
@@ -226,7 +228,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(IconsCategory.class);
         addIndex(TrafficCategory.class);
         addIndex(SmartPixels.class);
-	addIndex(BatteryLightSettings.class);
+	    addIndex(BatteryLightSettings.class);
     }
 
     @Override
