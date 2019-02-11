@@ -103,6 +103,7 @@ import com.aosip.owlsnest.advanced.SystemCategory;
 import com.aosip.owlsnest.buttons.NavigationCategory;
 import com.aosip.owlsnest.buttons.PowermenuCategory;
 import com.aosip.owlsnest.buttons.VolumeCategory;
+import com.aosip.owlsnest.gesture.ActiveEdge;
 import com.aosip.owlsnest.gesture.GestureCategory;
 import com.aosip.owlsnest.lockscreen.OptionsCategory;
 import com.aosip.owlsnest.notification.BatteryLightSettings;
@@ -209,6 +210,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
+<<<<<<< HEAD
         //AOSiP
         addIndex(HeadsUpCategory.class);
         addIndex(SystemCategory.class);
@@ -227,6 +229,31 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(TrafficCategory.class);
         addIndex(SmartPixels.class);
 	addIndex(BatteryLightSettings.class);
+=======
+
+        // DU Tweaks
+        addIndex(ActiveEdge.class);
+        addIndex(BatteryOptions.class);
+        addIndex(ButtonBrightness.class);
+        addIndex(Buttons.class);
+        addIndex(CarrierLabel.class);
+        addIndex(ClockOptions.class);
+        //addIndex(ExpandedDesktop.class);
+        //addIndex(FingerprintPrefs.class);
+        //addIndex(HeadsUp.class);
+        addIndex(IconManager.class);
+        addIndex(LockscreenItems.class);
+        //addIndex(Miscellaneous.class);
+        addIndex(NavigationOptions.class);
+        //addIndex(Notifications.class);
+        addIndex(PowerMenu.class);
+        addIndex(PulseBlacklist.class);
+        addIndex(PulseSettings.class);
+        addIndex(QuickSettings.class);
+        addIndex(Recents.class);
+        //addIndex(Ticker.class);
+        addIndex(TrafficIndicators.class);
+>>>>>>> 78f908c8fc... Active edge settings 6/?
     }
 
     @Override
