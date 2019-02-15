@@ -23,8 +23,8 @@
     <string name="owlsnest_title">사용자 정의 설정</string>
     <string name="owlsnest_activity_summary">AOSiP 기능 및 설정 변경</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">AOSiP 업데이터</string>
+    <string name="update_settings_summary">최신 버전의 롬을 확인합니다</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">회전</string>
     <string name="display_rotation_disabled">사용 안 함</string>
@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">USB 연결 시 진동</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">배터리 온도</string>
-    <string name="battery_temp_summary">스케일을 바꾸려면 누르기</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">전체 제스처 모드를 활성화</string>
     <string name="full_gesture_mode_summary">이 모드에서는 뒤로 가기 버튼이 비활성화되며, 내비게이션 바에서 왼쪽으로 밀어서 뒤로 가기 버튼 기능을 대체할 수 있습니다. 오른쪽 밀기는 여전히 최근 앱 목록을 불러들이게 됩니다. 홈으로 가려면 홈 버튼이나 내비게이션 바의 아무 곳이나 누르십시오. 키보드가 표시되면 내비게이션 바를 길게 눌러 텍스트 커서를 이동하십시오.</string>
@@ -230,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">두 번 전원 버튼을 눌러 손전등 사용</string>
     <string name="torch_power_button_gesture_lp">길게 전원 버튼을 눌러 손전등 사용</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">실수로 화면 켜기 방지</string>
+    <string name="proximity_wake_summary">화면을 켜기 전에 근접 센서 확인</string>
 </resources>

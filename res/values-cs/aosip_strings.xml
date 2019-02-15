@@ -23,8 +23,8 @@
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Různá přizpůsobení</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">Aktualizace AOSiP</string>
+    <string name="update_settings_summary">Zkontrolujte nejnovější verzi ROM</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Otáčení</string>
     <string name="display_rotation_disabled">Zakázáno</string>
@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">Vibrovat při připojení USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Teplota baterie</string>
-    <string name="battery_temp_summary">Klepnutím přepnete měřítko</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Povolit režim pomocí gest</string>
     <string name="full_gesture_mode_summary">Tento režim vypne také tlačítko Zpět a tuto akci tlačítka Zpět spustíte pomocí přejetí vlevo přes navigační panel. Pravé přejetí přepíná poslední aplikace a levé přejetí aplikace přesouvá. Chcete-li se vrátit na plochu, klepněte na libovolný prázdný prostor navigačního panelu, nikoli pouze na tlačítko Domů. Když se zobrazí klávesnice, dlouhým stisknutím navigačního panelu přesuňte textový kurzor.</string>
@@ -230,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">Dvojím klepnutím tlačítka napájení přepínat svítilnu</string>
     <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
+    <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
 </resources>

@@ -23,8 +23,8 @@
     <string name="owlsnest_title">الإعدادات المخصصة</string>
     <string name="owlsnest_activity_summary">إعدادات ومزايا خاصة بـ AOSIP</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">مُحدث AOSIP</string>
+    <string name="update_settings_summary">تحقق من أحدث إصدار من الروم</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">التدوير</string>
     <string name="display_rotation_disabled">معطّل</string>
@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">الاهتزاز عند توصيل USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">درجة حرارة البطارية</string>
-    <string name="battery_temp_summary">انقر لتغيير المقياس</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">تمكين وضع إيماءات الشاشة الكاملة</string>
     <string name="full_gesture_mode_summary">سيؤدي هذا الوضع إلى تعطيل زر الرجوع، ستتمكن من تشغيل إجراء زر الرجوع عن طريق السحب لليسار على شريط التنقل. سيؤدي السحب لليمين إلى تشغيل التطبيق الأخير والتمرير لعرض التطبيقات الأخيرة. للانتقال إلى الصفحة الرئيسية قم بالنقر على أي مساحة فارغة في شريط التنقل، وليس فقط على زر الصفحة الرئيسية. عندما تكون لوحة المفاتيح ظاهرة، ستقوم ضغطة طويلة على شريط التنقل بنقل مؤشر النصوص.</string>
@@ -230,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">ضغط مزدوج على زر الطاقة لتشغيل الفلاش</string>
     <string name="torch_power_button_gesture_lp">ضغط زر الطاقة مطولاً لتشغيل الفلاش</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">منع الاستيقاظ العرضي</string>
+    <string name="proximity_wake_summary">التحقق من مستشعر القرب قبل إيقاظ الشاشة</string>
 </resources>

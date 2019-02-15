@@ -23,8 +23,8 @@
     <string name="owlsnest_title">Гнездо Совы</string>
     <string name="owlsnest_activity_summary">Дом Кроника</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">Обновления AOSiP</string>
+    <string name="update_settings_summary">Проверить наличие свежей версии прошивки</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Ориентация</string>
     <string name="display_rotation_disabled">Выключен</string>
@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">Вибрировать при подключении зарядки</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареи</string>
-    <string name="battery_temp_summary">Нажмите, чтобы изменить масштаб</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Включить полный режим жестов</string>
     <string name="full_gesture_mode_summary">Этот режим отключает кнопку \"Назад\" и вы можете вызвать действие кнопки \"Назад\" с помощью свайпа влево на панели навигации. Правый свайп по-прежнему вызывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран, вы можете нажать на любое пустое место панели навигации, а не только на кнопку \"Домой\". Когда клавиатура активна, то удерживаете нажатие на панели навигации для того, чтобы переместить курсор.</string>
@@ -230,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
     <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания для включения фонарика</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Предотвращать случайные пробуждения</string>
+    <string name="proximity_wake_summary">Проверять датчик приближения при выходе из режима сна</string>
 </resources>

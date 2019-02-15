@@ -23,8 +23,8 @@
     <string name="owlsnest_title">鹰巢</string>
     <string name="owlsnest_activity_summary">Kronic 之家</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">AOSiP 更新</string>
+    <string name="update_settings_summary">检查 Rom 的最新版本</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">旋转</string>
     <string name="display_rotation_disabled">已停用</string>
@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">USB 接口连接/移除时震动</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">电池温度</string>
-    <string name="battery_temp_summary">点按切换单位</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">启用完整手势模式</string>
     <string name="full_gesture_mode_summary">此模式将禁用后退按钮，您可以通过在导航栏上向左滑动触发后退按钮操作。右滑动仍会触发开启的应用滚动。如要使用主页, 你需要点击导航栏上的空白处，而不仅是点击主页按钮。显示键盘时，长按导航栏以移动文本光标。</string>
@@ -230,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">双击电源键以开关手电筒</string>
     <string name="torch_power_button_gesture_lp">长按电源键以开关手电筒</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">防止意外唤醒</string>
+    <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
 </resources>

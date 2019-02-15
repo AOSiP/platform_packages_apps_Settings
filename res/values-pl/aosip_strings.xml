@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">Wibruj przy wpięciu wtyczki USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Włącz tryb gestów pełnoekranowych</string>
     <string name="full_gesture_mode_summary">Ten tryb wyłącza przycisk cofania, możesz cofnąć przesuwając po lewej części paska nawigacyjnego. Przesunięcie po prawej części dalej włącza ostatnią aplikację oraz przewijanie aplikacji. Aby wrócić do ekranu domowego możesz nacisnąć wolną przestrzeń na pasku nawigacyjnym. Długie przyciśnięcie paska nawigacyjnego pozwala przesuwać kursor, gdy klawiatura jest widoczna.</string>

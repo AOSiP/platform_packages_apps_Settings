@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">Vibrar al conectar por USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Activar el control completo mediante gestos</string>
     <string name="full_gesture_mode_summary">Este modo desactivará el botón de retroceso, a partir de ahora podrás realizar esta función deslizando de izquierda a derecha en la barra de navegación. Para acceder a la multitarea, desliza de derecha a izquierda. En caso de querer pulsar el botón de inicio, puedes tocar el cualquier espacio vacío de la barra de navegación. Si estás usando el teclado virtual, podrás mover el cursor del texto si deslizas el dedo en la barra de navegación.</string>

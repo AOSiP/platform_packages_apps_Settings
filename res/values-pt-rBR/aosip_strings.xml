@@ -23,8 +23,8 @@
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Home Of the Kronic</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">Atualizador AOSiP</string>
+    <string name="update_settings_summary">Procure pela versão mais recente da rom</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotação</string>
     <string name="display_rotation_disabled">Desabilitada</string>
@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">Vibrar ao plugar</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura da bateria</string>
-    <string name="battery_temp_summary">Toque para trocar escala</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Ativar modo de gestos completo</string>
     <string name="full_gesture_mode_summary">Este modo também desativará o botão voltar. Para usar o gesto voltar deslize a barra para a esquerda, O ato de deslizar para a direita ainda acionará a ação do último aplicativo, e o deslizamento para a esquerda moverá os aplicativos caso deslize e segure. Para ir para o Home, você poderá tocar em qualquer espaço vazio da barra de navegação, não apenas no botão de início.</string>
@@ -230,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">Toque duplo no botão liga/desliga para ativar a lanterna</string>
     <string name="torch_power_button_gesture_lp">Manter pressionado o botão liga/desliga para ativar a lanterna</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Evitar despertar acidental</string>
+    <string name="proximity_wake_summary">Verifique o sensor de proximidade antes de despertar a tela</string>
 </resources>

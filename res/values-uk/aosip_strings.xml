@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">Вібрувати при підключенні через USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Увімкнути повний режим жестів</string>
     <string name="full_gesture_mode_summary">Цей режим вимикає кнопку «Назад» і ви зможете назначити дію кнопки «Назад» за допомогою свайпу вліво в рядку навігації. Свайп вправо, як і раніше, викликає останній додаток і огляд нещодавніх додатків. Щоб повернутися на домашній екран, ви можете натиснути на будь-яке пусте місце панелі навігації, а не тільки кнопку «Додому». Коли клавіатура активна, утримуйте натискання у рядку навігації для того, щоб перемістити курсор.</string>

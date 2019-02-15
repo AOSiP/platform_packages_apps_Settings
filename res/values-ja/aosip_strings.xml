@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">USB接続時の振動</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">バッテリー温度</string>
-    <string name="battery_temp_summary">タップしてサイズ変更</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">全てのジェスチャーモードを有効化</string>
     <string name="full_gesture_mode_summary">このモードでは戻るボタンが無効になり、ナビゲーションバーの左スワイプで戻るアクションをすることができます。右スワイプはアプリ履歴アクションを起動しアプリ一覧をスクロールできます。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。キーボード表示時はナビゲーションバー長押しでテキストカーソルに移動します。</string>

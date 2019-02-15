@@ -23,8 +23,8 @@
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Az Illuzió hazája...</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">AOSiP Frissítő</string>
+    <string name="update_settings_summary">Legutóbbi ROM verzió ellenőrzése</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Elforgatás</string>
     <string name="display_rotation_disabled">Letiltva</string>
@@ -55,7 +55,6 @@
     <string name="vibration_on_charge_state_changed_title">Rezgés töltőre helyezéskor</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Akkumulátor hőmérséklete</string>
-    <string name="battery_temp_summary">Méretarány változtatása</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Teljes mozdulatvezérlés-mód engedélyezése</string>
     <string name="full_gesture_mode_summary">Ez a mód letiltja a Vissza-gombot, amit a navigációs sávon balra csúsztatással helyettesíthet. Jobbra csúsztatással a legutóbbi alkalmazásokat tekintheti át. A Kezdőoldalra való visszatérést a navigációs sávot bárhol megérintve érheti el (kivéve a Kezdőoldal gomb helyét). Ha a billentyűzet meg van nyitva a navigációs sáv hosszú nyomásával mozgathatja a kurzort.</string>
@@ -230,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">Zseblámpa indítása a bekapcsológomb dupla nyomásával</string>
     <string name="torch_power_button_gesture_lp">Zseblámpa indítása a bekapcsológomb hosszan nyomásával</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
+    <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
 </resources>
