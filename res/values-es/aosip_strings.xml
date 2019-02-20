@@ -54,7 +54,7 @@
     <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
      
     <!-- Ambient category -->
-    <string name="ambient_display_category">Opciones de Pantalla Ambientey</string>
+    <string name="ambient_display_category">Opciones de Pantalla Ambiente</string>
      
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Encender al conectar</string>
