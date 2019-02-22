@@ -64,7 +64,7 @@ public class NightDisplayAutoModeValuePreferenceController extends BasePreferenc
     public final void updateState(Preference preference) {
         mPreference.setValue(String.valueOf(
                 Settings.System.getIntForUser(mContext.getContentResolver(),
-                Settings.System.NIGHT_BRIGHTNESS_VALUE, 2,
+                Settings.System.NIGHT_BRIGHTNESS_VALUE, 0,
                 UserHandle.USER_CURRENT)));
     }
 
