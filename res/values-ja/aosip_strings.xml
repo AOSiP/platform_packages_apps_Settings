@@ -17,14 +17,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOSiP Version -->
-    <string name="aosip_version">AOSiPビルド</string>
+    <string name="aosip_version">AOSiP ビルド</string>
     <string name="aosip_version_default">不明</string>
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
-    <string name="owlsnest_activity_summary">Kronicの住処</string>
+    <string name="owlsnest_activity_summary">Kronic の住処</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">AOSiP アップデーター</string>
+    <string name="update_settings_summary">ROM の最新バージョンを確認</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">回転</string>
     <string name="display_rotation_disabled">無効</string>
@@ -52,7 +52,7 @@
     <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除させる</string>
     <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断した時に画面を点灯させる</string>
     <!-- Vibrate on plug -->
-    <string name="vibration_on_charge_state_changed_title">USB接続時の振動</string>
+    <string name="vibration_on_charge_state_changed_title">USB 接続時の振動</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">バッテリー温度</string>
     <!-- Nav Gesture -->
@@ -75,26 +75,26 @@
     <string name="less_notification_sounds_5m">5分ごと</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>は<xliff:g id="status" example="disabled">%2$s</xliff:g>です</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> は <xliff:g id="status" example="disabled">%2$s</xliff:g> です</string>
     <string name="sim_disabled">無効</string>
-    <string name="sim_missing">挿入されていないか、問題があります。</string>
-    <string name="sim_enabler_need_disable_sim">SIMカードはアクティベート解除されます。続行しますか？</string>
-    <string name="sim_enabler_airplane_on">機内モードがオンになっている間はこの操作を実行することはできません</string>
+    <string name="sim_missing">未検出または問題が発生しています</string>
+    <string name="sim_enabler_need_disable_sim">SIM カードはアクティベート解除されます。続行しますか?</string>
+    <string name="sim_enabler_airplane_on">機内モードが ON になっている間はこの操作を実行することはできません</string>
     <string name="sim_enabler_in_call">通話中はこの操作を実行することはできません</string>
-    <string name="sim_enabler_both_inactive">全てのSIMカードを無効にはできません</string>
+    <string name="sim_enabler_both_inactive">全ての SIM カードを無効にはできません</string>
     <string name="sim_enabler_enabling">アクティベート中\u2026</string>
     <string name="sim_enabler_disabling">アクティベート解除中\u2026</string>
-    <string name="sub_activate_success">SIMをアクティベートしました</string>
+    <string name="sub_activate_success">SIM をアクティベートしました</string>
     <string name="sub_activate_failed">アクティベーションに失敗しました</string>
-    <string name="sub_deactivate_success">SIMをアクティベート解除しました</string>
+    <string name="sub_deactivate_success">SIM をアクティベート解除しました</string>
     <string name="sub_deactivate_failed">アクティベート解除に失敗しました</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
     <string name="ringtone1_title">着信音 - SIM 1</string>
     <string name="ringtone2_title">着信音 - SIM 2</string>
     <!-- Custom light color -->
     <string name="custom_light_title">ライトカラー</string>
-    <string name="custom_light_on_time_title">LEDの点滅している時の光っている時間（ms）</string>
-    <string name="custom_light_off_time_title">LED点滅時の消えている時間（ms）</string>
+    <string name="custom_light_on_time_title">LED 点滅時の光っている時間 (ミリ秒)</string>
+    <string name="custom_light_off_time_title">LED点滅時の消えている時間 (ミリ秒)</string>
     <string name="value_equals_default">既定</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">着信音量を上げる</string>
@@ -109,15 +109,15 @@
     <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi データ使用量を有効化する</string>
     <!-- FP swype dismiss -->
     <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには、端末裏側の指紋センサー上で左右にスワイプしてください。</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには端末裏側の指紋センサー上で左右にスワイプして下さい</string>
     <!-- System theme -->
-    <string name="system_theme_wallpaper">自動（時間帯ベース）</string>
+    <string name="system_theme_wallpaper">自動 (時間帯ベース)</string>
     <string name="system_theme_light">ライト</string>
     <string name="system_theme_dark">ダーク</string>
     <string name="blackaf_theme_title">BlackAF テーマを使用</string>
     <string name="blackaf_theme_summary">ダークテーマの代わりに私達のブラックテーマを使う</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinuxのステータス</string>
+    <string name="selinux_status">SELinux のステータス</string>
     <string name="selinux_status_disabled">無効</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
@@ -139,8 +139,8 @@
     <string name="app_ops_auto_start">自動起動</string>
     <string name="app_ops_delete_call_log">通話履歴の削除</string>
     <string name="app_ops_delete_contacts">連絡先の削除</string>
-    <string name="app_ops_delete_mms">MMSの削除</string>
-    <string name="app_ops_delete_sms">SMSの削除</string>
+    <string name="app_ops_delete_mms">MMS の削除</string>
+    <string name="app_ops_delete_sms">SMS の削除</string>
     <string name="app_ops_draw_on_top">上部に描画</string>
     <string name="app_ops_get_usage_stats">使用統計の取得</string>
     <string name="app_ops_keep_device_awake">スリープモードにしない</string>
@@ -152,7 +152,7 @@
     <string name="app_ops_modify_clipboard">クリップボードの変更</string>
     <string name="app_ops_modify_contacts">連絡先の更新</string>
     <string name="app_ops_modify_settings">設定の更新</string>
-    <string name="app_ops_mute_unmute_microphone">マイクの有効/無効</string>
+    <string name="app_ops_mute_unmute_microphone">マイク機能の切換え</string>
     <string name="app_ops_play_audio">音声の再生</string>
     <string name="app_ops_post_notification">通知の配信</string>
     <string name="app_ops_cell_scan">セルスキャン</string>
@@ -161,16 +161,16 @@
     <string name="app_ops_read_call_log">通話履歴の読み取り</string>
     <string name="app_ops_read_clipboard">クリップボードの読み取り</string>
     <string name="app_ops_read_contacts">連絡先の読み取り</string>
-    <string name="app_ops_read_mms">MMSの読み取り</string>
-    <string name="app_ops_read_sms">SMSの読み取り</string>
-    <string name="app_ops_receive_sms">SMSの受信</string>
+    <string name="app_ops_read_mms">MMS の読み取り</string>
+    <string name="app_ops_read_sms">SMS の読み取り</string>
+    <string name="app_ops_receive_sms">SMS の受信</string>
     <string name="app_ops_record_audio">音声の録音</string>
-    <string name="app_ops_send_mms">MMSの送信</string>
-    <string name="app_ops_send_sms">SMSの送信</string>
+    <string name="app_ops_send_mms">MMS の送信</string>
+    <string name="app_ops_send_sms">SMS の送信</string>
     <string name="app_ops_toast_window">トーストメッセージ</string>
     <string name="app_ops_use_alarm_volume">アラームの音量</string>
     <string name="app_ops_use_audio_focus">音声フォーカス</string>
-    <string name="app_ops_use_bluetooth_volume">Bluetoothの音量</string>
+    <string name="app_ops_use_bluetooth_volume">Bluetooth の音量</string>
     <string name="app_ops_use_master_volume">主音量</string>
     <string name="app_ops_use_media_buttons">メディアボタン</string>
     <string name="app_ops_use_media_volume">メディアの音量</string>
@@ -178,12 +178,12 @@
     <string name="app_ops_use_ring_volume">着信の音量</string>
     <string name="app_ops_use_vibrate">振動フィードバック</string>
     <string name="app_ops_use_voice_volume">音声通話の音量</string>
-    <string name="app_ops_write_mms">MMSの書き込み</string>
-    <string name="app_ops_write_sms">SMSの書き込み</string>
+    <string name="app_ops_write_mms">MMS の書き込み</string>
+    <string name="app_ops_write_sms">SMS の書き込み</string>
     <string name="app_ops_use_fingerprint">指紋認証</string>
     <string name="app_ops_add_voicemail">ボイスメール</string>
     <string name="app_ops_read_phone_state">端末の状態へのアクセス</string>
-    <string name="app_ops_scan_wifi">Wi-Fiネットワークのスキャン</string>
+    <string name="app_ops_scan_wifi">Wi-Fi ネットワークのスキャン</string>
     <string name="app_ops_change_wallpaper">壁紙の変更</string>
     <string name="app_ops_assist_structure">ストラクチャーのアシスト</string>
     <string name="app_ops_assist_screenshot">スクリーンショット</string>
@@ -202,21 +202,21 @@
     <string name="app_ops_app_start_foreground">フォアグラウンドで起動する</string>
     <string name="app_ops_answer_phone_calls">着信への応答</string>
     <string name="app_ops_run_any_in_background">バックグラウンドで実行</string>
-    <string name="app_ops_change_wifi_state">Wi-Fiの状態の変更</string>
+    <string name="app_ops_change_wifi_state">Wi-Fi の状態の変更</string>
     <string name="app_ops_request_delete_packages">パッケージを削除</string>
     <string name="app_ops_bind_accessibility_service">アクセシビリティに割り当てる</string>
     <string name="app_ops_accept_handover">ハンドオーバーを受容</string>
-    <string name="app_ops_manage_ipsec_tunnels">IPトンネルを管理</string>
+    <string name="app_ops_manage_ipsec_tunnels">IP トンネルを管理</string>
     <string name="app_ops_start_foreground">フォアグラウンドで起動する</string>
-    <string name="app_ops_bluetooth_scan">Bluetoothのスキャン</string>
+    <string name="app_ops_bluetooth_scan">Bluetooth のスキャン</string>
     <string name="app_ops_boot_completed">自動実行</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
     <!-- Media gestures -->
     <string name="prevent_ringing_option_mute_no_media">ミュート、メディアなし</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">オン（ミュート、メディアなし）</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">ON (ミュート、メディアなし)</string>
     <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">端末の<xliff:g id="sensor_location">%1$s</xliff:g>にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">端末の <xliff:g id="sensor_location">%1$s</xliff:g> にある指紋認証センサーを探します</string>
     <!-- Fingerprint sensor locations -->
     <string name="security_settings_fingerprint_sensor_location_back">戻る</string>
     <string name="security_settings_fingerprint_sensor_location_front">前面</string>
@@ -229,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">電源ボタンを2回押しでライト点灯</string>
     <string name="torch_power_button_gesture_lp">電源ボタンを長押しでライト点灯</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">誤起動を防止</string>
+    <string name="proximity_wake_summary">画面をスリープ解除する前に接近センサーを確認する</string>
 </resources>
