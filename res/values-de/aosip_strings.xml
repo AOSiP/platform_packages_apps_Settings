@@ -24,7 +24,7 @@
     <string name="owlsnest_activity_summary">Ursprungsland der Kronic</string>
     <!-- AOSiP Updater -->
     <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_summary">Nach der aktuellsten Version suchen</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Umdrehung</string>
     <string name="display_rotation_disabled">Deaktiviert</string>
@@ -229,6 +229,6 @@
     <string name="torch_power_button_gesture_dt">Zum Umschalten der Taschenlampe die Ein-/Aus-Taste doppelt drücken</string>
     <string name="torch_power_button_gesture_lp">Ein-/Aus-Taste lange drücken zum Anschalten der Taschenlampe</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Unbeabsichtigtes Aufwecken verhindern</string>
+    <string name="proximity_wake_summary">Vor dem Aufwecken des Gerätes Näherungssensor überprüfen</string>
 </resources>

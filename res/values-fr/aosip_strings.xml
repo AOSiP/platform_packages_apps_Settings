@@ -115,7 +115,7 @@
     <string name="system_theme_light">Clair</string>
     <string name="system_theme_dark">Sombre</string>
     <string name="blackaf_theme_title">Utiliser le thème BlackAF</string>
-    <string name="blackaf_theme_summary">Utiliser notre thème noir au lieu du mode sombre</string>
+    <string name="blackaf_theme_summary">Utiliser le thème noir au lieu du thème sombre</string>
     <!-- Selinux -->
     <string name="selinux_status">État SELinux</string>
     <string name="selinux_status_disabled">Désactivé</string>
@@ -213,22 +213,22 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lier les volumes de la sonnerie &amp; des notifications</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+    <string name="prevent_ringing_option_mute_no_media">Muet, pas de média</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Activé (muet, pas de média)</string>
     <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Locate the fingerprint sensor on the <xliff:g id="sensor_location">%1$s</xliff:g> of your phone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Repérez le capteur d’empreintes digitales sur <xliff:g id="sensor_location">%1$s </xliff:g> de votre téléphone.</string>
     <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">back</string>
-    <string name="security_settings_fingerprint_sensor_location_front">front</string>
-    <string name="security_settings_fingerprint_sensor_location_left">left side</string>
-    <string name="security_settings_fingerprint_sensor_location_right">right side</string>
+    <string name="security_settings_fingerprint_sensor_location_back">arrière</string>
+    <string name="security_settings_fingerprint_sensor_location_front">avant</string>
+    <string name="security_settings_fingerprint_sensor_location_left">côté gauche</string>
+    <string name="security_settings_fingerprint_sensor_location_right">côté droit</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Activer la lampe torche</string>
+    <string name="double_tap_power_flashlight_title">Lampe de poche écran éteint</string>
+    <string name="torch_power_button_gesture_none">Désactivé</string>
+    <string name="torch_power_button_gesture_dt">Appui double sur le bouton d\'alimentation pour activer/désactiver la lampe de poche</string>
+    <string name="torch_power_button_gesture_lp">Appui long sur le bouton d\'alimentation pour activer la lampe de poche</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
+    <string name="proximity_wake_summary">Vérifier le capteur de proximité avant d\'allumer l\'écran</string>
 </resources>
