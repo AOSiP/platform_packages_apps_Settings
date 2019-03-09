@@ -231,4 +231,7 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">منع الاستيقاظ العرضي</string>
     <string name="proximity_wake_summary">التحقق من مستشعر القرب قبل إيقاظ الشاشة</string>
+    <!-- doze on charge -->
+    <string name="doze_on_charge_title">Show when charging</string>
+    <string name="doze_on_charge_summary">Wake screen when charging</string>
 </resources>
