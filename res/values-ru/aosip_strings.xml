@@ -232,6 +232,6 @@
     <string name="proximity_wake_title">Предотвращать случайные пробуждения</string>
     <string name="proximity_wake_summary">Проверять датчик приближения при выходе из режима сна</string>
     <!-- doze on charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Показывать во время зарядки</string>
+    <string name="doze_on_charge_summary">Включить экран при зарядке</string>
 </resources>

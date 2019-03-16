@@ -232,6 +232,6 @@
     <string name="proximity_wake_title">防止意外唤醒</string>
     <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
     <!-- doze on charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">充电时显示</string>
+    <string name="doze_on_charge_summary">充电时唤醒屏幕</string>
 </resources>

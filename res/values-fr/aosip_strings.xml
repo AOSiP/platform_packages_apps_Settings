@@ -232,6 +232,6 @@
     <string name="proximity_wake_title">Empêcher un réveil accidentel</string>
     <string name="proximity_wake_summary">Vérifier le capteur de proximité avant d\'allumer l\'écran</string>
     <!-- doze on charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Afficher lors de la charge</string>
+    <string name="doze_on_charge_summary">Réveiller l\'écran lors du chargement</string>
 </resources>

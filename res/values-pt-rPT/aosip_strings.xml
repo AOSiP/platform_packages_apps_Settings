@@ -17,14 +17,14 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOSiP Version -->
-    <string name="aosip_version">AOSiP Build</string>
-    <string name="aosip_version_default">Unknown</string>
+    <string name="aosip_version">Versão AOSiP</string>
+    <string name="aosip_version_default">Desconhecido</string>
     <!-- OwlsNest -->
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Home Of the Kronic</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">Atualizador AOSiP</string>
+    <string name="update_settings_summary">Procurar a versão mais recente da ROM</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotação</string>
     <string name="display_rotation_disabled">Desativada</string>
@@ -39,24 +39,24 @@
     <string name="battery_stats_message">O histórico de estatísticas da bateria vai ser apagado</string>
     <string name="ok_string">Ok</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Diminuir o brilho no modo Luz Noturna</string>
+    <string name="night_auto_value_disabled">Desativado</string>
+    <string name="night_auto_value_min">Brilho mínimo</string>
+    <string name="night_bright_low">Brilho baixo</string>
+    <string name="night_bright_midlow">Brilho médio</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Som quando tira captura de ecrã</string>
     <!-- Ambient category -->
-    <string name="ambient_display_category">Ambient options</string>
+    <string name="ambient_display_category">Opções de ambiente</string>
     <!-- Wake on plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Ligar ecrã ao detetar carregador</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Liga o ecrã quando ligar ou desligar um carregador</string>
     <!-- Vibrate on plug -->
-    <string name="vibration_on_charge_state_changed_title">Vibrate on USB plug</string>
+    <string name="vibration_on_charge_state_changed_title">Vibrar ao conectar USB</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Temperatura da bateria</string>
     <!-- Nav Gesture -->
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_title">Ativar gestos de ecrã infinito</string>
     <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
     <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
     <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>

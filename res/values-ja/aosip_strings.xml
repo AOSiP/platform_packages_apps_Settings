@@ -232,6 +232,6 @@
     <string name="proximity_wake_title">誤起動を防止</string>
     <string name="proximity_wake_summary">画面をスリープ解除する前に接近センサーを確認する</string>
     <!-- doze on charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">充電時に表示</string>
+    <string name="doze_on_charge_summary">充電時画面を点灯する</string>
 </resources>

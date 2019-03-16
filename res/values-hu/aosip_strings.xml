@@ -232,6 +232,6 @@
     <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
     <string name="proximity_wake_summary">Közelségérzékelő ellenőrzése a képernyő felébresztése előtt</string>
     <!-- doze on charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Töltéskor jelenítse meg</string>
+    <string name="doze_on_charge_summary">Töltéskor ébressze fel a képernyőt</string>
 </resources>
