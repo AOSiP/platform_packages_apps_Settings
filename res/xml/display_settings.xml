@@ -119,11 +119,6 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
-    <SwitchPreference
-        android:key="proximity_on_wake"
-        android:title="@string/proximity_wake_title"
-        android:summary="@string/proximity_wake_summary" />
-
     <com.aosip.owlsnest.preference.SystemSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
         android:title="@string/wake_when_plugged_or_unplugged_title"
