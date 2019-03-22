@@ -23,8 +23,8 @@
     <string name="owlsnest_title">OwlsNest</string>
     <string name="owlsnest_activity_summary">Home Of the Kronic</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">Updater AOSiP</string>
+    <string name="update_settings_summary">Controlla l\'ultima versione della ROM</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotazione</string>
     <string name="display_rotation_disabled">Disabilitato</string>
@@ -39,11 +39,11 @@
     <string name="battery_stats_message">Le statistiche cronologia batteria saranno resettate</string>
     <string name="ok_string">Ok</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Lower brightness if Night Light</string>
-    <string name="night_auto_value_disabled">Disabled</string>
-    <string name="night_auto_value_min">Minimum brightness</string>
-    <string name="night_bright_low">Low brightness</string>
-    <string name="night_bright_midlow">Mid low brightness</string>
+    <string name="night_brightness_value_title">Riduci luminosità se abilitata Luce Notturna</string>
+    <string name="night_auto_value_disabled">Disattivato</string>
+    <string name="night_auto_value_min">Luminosità minima</string>
+    <string name="night_bright_low">Luminosità bassa</string>
+    <string name="night_bright_midlow">Luminosità medio bassa</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Suono otturatore screenshot</string>
     <!-- Ambient category -->
@@ -54,54 +54,54 @@
     <!-- Vibrate on plug -->
     <string name="vibration_on_charge_state_changed_title">Vibra al collegamento USB</string>
     <!-- Battery temp -->
-    <string name="battery_temp_title">Battery temperature</string>
+    <string name="battery_temp_title">Temperatura batteria</string>
     <!-- Nav Gesture -->
-    <string name="full_gesture_mode_title">Enable full gesture mode</string>
+    <string name="full_gesture_mode_title">Attiva la modalità gesti completa</string>
     <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
-    <string name="full_gesture_mode_dt2s_title">Enable double tap to sleep</string>
-    <string name="full_gesture_mode_dt2s_summary">Tap on an empty navbar space but not the home button to switch the screen off.</string>
+    <string name="full_gesture_mode_dt2s_title">Attiva il doppio tocco per spegnere lo schermo</string>
+    <string name="full_gesture_mode_dt2s_summary">Tocca uno spazio vuoto della barra di navigazione, tranne il tasto home, per spegnere lo schermo.</string>
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Less frequent notification sounds</string>
     <string name="less_notification_sounds_summary">Play the notification sound of each app only once per set time period</string>
-    <string name="less_notification_sounds_default">Default Behaviour</string>
-    <string name="less_notification_sounds_3s">Every 3 seconds</string>
-    <string name="less_notification_sounds_5s">Every 5 seconds</string>
-    <string name="less_notification_sounds_10s">Every 10 seconds</string>
-    <string name="less_notification_sounds_15s">Every 15 seconds</string>
-    <string name="less_notification_sounds_30s">Every 30 seconds</string>
-    <string name="less_notification_sounds_45s">Every 45 seconds</string>
-    <string name="less_notification_sounds_1m">Every 1 minute</string>
-    <string name="less_notification_sounds_2m">Every 2 minutes</string>
-    <string name="less_notification_sounds_5m">Every 5 minutes</string>
+    <string name="less_notification_sounds_default">Comportamento predefinito</string>
+    <string name="less_notification_sounds_3s">Ogni 3 secondi</string>
+    <string name="less_notification_sounds_5s">Ogni 5 secondi</string>
+    <string name="less_notification_sounds_10s">Ogni 10 secondi</string>
+    <string name="less_notification_sounds_15s">Ogni 15 secondi</string>
+    <string name="less_notification_sounds_30s">Ogni 30 secondi</string>
+    <string name="less_notification_sounds_45s">Ogni 45 secondi</string>
+    <string name="less_notification_sounds_1m">Ogni minuto</string>
+    <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
+    <string name="less_notification_sounds_5m">Ogni 5 minuti</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">disabled</string>
-    <string name="sim_missing">missing or faulty</string>
-    <string name="sim_enabler_need_disable_sim">SIM card will be deactivated. Do you want to continue?</string>
-    <string name="sim_enabler_airplane_on">Unable to perform the operation while airplane mode is on.</string>
-    <string name="sim_enabler_in_call">Unable to perform the operation while in call.</string>
-    <string name="sim_enabler_both_inactive">Can\'t disable all SIM cards</string>
-    <string name="sim_enabler_enabling">Activating\u2026</string>
-    <string name="sim_enabler_disabling">Deactivating\u2026</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_activate_failed">Activation failed.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
-    <string name="sub_deactivate_failed">Deactivation failed.</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> è <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">disattivato</string>
+    <string name="sim_missing">assente o difettoso</string>
+    <string name="sim_enabler_need_disable_sim">La scheda SIM sarà disattivata. Vuoi continuare?</string>
+    <string name="sim_enabler_airplane_on">Impossibile eseguire l\'operazione mentre è attivata la modalità aereo.</string>
+    <string name="sim_enabler_in_call">Impossibile eseguire l\'operazione durante una chiamata.</string>
+    <string name="sim_enabler_both_inactive">Non è possibile disattivare tutte le schede SIM</string>
+    <string name="sim_enabler_enabling">Attivazione\2026</string>
+    <string name="sim_enabler_disabling">Disattivazione\2026</string>
+    <string name="sub_activate_success">SIM attivata.</string>
+    <string name="sub_activate_failed">Attivazione fallita.</string>
+    <string name="sub_deactivate_success">SIM disattivata.</string>
+    <string name="sub_deactivate_failed">Disattivazione non riuscita.</string>
     <!-- Option defining the phone ringtone for slot1 on Muilti SIM device -->
-    <string name="ringtone1_title">Phone ringtone - SIM 1</string>
-    <string name="ringtone2_title">Phone ringtone - SIM 2</string>
+    <string name="ringtone1_title">Suoneria telefono - SIM 1</string>
+    <string name="ringtone2_title">Suoneria telefono - SIM 2</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Colore della luce</string>
     <string name="custom_light_on_time_title">Durata impulso del led acceso (ms)</string>
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">predefinito</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
+    <string name="increasing_ring_min_volume_title">Volume iniziale</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo di aumento</string>
     <!-- Density category -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Opzioni densità</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Dati mobili</string>
     <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
@@ -111,8 +111,8 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Scorri a sinistra o destra sul sensore d\'impronte per rimuovere le notifiche</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Per ignorare le notifiche, scorrere verso sinistra o destra sul sensore di impronte digitali sul retro del telefono.</string>
     <!-- System theme -->
-    <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
-    <string name="system_theme_light">Light</string>
+    <string name="system_theme_wallpaper">Automatico (basato sull\'ora del giorno)</string>
+    <string name="system_theme_light">Chiaro</string>
     <string name="system_theme_dark">Dark</string>
     <string name="blackaf_theme_title">Use BlackAF theme</string>
     <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
@@ -162,39 +162,39 @@
     <string name="app_ops_read_clipboard">read clipboard</string>
     <string name="app_ops_read_contacts">read contacts</string>
     <string name="app_ops_read_mms">read MMS</string>
-    <string name="app_ops_read_sms">read SMS</string>
-    <string name="app_ops_receive_sms">receive SMS</string>
-    <string name="app_ops_record_audio">record audio</string>
-    <string name="app_ops_send_mms">send MMS</string>
-    <string name="app_ops_send_sms">send SMS</string>
-    <string name="app_ops_toast_window">toast messages</string>
-    <string name="app_ops_use_alarm_volume">alarm volume</string>
+    <string name="app_ops_read_sms">leggere SMS</string>
+    <string name="app_ops_receive_sms">ricevere SMS</string>
+    <string name="app_ops_record_audio">registrare audio</string>
+    <string name="app_ops_send_mms">inviare MMS</string>
+    <string name="app_ops_send_sms">inviare SMS</string>
+    <string name="app_ops_toast_window">notifiche toast</string>
+    <string name="app_ops_use_alarm_volume">volume sveglia</string>
     <string name="app_ops_use_audio_focus">audio focus</string>
-    <string name="app_ops_use_bluetooth_volume">Bluetooth volume</string>
-    <string name="app_ops_use_master_volume">master volume</string>
+    <string name="app_ops_use_bluetooth_volume">volume Bluetooth</string>
+    <string name="app_ops_use_master_volume">volume principale</string>
     <string name="app_ops_use_media_buttons">media buttons</string>
-    <string name="app_ops_use_media_volume">media volume</string>
-    <string name="app_ops_use_notification_volume">notification volume</string>
-    <string name="app_ops_use_ring_volume">ringtone volume</string>
-    <string name="app_ops_use_vibrate">haptic feedback</string>
-    <string name="app_ops_use_voice_volume">voice call volume</string>
+    <string name="app_ops_use_media_volume">volume media</string>
+    <string name="app_ops_use_notification_volume">volume notifiche</string>
+    <string name="app_ops_use_ring_volume">volume suoneria</string>
+    <string name="app_ops_use_vibrate">feedback aptico</string>
+    <string name="app_ops_use_voice_volume">volume chiamata</string>
     <string name="app_ops_write_mms">write MMS</string>
     <string name="app_ops_write_sms">write SMSe</string>
-    <string name="app_ops_use_fingerprint">fingerprint</string>
-    <string name="app_ops_add_voicemail">voicemail</string>
-    <string name="app_ops_read_phone_state">access phone state</string>
-    <string name="app_ops_scan_wifi">Scan WiFi Networks</string>
-    <string name="app_ops_change_wallpaper">change wallpaper</string>
+    <string name="app_ops_use_fingerprint">impronta digitale</string>
+    <string name="app_ops_add_voicemail">segreteria telefonica</string>
+    <string name="app_ops_read_phone_state">accesso allo stato telefono</string>
+    <string name="app_ops_scan_wifi">Scansione reti WiFi</string>
+    <string name="app_ops_change_wallpaper">cambiare sfondo</string>
     <string name="app_ops_assist_structure">assist structure</string>
     <string name="app_ops_assist_screenshot">screenshot</string>
-    <string name="app_ops_use_body_sensors">body sensors</string>
+    <string name="app_ops_use_body_sensors">sensori biometrici</string>
     <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
-    <string name="app_ops_mock_location">mock location</string>
-    <string name="app_ops_read_external_storage">read ext. stor.</string>
-    <string name="app_ops_write_external_storage">write ext. stor.</string>
-    <string name="app_ops_turn_on_screen">turn screen on</string>
+    <string name="app_ops_mock_location">posizione fittizia</string>
+    <string name="app_ops_read_external_storage">lettura mem. est.</string>
+    <string name="app_ops_write_external_storage">scrittura mem. est.</string>
+    <string name="app_ops_turn_on_screen">accensione schermo</string>
     <string name="app_ops_get_accounts">device accounts</string>
-    <string name="app_ops_run_in_background">run in background</string>
+    <string name="app_ops_run_in_background">esecuzione in background</string>
     <string name="app_ops_accessibility_volume">accessibility volume</string>
     <string name="app_ops_read_phone_numbers">read phone num.</string>
     <string name="app_ops_request_install_packages">install packages</string>
