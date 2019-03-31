@@ -20,8 +20,8 @@
     <string name="aosip_version">Build AOSiP</string>
     <string name="aosip_version_default">Sconosciuto</string>
     <!-- OwlsNest -->
-    <string name="owlsnest_title">OwlsNest</string>
-    <string name="owlsnest_activity_summary">Home Of the Kronic</string>
+    <string name="owlsnest_title">Tana del Gufo</string>
+    <string name="owlsnest_activity_summary">Vuoi scoprire quant\'è profonda la tana del Kronic?</string>
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Updater AOSiP</string>
     <string name="update_settings_summary">Controlla l\'ultima versione della ROM</string>
@@ -57,12 +57,12 @@
     <string name="battery_temp_title">Temperatura batteria</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Attiva la modalità gesti completa</string>
-    <string name="full_gesture_mode_summary">This mode disables the back button and you can trigger a back button action by a left swipe on navbar. Right swipe still triggers the last-app and the overview apps scrolling. To go home you can tap on any navbar empty space, not only the home button. When keyboard is showing, long press on navbar to move the text cursor.</string>
+    <string name="full_gesture_mode_summary">Questa modalità disabilita il pulsante indietro che viene sostituito dallo scorrimento verso sinistra. Lo scorrimento a destra comunque porterà all\'ultima app o allo scorrimento tra le app recenti. Per tornare alla schermata home, puoi toccare qualsiasi spazio vuoto oltre al tasto home stesso. Quando la tastiera è attiva, premi a lungo sulla barra per spostare il cursore del testo.</string>
     <string name="full_gesture_mode_dt2s_title">Attiva il doppio tocco per spegnere lo schermo</string>
     <string name="full_gesture_mode_dt2s_summary">Tocca uno spazio vuoto della barra di navigazione, tranne il tasto home, per spegnere lo schermo.</string>
     <!-- Less Notification sounds -->
-    <string name="less_notification_sounds_title">Less frequent notification sounds</string>
-    <string name="less_notification_sounds_summary">Play the notification sound of each app only once per set time period</string>
+    <string name="less_notification_sounds_title">Suoni di notifica meno frequenti</string>
+    <string name="less_notification_sounds_summary">Riproduci il suono di notifica di ogni applicazione solo una volta per un periodo di tempo</string>
     <string name="less_notification_sounds_default">Comportamento predefinito</string>
     <string name="less_notification_sounds_3s">Ogni 3 secondi</string>
     <string name="less_notification_sounds_5s">Ogni 5 secondi</string>
@@ -94,7 +94,7 @@
     <!-- Custom light color -->
     <string name="custom_light_title">Colore della luce</string>
     <string name="custom_light_on_time_title">Durata impulso del led acceso (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)\"</string>
+    <string name="custom_light_off_time_title">Durata pulsazione LED (ms)</string>
     <string name="value_equals_default">predefinito</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
@@ -113,55 +113,55 @@
     <!-- System theme -->
     <string name="system_theme_wallpaper">Automatico (basato sull\'ora del giorno)</string>
     <string name="system_theme_light">Chiaro</string>
-    <string name="system_theme_dark">Dark</string>
-    <string name="blackaf_theme_title">Use BlackAF theme</string>
-    <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
+    <string name="system_theme_dark">Scuro</string>
+    <string name="blackaf_theme_title">Usa tema nero assoluto</string>
+    <string name="blackaf_theme_summary">Usa il nostro tema nero al posto dello scuro</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="selinux_status">Stato SELinux</string>
+    <string name="selinux_status_disabled">Disattivato</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Imposto</string>
     <!-- App Ops Categories -->
-    <string name="app_ops_settings">App ops</string>
-    <string name="app_ops_cat_location">Location</string>
-    <string name="app_ops_cat_personal">Personal</string>
-    <string name="app_ops_cat_messaging">Messaging</string>
+    <string name="app_ops_settings">Op. app</string>
+    <string name="app_ops_cat_location">Posizione</string>
+    <string name="app_ops_cat_personal">Personali</string>
+    <string name="app_ops_cat_messaging">Messaggi</string>
     <string name="app_ops_cat_media">Media</string>
-    <string name="app_ops_cat_device">Device</string>
-    <string name="app_ops_cat_bootup">Bootup</string>
+    <string name="app_ops_cat_device">Dispositivo</string>
+    <string name="app_ops_cat_bootup">Avvio</string>
     <!-- App ops labels -->
-    <string name="app_ops_access_camera">camera</string>
-    <string name="app_ops_coarse_location">coarse location</string>
-    <string name="app_ops_fine_location">fine location</string>
+    <string name="app_ops_access_camera">fotocamera</string>
+    <string name="app_ops_coarse_location">posizione approssimativa</string>
+    <string name="app_ops_fine_location">posizione precisa</string>
     <string name="app_ops_gps_location">GPS</string>
-    <string name="app_ops_access_notifications">notifications</string>
+    <string name="app_ops_access_notifications">notifiche</string>
     <string name="app_ops_activate_vpn">VPN</string>
-    <string name="app_ops_auto_start">autostart</string>
-    <string name="app_ops_delete_call_log">delete call log</string>
-    <string name="app_ops_delete_contacts">delete contacts</string>
-    <string name="app_ops_delete_mms">delete MMS</string>
-    <string name="app_ops_delete_sms">delete SMS</string>
-    <string name="app_ops_draw_on_top">draw on top</string>
-    <string name="app_ops_get_usage_stats">get usage stats</string>
-    <string name="app_ops_keep_device_awake">keep awake</string>
-    <string name="app_ops_monitor_location">monitor location</string>
-    <string name="app_ops_high_power_location">monitor high power location</string>
-    <string name="app_ops_make_phone_call">make call</string>
-    <string name="app_ops_modify_calendar">update calendar</string>
-    <string name="app_ops_modify_call_log">update call log</string>
-    <string name="app_ops_modify_clipboard">modify clipboard</string>
-    <string name="app_ops_modify_contacts">update contacts</string>
-    <string name="app_ops_modify_settings">update settings</string>
-    <string name="app_ops_mute_unmute_microphone">mute/unmutee mic</string>
-    <string name="app_ops_play_audio">play audio</string>
-    <string name="app_ops_post_notification">post notification</string>
-    <string name="app_ops_cell_scan">cell scan</string>
-    <string name="app_ops_project_media">project media</string>
-    <string name="app_ops_read_calendar">read calendar</string>
-    <string name="app_ops_read_call_log">read call log</string>
-    <string name="app_ops_read_clipboard">read clipboard</string>
-    <string name="app_ops_read_contacts">read contacts</string>
-    <string name="app_ops_read_mms">read MMS</string>
+    <string name="app_ops_auto_start">avvio automatico</string>
+    <string name="app_ops_delete_call_log">eliminazione dal registro chiamate</string>
+    <string name="app_ops_delete_contacts">eliminazione contatti</string>
+    <string name="app_ops_delete_mms">eliminare MMS</string>
+    <string name="app_ops_delete_sms">eliminare SMS</string>
+    <string name="app_ops_draw_on_top">disegna sopra altre app</string>
+    <string name="app_ops_get_usage_stats">ottenere statistiche d\'uso</string>
+    <string name="app_ops_keep_device_awake">mantienere attivo</string>
+    <string name="app_ops_monitor_location">monitorare posizione</string>
+    <string name="app_ops_high_power_location">monitorare posizione precisa</string>
+    <string name="app_ops_make_phone_call">effettuare una chiamata</string>
+    <string name="app_ops_modify_calendar">aggiornare il calendario</string>
+    <string name="app_ops_modify_call_log">aggiornare il registro chiamate</string>
+    <string name="app_ops_modify_clipboard">modificare gli appunti</string>
+    <string name="app_ops_modify_contacts">aggiornare i contatti</string>
+    <string name="app_ops_modify_settings">aggiornare le impostazioni</string>
+    <string name="app_ops_mute_unmute_microphone">disattivare/attivare microfono</string>
+    <string name="app_ops_play_audio">riprodurre audio</string>
+    <string name="app_ops_post_notification">effettuare notifiche</string>
+    <string name="app_ops_cell_scan">scansione celle radio</string>
+    <string name="app_ops_project_media">proiettare media</string>
+    <string name="app_ops_read_calendar">leggere il calendario</string>
+    <string name="app_ops_read_call_log">leggere il registro chiamate</string>
+    <string name="app_ops_read_clipboard">leggere appunti</string>
+    <string name="app_ops_read_contacts">leggere contatti</string>
+    <string name="app_ops_read_mms">leggere MMS</string>
     <string name="app_ops_read_sms">leggere SMS</string>
     <string name="app_ops_receive_sms">ricevere SMS</string>
     <string name="app_ops_record_audio">registrare audio</string>
@@ -169,52 +169,52 @@
     <string name="app_ops_send_sms">inviare SMS</string>
     <string name="app_ops_toast_window">notifiche toast</string>
     <string name="app_ops_use_alarm_volume">volume sveglia</string>
-    <string name="app_ops_use_audio_focus">audio focus</string>
+    <string name="app_ops_use_audio_focus">focus audio</string>
     <string name="app_ops_use_bluetooth_volume">volume Bluetooth</string>
     <string name="app_ops_use_master_volume">volume principale</string>
-    <string name="app_ops_use_media_buttons">media buttons</string>
+    <string name="app_ops_use_media_buttons">pulsanti multimediali</string>
     <string name="app_ops_use_media_volume">volume media</string>
     <string name="app_ops_use_notification_volume">volume notifiche</string>
     <string name="app_ops_use_ring_volume">volume suoneria</string>
     <string name="app_ops_use_vibrate">feedback aptico</string>
     <string name="app_ops_use_voice_volume">volume chiamata</string>
-    <string name="app_ops_write_mms">write MMS</string>
-    <string name="app_ops_write_sms">write SMSe</string>
+    <string name="app_ops_write_mms">scrivere MMS</string>
+    <string name="app_ops_write_sms">scrivere SMS</string>
     <string name="app_ops_use_fingerprint">impronta digitale</string>
     <string name="app_ops_add_voicemail">segreteria telefonica</string>
     <string name="app_ops_read_phone_state">accesso allo stato telefono</string>
     <string name="app_ops_scan_wifi">Scansione reti WiFi</string>
     <string name="app_ops_change_wallpaper">cambiare sfondo</string>
-    <string name="app_ops_assist_structure">assist structure</string>
+    <string name="app_ops_assist_structure">permettere assistenza remota</string>
     <string name="app_ops_assist_screenshot">screenshot</string>
     <string name="app_ops_use_body_sensors">sensori biometrici</string>
-    <string name="app_ops_read_cell_broadcasts">cell broadcasts</string>
+    <string name="app_ops_read_cell_broadcasts">ricevere annunci in cella</string>
     <string name="app_ops_mock_location">posizione fittizia</string>
     <string name="app_ops_read_external_storage">lettura mem. est.</string>
     <string name="app_ops_write_external_storage">scrittura mem. est.</string>
     <string name="app_ops_turn_on_screen">accensione schermo</string>
-    <string name="app_ops_get_accounts">device accounts</string>
+    <string name="app_ops_get_accounts">account dispositivo</string>
     <string name="app_ops_run_in_background">esecuzione in background</string>
-    <string name="app_ops_accessibility_volume">accessibility volume</string>
-    <string name="app_ops_read_phone_numbers">read phone num.</string>
-    <string name="app_ops_request_install_packages">install packages</string>
-    <string name="app_ops_picture_in_picture">pip</string>
-    <string name="app_ops_app_start_foreground">start foreground</string>
-    <string name="app_ops_answer_phone_calls">answer calls</string>
-    <string name="app_ops_run_any_in_background">run background</string>
-    <string name="app_ops_change_wifi_state">change wifi state</string>
-    <string name="app_ops_request_delete_packages">delete packages</string>
-    <string name="app_ops_bind_accessibility_service">bind to accessibility</string>
-    <string name="app_ops_accept_handover">accept handover</string>
-    <string name="app_ops_manage_ipsec_tunnels">manage ip tunnels</string>
-    <string name="app_ops_start_foreground">start foreground</string>
-    <string name="app_ops_bluetooth_scan">bluetooth scan</string>
-    <string name="app_ops_boot_completed">auto start</string>
+    <string name="app_ops_accessibility_volume">volume accessibilità</string>
+    <string name="app_ops_read_phone_numbers">lettura numero tel.</string>
+    <string name="app_ops_request_install_packages">installare pacchetti</string>
+    <string name="app_ops_picture_in_picture">picture-in-picture</string>
+    <string name="app_ops_app_start_foreground">eseguire in primo piano</string>
+    <string name="app_ops_answer_phone_calls">rispondere alla chiamata in arrivo</string>
+    <string name="app_ops_run_any_in_background">esecuzione in background</string>
+    <string name="app_ops_change_wifi_state">modifica lo stato Wi-Fi</string>
+    <string name="app_ops_request_delete_packages">eliminazione pacchetti</string>
+    <string name="app_ops_bind_accessibility_service">integrazione accessibilità</string>
+    <string name="app_ops_accept_handover">accetta travaso chiamata</string>
+    <string name="app_ops_manage_ipsec_tunnels">gestisci tunnel ip</string>
+    <string name="app_ops_start_foreground">eseguire in primo piano</string>
+    <string name="app_ops_bluetooth_scan">scansione Bluetooth</string>
+    <string name="app_ops_boot_completed">avvio automatico</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
     <!-- Media gestures -->
-    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
-    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+    <string name="prevent_ringing_option_mute_no_media">Muto, nessun media</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Attivo (muto, nessun media)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Individuare il sensore di impronte digitali sul <xliff:g id="sensor_location">%1$s</xliff:g> del telefono.</string>
     <!-- Fingerprint sensor locations -->
@@ -223,15 +223,15 @@
     <string name="security_settings_fingerprint_sensor_location_left">lato sinistro</string>
     <string name="security_settings_fingerprint_sensor_location_right">lato destro</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Activate the torch</string>
-    <string name="double_tap_power_flashlight_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="double_tap_power_flashlight_screen_title">Attiva la torcia</string>
+    <string name="double_tap_power_flashlight_title">Torcia a schermo spento col pulsante di alimentazione</string>
+    <string name="torch_power_button_gesture_none">Disattivato</string>
+    <string name="torch_power_button_gesture_dt">Doppio tocco sul pulsante di alimentazione per accendere la torcia</string>
+    <string name="torch_power_button_gesture_lp">Pressione prolungata sul pulsante accensione per accendere la torcia</string>
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Previeni risvegli accidentali</string>
+    <string name="proximity_wake_summary">Controlla il sensore di prossimità prima di risvegliare lo schermo</string>
     <!-- doze on charge -->
-    <string name="doze_on_charge_title">Show when charging</string>
-    <string name="doze_on_charge_summary">Wake screen when charging</string>
+    <string name="doze_on_charge_title">Mostra durante la ricarica</string>
+    <string name="doze_on_charge_summary">Attiva lo schermo durante la ricarica</string>
 </resources>
