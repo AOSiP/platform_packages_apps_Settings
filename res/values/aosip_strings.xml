@@ -90,11 +90,20 @@
 
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">QS tile style</string>
-    <string name="qs_tile_style_default">Default</string>
-    <string name="qs_tile_style_square">Square</string>
-    <string name="qs_tile_style_rounded_square">Rounded square</string>
-    <string name="qs_tile_style_squircle">Squircle</string>
-    <string name="qs_tile_style_tear_drop">Tear drop</string>
+    <string name="qstile_default">Circle (default)</string>
+    <string name="qstile_squircle">Squircle</string>
+    <string name="qstile_justicons">Icons without circle</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_shishu_nights">Shishu Nights</string>
+    <string name="qstile_circle_gradient">Circle with Gradient</string>
+    <string name="qstile_wavey">Wavey</string>
+    <string name="qstile_circle_dualtone">Circle with Dual Tone</string>
+    <string name="qstile_memedo_square">The Memedo Square</string>
+    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qstile_ninja">Ninja</string>
+    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_shishuink">Shishu Ink</string>
+    <string name="qstile_attemptmountain">An attempt of a mountain</string>
 
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text" translatable="false"><xliff:g id="package_name">%1$s</xliff:g></string>
