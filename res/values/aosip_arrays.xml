@@ -47,20 +47,38 @@
     </string-array>
 
     <!-- QS tile styles -->
-    <string-array name="qs_tile_style_selector_entries" translatable="false">
-        <item>@string/qs_tile_style_default</item>
-        <item>@string/qs_tile_style_square</item>
-        <item>@string/qs_tile_style_rounded_square</item>
-        <item>@string/qs_tile_style_squircle</item>
-        <item>@string/qs_tile_style_tear_drop</item>
+    <string-array name="qs_selector_entries" translatable="false">
+        <item>@string/qstile_default</item>
+        <item>@string/qstile_squircle</item>
+        <item>@string/qstile_justicons</item>
+        <item>@string/qstile_inkdrop</item>
+        <item>@string/qstile_shishu_nights</item>
+        <item>@string/qstile_circle_gradient</item>
+        <item>@string/qstile_wavey</item>
+        <item>@string/qstile_circle_dualtone</item>
+        <item>@string/qstile_memedo_square</item>
+        <item>@string/qstile_pokesign</item>
+        <item>@string/qstile_ninja</item>
+        <item>@string/qstile_dottedcircle</item>
+        <item>@string/qstile_shishuink</item>
+        <item>@string/qstile_attemptmountain</item>
     </string-array>
 
-    <string-array name="qs_tile_style_selector_values" translatable="false">
+    <string-array name="qs_selector_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
     </string-array>
 
     <!-- Fingerprint sensor locations.  Devices should configure their sensor location using
