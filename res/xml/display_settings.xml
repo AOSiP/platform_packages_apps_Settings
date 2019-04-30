@@ -124,7 +124,7 @@
         android:title="@string/pocket_judge_title"
         android:summary="@string/pocket_judge_summary" />
 
-    <com.aosip.owlsnest.preference.SystemSettingSwitchPreference
+    <com.aosip.support.preference.SystemSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
         android:title="@string/wake_when_plugged_or_unplugged_title"
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
@@ -165,7 +165,7 @@
             android:entries="@array/dark_ui_mode_entries"
             android:entryValues="@array/dark_ui_mode_values" />
 
-        <com.aosip.owlsnest.preference.SystemSettingSwitchPreference
+        <com.aosip.support.preference.SystemSettingSwitchPreference
             android:key="use_blackaf_theme"
             android:title="@string/blackaf_theme_title"
             android:summary="@string/blackaf_theme_summary"

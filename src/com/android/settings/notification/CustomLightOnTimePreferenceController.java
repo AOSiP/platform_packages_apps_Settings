@@ -28,7 +28,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 
-import com.aosip.owlsnest.preference.CustomSeekBarPreference;
+import com.aosip.support.preference.CustomSeekBarPreference;
 
 public class CustomLightOnTimePreferenceController extends NotificationPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
