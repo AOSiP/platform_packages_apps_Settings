@@ -38,6 +38,8 @@
     <string name="battery_stats_reset">Resetta statistiche</string>
     <string name="battery_stats_message">Le statistiche cronologia batteria saranno resettate</string>
     <string name="ok_string">Ok</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Riduci luminosità se abilitata Luce Notturna</string>
     <string name="night_auto_value_disabled">Disattivato</string>
@@ -55,6 +57,8 @@
     <string name="vibration_on_charge_state_changed_title">Vibra al collegamento USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura batteria</string>
+    <!-- Ambient display -->
+    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Attiva la modalità gesti completa</string>
     <string name="full_gesture_mode_summary">Questa modalità disabilita il pulsante indietro che viene sostituito dallo scorrimento verso sinistra. Lo scorrimento a destra comunque porterà all\'ultima app o allo scorrimento tra le app recenti. Per tornare alla schermata home, puoi toccare qualsiasi spazio vuoto oltre al tasto home stesso. Quando la tastiera è attiva, premi a lungo sulla barra per spostare il cursore del testo.</string>
@@ -100,6 +104,16 @@
     <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
     <string name="increasing_ring_min_volume_title">Volume iniziale</string>
     <string name="increasing_ring_ramp_up_time_title">Tempo di aumento</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">More strict battery savings</string>
+    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">Op. app</string>
     <string name="privacy_guard_manager_title">Privacy Guard</string>

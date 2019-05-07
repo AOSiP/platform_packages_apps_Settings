@@ -38,6 +38,8 @@
     <string name="battery_stats_reset">Скинути статистику</string>
     <string name="battery_stats_message">Історія використання акумулятора буде скинута</string>
     <string name="ok_string">Ок</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Lower brightness if Night Light</string>
     <string name="night_auto_value_disabled">Disabled</string>
@@ -55,6 +57,8 @@
     <string name="vibration_on_charge_state_changed_title">Вібрувати при підключенні через USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
+    <!-- Ambient display -->
+    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Увімкнути повний режим жестів</string>
     <string name="full_gesture_mode_summary">Цей режим вимикає кнопку «Назад» і ви зможете назначити дію кнопки «Назад» за допомогою свайпу вліво в рядку навігації. Свайп вправо, як і раніше, викликає останній додаток і огляд нещодавніх додатків. Щоб повернутися на домашній екран, ви можете натиснути на будь-яке пусте місце панелі навігації, а не тільки кнопку «Додому». Коли клавіатура активна, утримуйте натискання у рядку навігації для того, щоб перемістити курсор.</string>
@@ -100,6 +104,16 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">More strict battery savings</string>
+    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">App ops</string>
     <string name="privacy_guard_manager_title">Privacy Guard</string>

@@ -38,6 +38,8 @@
     <string name="battery_stats_reset">Xoá dữ liệu sử dụng pin</string>
     <string name="battery_stats_message">Dữ liệu sử dụng pin sẽ bị xoá</string>
     <string name="ok_string">Ok</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Giảm độ sáng khi bật Ánh sáng Ban đêm</string>
     <string name="night_auto_value_disabled">Tắt</string>
@@ -55,6 +57,8 @@
     <string name="vibration_on_charge_state_changed_title">Rung khi kết nối USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Nhiệt độ pin</string>
+    <!-- Ambient display -->
+    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Điều hướng bằng cử chỉ</string>
     <string name="full_gesture_mode_summary">Phím Quay lại sẽ bị tắt và bạn có thể thực hiện cử chỉ Quay lại bằng cách vuốt sang trái trên thanh điều hướng. Vuốt sang phải vẫn sẽ kích hoạt tính năng chuyển đổi ứng dụng gần đây. Bạn có thể chạm vào bất cứ đâu trên thanh điều hướng, không chỉ là chạm phím Trang chính, để quay về Màn hình chính. Khi bàn phím hiển thị, nhấn giữ thanh điều hướng để di chuyển con trỏ văn bản.</string>
@@ -100,11 +104,21 @@
     <string name="increasing_ring_volume_option_title">Tăng dần âm lượng chuông</string>
     <string name="increasing_ring_min_volume_title">Âm lượng ban đầu</string>
     <string name="increasing_ring_ramp_up_time_title">Khoảng thời gian tăng dần âm lượng</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">More strict battery savings</string>
+    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">Quản lý Quyền</string>
-    <string name="privacy_guard_manager_title">Privacy Guard</string>
-    <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
-    <string name="privacy_guard_dlg_title">Enable Privacy Guard?</string>
+    <string name="privacy_guard_manager_title">Bảo vệ Quyền riêng tư</string>
+    <string name="privacy_guard_switch_label">Bật Bảo vệ Quyền riêng tư</string>
+    <string name="privacy_guard_dlg_title">Bật Bảo vệ Quyền riêng tư?</string>
     <string name="privacy_guard_dlg_text">When Privacy Guard is enabled, the app will not be able to access personal data such as contacts, messages or call logs.</string>
     <string name="privacy_guard_dlg_system_app_text">When enabling Privacy Guard for a built-in app, the app will not be able to access or provide personal data. This may cause other apps to misbehave.</string>
     <string name="privacy_guard_default_title">Enabled by default</string>

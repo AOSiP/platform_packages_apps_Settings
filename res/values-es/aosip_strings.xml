@@ -38,6 +38,8 @@
     <string name="battery_stats_reset">Reiniciar estadísticas</string>
     <string name="battery_stats_message">Las estadísticas de la batería van a restablecerse</string>
     <string name="ok_string">Aceptar</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Reducir el brillo si está activada la luz nocturna</string>
     <string name="night_auto_value_disabled">Desactivado</string>
@@ -55,6 +57,8 @@
     <string name="vibration_on_charge_state_changed_title">Vibrar al conectar por USB</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura de la batería</string>
+    <!-- Ambient display -->
+    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Activar el control completo mediante gestos</string>
     <string name="full_gesture_mode_summary">Este modo desactivará el botón de retroceso, a partir de ahora podrás realizar esta función deslizando de izquierda a derecha en la barra de navegación. Para acceder a la multitarea, desliza de derecha a izquierda. En caso de querer pulsar el botón de inicio, puedes tocar el cualquier espacio vacío de la barra de navegación. Si estás usando el teclado virtual, podrás mover el cursor del texto si deslizas el dedo en la barra de navegación.</string>
@@ -100,6 +104,16 @@
     <string name="increasing_ring_volume_option_title">Volumen de timbre creciente</string>
     <string name="increasing_ring_min_volume_title">Volúmen inicial</string>
     <string name="increasing_ring_ramp_up_time_title">Duración del incremento de timbre</string>
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">More strict battery savings</string>
+    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">Operaciones de aplicaciones</string>
     <string name="privacy_guard_manager_title">Privacy Guard</string>
