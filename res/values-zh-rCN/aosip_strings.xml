@@ -39,7 +39,7 @@
     <string name="battery_stats_message">电池历史记录统计信息将被重置</string>
     <string name="ok_string">确定</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(深度休眠: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">处于夜间模式时降低亮度</string>
     <string name="night_auto_value_disabled">已禁用</string>
@@ -58,7 +58,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">电池温度</string>
     <!-- Ambient display -->
-    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
+    <string name="custom_ambient_display_summary">配置高级息屏显示</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">启用完整手势模式</string>
     <string name="full_gesture_mode_summary">此模式将禁用后退按钮，您可以通过在导航栏上向左滑动触发后退按钮操作。右滑动仍会触发开启的应用滚动。如要使用主页, 你需要点击导航栏上的空白处，而不仅是点击主页按钮。显示键盘时，长按导航栏以移动文本光标。</string>
@@ -105,15 +105,15 @@
     <string name="increasing_ring_min_volume_title">初始音量</string>
     <string name="increasing_ring_ramp_up_time_title">渐强时间</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">极限省电</string>
+    <string name="aggressive_battery_summary">更严格的电量节省措施</string>
+    <string name="aggressive_battery_warning_text">这是电量节省特性。它可能会干扰原计划在空闲状态时运行的服务, 如导航应用。你可以将这些应用列入白名单, 使其在应用电池设置中免受影响。</string>
+    <string name="aggressive_idle_title">Idle 主动调整</string>
+    <string name="aggressive_idle_summary">更频繁地进入设备空闲状态并且唤醒更少</string>
+    <string name="aggressive_standby_title">极限待机</string>
+    <string name="aggressive_standby_summary">限制应用程序后台运行</string>
+    <string name="aggressive_battery_saver_title">省电模式时自动启用 </string>
+    <string name="aggressive_battery_saver_summary">当使用省电模式时自动开启极限省电</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">权限管理</string>
     <string name="privacy_guard_manager_title">隐私防护</string>

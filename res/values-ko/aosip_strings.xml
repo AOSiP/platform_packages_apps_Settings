@@ -39,7 +39,7 @@
     <string name="battery_stats_message">배터리 사용 기록이 초기화됩니다</string>
     <string name="ok_string">확인</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(딥 슬립: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">야간 조명을 사용할 때 밝기 낮춤</string>
     <string name="night_auto_value_disabled">비활성화됨</string>
@@ -58,7 +58,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">배터리 온도</string>
     <!-- Ambient display -->
-    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
+    <string name="custom_ambient_display_summary">고급 앰비언트 디스플레이를 설정합니다</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">전체 제스처 모드를 활성화</string>
     <string name="full_gesture_mode_summary">이 모드에서는 뒤로 가기 버튼이 비활성화되며, 내비게이션 바에서 왼쪽으로 밀어서 뒤로 가기 버튼 기능을 대체할 수 있습니다. 오른쪽 밀기는 여전히 최근 앱 목록을 불러들이게 됩니다. 홈으로 가려면 홈 버튼이나 내비게이션 바의 아무 곳이나 누르십시오. 키보드가 표시되면 내비게이션 바를 길게 눌러 텍스트 커서를 이동하십시오.</string>
@@ -105,15 +105,15 @@
     <string name="increasing_ring_min_volume_title">초기 볼륨</string>
     <string name="increasing_ring_ramp_up_time_title">볼륨 증가 시간</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">배터리 초절약</string>
+    <string name="aggressive_battery_summary">더 강력한 배터리 절약</string>
+    <string name="aggressive_battery_warning_text">절전 기능입니다. 내비게이션 앱과 같이 유휴 상태에서 실행하려는 서비스를 방해할 수 있습니다. 이러한 앱이 앱 배터리 설정에 영향을 받지 않도록 화이트리스트를 만들 수 있습니다.</string>
+    <string name="aggressive_idle_title">적극적인 유휴 상태</string>
+    <string name="aggressive_idle_summary">기기를 유휴상태로 더 자주 전환하며 덜 깨웁니다.</string>
+    <string name="aggressive_standby_title">적극적인 대기</string>
+    <string name="aggressive_standby_summary">앱이 백그라운드에서 실행되는 것을 제한합니다.</string>
+    <string name="aggressive_battery_saver_title">배터리 세이버 자동 실행</string>
+    <string name="aggressive_battery_saver_summary">배터리 세이버를 사용 할 때 자동으로 배터리 초절약을 사용합니다</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">앱 운영</string>
     <string name="privacy_guard_manager_title">프라이버시 가드</string>

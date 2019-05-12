@@ -39,7 +39,7 @@
     <string name="battery_stats_message">Die Batterieverlauf statistiken werden rückgesetzt</string>
     <string name="ok_string">iO</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Tiefschlaf: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Helligkeit bei aktiviertem Nachtlicht reduzieren</string>
     <string name="night_auto_value_disabled">Deaktiviert</string>
@@ -58,7 +58,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Batterietemperatur</string>
     <!-- Ambient display -->
-    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
+    <string name="custom_ambient_display_summary">Erweiterte Ambient-Darstellung konfigurieren</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Voll-Gesten modus aktivieren</string>
     <string name="full_gesture_mode_summary">In diesem Modus wird  die Schaltfläche \"zurück\" deaktiviert und Sie können eine \"zurück\"-Geste durch einen linken Wisch auf der Navigationsleiste auslösen. Von rechts Wischen öffnet den Anwendungsverlauf. Um zum Startbildschirm zu gelangen, berühren sie eine freie Stelle der Navigationsleiste. Wenn die Tastatur angezeigt wird, führt langes Drücken auf die Navigationsleiste zu einer Bewegung des Textcursors.</string>
@@ -105,15 +105,15 @@
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
     <string name="increasing_ring_ramp_up_time_title">Steigerung nach</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Aggressives Energiesparen</string>
+    <string name="aggressive_battery_summary">Strengere Energiesparoptionen</string>
+    <string name="aggressive_battery_warning_text">Dies sind Energiesparfunktionen. Sie können sich in Dienste, wie Navigations-Apps einmischen, die im Hintergrund laufen. Sie können Ausnahmen für diese Apps in den App-Akku Einstellungen machen.</string>
+    <string name="aggressive_idle_title">Aggresive Inaktivität</string>
+    <string name="aggressive_idle_summary">Das Gerät geht häufiger in den Inaktivitätsmodus und wird weniger geweckt</string>
+    <string name="aggressive_standby_title">Aggressiver Standby</string>
+    <string name="aggressive_standby_summary">Apps vom Laufen im Hintergrund einschränken</string>
+    <string name="aggressive_battery_saver_title">Bei Energiesparmodus automatisch einschalten</string>
+    <string name="aggressive_battery_saver_summary">Im Energiesparmodus wird die agressive Batterie automatisch eingeschaltet</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">App-ops</string>
     <string name="privacy_guard_manager_title">Datenschutz</string>
@@ -133,13 +133,13 @@
     <string name="privacy_guard_notification_title">Benachrichtigung anzeigen</string>
     <string name="loading">Lädt\u2026</string>
     <!-- App ops permissions -->
-    <string name="app_ops_permissions_allowed">Erlaubt</string>
-    <string name="app_ops_permissions_ignored">Ignoriert</string>
+    <string name="app_ops_permissions_allowed">Erlauben</string>
+    <string name="app_ops_permissions_ignored">Verweigern</string>
     <string name="app_ops_permissions_always_ask">Immer nachfragen</string>
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (verwendet <xliff:g id="count">%2$s</xliff:g>)</string>
-    <string name="app_ops_allowed_count">Erlaubt <xliff:g id="count" example="2 times">%s</xliff:g></string>
-    <string name="app_ops_ignored_count">Verweigert <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_allowed_count">Erlaubt <xliff:g id="count" example="2 mal">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Verweigert <xliff:g id="count" example="2 mal">%s</xliff:g></string>
     <string name="app_ops_both_count">Erlaubt <xliff:g id="count">%1$s</xliff:g>, verweigert <xliff:g id="count">%2$s</xliff:g></string>
     <string name="app_ops_no_blockable_permissions">Keine blockierbaren Berechtigungen vorhanden</string>
     <!-- App ops menu options -->
@@ -157,7 +157,7 @@
     <string name="app_ops_categories_media">Medien</string>
     <string name="app_ops_categories_device">Gerät</string>
     <string name="app_ops_categories_run_in_background">Im Hintergrund ausführen</string>
-    <string name="app_ops_categories_bootup">Hochfahren</string>
+    <string name="app_ops_categories_bootup">Systemstart</string>
     <string name="app_ops_categories_other">Sonstiges</string>
     <!-- User display names for app ops codes - extension of AOSP -->
     <string name="app_ops_summaries_accept_handover">Übergabe eines Anrufs aus einer anderen App</string>
@@ -348,7 +348,7 @@
     <string name="blackaf_theme_title">BlackAF Design anwenden</string>
     <string name="blackaf_theme_summary">Benutze unser schwarzes Design anstelle des dunklen</string>
     <!-- Selinux -->
-    <string name="selinux_status">SELinux Stellung</string>
+    <string name="selinux_status">SELinux Status</string>
     <string name="selinux_status_disabled">Deaktiviert</string>
     <string name="selinux_status_permissive">Permissiv</string>
     <string name="selinux_status_enforcing">Enforcing</string>

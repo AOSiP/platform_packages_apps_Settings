@@ -39,7 +39,7 @@
     <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
     <string name="ok_string">Ok</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Hluboký spánek: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Nižší jas při nočním světle</string>
     <string name="night_auto_value_disabled">Vypnuto</string>
@@ -58,7 +58,7 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Teplota baterie</string>
     <!-- Ambient display -->
-    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
+    <string name="custom_ambient_display_summary">Pokročilá konfigurace Ambientního displeje</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Povolit režim pomocí gest</string>
     <string name="full_gesture_mode_summary">Tento režim vypne také tlačítko Zpět a tuto akci tlačítka Zpět spustíte pomocí přejetí vlevo přes navigační panel. Pravé přejetí přepíná poslední aplikace a levé přejetí aplikace přesouvá. Chcete-li se vrátit na plochu, klepněte na libovolný prázdný prostor navigačního panelu, nikoli pouze na tlačítko Domů. Když se zobrazí klávesnice, dlouhým stisknutím navigačního panelu přesuňte textový kurzor.</string>
@@ -105,15 +105,15 @@
     <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
     <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Agresivní baterie</string>
+    <string name="aggressive_battery_summary">Přísnější úspora baterie</string>
+    <string name="aggressive_battery_warning_text">Jedná se o funkce pro úsporu energie. Můžou zasahovat do služeb, které mají běžet v nečinnosti, jako jsou navigační aplikace. Tyto aplikace můžete povolit, aby nebyly ovlivněny v nastavení baterie.</string>
+    <string name="aggressive_idle_title">Agresivní nečinnost</string>
+    <string name="aggressive_idle_summary">Uvede zařízení do nečinnosti častěji a více zamezí probuzení</string>
+    <string name="aggressive_standby_title">Agresivní pohotovostní režim</string>
+    <string name="aggressive_standby_summary">Omezí používání aplikací běžících na pozadí</string>
+    <string name="aggressive_battery_saver_title">Automatické zapnutí při spořiči baterie </string>
+    <string name="aggressive_battery_saver_summary">Při použití spořiče baterie automaticky aktivovat funkci \"Agresivní baterie\"</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">Oprávnění aplikací</string>
     <string name="privacy_guard_manager_title">Ochrana soukromí</string>
