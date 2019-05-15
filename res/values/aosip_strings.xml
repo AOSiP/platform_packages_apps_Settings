@@ -370,6 +370,10 @@
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
+    <!-- Battery estimates -->
+    <string name="battery_estimates_title">Battery Estimates in QS</string>
+    <string name="battery_estimates_summary">Show the estimated battery life in QS panel</string>
+
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Cellular data</string>
     <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
