@@ -373,9 +373,6 @@
     <string name="torch_power_button_gesture_none">Devre dışı</string>
     <string name="torch_power_button_gesture_dt">El fenerini açmak için güç tuşuna iki defa basın</string>
     <string name="torch_power_button_gesture_lp">El fenerini açmak için güç tuşuna uzun basın</string>
-    <!-- doze on charge -->
-    <string name="doze_on_charge_title">Şarj olurken göster</string>
-    <string name="doze_on_charge_summary">Şarj olurken ekranı uyandır</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Cep algılama</string>
     <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>

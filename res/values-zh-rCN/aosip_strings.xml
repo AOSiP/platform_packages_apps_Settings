@@ -373,9 +373,6 @@
     <string name="torch_power_button_gesture_none">已停用</string>
     <string name="torch_power_button_gesture_dt">双击电源键以开关手电筒</string>
     <string name="torch_power_button_gesture_lp">长按电源键以开关手电筒</string>
-    <!-- doze on charge -->
-    <string name="doze_on_charge_title">充电时显示</string>
-    <string name="doze_on_charge_summary">充电时唤醒屏幕</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">口袋检测</string>
     <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按钮操作</string>

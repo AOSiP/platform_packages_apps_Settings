@@ -373,9 +373,6 @@
     <string name="torch_power_button_gesture_none">비활성화됨</string>
     <string name="torch_power_button_gesture_dt">두 번 전원 버튼을 눌러 손전등 사용</string>
     <string name="torch_power_button_gesture_lp">길게 전원 버튼을 눌러 손전등 사용</string>
-    <!-- doze on charge -->
-    <string name="doze_on_charge_title">충전 시 나타내기</string>
-    <string name="doze_on_charge_summary">충전 시 화면 켜기</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">주머니 감지</string>
     <string name="pocket_judge_summary">기기가 주머니에 있을 때 화면과 버튼 입력을 방지합니다.</string>

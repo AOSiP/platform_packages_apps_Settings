@@ -373,9 +373,6 @@
     <string name="torch_power_button_gesture_none">Deaktiviert</string>
     <string name="torch_power_button_gesture_dt">Zum Umschalten der Taschenlampe die Ein-/Aus-Taste doppelt drücken</string>
     <string name="torch_power_button_gesture_lp">Ein-/Aus-Taste lange drücken zum Anschalten der Taschenlampe</string>
-    <!-- doze on charge -->
-    <string name="doze_on_charge_title">Beim Laden anzeigen</string>
-    <string name="doze_on_charge_summary">Bildschirm beim Laden aufwecken</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Taschenmodus</string>
     <string name="pocket_judge_summary">Versehentliche Bedienung des Touchscreens oder Fingerabdrucksensors verhindern, wenn sich das Telefon in der Hosentasche befindet</string>

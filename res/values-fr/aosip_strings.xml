@@ -373,9 +373,6 @@
     <string name="torch_power_button_gesture_none">Désactivé</string>
     <string name="torch_power_button_gesture_dt">Appui double sur le bouton d\'alimentation pour activer/désactiver la lampe de poche</string>
     <string name="torch_power_button_gesture_lp">Appui long sur le bouton d\'alimentation pour activer la lampe de poche</string>
-    <!-- doze on charge -->
-    <string name="doze_on_charge_title">Afficher lors de la charge</string>
-    <string name="doze_on_charge_summary">Réveiller l\'écran lors du chargement</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Détection de mise en poche</string>
     <string name="pocket_judge_summary">Empêche l\'activation accidentelle de votre appareil lorsque celui-ci est dans votre poche</string>

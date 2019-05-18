@@ -373,9 +373,6 @@
     <string name="torch_power_button_gesture_none">Desativado</string>
     <string name="torch_power_button_gesture_dt">Toque duplo para ligar a lanterna</string>
     <string name="torch_power_button_gesture_lp">Manter pressionado o botão de energia para ligar a lanterna</string>
-    <!-- doze on charge -->
-    <string name="doze_on_charge_title">Mostrar ao carregar</string>
-    <string name="doze_on_charge_summary">Ligar o ecrã ao carregar</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detector de bolso</string>
     <string name="pocket_judge_summary">Bloquear o ecrã e os botões enquanto o dispositivo estiver no bolso</string>

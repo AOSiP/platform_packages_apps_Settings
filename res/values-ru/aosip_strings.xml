@@ -26,7 +26,7 @@
     <string name="update_settings_title">Обновления AOSiP</string>
     <string name="update_settings_summary">Проверить наличие свежей версии прошивки</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Ориентация</string>
+    <string name="display_rotation_title">Поворот экрана</string>
     <string name="display_rotation_disabled">Выключен</string>
     <string name="display_rotation_unit">градусов</string>
     <string name="display_rotation_category_title">Режимы поворота экрана</string>
@@ -37,19 +37,19 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Сбросить статистику</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
-    <string name="ok_string">Ok</string>
+    <string name="ok_string">OK</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Снижение яркости при использовании ночного режима</string>
     <string name="night_auto_value_disabled">Выключено</string>
     <string name="night_auto_value_min">Минимальная яркость</string>
     <string name="night_bright_low">Низкая яркость</string>
-    <string name="night_bright_midlow">Средняя низкая яркость</string>
+    <string name="night_bright_midlow">Яркость ниже среднего</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Звук снятия скриншота</string>
     <!-- Ambient category -->
-    <string name="ambient_display_category">Настройки Ambient Display</string>
+    <string name="ambient_display_category">Настройки Активного экрана</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Включение при зарядке</string>
     <string name="wake_when_plugged_or_unplugged_summary">Включить экран при подключении или отключении источника питания</string>
@@ -58,10 +58,10 @@
     <!-- Battery temp -->
     <string name="battery_temp_title">Температура батареи</string>
     <!-- Ambient display -->
-    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
+    <string name="custom_ambient_display_summary">Дополнительная настройка Активного экрана</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Включить полный режим жестов</string>
-    <string name="full_gesture_mode_summary">Этот режим отключает кнопку \"Назад\" и вы можете вызвать действие кнопки \"Назад\" с помощью свайпа влево на панели навигации. Правый свайп по-прежнему вызывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран, вы можете нажать на любое пустое место панели навигации, а не только на кнопку \"Домой\". Когда клавиатура активна, то удерживаете нажатие на панели навигации для того, чтобы переместить курсор.</string>
+    <string name="full_gesture_mode_summary">Этот режим отключает кнопку Назад и Вы можете вызвать действие кнопки Назад с помощью свайпа влево на панели навигации. Правый свайп по-прежнему вызывает последнее приложение и обзор недавних приложений. Чтобы вернуться на домашний экран, Вы можете нажать на любое пустое место панели навигации, а не только на кнопку Домой. Когда клавиатура активна, удерживайте нажатие на пустом месте для того, чтобы переместить курсор.</string>
     <string name="full_gesture_mode_dt2s_title">Включить двойное нажатие для сна</string>
     <string name="full_gesture_mode_dt2s_summary">Нажмите на пустое место в панели навигации (но не кнопку домой) для выключения экрана.</string>
     <!-- Less Notification sounds -->
@@ -79,11 +79,11 @@
     <string name="less_notification_sounds_5m">Каждые 5 минут</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
-    <string name="sim_enabler_summary">Sim-карта <xliff:g id="displayName">%1$s</xliff:g> сейчас <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_disabled">отключено</string>
+    <string name="sim_enabler_summary">SIM-карта <xliff:g id="displayName">%1$s</xliff:g> сейчас <xliff:g id="status" example="выключена">%2$s</xliff:g></string>
+    <string name="sim_disabled">отключена</string>
     <string name="sim_missing">отсутствует или неисправна</string>
     <string name="sim_enabler_need_disable_sim">SIM-карта будет отключена. Продолжить?</string>
-    <string name="sim_enabler_airplane_on">Выполнение операции невозможно, пока активен режим полета.</string>
+    <string name="sim_enabler_airplane_on">Выполнение операции невозможно, пока активен режим самолета.</string>
     <string name="sim_enabler_in_call">Выполнение операции невозможно во время вызова.</string>
     <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
     <string name="sim_enabler_enabling">Включение\u2026</string>
@@ -99,35 +99,35 @@
     <string name="custom_light_title">Цвет уведомления</string>
     <string name="custom_light_on_time_title">Время работы светодиода во время пульсации (мс)</string>
     <string name="custom_light_off_time_title">Время паузы светодиода во время пульсации (мс)</string>
-    <string name="value_equals_default">def</string>
+    <string name="value_equals_default">умолч.</string>
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
     <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Агрессивное энергосбережение</string>
+    <string name="aggressive_battery_summary">Более строгая экономия батареи</string>
+    <string name="aggressive_battery_warning_text">Это функции энергосбережения. Включение этих режимов может мешать службам, предназначенным для работы в режиме ожидания, например, навигационным приложениям. Вы можете включить эти приложения в белый список в настройках батареи приложения.</string>
+    <string name="aggressive_idle_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_idle_summary">Чаще входить в режим ожидания и реже просыпаться</string>
+    <string name="aggressive_standby_title">Ограничение работы в фоне</string>
+    <string name="aggressive_standby_summary">Запретить приложениям работу в фоновом режиме</string>
+    <string name="aggressive_battery_saver_title">Включать автоматически в режиме экономии заряда </string>
+    <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии заряда батареи</string>
     <!-- Privacy Guard -->
     <string name="app_ops_settings">Операции в приложениях</string>
-    <string name="privacy_guard_manager_title">Защита конфиденциальности</string>
-    <string name="privacy_guard_switch_label">Включить Защиту конфиденциальности</string>
-    <string name="privacy_guard_dlg_title">Включить защищённый режим?</string>
-    <string name="privacy_guard_dlg_text">Когда режим Защиты конфиденциальности включен, приложение не сможет получить доступ к личным данным, таким как контакты, сообщения или журналы вызовов.</string>
-    <string name="privacy_guard_dlg_system_app_text">Системные приложения в защищённом режиме не смогут получать или предоставлять доступ к персональным данным. Это может вызвать нестабильную работу других приложений.</string>
-    <string name="privacy_guard_default_title">Включено по умолчанию</string>
+    <string name="privacy_guard_manager_title">Защищенный режим</string>
+    <string name="privacy_guard_switch_label">Включить защищенный режим</string>
+    <string name="privacy_guard_dlg_title">Включить защищенный режим?</string>
+    <string name="privacy_guard_dlg_text">Когда защищенный режим включен, приложение не сможет получить доступ к личным данным, таким как контакты, сообщения или журналы вызовов.</string>
+    <string name="privacy_guard_dlg_system_app_text">Системные приложения в защищенном режиме не смогут получать или предоставлять доступ к персональным данным. Это может вызвать нестабильную работу других приложений.</string>
+    <string name="privacy_guard_default_title">Включен по умолчанию</string>
     <string name="privacy_guard_manager_summary">Управление приложениями, которые имеют доступ к вашим личным данным и разрешениям других приложений</string>
     <string name="privacy_guard_no_user_apps">Нет установленных приложений</string>
     <string name="privacy_guard_help_title">Помощь</string>
     <string name="privacy_guard_reset_title">Сброс</string>
     <string name="privacy_guard_reset_text">Сбросить разрешения?</string>
-    <string name="privacy_guard_help_text">В этом разделе вы можете выбрать приложения, которые будут работать в защищённом режиме, нажав на них. Такие приложения не будут иметь доступа к персональным данным, таким как контакты, сообщения или журнал вызовов. Долгое нажатие откроет подробные сведения о разрешениях данного приложения.\n\nПо умолчанию системные приложения скрыты. Для их отображения или для перехода к расширенным настройкам выберите соответствующий пункт в меню.</string>
+    <string name="privacy_guard_help_text">В этом разделе Вы можете выбрать приложения, которые будут работать в защищенном режиме, нажав на них. Такие приложения не будут иметь доступа к персональным данным, таким как контакты, сообщения или журнал вызовов. Долгое нажатие откроет подробные сведения о разрешениях данного приложения.\n\nПо умолчанию системные приложения скрыты. Для их отображения или для перехода к расширенным настройкам выберите соответствующий пункт в меню.</string>
     <string name="privacy_guard_manager_show_system_apps">Показывать предустановленные приложения</string>
     <string name="privacy_guard_advanced_settings_title">Расширенные настройки</string>
     <string name="privacy_guard_notification_title">Показывать уведомление</string>
@@ -145,7 +145,7 @@
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Показать пользовательские приложения</string>
     <string name="app_ops_show_system_apps">Показывать предустановленные приложения</string>
-    <string name="app_ops_reset_counters">Сбросить счётчики</string>
+    <string name="app_ops_reset_counters">Сбросить счетчики</string>
     <string name="app_ops_reset_confirm_title">Подтверждение сброса</string>
     <string name="app_ops_reset_confirm_mesg">Вы уверены, что хотите сбросить счетчики?</string>
     <!-- Memory -->
@@ -180,13 +180,13 @@
     <string name="app_ops_summaries_delete_sms">удаление SMS-сообщений</string>
     <string name="app_ops_summaries_draw_on_top">отображение поверх других элементов</string>
     <string name="app_ops_summaries_fine_location">точное местоположение</string>
-    <string name="app_ops_summaries_get_accounts">получить аккаунты</string>
+    <string name="app_ops_summaries_get_accounts">получение учетных записей</string>
     <string name="app_ops_summaries_get_usage_stats">получение статистики использования</string>
     <string name="app_ops_summaries_gps">GPS</string>
     <string name="app_ops_summaries_install_packages">установка приложений</string>
     <string name="app_ops_summaries_keep_device_awake">запрет перехода в спящий режим</string>
     <string name="app_ops_summaries_make_phone_call">осуществление звонка</string>
-    <string name="app_ops_summaries_manage_ipsec_tunnels">управление Ipsec-тунелями</string>
+    <string name="app_ops_summaries_manage_ipsec_tunnels">управление IPsec-тунелями</string>
     <string name="app_ops_summaries_mock_location">фиктивное местоположение</string>
     <string name="app_ops_summaries_modify_calendar">изменение календаря</string>
     <string name="app_ops_summaries_modify_call_log">изменение журнала вызовов</string>
@@ -211,16 +211,16 @@
     <string name="app_ops_summaries_read_mms">чтение MMS-сообщений</string>
     <string name="app_ops_summaries_read_phone_numbers">чтение телефонных номеров</string>
     <string name="app_ops_summaries_read_phone_state">чтение состояния телефона</string>
-    <string name="app_ops_summaries_read_sms">чтение SMS</string>
+    <string name="app_ops_summaries_read_sms">чтение SMS-сообщений</string>
     <string name="app_ops_summaries_receive_emergency_broadcast">получение экстренных широковещательных сообщений</string>
-    <string name="app_ops_summaries_receive_sms">получение SMS</string>
+    <string name="app_ops_summaries_receive_sms">получение SMS-сообщений</string>
     <string name="app_ops_summaries_record_audio">запись аудио</string>
     <string name="app_ops_summaries_request_delete_packages">запрос на удаление пакетов</string>
-    <string name="app_ops_summaries_run_any_in_background">запуск любого в фоновом режиме</string>
-    <string name="app_ops_summaries_run_in_background">запуск в фоновом режиме</string>
+    <string name="app_ops_summaries_run_any_in_background">любая работа в фоновом режиме</string>
+    <string name="app_ops_summaries_run_in_background">работа в фоновом режиме</string>
     <string name="app_ops_summaries_scan_wifi">сканирование сетей Wi-Fi</string>
-    <string name="app_ops_summaries_send_mms">отправить как MMS-сообщение</string>
-    <string name="app_ops_summaries_send_sms">отправка СМС</string>
+    <string name="app_ops_summaries_send_mms">отправка MMS-сообщений</string>
+    <string name="app_ops_summaries_send_sms">отправка SMS-сообщений</string>
     <string name="app_ops_summaries_start_at_bootup">запуск при включении</string>
     <string name="app_ops_summaries_start_foreground">запуск на переднем плане</string>
     <string name="app_ops_summaries_toast_window">отображение всплывающих уведомлений</string>
@@ -244,7 +244,7 @@
     <string name="app_ops_summaries_wifi_change">изменение состояния Wi-Fi</string>
     <string name="app_ops_summaries_write_external_storage">запись на внешний накопитель</string>
     <string name="app_ops_summaries_write_mms">создание MMS-сообщения</string>
-    <string name="app_ops_summaries_write_sms">создание SMS</string>
+    <string name="app_ops_summaries_write_sms">создание SMS-сообщений</string>
     <!-- User display names for app ops codes - extension of AOSP -->
     <string name="app_ops_labels_accept_handover">Передача вызова из другого приложения</string>
     <string name="app_ops_labels_access_camera">Доступ к камере</string>
@@ -266,23 +266,23 @@
     <string name="app_ops_labels_delete_sms">Удаление SMS-сообщений</string>
     <string name="app_ops_labels_draw_on_top">Отображение поверх других элементов</string>
     <string name="app_ops_labels_fine_location">Точное местоположение</string>
-    <string name="app_ops_labels_get_accounts">Получение учёных записей</string>
+    <string name="app_ops_labels_get_accounts">Получение учетных записей</string>
     <string name="app_ops_labels_get_usage_stats">Получение статистики использования</string>
     <string name="app_ops_labels_gps">GPS</string>
     <string name="app_ops_labels_install_packages">Установка пакетов</string>
     <string name="app_ops_labels_keep_device_awake">Запрет перехода в спящий режим</string>
     <string name="app_ops_labels_make_phone_call">Осуществление телефонного звонка</string>
-    <string name="app_ops_labels_manage_ipsec_tunnels">Управление Ipsec-тунелями</string>
+    <string name="app_ops_labels_manage_ipsec_tunnels">Управление IPsec-тунелями</string>
     <string name="app_ops_labels_mock_location">Фиктивное местоположение</string>
     <string name="app_ops_labels_modify_calendar">Изменение календаря</string>
     <string name="app_ops_labels_modify_call_log">Изменение журнала вызовов</string>
     <string name="app_ops_labels_modify_clipboard">Изменение буфера обмена</string>
     <string name="app_ops_labels_modify_contacts">Изменение контактов</string>
     <string name="app_ops_labels_modify_settings">Изменение настроек</string>
-    <string name="app_ops_labels_monitor_high_power_location">Отслеживание высокоточного местоположения</string>
+    <string name="app_ops_labels_monitor_high_power_location">Отслеживание точного местоположения</string>
     <string name="app_ops_labels_monitor_location">Отслеживание местоположения</string>
     <string name="app_ops_labels_mute_unmute_microphone">Выключить/включить микрофон</string>
-    <string name="app_ops_labels_neighboring_cells">Соседние звонки</string>
+    <string name="app_ops_labels_neighboring_cells">Соседние соты</string>
     <string name="app_ops_labels_phone_calls">Ответ на телефонные звонки</string>
     <string name="app_ops_labels_picture_in_picture">Использовать картинку в картинке</string>
     <string name="app_ops_labels_play_audio">Воспроизведение аудио</string>
@@ -297,16 +297,16 @@
     <string name="app_ops_labels_read_mms">Чтение MMS-сообщений</string>
     <string name="app_ops_labels_read_phone_numbers">Чтение телефонных номеров</string>
     <string name="app_ops_labels_read_phone_state">Чтение состояния телефона</string>
-    <string name="app_ops_labels_read_sms">Чтение SMS</string>
+    <string name="app_ops_labels_read_sms">Чтение SMS-сообщений</string>
     <string name="app_ops_labels_receive_emergency_broadcast">Получение экстренных оповещений населения</string>
-    <string name="app_ops_labels_receive_sms">Получение СМС</string>
+    <string name="app_ops_labels_receive_sms">Получение SMS-сообщений</string>
     <string name="app_ops_labels_record_audio">Запись аудио</string>
     <string name="app_ops_labels_request_delete_packages">Запросы на удаление пакетов</string>
-    <string name="app_ops_labels_run_any_in_background">Работа в фоновом режиме</string>
+    <string name="app_ops_labels_run_any_in_background">Любая работа в фоновом режиме</string>
     <string name="app_ops_labels_run_in_background">Работа в фоновом режиме</string>
     <string name="app_ops_labels_scan_wifi">Сканирование сетей Wi-Fi</string>
-    <string name="app_ops_labels_send_mms">Отправлять MMS-сообщение</string>
-    <string name="app_ops_labels_send_sms">Отправка SMS</string>
+    <string name="app_ops_labels_send_mms">Отправка MMS-сообщений</string>
+    <string name="app_ops_labels_send_sms">Отправка SMS-сообщений</string>
     <string name="app_ops_labels_start_at_bootup">Запуск при включении устройства</string>
     <string name="app_ops_labels_start_foreground">Запуск на переднем плане</string>
     <string name="app_ops_labels_toast_window">Отображать всплывающие уведомления</string>
@@ -329,8 +329,8 @@
     <string name="app_ops_labels_use_voice_volume">Управление громкостью при разговоре</string>
     <string name="app_ops_labels_wifi_change">Изменение состояния Wi-Fi</string>
     <string name="app_ops_labels_write_external_storage">Запись на внешний накопитель</string>
-    <string name="app_ops_labels_write_mms">Написать MMS-сообщение</string>
-    <string name="app_ops_labels_write_sms">Написать СМС</string>
+    <string name="app_ops_labels_write_mms">Создание MMS-сообщений</string>
+    <string name="app_ops_labels_write_sms">Создание SMS-сообщений</string>
     <!-- Density category -->
     <string name="density_category">Настройки плотности экрана</string>
     <!-- Per-app data restrictions -->
@@ -344,14 +344,14 @@
     <!-- System theme -->
     <string name="system_theme_wallpaper">Автоматически (в зависимости от времени суток)</string>
     <string name="system_theme_light">Светлая</string>
-    <string name="system_theme_dark">Тёмная</string>
-    <string name="blackaf_theme_title">Использовать чёрную тему</string>
+    <string name="system_theme_dark">Темная</string>
+    <string name="blackaf_theme_title">Использовать черную BlackAF тему</string>
     <string name="blackaf_theme_summary">Использовать нашу черную тему вместо темной</string>
     <!-- Selinux -->
     <string name="selinux_status">Режим SELinux</string>
     <string name="selinux_status_disabled">Выключен</string>
     <string name="selinux_status_permissive">Только предупреждение</string>
-    <string name="selinux_status_enforcing">Блокировка</string>
+    <string name="selinux_status_enforcing">Принудительный</string>
     <!-- Changelog -->
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">Изменения из Gerrit</string>
@@ -373,10 +373,7 @@
     <string name="torch_power_button_gesture_none">Выключен</string>
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
     <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания для включения фонарика</string>
-    <!-- doze on charge -->
-    <string name="doze_on_charge_title">Показывать во время зарядки</string>
-    <string name="doze_on_charge_summary">Включить экран при зарядке</string>
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Режим \"В кармане\"</string>
+    <string name="pocket_judge_title">Режим В кармане</string>
     <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
 </resources>
