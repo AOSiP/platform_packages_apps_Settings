@@ -24,6 +24,7 @@ import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.development.EmulateDisplayCutoutPreferenceController;
+import com.android.settings.display.AccenterPreferenceController;
 import com.android.settings.display.AmbientDisplayCustomPreferenceController;
 import com.android.settings.display.AmbientDisplayPreferenceController;
 import com.android.settings.display.BrightnessLevelPreferenceController;
@@ -110,6 +111,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ColorModePreferenceController(context));
         controllers.add(new DarkUIPreferenceController(context));
         controllers.add(new EmulateDisplayCutoutPreferenceController(context));
+        controllers.add(new AccenterPreferenceController(context));
         return controllers;
     }
 

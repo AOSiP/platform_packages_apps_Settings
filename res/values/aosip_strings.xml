@@ -400,6 +400,7 @@
     <string name="system_theme_dark">Dark</string>
     <string name="blackaf_theme_title">Use BlackAF theme</string>
     <string name="blackaf_theme_summary">Use our black theme in place of dark</string>
+    <string name="accent_color">Accent color</string>
 
     <!-- Selinux -->
     <string name="selinux_status">SELinux status</string>
