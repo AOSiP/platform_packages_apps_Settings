@@ -24,7 +24,7 @@
     <string name="owlsnest_activity_summary">Kronic の住処</string>
     <!-- AOSiP Updater -->
     <string name="update_settings_title">AOSiP アップデーター</string>
-    <string name="update_settings_summary">ROM の最新バージョンを確認</string>
+    <string name="update_settings_summary">ROM の最新バージョンを確認する</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">回転</string>
     <string name="display_rotation_disabled">無効</string>
@@ -369,11 +369,20 @@
     <string name="security_settings_fingerprint_sensor_location_right">右側面</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">トーチを有効化</string>
-    <string name="double_tap_power_flashlight_title">スリープ時電源ボタンを押してライト点灯</string>
+    <string name="double_tap_power_flashlight_title">画面消灯時のライト点灯</string>
     <string name="torch_power_button_gesture_none">無効</string>
-    <string name="torch_power_button_gesture_dt">電源ボタンを2回押しでライト点灯</string>
-    <string name="torch_power_button_gesture_lp">電源ボタンを長押しでライト点灯</string>
+    <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
+    <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">ポケット検出</string>
     <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">最適化のプロファイル</string>
+    <string name="thermal_control_per_app_default">最適化なし</string>
+    <string name="thermal_control_per_app_benchmark">パフォーマンス</string>
+    <string name="thermal_control_per_app_games">ゲーム</string>
+    <string name="thermal_control_per_app_browser">ブラウザ</string>
+    <string name="thermal_control_per_app_video_playback">ビデオ再生</string>
+    <string name="thermal_control_per_app_dialer">電話</string>
+    <string name="thermal_control_per_app_camera">カメラ</string>
 </resources>

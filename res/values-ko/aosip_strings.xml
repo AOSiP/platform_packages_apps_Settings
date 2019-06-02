@@ -376,4 +376,13 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">주머니 감지</string>
     <string name="pocket_judge_summary">기기가 주머니에 있을 때 화면과 버튼 입력을 방지합니다.</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">최적화 프로파일</string>
+    <string name="thermal_control_per_app_default">최적화 안 함</string>
+    <string name="thermal_control_per_app_benchmark">성능</string>
+    <string name="thermal_control_per_app_games">게임</string>
+    <string name="thermal_control_per_app_browser">브라우저</string>
+    <string name="thermal_control_per_app_video_playback">비디오 재생</string>
+    <string name="thermal_control_per_app_dialer">다이얼</string>
+    <string name="thermal_control_per_app_camera">카메라</string>
 </resources>
