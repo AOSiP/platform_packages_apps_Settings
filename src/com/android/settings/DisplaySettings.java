@@ -24,7 +24,6 @@ import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.development.EmulateDisplayCutoutPreferenceController;
-import com.android.settings.display.AccentPickerPreferenceController;
 import com.android.settings.display.AmbientDisplayCustomPreferenceController;
 import com.android.settings.display.AmbientDisplayPreferenceController;
 import com.android.settings.display.BrightnessLevelPreferenceController;
@@ -77,7 +76,7 @@ public class DisplaySettings extends DashboardFragment {
 
     @Override
     protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
-        return buildPreferenceControllers(context, getLifecycle(), this);
+        return buildPreferenceControllers(context, getLifecycle());
     }
 
     @Override
@@ -86,7 +85,7 @@ public class DisplaySettings extends DashboardFragment {
     }
 
     private static List<AbstractPreferenceController> buildPreferenceControllers(
-            Context context, Lifecycle lifecycle, Fragment fragment) {
+            Context context, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new CameraGesturePreferenceController(context));
         controllers.add(new LiftToWakePreferenceController(context));
@@ -94,7 +93,6 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new NightDisplayPreferenceController(context));
         controllers.add(new NightModePreferenceController(context));
         controllers.add(new ScreenSaverPreferenceController(context));
-        controllers.add(new AccentPickerPreferenceController(context, lifecycle, fragment));
         controllers.add(new AmbientDisplayCustomPreferenceController(context));
         controllers.add(new AmbientDisplayPreferenceController(
                 context,
@@ -139,7 +137,7 @@ public class DisplaySettings extends DashboardFragment {
                 @Override
                 public List<AbstractPreferenceController> createPreferenceControllers(
                         Context context) {
-                    return buildPreferenceControllers(context, null, null);
+                    return buildPreferenceControllers(context, null);
                 }
             };
 }

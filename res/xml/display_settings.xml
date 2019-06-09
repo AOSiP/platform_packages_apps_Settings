@@ -175,10 +175,6 @@
             android:summary="@string/blackaf_theme_summary"
             android:defaultValue="false" />
 
-        <Preference
-            android:key="accent_picker"
-            android:title="@string/theme_accent_picker_title" />
-
      </PreferenceCategory>
 
     <PreferenceCategory
