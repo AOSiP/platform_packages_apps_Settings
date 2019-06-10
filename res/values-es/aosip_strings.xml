@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">Volumen de timbre ascendente</string>
     <string name="increasing_ring_min_volume_title">Volúmen inicial</string>
     <string name="increasing_ring_ramp_up_time_title">Duración del timbre ascendente</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Modo Ahorro de batería</string>
+    <string name="location_mode_battery_saving_summary">Usar solo Wi-Fi, Bluetooth, o señal móvil para determinar la ubicación (menos preciso)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Ajustes agresivos para la batería</string>
     <string name="aggressive_battery_summary">Mas ajustes estrictos</string>

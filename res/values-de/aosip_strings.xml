@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">Ansteigende Klingeltonlautstärke</string>
     <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
     <string name="increasing_ring_ramp_up_time_title">Steigerung nach</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Energiesparmodus</string>
+    <string name="location_mode_battery_saving_summary">Nur WLAN, Bluetooth oder Mobilfunknetze zur Standortbestimmung nutzen (ungenau)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Aggressives Energiesparen</string>
     <string name="aggressive_battery_summary">Strengere Energiesparoptionen</string>

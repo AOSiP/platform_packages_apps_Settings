@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">Narastająca głośność dzwonka</string>
     <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
     <string name="increasing_ring_ramp_up_time_title">Czas podgłaśniania dzwonka</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Tryb oszczędzania baterii</string>
+    <string name="location_mode_battery_saving_summary">Używaj tylko Wi\u2011Fi, Bluetooth lub sieci mobilnej do lokalizacji (mniej dokładne)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Agresywna bateria</string>
     <string name="aggressive_battery_summary">Bardziej surowe oszczędzanie baterii</string>
@@ -377,12 +380,12 @@
     <string name="pocket_judge_title">Wykrywanie kieszeni</string>
     <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
     <!-- Thermal control per app -->
-    <string name="thermal_control_per_app">Optimization profile</string>
-    <string name="thermal_control_per_app_default">No optimization</string>
-    <string name="thermal_control_per_app_benchmark">Performance</string>
-    <string name="thermal_control_per_app_games">Games</string>
-    <string name="thermal_control_per_app_browser">Browser</string>
-    <string name="thermal_control_per_app_video_playback">Video playback</string>
-    <string name="thermal_control_per_app_dialer">Dialer</string>
-    <string name="thermal_control_per_app_camera">Camera</string>
+    <string name="thermal_control_per_app">Optymalizacja profilu</string>
+    <string name="thermal_control_per_app_default">Brak optymalizacji</string>
+    <string name="thermal_control_per_app_benchmark">Wydajność</string>
+    <string name="thermal_control_per_app_games">Gry</string>
+    <string name="thermal_control_per_app_browser">Przegldąrka</string>
+    <string name="thermal_control_per_app_video_playback">Odtwarzanie wideo</string>
+    <string name="thermal_control_per_app_dialer">Telefon</string>
+    <string name="thermal_control_per_app_camera">Aparat</string>
 </resources>

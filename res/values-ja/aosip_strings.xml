@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">着信音量を上げる</string>
     <string name="increasing_ring_min_volume_title">開始音量</string>
     <string name="increasing_ring_ramp_up_time_title">増幅時間</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">バッテリーセーバーモード</string>
+    <string name="location_mode_battery_saving_summary">GPS・Wi‑Fi・Bluetooth・モバイルネットワークのみで現在地を特定する (低精度)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">アグレッシブバッテリー</string>
     <string name="aggressive_battery_summary">より厳しくバッテリーを節約する</string>

@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">Artan zil sesi</string>
     <string name="increasing_ring_min_volume_title">Başlangıç sesi</string>
     <string name="increasing_ring_ramp_up_time_title">Yükselme zamanı</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Pil tasarrufu modu</string>
+    <string name="location_mode_battery_saving_summary">Konum belirlemek için yalnızca Wi\u2011Fi, Bluetooth veya mobil ağları kullanın (daha az doğru)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Agresif pil</string>
     <string name="aggressive_battery_summary">Daha iyi pil tasarrufu</string>

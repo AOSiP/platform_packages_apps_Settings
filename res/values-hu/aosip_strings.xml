@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
     <string name="increasing_ring_min_volume_title">Kezdeti hangerő</string>
     <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Akkumulátorkímélő mód</string>
+    <string name="location_mode_battery_saving_summary">Wi\u2011Fi, Bluetooth és mobilhálózatok használata a tartózkodási hely megállapításához (kevésbé pontos)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Agresszív Akkukímélő</string>
     <string name="aggressive_battery_summary">Még szigorúbb akkumulátorkímélés</string>

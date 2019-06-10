@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">Volume sonnerie progressif</string>
     <string name="increasing_ring_min_volume_title">Volume de départ</string>
     <string name="increasing_ring_ramp_up_time_title">Temps de montée en puissance</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Mode économie d\'énergie</string>
+    <string name="location_mode_battery_saving_summary">Utiliser le GPS, le Wi\u2011Fi, le Bluetooth ou les réseaux mobiles pour déterminer la position (moins précis)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Batterie Agressive</string>
     <string name="aggressive_battery_summary">Économies d\'énergie plus poussées</string>

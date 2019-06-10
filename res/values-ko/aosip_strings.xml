@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">점점 커지는 벨소리</string>
     <string name="increasing_ring_min_volume_title">초기 볼륨</string>
     <string name="increasing_ring_ramp_up_time_title">볼륨 증가 시간</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">배터리 절약 모드</string>
+    <string name="location_mode_battery_saving_summary">Wi\u2011Fi, Bluetooth 또는 모바일 네트워크만 사용하여 위치 확인(정확하지 않음)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">배터리 초절약</string>
     <string name="aggressive_battery_summary">더 강력한 배터리 절약</string>

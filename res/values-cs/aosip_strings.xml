@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">Narůstající hlasitost vyzvánění</string>
     <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
     <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Úsporný režim baterie</string>
+    <string name="location_mode_battery_saving_summary">K určování polohy používat pouze Wi-Fi, Bluetooth nebo mobilní sítě (méně přesné)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Agresivní baterie</string>
     <string name="aggressive_battery_summary">Přísnější úspora baterie</string>

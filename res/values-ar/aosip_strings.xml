@@ -104,6 +104,9 @@
     <string name="increasing_ring_volume_option_title">زيادة مستوى صوت الرنين</string>
     <string name="increasing_ring_min_volume_title">حجم الصوت البدائي</string>
     <string name="increasing_ring_ramp_up_time_title">زمن التدرج</string>
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">وضع توفير البطارية</string>
+    <string name="location_mode_battery_saving_summary">إستخدام فقط شبكات WiFi أو بلوتوث أو الجوّال لتحديد الموقع (أقل دقة)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">بطارية قوية</string>
     <string name="aggressive_battery_summary">توفير بطارية اكثر صرامة</string>
