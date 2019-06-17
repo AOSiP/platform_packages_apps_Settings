@@ -348,7 +348,7 @@
     <string name="system_theme_wallpaper">Tự động (theo thời gian trong ngày)</string>
     <string name="system_theme_light">Sáng</string>
     <string name="system_theme_dark">Tối</string>
-    <string name="blackaf_theme_title">Sử dụng chủ đề Đen Hoàn Toàn</string>
+    <string name="blackaf_theme_title">Sử dụng chủ đề đen hoàn toàn</string>
     <string name="blackaf_theme_summary">Sử dụng chủ đề đen của chúng tôi thay cho chủ đề tối</string>
     <!-- Selinux -->
     <string name="selinux_status">Trạng thái SELinux</string>
