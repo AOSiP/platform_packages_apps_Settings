@@ -31,6 +31,12 @@
         android:layout="@layout/preference_category_no_title" />
 
     <Preference
+        android:fragment="com.android.settings.fuelgauge.AggressiveBatterySettings"
+        android:key="aggressive_battery"
+        android:title="@string/aggressive_battery_title"
+        android:summary="@string/aggressive_battery_summary" />
+
+    <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
         android:key="battery_saver_summary"
         android:title="@string/battery_saver"
@@ -44,6 +50,12 @@
         android:title="@string/smart_battery_manager_title"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
 
+    <Preference
+       android:key="smart_pixels"
+       android:title="@string/smart_pixels_title"
+       android:summary="@string/smart_pixels_summary"
+       android:fragment="com.aosip.owlsnest.advanced.SmartPixels" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:title="@string/battery_last_full_charge"
@@ -54,18 +66,6 @@
         android:key="screen_usage"
         android:title="@string/device_screen_usage"
         android:selectable="false" />
-
-    <Preference
-       android:key="smart_pixels"
-       android:title="@string/smart_pixels_title"
-       android:summary="@string/smart_pixels_summary"
-       android:fragment="com.aosip.owlsnest.advanced.SmartPixels" />
-
-    <Preference
-        android:fragment="com.android.settings.fuelgauge.AggressiveBatterySettings"
-        android:key="aggressive_battery"
-        android:title="@string/aggressive_battery_title"
-        android:summary="@string/aggressive_battery_summary" />
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temp"
