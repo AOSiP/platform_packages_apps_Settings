@@ -383,7 +383,7 @@
     <string name="thermal_control_per_app">优化配置文件</string>
     <string name="thermal_control_per_app_default">不优化</string>
     <string name="thermal_control_per_app_benchmark">性能模式</string>
-    <string name="thermal_control_per_app_games">游戏</string>
+    <string name="thermal_control_per_app_games">游戏模式</string>
     <string name="thermal_control_per_app_browser">浏览器</string>
     <string name="thermal_control_per_app_video_playback">视频回放</string>
     <string name="thermal_control_per_app_dialer">拨号程序</string>

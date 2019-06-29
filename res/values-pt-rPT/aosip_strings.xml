@@ -105,8 +105,8 @@
     <string name="increasing_ring_min_volume_title">Volume inicial</string>
     <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
-    <string name="location_mode_battery_saving_title">Battery saving mode</string>
-    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
+    <string name="location_mode_battery_saving_title">Modo de economia da bateria</string>
+    <string name="location_mode_battery_saving_summary">Utilizar Wi\u2011Fi, bluetooth ou redes móveis para determinar a localização (menos precisa)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Poupança de bateria agressiva</string>
     <string name="aggressive_battery_summary">Economias de bateria mais restritas</string>
@@ -380,12 +380,12 @@
     <string name="pocket_judge_title">Detector de bolso</string>
     <string name="pocket_judge_summary">Bloquear o ecrã e os botões enquanto o dispositivo estiver no bolso</string>
     <!-- Thermal control per app -->
-    <string name="thermal_control_per_app">Optimization profile</string>
-    <string name="thermal_control_per_app_default">No optimization</string>
-    <string name="thermal_control_per_app_benchmark">Performance</string>
-    <string name="thermal_control_per_app_games">Games</string>
-    <string name="thermal_control_per_app_browser">Browser</string>
-    <string name="thermal_control_per_app_video_playback">Video playback</string>
-    <string name="thermal_control_per_app_dialer">Dialer</string>
-    <string name="thermal_control_per_app_camera">Camera</string>
+    <string name="thermal_control_per_app">Perfil de optimização</string>
+    <string name="thermal_control_per_app_default">Sem optimização</string>
+    <string name="thermal_control_per_app_benchmark">Desempenho</string>
+    <string name="thermal_control_per_app_games">Jogos</string>
+    <string name="thermal_control_per_app_browser">Navegador</string>
+    <string name="thermal_control_per_app_video_playback">Reprodução de vídeo</string>
+    <string name="thermal_control_per_app_dialer">Marcador</string>
+    <string name="thermal_control_per_app_camera">Câmara</string>
 </resources>

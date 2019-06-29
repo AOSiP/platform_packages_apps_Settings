@@ -61,7 +61,7 @@
     <string name="custom_ambient_display_summary">高度なアンビエント表示の設定</string>
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">全てのジェスチャーモードを有効化</string>
-    <string name="full_gesture_mode_summary">このモードではバックボタンが無効になり、ナビゲーションバーの左スワイプでバックアクションをすることができます。右スワイプはアプリ履歴アクションを起動しアプリ一覧をスクロールできます。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。キーボード表示時はナビゲーションバー長押しでテキストカーソルに移動します。</string>
+    <string name="full_gesture_mode_summary">このモードでは戻るボタンが無効になり、ナビゲーションバーの左スワイプで戻るアクションをすることができます。右スワイプはアプリ履歴アクションを起動しアプリ一覧をスクロールできます。ホームボタンだけでなくナビゲーションバーの空きエリアをタップしてもホームに戻れます。キーボード表示時はナビゲーションバー長押しでテキストカーソルに移動します。</string>
     <string name="full_gesture_mode_dt2s_title">ダブルタップでスリープ機能を有効化</string>
     <string name="full_gesture_mode_dt2s_summary">ホームキーだけでなくナビゲーションバーの空きエリアをタップしてスリープする</string>
     <!-- Less Notification sounds -->
@@ -160,7 +160,7 @@
     <string name="app_ops_categories_media">メディア</string>
     <string name="app_ops_categories_device">端末</string>
     <string name="app_ops_categories_run_in_background">バックグラウンドでの実行</string>
-    <string name="app_ops_categories_bootup">ブート時の実行</string>
+    <string name="app_ops_categories_bootup">ブート</string>
     <string name="app_ops_categories_other">その他</string>
     <!-- User display names for app ops codes - extension of AOSP -->
     <string name="app_ops_summaries_accept_handover">別のアプリからの通話の引き継ぎ</string>
@@ -168,7 +168,7 @@
     <string name="app_ops_summaries_access_notifications">通知へのアクセス</string>
     <string name="app_ops_summaries_activate_vpn">VPN の有効化</string>
     <string name="app_ops_summaries_add_voicemail">ボイスメールの追加</string>
-    <string name="app_ops_summaries_app_start_foreground">フォアグラウンドでのインスタントアプリの起動</string>
+    <string name="app_ops_summaries_app_start_foreground">前面でのインスタントアプリ起動</string>
     <string name="app_ops_summaries_assist_screenshot">スクリーンショットのアシスト</string>
     <string name="app_ops_summaries_assist_structure">ストラクチャーのアシスト</string>
     <string name="app_ops_summaries_audio_accessibility_volume">補助音声ボリューム</string>
@@ -219,13 +219,13 @@
     <string name="app_ops_summaries_receive_sms">SMS の受信</string>
     <string name="app_ops_summaries_record_audio">音声の録音</string>
     <string name="app_ops_summaries_request_delete_packages">パッケージの削除の要求</string>
-    <string name="app_ops_summaries_run_any_in_background">どのバックグラウンドでの実行</string>
+    <string name="app_ops_summaries_run_any_in_background">全てのバックグラウンドでの実行</string>
     <string name="app_ops_summaries_run_in_background">バックグラウンドでの実行</string>
     <string name="app_ops_summaries_scan_wifi">Wi-Fi ネットワークのスキャン</string>
     <string name="app_ops_summaries_send_mms">MMS メッセージの送信</string>
     <string name="app_ops_summaries_send_sms">SMS の送信</string>
     <string name="app_ops_summaries_start_at_bootup">起動時の実行</string>
-    <string name="app_ops_summaries_start_foreground">フォアグラウンドでの起動</string>
+    <string name="app_ops_summaries_start_foreground">前面での起動</string>
     <string name="app_ops_summaries_toast_window">トーストの表示</string>
     <string name="app_ops_summaries_toggle_bluetooth">Bluetooth の切り替え</string>
     <string name="app_ops_summaries_toggle_mobile_data">モバイルデータの切り替え</string>
@@ -242,7 +242,7 @@
     <string name="app_ops_summaries_use_media_volume">メディア音量の制御</string>
     <string name="app_ops_summaries_use_notification_volume">通知音量の制御</string>
     <string name="app_ops_summaries_use_ring_volume">着信音量の制御</string>
-    <string name="app_ops_summaries_use_vibrate">触覚フィードバックの使用</string>
+    <string name="app_ops_summaries_use_vibrate">振動フィードバックの使用</string>
     <string name="app_ops_summaries_use_voice_volume">通話音量の制御</string>
     <string name="app_ops_summaries_wifi_change">Wi-Fi の状態を変更</string>
     <string name="app_ops_summaries_write_external_storage">外部ストレージの書き込み</string>
@@ -254,7 +254,7 @@
     <string name="app_ops_labels_access_notifications">通知へのアクセス</string>
     <string name="app_ops_labels_activate_vpn">VPN の有効化</string>
     <string name="app_ops_labels_add_voicemail">ボイスメールの追加</string>
-    <string name="app_ops_labels_app_start_foreground">フォアグラウンドでのインスタントアプリの起動</string>
+    <string name="app_ops_labels_app_start_foreground">前面でのインスタントアプリ起動</string>
     <string name="app_ops_labels_assist_screenshot">スクリーンショットのアシスト</string>
     <string name="app_ops_labels_assist_structure">ストラクチャのアシスト</string>
     <string name="app_ops_labels_audio_accessibility_volume">音声ユーザー補助音量</string>
@@ -305,13 +305,13 @@
     <string name="app_ops_labels_receive_sms">SMS の受信</string>
     <string name="app_ops_labels_record_audio">音声の録音</string>
     <string name="app_ops_labels_request_delete_packages">パッケージの削除の要求</string>
-    <string name="app_ops_labels_run_any_in_background">どのバックグラウンドでの実行</string>
+    <string name="app_ops_labels_run_any_in_background">全てのバックグラウンドでの実行</string>
     <string name="app_ops_labels_run_in_background">バックグラウンドでの実行</string>
     <string name="app_ops_labels_scan_wifi">Wi-Fi ネットワークのスキャン</string>
     <string name="app_ops_labels_send_mms">MMS メッセージの送信</string>
     <string name="app_ops_labels_send_sms">SMS を送信</string>
     <string name="app_ops_labels_start_at_bootup">起動時の実行</string>
-    <string name="app_ops_labels_start_foreground">フォアグラウンドで起動する</string>
+    <string name="app_ops_labels_start_foreground">前面での起動</string>
     <string name="app_ops_labels_toast_window">トーストの表示</string>
     <string name="app_ops_labels_toggle_bluetooth">Bluetooth の切り替え</string>
     <string name="app_ops_labels_toggle_mobile_data">モバイルデータの切り替え</string>
@@ -328,7 +328,7 @@
     <string name="app_ops_labels_use_media_volume">メディア音量の制御</string>
     <string name="app_ops_labels_use_notification_volume">通知音量の制御</string>
     <string name="app_ops_labels_use_ring_volume">着信音量の制御</string>
-    <string name="app_ops_labels_use_vibrate">触覚フィードバックの使用</string>
+    <string name="app_ops_labels_use_vibrate">振動フィードバックの使用</string>
     <string name="app_ops_labels_use_voice_volume">通話音量の制御</string>
     <string name="app_ops_labels_wifi_change">Wi-Fi の状態を変更</string>
     <string name="app_ops_labels_write_external_storage">外部ストレージの書き込み</string>
