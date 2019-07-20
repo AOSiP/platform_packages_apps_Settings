@@ -77,6 +77,17 @@
     <string name="less_notification_sounds_1m">Κάθε 1 λεπτό</string>
     <string name="less_notification_sounds_2m">Κάθε 2 λεπτά</string>
     <string name="less_notification_sounds_5m">Κάθε 5 λεπτά</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Στυλ πλάκιδιων γρήγορων ρυθμίσεων</string>
+    <string name="qstile_default">Κύκλος (προεπιλογή)</string>
+    <string name="qstile_squircle">Στρογγυλεμένο τετράγωνο</string>
+    <string name="qstile_justicons">Εικονίδια χωρίς κύκλο</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_shishu_nights">Shishu Nights</string>
+    <string name="qstile_circle_dualtone">Κύκλος με δύο τόνους</string>
+    <string name="qstile_dottedcircle">Κύκλος με τελείες</string>
+    <string name="qstile_shishuink">Μελάνι Shishu</string>
+    <string name="qstile_attemptmountain">Προσπάθεια για βουνό</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> - <xliff:g id="status" example="disabled">%2$s</xliff:g></string>

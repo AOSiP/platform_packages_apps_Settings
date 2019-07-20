@@ -20,8 +20,8 @@
     <string name="aosip_version">Phiên bản AOSiP</string>
     <string name="aosip_version_default">Không rõ</string>
     <!-- OwlsNest -->
-    <string name="owlsnest_title">OwlsNest</string>
-    <string name="owlsnest_activity_summary">Tổ ấm của Kronic</string>
+    <string name="owlsnest_title">Giao diện nâng cao</string>
+    <string name="owlsnest_activity_summary">Tuỳ chỉnh giao diện hiển thị</string>
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Trình cập nhật AOSiP</string>
     <string name="update_settings_summary">Kiểm tra cập nhật AOSiP</string>
@@ -77,6 +77,17 @@
     <string name="less_notification_sounds_1m">Mỗi 1 phút</string>
     <string name="less_notification_sounds_2m">Mỗi 2 phút</string>
     <string name="less_notification_sounds_5m">Mỗi 5 phút</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Kiểu ô Cài đặt nhanh</string>
+    <string name="qstile_default">Hình tròn (mặc định)</string>
+    <string name="qstile_squircle">Hình vuông cạnh bo tròn</string>
+    <string name="qstile_justicons">Biểu tượng không có vòng tròn</string>
+    <string name="qstile_inkdrop">Giọt mực</string>
+    <string name="qstile_shishu_nights">Đêm Shishu</string>
+    <string name="qstile_circle_dualtone">Vòng tròn hai Tông màu</string>
+    <string name="qstile_dottedcircle">Vòng tròn Nét đứt</string>
+    <string name="qstile_shishuink">Mực Shishu</string>
+    <string name="qstile_attemptmountain">Ngọn núi hùng vĩ</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
@@ -118,7 +129,7 @@
     <string name="aggressive_battery_saver_title">Tự động kích hoạt tiết kiệm pin </string>
     <string name="aggressive_battery_saver_summary">Tự động kích hoạt tiết kiệm pin tích cực khi dùng chế độ tiết kiệm pin</string>
     <!-- Privacy Guard -->
-    <string name="app_ops_settings">Quản lý Quyền</string>
+    <string name="app_ops_settings">Hoạt động của ứng dụng</string>
     <string name="privacy_guard_manager_title">Bảo vệ Quyền riêng tư</string>
     <string name="privacy_guard_switch_label">Bật Bảo vệ Quyền riêng tư</string>
     <string name="privacy_guard_dlg_title">Bật Bảo vệ Quyền riêng tư?</string>
@@ -380,7 +391,7 @@
     <string name="pocket_judge_title">Phát hiện trong túi</string>
     <string name="pocket_judge_summary">Chặn bật màn hình và các phím khi thiết bị trong túi</string>
     <!-- Thermal control per app -->
-    <string name="thermal_control_per_app">Hồ sơ tối ưu hóa</string>
+    <string name="thermal_control_per_app">Cấu hình tối ưu hóa</string>
     <string name="thermal_control_per_app_default">Không tối ưu hóa</string>
     <string name="thermal_control_per_app_benchmark">Hiệu năng</string>
     <string name="thermal_control_per_app_games">Trò chơi</string>

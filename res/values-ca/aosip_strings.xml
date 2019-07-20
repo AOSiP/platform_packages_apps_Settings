@@ -17,29 +17,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOSiP Version -->
-    <string name="aosip_version">AOSiP Build</string>
-    <string name="aosip_version_default">Unknown</string>
+    <string name="aosip_version">Compilació d\'AOSP</string>
+    <string name="aosip_version_default">Desconegut</string>
     <!-- OwlsNest -->
-    <string name="owlsnest_title">OwlsNest</string>
-    <string name="owlsnest_activity_summary">Home Of the Kronic</string>
+    <string name="owlsnest_title">Niu de l\'òliba</string>
+    <string name="owlsnest_activity_summary">Casa del Kronic</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">Actualitzador d\'AOSiP</string>
+    <string name="update_settings_summary">Comprova la darrera versió del sistema</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation</string>
-    <string name="display_rotation_disabled">Disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Rotació</string>
+    <string name="display_rotation_disabled">Desactivat</string>
+    <string name="display_rotation_unit">graus</string>
+    <string name="display_rotation_category_title">Mode de rotació</string>
+    <string name="display_rotation_0_title">0 graus</string>
+    <string name="display_rotation_90_title">90 graus</string>
+    <string name="display_rotation_180_title">180 graus</string>
+    <string name="display_rotation_270_title">270 graus</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset</string>
-    <string name="ok_string">Ok</string>
+    <string name="battery_stats_reset">Reiniciar les estadístiques</string>
+    <string name="battery_stats_message">Les estadístiques de la bateria es restabliran</string>
+    <string name="ok_string">D\'acord</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
-    <string name="status_deep_sleep">(Deep sleep: %1$d%2$s)</string>
+    <string name="status_deep_sleep">(Son profunda: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_value_title">Lower brightness if Night Light</string>
     <string name="night_auto_value_disabled">Disabled</string>
@@ -77,6 +77,17 @@
     <string name="less_notification_sounds_1m">Every 1 minute</string>
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
     <string name="less_notification_sounds_5m">Every 5 minutes</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qstile_default">Circle (default)</string>
+    <string name="qstile_squircle">Squircle</string>
+    <string name="qstile_justicons">Icons without circle</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_shishu_nights">Shishu Nights</string>
+    <string name="qstile_circle_dualtone">Circle with Dual Tone</string>
+    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_shishuink">Shishu Ink</string>
+    <string name="qstile_attemptmountain">An attempt of a mountain</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>

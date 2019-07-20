@@ -77,6 +77,17 @@
     <string name="less_notification_sounds_1m">Cada minuto</string>
     <string name="less_notification_sounds_2m">Cada 2 minutos</string>
     <string name="less_notification_sounds_5m">Cada 5 minutos</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qstile_default">Circle (default)</string>
+    <string name="qstile_squircle">Squircle</string>
+    <string name="qstile_justicons">Icons without circle</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_shishu_nights">Shishu Nights</string>
+    <string name="qstile_circle_dualtone">Circle with Dual Tone</string>
+    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_shishuink">Shishu Ink</string>
+    <string name="qstile_attemptmountain">An attempt of a mountain</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> es <xliff:g id="status" example="disabled">%2$s </xliff:g></string>

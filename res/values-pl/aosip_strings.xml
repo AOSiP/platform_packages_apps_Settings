@@ -20,7 +20,7 @@
     <string name="aosip_version">Wersja AOSiP</string>
     <string name="aosip_version_default">Nieznany</string>
     <!-- OwlsNest -->
-    <string name="owlsnest_title">Konfiguruj urządzenie</string>
+    <string name="owlsnest_title">Sowie Gniazdo</string>
     <string name="owlsnest_activity_summary">Wkrocz do świata modyfikacji systemu AOSiP</string>
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Aktualizacje AOSiP</string>
@@ -41,7 +41,7 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Głęboka drzemka: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Mniejsza jasność przy świetle nocnym</string>
+    <string name="night_brightness_value_title">Mniejsza jasność przy podświetleniu nocnym</string>
     <string name="night_auto_value_disabled">Wyłączono</string>
     <string name="night_auto_value_min">Minimalna jasność</string>
     <string name="night_bright_low">Niska jasność</string>
@@ -49,7 +49,7 @@
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
     <!-- Ambient category -->
-    <string name="ambient_display_category">Opcje otoczenia</string>
+    <string name="ambient_display_category">Opcje ekranu Ambient</string>
     <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączeniu</string>
     <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran, gdy zostanie podłączone lub rozłączone źródło zasilania</string>
@@ -77,6 +77,17 @@
     <string name="less_notification_sounds_1m">Co 1 minutę</string>
     <string name="less_notification_sounds_2m">Co 2 minuty</string>
     <string name="less_notification_sounds_5m">Co 5 minut</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Styl kafelków szybkich ustawień</string>
+    <string name="qstile_default">Okrąg (domyślnie)</string>
+    <string name="qstile_squircle">Obły kwadrat</string>
+    <string name="qstile_justicons">Ikony bez okręgu</string>
+    <string name="qstile_inkdrop">Kropla atramentu</string>
+    <string name="qstile_shishu_nights">Nocne Shishu</string>
+    <string name="qstile_circle_dualtone">Okrąg z dwoma tonami</string>
+    <string name="qstile_dottedcircle">Przerywany okrąg</string>
+    <string name="qstile_shishuink">Atrament Shishu</string>
+    <string name="qstile_attemptmountain">Próba góry</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s </xliff:g> jest <xliff:g id="status" example="disabled">%2$s </xliff:g></string>

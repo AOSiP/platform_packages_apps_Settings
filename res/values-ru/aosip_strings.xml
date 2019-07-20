@@ -77,6 +77,17 @@
     <string name="less_notification_sounds_1m">Каждую минуту</string>
     <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
     <string name="less_notification_sounds_5m">Каждые 5 минут</string>
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qstile_default">Circle (default)</string>
+    <string name="qstile_squircle">Squircle</string>
+    <string name="qstile_justicons">Icons without circle</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_shishu_nights">Shishu Nights</string>
+    <string name="qstile_circle_dualtone">Circle with Dual Tone</string>
+    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_shishuink">Shishu Ink</string>
+    <string name="qstile_attemptmountain">An attempt of a mountain</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary">SIM-карта <xliff:g id="displayName">%1$s</xliff:g> сейчас <xliff:g id="status" example="выключена">%2$s</xliff:g></string>
