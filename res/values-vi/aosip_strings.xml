@@ -188,7 +188,7 @@
     <string name="app_ops_summaries_bluetooth_scan">quét bluetooth</string>
     <string name="app_ops_summaries_change_wallpaper">thay đổi hình nền</string>
     <string name="app_ops_summaries_coarse_location">vị trí tương đối</string>
-    <string name="app_ops_summaries_delete_call_log">xóa nhật ký cuộc gọi của bạn</string>
+    <string name="app_ops_summaries_delete_call_log">xóa lịch sử cuộc gọi của bạn</string>
     <string name="app_ops_summaries_delete_contacts">xóa danh bạ của bạn</string>
     <string name="app_ops_summaries_delete_mms">xoá tin nhắn MMS của bạn</string>
     <string name="app_ops_summaries_delete_sms">xoá tin nhắn SMS của bạn</string>
@@ -217,7 +217,7 @@
     <string name="app_ops_summaries_post_notification">gửi thông báo</string>
     <string name="app_ops_summaries_project_media">trình chiếu đa phương tiện</string>
     <string name="app_ops_summaries_read_calendar">đọc lịch</string>
-    <string name="app_ops_summaries_read_call_log">đọc nhật ký cuộc gọi</string>
+    <string name="app_ops_summaries_read_call_log">đọc lịch sử cuộc gọi</string>
     <string name="app_ops_summaries_read_cell_broadcasts">đọc tin nhắn phát sóng di động</string>
     <string name="app_ops_summaries_read_clipboard">đọc bảng nhớ tạm</string>
     <string name="app_ops_summaries_read_contacts">đọc danh bạ</string>
@@ -274,7 +274,7 @@
     <string name="app_ops_labels_bluetooth_scan">Quét bluetooth</string>
     <string name="app_ops_labels_change_wallpaper">Thay đổi hình nền</string>
     <string name="app_ops_labels_coarse_location">Vị trí tương đối</string>
-    <string name="app_ops_labels_delete_call_log">Xóa nhật ký cuộc gọi của bạn</string>
+    <string name="app_ops_labels_delete_call_log">Xóa lịch sử cuộc gọi của bạn</string>
     <string name="app_ops_labels_delete_contacts">Xóa danh bạ</string>
     <string name="app_ops_labels_delete_mms">Xoá tin nhắn MMS của bạn</string>
     <string name="app_ops_labels_delete_sms">Xoá tin nhắn SMS của bạn</string>
@@ -289,7 +289,7 @@
     <string name="app_ops_labels_manage_ipsec_tunnels">Quản lý kênh bảo vệ địa chỉ IP</string>
     <string name="app_ops_labels_mock_location">Giả lập vị trí</string>
     <string name="app_ops_labels_modify_calendar">Sửa đổi lịch</string>
-    <string name="app_ops_labels_modify_call_log">Sửa đổi nhật ký cuộc gọi</string>
+    <string name="app_ops_labels_modify_call_log">Sửa đổi lịch sử cuộc gọi</string>
     <string name="app_ops_labels_modify_clipboard">Sửa đổi bảng nhớ tạm</string>
     <string name="app_ops_labels_modify_contacts">Sửa danh bạ</string>
     <string name="app_ops_labels_modify_settings">Thay đổi cài đặt</string>
@@ -303,7 +303,7 @@
     <string name="app_ops_labels_post_notification">Gửi một thông báo</string>
     <string name="app_ops_labels_project_media">Chiếu đa phương tiện</string>
     <string name="app_ops_labels_read_calendar">Đọc lịch</string>
-    <string name="app_ops_labels_read_call_log">Đọc nhật ký cuộc gọi</string>
+    <string name="app_ops_labels_read_call_log">Đọc lịch sử cuộc gọi</string>
     <string name="app_ops_labels_read_cell_broadcasts">Đọc phát sóng di động</string>
     <string name="app_ops_labels_read_clipboard">Đọc bảng nhớ tạm</string>
     <string name="app_ops_labels_read_contacts">Đọc số liên lạc</string>
