@@ -69,3 +69,6 @@
 
 # OwlsNest
 -keep class com.aosip.owlsnest.**
+
+# Custom rules
+-keep class com.google.android.settings.** { *; }
