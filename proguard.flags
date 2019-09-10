@@ -69,3 +69,4 @@
 
 # OwlsNest
 -keep class com.aosip.owlsnest.**
+-keep class com.google.android.settings.** { *; }
