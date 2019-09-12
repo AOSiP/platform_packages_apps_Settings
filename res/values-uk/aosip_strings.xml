@@ -402,4 +402,7 @@
     <string name="thermal_control_per_app_video_playback">Відтворення відео</string>
     <string name="thermal_control_per_app_dialer">Номеронабирач</string>
     <string name="thermal_control_per_app_camera">Камера</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN-з\'єднання цього пристрою для підключення до потоку</string>
 </resources>

@@ -45,7 +45,7 @@
     <string name="night_auto_value_disabled">Tắt</string>
     <string name="night_auto_value_min">Độ sáng thấp nhất</string>
     <string name="night_bright_low">Độ sáng thấp</string>
-    <string name="night_bright_midlow">Độ sáng trung bình</string>
+    <string name="night_bright_midlow">Độ sáng vừa</string>
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Âm thanh chụp ảnh màn hình</string>
     <!-- Ambient category -->
@@ -62,7 +62,7 @@
     <!-- Nav Gesture -->
     <string name="full_gesture_mode_title">Bật cử chỉ tràn cạnh</string>
     <string name="full_gesture_mode_summary">Phím Quay lại sẽ bị tắt và bạn có thể thực hiện cử chỉ Quay lại bằng cách vuốt sang trái trên thanh điều hướng. Vuốt sang phải vẫn sẽ kích hoạt tính năng chuyển đổi ứng dụng gần đây. Bạn có thể chạm vào bất cứ đâu trên thanh điều hướng, không chỉ là chạm phím Trang chính, để quay về Màn hình chính. Khi bàn phím hiển thị, nhấn giữ thanh điều hướng để di chuyển con trỏ văn bản.</string>
-    <string name="full_gesture_mode_dt2s_title">Chạm đúp để tắt màn hình</string>
+    <string name="full_gesture_mode_dt2s_title">Chạm hai lần để tắt màn hình</string>
     <string name="full_gesture_mode_dt2s_summary">Chạm đúp trên thanh điều hướng nhưng không chạm phím Trang chính để tắt màn hình.</string>
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Hạn chế tần xuất thông báo</string>
@@ -187,7 +187,7 @@
     <string name="app_ops_summaries_bind_accessibility_service">ràng buộc dịch vụ truy cập</string>
     <string name="app_ops_summaries_bluetooth_scan">quét bluetooth</string>
     <string name="app_ops_summaries_change_wallpaper">thay đổi hình nền</string>
-    <string name="app_ops_summaries_coarse_location">vị trí tương đối</string>
+    <string name="app_ops_summaries_coarse_location">vị trí gần đúng</string>
     <string name="app_ops_summaries_delete_call_log">xóa lịch sử cuộc gọi của bạn</string>
     <string name="app_ops_summaries_delete_contacts">xóa danh bạ của bạn</string>
     <string name="app_ops_summaries_delete_mms">xoá tin nhắn MMS của bạn</string>
@@ -304,7 +304,7 @@
     <string name="app_ops_labels_project_media">Chiếu đa phương tiện</string>
     <string name="app_ops_labels_read_calendar">Đọc lịch</string>
     <string name="app_ops_labels_read_call_log">Đọc lịch sử cuộc gọi</string>
-    <string name="app_ops_labels_read_cell_broadcasts">Đọc phát sóng di động</string>
+    <string name="app_ops_labels_read_cell_broadcasts">Đọc tin nhắn quảng bá</string>
     <string name="app_ops_labels_read_clipboard">Đọc bảng nhớ tạm</string>
     <string name="app_ops_labels_read_contacts">Đọc số liên lạc</string>
     <string name="app_ops_labels_read_external_storage">Đọc bộ nhớ ngoài</string>
@@ -367,10 +367,10 @@
     <!-- Selinux -->
     <string name="selinux_status">Trạng thái SELinux</string>
     <string name="selinux_status_disabled">Đã vô hiệu</string>
-    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_permissive">Cho phép</string>
     <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Changelog -->
-    <string name="changelog_title">Lịch sử cập nhật</string>
+    <string name="changelog_title">Thay đổi tiếp theo</string>
     <string name="changelog_summary">Những thay đổi tiếp theo</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng chuông &amp; thông báo</string>
@@ -402,4 +402,7 @@
     <string name="thermal_control_per_app_video_playback">Phát video</string>
     <string name="thermal_control_per_app_dialer">Gọi điện thoại</string>
     <string name="thermal_control_per_app_camera">Máy ảnh</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Cho phép khách sử dụng VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị này để kết nối ngược dòng</string>
 </resources>

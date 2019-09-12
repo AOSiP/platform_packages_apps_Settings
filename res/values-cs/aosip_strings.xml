@@ -402,4 +402,7 @@
     <string name="thermal_control_per_app_video_playback">Přehrávání videa</string>
     <string name="thermal_control_per_app_dialer">Číselník</string>
     <string name="thermal_control_per_app_camera">Fotoaparát</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro upstream konektivitu</string>
 </resources>

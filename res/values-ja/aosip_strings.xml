@@ -402,4 +402,7 @@
     <string name="thermal_control_per_app_video_playback">ビデオ再生</string>
     <string name="thermal_control_per_app_dialer">電話</string>
     <string name="thermal_control_per_app_camera">カメラ</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">クライアントの VPN 使用の許可</string>
+    <string name="tethering_allow_vpn_upstreams_summary">この端末の VPN 接続をホットスポットのクライアントが送信接続に使うことを許可する</string>
 </resources>
