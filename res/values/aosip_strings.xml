@@ -18,6 +18,9 @@
 
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
+    
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Close</string>
 
     <string name="theme_category">Theming</string>
     <string name="theme_select_title">Themes</string>
