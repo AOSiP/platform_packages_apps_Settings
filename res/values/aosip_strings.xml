@@ -31,6 +31,9 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
 
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
 
