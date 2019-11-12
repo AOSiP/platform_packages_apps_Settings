@@ -41,7 +41,7 @@
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Đã ngủ sâu: %1$d%2$s)</string>
     <!-- Advanced night mode brightness -->
-    <string name="night_brightness_value_title">Giảm độ sáng khi bật chế độ đọc</string>
+    <string name="night_brightness_value_title">Giảm độ sáng khi bật Ánh sáng Ban đêm</string>
     <string name="night_auto_value_disabled">Tắt</string>
     <string name="night_auto_value_min">Độ sáng thấp nhất</string>
     <string name="night_bright_low">Độ sáng thấp</string>
@@ -63,7 +63,7 @@
     <string name="full_gesture_mode_title">Bật cử chỉ tràn cạnh</string>
     <string name="full_gesture_mode_summary">Phím Quay lại sẽ bị tắt và bạn có thể thực hiện cử chỉ Quay lại bằng cách vuốt sang trái trên thanh điều hướng. Vuốt sang phải vẫn sẽ kích hoạt tính năng chuyển đổi ứng dụng gần đây. Bạn có thể chạm vào bất cứ đâu trên thanh điều hướng, không chỉ là chạm phím Trang chính, để quay về Màn hình chính. Khi bàn phím hiển thị, nhấn giữ thanh điều hướng để di chuyển con trỏ văn bản.</string>
     <string name="full_gesture_mode_dt2s_title">Chạm hai lần để tắt màn hình</string>
-    <string name="full_gesture_mode_dt2s_summary">Chạm đúp trên thanh điều hướng nhưng không chạm phím Trang chính để tắt màn hình.</string>
+    <string name="full_gesture_mode_dt2s_summary">Chạm hai lần trên thanh điều hướng nhưng không chạm phím Trang chính để tắt màn hình.</string>
     <!-- Less Notification sounds -->
     <string name="less_notification_sounds_title">Hạn chế tần xuất thông báo</string>
     <string name="less_notification_sounds_summary">Phát âm thanh thông báo của từng ứng dụng chỉ một lần trong khoảng thời gian đã đặt</string>
@@ -117,7 +117,7 @@
     <string name="increasing_ring_ramp_up_time_title">Thời gian tăng</string>
     <!-- Battery saving mode for Location - GPS will be disabled -->
     <string name="location_mode_battery_saving_title">Chế độ tiết kiệm pin</string>
-    <string name="location_mode_battery_saving_summary">Chỉ sử dụng Wi\u2011Fi, Bluetooth, hoặc Mạng di động để xác định vị trí (ít chính xác hơn)</string>
+    <string name="location_mode_battery_saving_summary">Chỉ sử dụng Wi\u2011Fi, Bluetooth, hoặc Mạng di động để xác định vị trí (ít chính xác)</string>
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Chế độ tiết kiệm pin tích cực</string>
     <string name="aggressive_battery_summary">Thêm tiết kiệm pin</string>
@@ -147,9 +147,9 @@
     <string name="privacy_guard_notification_title">Hiển thị thông báo</string>
     <string name="loading">Đang tải\u2026</string>
     <!-- App ops permissions -->
-    <string name="app_ops_permissions_allowed">Đã được phép</string>
-    <string name="app_ops_permissions_ignored">Đã bỏ qua</string>
-    <string name="app_ops_permissions_always_ask">Luôn luôn yêu cầu</string>
+    <string name="app_ops_permissions_allowed">Cho phép</string>
+    <string name="app_ops_permissions_ignored">Bỏ qua</string>
+    <string name="app_ops_permissions_always_ask">Luôn hỏi</string>
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Đã được phép <xliff:g id="count" example="2 times">%s</xliff:g></string>
@@ -165,7 +165,7 @@
     <!-- Memory -->
     <string name="memory_startup_apps_title">Các ứng dụng được khởi động cùng hệ thống</string>
     <!-- Names of categories of app ops tabs - extension of AOSP -->
-    <string name="app_ops_categories_location">GPS</string>
+    <string name="app_ops_categories_location">Vị trí</string>
     <string name="app_ops_categories_personal">Cá nhân</string>
     <string name="app_ops_categories_messaging">Tin nhắn</string>
     <string name="app_ops_categories_media">Đa phương tiện</string>
@@ -201,14 +201,14 @@
     <string name="app_ops_summaries_keep_device_awake">giữ màn hình luôn bật</string>
     <string name="app_ops_summaries_make_phone_call">thực hiện cuộc gọi</string>
     <string name="app_ops_summaries_manage_ipsec_tunnels">quản lý kênh bảo vệ địa chỉ IP</string>
-    <string name="app_ops_summaries_mock_location">giả lập vị trí</string>
+    <string name="app_ops_summaries_mock_location">vị trí gần đúng</string>
     <string name="app_ops_summaries_modify_calendar">sửa đổi lịch</string>
     <string name="app_ops_summaries_modify_call_log">sửa nhật kí cuộc gọi</string>
     <string name="app_ops_summaries_modify_clipboard">sửa đổi bảng nhớ tạm</string>
     <string name="app_ops_summaries_modify_contacts">sửa danh bạ</string>
     <string name="app_ops_summaries_modify_settings">thay đổi cài đặt</string>
     <string name="app_ops_summaries_monitor_high_power_location">giám sát ứng dụng sử dụng năng lượng cao</string>
-    <string name="app_ops_summaries_monitor_location">giám sát vị trí</string>
+    <string name="app_ops_summaries_monitor_location">theo dõi vị trí</string>
     <string name="app_ops_summaries_mute_unmute_microphone">bật/tắt micro</string>
     <string name="app_ops_summaries_neighboring_cells">trạm phát sóng lân cận</string>
     <string name="app_ops_summaries_phone_calls">trả lời cuộc gọi</string>
@@ -273,7 +273,7 @@
     <string name="app_ops_labels_bind_accessibility_service">Ràng buộc dịch vụ khả năng tiếp cận</string>
     <string name="app_ops_labels_bluetooth_scan">Quét bluetooth</string>
     <string name="app_ops_labels_change_wallpaper">Thay đổi hình nền</string>
-    <string name="app_ops_labels_coarse_location">Vị trí tương đối</string>
+    <string name="app_ops_labels_coarse_location">Vị trí gần đúng</string>
     <string name="app_ops_labels_delete_call_log">Xóa lịch sử cuộc gọi của bạn</string>
     <string name="app_ops_labels_delete_contacts">Xóa danh bạ</string>
     <string name="app_ops_labels_delete_mms">Xoá tin nhắn MMS của bạn</string>
@@ -293,8 +293,8 @@
     <string name="app_ops_labels_modify_clipboard">Sửa đổi bảng nhớ tạm</string>
     <string name="app_ops_labels_modify_contacts">Sửa danh bạ</string>
     <string name="app_ops_labels_modify_settings">Thay đổi cài đặt</string>
-    <string name="app_ops_labels_monitor_high_power_location">Giám sát vị trí năng lượng cao</string>
-    <string name="app_ops_labels_monitor_location">Giám sát vị trí</string>
+    <string name="app_ops_labels_monitor_high_power_location">Theo dõi vị trí sử dụng nhiều pin hơn</string>
+    <string name="app_ops_labels_monitor_location">Theo dõi vị trí</string>
     <string name="app_ops_labels_mute_unmute_microphone">Tắt/bật tiếng micro</string>
     <string name="app_ops_labels_neighboring_cells">Các khu vực lân cận</string>
     <string name="app_ops_labels_phone_calls">Trả lời cuộc gọi</string>
@@ -371,7 +371,7 @@
     <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Changelog -->
     <string name="changelog_title">Thay đổi tiếp theo</string>
-    <string name="changelog_summary">Những thay đổi tiếp theo</string>
+    <string name="changelog_summary">Những thay đổi trên Gerrit</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng chuông &amp; thông báo</string>
     <!-- Media gestures -->
@@ -403,6 +403,6 @@
     <string name="thermal_control_per_app_dialer">Gọi điện thoại</string>
     <string name="thermal_control_per_app_camera">Máy ảnh</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Cho phép khách sử dụng VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Cho phép hotspot các máy khách sử dụng các kết nối VPN của thiết bị này để kết nối ngược dòng</string>
+    <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Cho phép máy khách sử dụng điểm truy cập với kết nối VPN của thiết bị này để kết nối đến máy chủ</string>
 </resources>
