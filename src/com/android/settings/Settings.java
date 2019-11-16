@@ -241,6 +241,7 @@ public class Settings extends SettingsActivity {
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
     // AOSiP Settings
+    public static class GamingModeActivity extends SettingsActivity {}
     public static class OwlsNestSettingsActivity extends SettingsActivity {}
     public static class StartThemesActivity extends SettingsActivity {}
 }

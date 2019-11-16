@@ -3465,8 +3465,8 @@
 
         <!-- Start of our manifest entries -->
 
-       <!-- DU Themes -->
-       <activity android:name="Settings$StartThemesActivity"
+        <!-- DU Themes -->
+        <activity android:name="Settings$StartThemesActivity"
             android:label="@string/du_themes_title"
             android:icon="@drawable/ic_homepage_du_themes"
             android:taskAffinity="com.android.settings"
@@ -3478,6 +3478,25 @@
                 android:value="com.android.settings.StartThemes" />
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/du_themes_summary"/>
+        </activity>
+
+        <!-- Gaming mode -->
+        <receiver android:name="com.aosip.owlsnest.helpers.GamingModeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.GAMING_MODE_TURN_OFF" />
+                <action android:name="android.intent.action.GAMING_MODE_TURN_ON" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".Settings$GamingModeActivity"
+            android:label="@string/gaming_mode_title"
+            android:taskAffinity="com.android.settings"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.GAMING_MODE_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.aosip.owlsnest.fragments.system_misc.GamingMode" />
         </activity>
 
     </application>
