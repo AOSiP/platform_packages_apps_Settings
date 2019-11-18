@@ -39,6 +39,9 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
     <string name="theme_customization_device_default">Device default</string>
 
+    <!-- Configurable lockscreen media blur strength -->
+    <string name="lockscreen_media_blur_title">Lockscreen media art blur level</string>
+
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
@@ -91,4 +94,5 @@
     <string name="back_height_high_label">Bottom</string>
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+
 </resources>
