@@ -73,6 +73,10 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
 
+    <!-- AOD on charge -->
+    <string name="doze_on_charge_title">Always On when charging</string>
+    <string name="doze_on_charge_summary">Show Always On Ambient display when charging</string>
+
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
