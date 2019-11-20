@@ -96,6 +96,12 @@
             android:key="ambient_display_custom"
             android:title="@string/advanced_settings" />
 
+        <com.aosip.support.preference.SystemSettingSwitchPreference
+            android:key="doze_on_charge"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="pulse_on_new_tracks"
             android:title="@string/pulse_on_new_tracks_title"
