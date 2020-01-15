@@ -122,6 +122,18 @@
         <item>30 minutes</item>
     </string-array>
 
+    <!-- PIN scrambling settings.  Whether to show a scrambled PIN UI or not. -->
+    <string-array name="scramble_pin_entries">
+        <item>Scramble PIN</item>
+        <item>No PIN scrambling</item>
+    </string-array>
+
+    <!-- Boolean values for the PIN scrambling setting. -->
+    <string-array name="scramble_pin_values" translatable="false">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
     <!-- Do not translate. -->
     <string-array name="lock_after_timeout_values" translatable="false">
         <!-- Do not translate. -->
