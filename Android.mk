@@ -23,6 +23,7 @@ LOCAL_USE_AAPT2 := true
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../OwlsNest/src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../../../external/google/SettingsGoogle/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../SmartActions/settings_src/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx-constraintlayout_constraintlayout \
@@ -37,7 +38,8 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     com.google.android.material_material \
     setupcompat \
     setupdesign \
-    VendorSupport-preference
+    VendorSupport-preference \
+    SmartActions-core
 
 LOCAL_JAVA_LIBRARIES := \
     telephony-common \
@@ -56,28 +58,35 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     zxing-core-1.7
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
+<<<<<<< HEAD
     frameworks/support/v7/preference/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
     packages/apps/OwlsNest/res \
-    external/google/SettingsGoogle/res
+    external/google/SettingsGoogle/res \
+    packages/apps/SmartActions/settings_res
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
+<<<<<<< HEAD
     --extra-packages android.support.v7.preference \
     --extra-packages android.support.v14.preference \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
-    --extra-packages com.aosip.owlsnest
+    --extra-packages com.aosip.owlsnest \
+    --extra-packages com.android.smartactions
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
     LOCAL_JACK_ENABLED := incremental
     LOCAL_JACK_FLAGS := --multi-dex native
 endif
+
+# SmartActionSettings activities
+LOCAL_FULL_LIBS_MANIFEST_FILES += packages/apps/SmartActions/SmartActionSettings_manifest.xml
 
 include frameworks/base/packages/SettingsLib/common.mk
 include frameworks/base/packages/SettingsLib/search/common.mk
