@@ -25,4 +25,7 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
+
+    <!-- Whether to show options exclusive to Pixel -->
+    <bool name="is_pixel_device">true</bool>
 </resources>
