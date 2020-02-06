@@ -25,6 +25,8 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.TextUtils;
 
+import com.android.settings.R;
+
 public class TapScreenGesturePreferenceController extends GesturePreferenceController {
 
     private static final String PREF_KEY_VIDEO = "gesture_tap_screen_video";
@@ -46,11 +48,14 @@ public class TapScreenGesturePreferenceController extends GesturePreferenceContr
     @Override
     public int getAvailabilityStatus() {
         // No hardware support for this Gesture
-        if (!getAmbientConfig().tapSensorAvailable()) {
-            return UNSUPPORTED_ON_DEVICE;
-        }
+        return ((!getAmbientConfig().tapSensorAvailable()) &&
+        // Do not show on Pixel devices. They have their own
+           (!isPixelDevice())) ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+    }
 
-        return AVAILABLE;
+    private boolean isPixelDevice() {
+        return mContext.getResources()
+                .getBoolean(R.bool.is_pixel_device);
     }
 
     @Override
