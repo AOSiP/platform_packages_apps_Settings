@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9910743c_a392f25b",
+        "filename": "res/values/aosip_config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000075
+      },
+      "writtenOn": "2020-02-08T19:01:45Z",
+      "side": 1,
+      "message": "have this as default false please, since there are only 2 pixels and a ton of non-Pixels",
+      "revId": "4938189c8f52d6b1dec20b638b0b377000182849",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": true
+    }
+  ]
+}
