@@ -18,8 +18,11 @@ package com.android.settings;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
+import androidx.preference.Preference;
 
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
@@ -49,6 +52,9 @@ public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
 
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";
+    private static final String CUSTOM_THEME_BROWSE = "theme_select_activity";
+
+    private Preference mThemeBrowse;
 
     @Override
     public int getMetricsCategory() {
@@ -69,6 +75,8 @@ public class DisplaySettings extends DashboardFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         use(DarkUIPreferenceController.class).setParentFragment(this);
+        mThemeBrowse = findPreference(CUSTOM_THEME_BROWSE);
+        mThemeBrowse.setEnabled(isBrowseThemesAvailable());
     }
 
     @Override
@@ -79,6 +87,13 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public int getHelpResource() {
         return R.string.help_uri_display;
+    }
+
+    private boolean isBrowseThemesAvailable() {
+        PackageManager pm = getPackageManager();
+        Intent browse = new Intent();
+        browse.setClassName("com.android.customization", "com.android.customization.picker.CustomizationPickerActivity");
+        return pm.resolveActivity(browse, 0) != null;
     }
 
     private static List<AbstractPreferenceController> buildPreferenceControllers(

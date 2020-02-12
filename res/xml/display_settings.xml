@@ -54,13 +54,6 @@
         settings:controller="com.android.settings.display.WallpaperPreferenceController">
     </com.android.settingslib.RestrictedPreference>
 
-
-    <SwitchPreference
-        android:key="dark_ui_mode"
-        android:title="@string/dark_ui_mode"
-        settings:keywords="@string/keywords_dark_ui_mode"
-        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
-
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.display.TimeoutListPreference
         android:key="screen_timeout"
@@ -161,6 +154,27 @@
         <com.android.settings.display.DensityPreference
             android:key="density"
             android:title="@string/developer_smallest_width" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="theme_category"
+        android:title="@string/theme_category">
+
+    <SwitchPreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        settings:keywords="@string/keywords_dark_ui_mode"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
+
+        <Preference
+            android:key="theme_select_activity"
+            android:title="@string/theme_select_title"
+            android:summary="@string/theme_select_summary"
+            android:persistent="false" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.customization"
+                    android:targetClass="com.android.customization.picker.CustomizationPickerActivity" />
+        </Preference>
     </PreferenceCategory>
 
 </PreferenceScreen>
