@@ -3324,6 +3324,66 @@
                 android:resource="@string/owlsnest_activity_summary"/>
         </activity>
 
-        <!-- This is the longest AndroidManifest.xml ever. -->
+        <!-- Navbar -->
+        <activity
+            android:name="com.aosip.owlsnest.navigation.BackLongPress"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.aosip.owlsnest.navigation.BackLongPress" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.aosip.owlsnest.navigation.BackDoubleTap"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.aosip.owlsnest.navigation.BackDoubleTap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.aosip.owlsnest.navigation.HomeLongPress"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.aosip.owlsnest.navigation.HomeLongPress" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.aosip.owlsnest.navigation.HomeDoubleTap"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.aosip.owlsnest.navigation.HomeDoubleTap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.aosip.owlsnest.navigation.AppSwitchLongPress"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.aosip.owlsnest.navigation.AppSwitchLongPress" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.aosip.owlsnest.navigation.AppSwitchDoubleTap"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth"
+            android:label="@string/app_picker_dialog_title" >
+            <intent-filter>
+                <action android:name="com.aosip.owlsnest.navigation.AppSwitchDoubleTap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 </manifest>
