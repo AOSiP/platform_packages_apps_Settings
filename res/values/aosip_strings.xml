@@ -124,6 +124,17 @@
     <string name="double_tap_to_sleep_title">Double tap to sleep on statusbar</string>
     <string name="double_tap_to_sleep_summary">Double tap on statusbar to switch the screen off</string>
 
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
+    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
+    <string name="left_swipe_actions_title">Long left swipe action</string>
+    <string name="left_swipe_app_action_title">Select long left swipe app</string>
+    <string name="right_swipe_actions_title">Long right swipe action</string>
+    <string name="right_swipe_app_action_title">Select long right swipe app</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.</string>
+
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Full</string>
     <string name="back_height_high_label">Bottom</string>
