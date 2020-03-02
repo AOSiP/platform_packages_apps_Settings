@@ -39,11 +39,7 @@ import android.text.TextUtils;
 import android.view.accessibility.AccessibilityManager;
 
 import androidx.annotation.VisibleForTesting;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.settings.SettingsTutorialDialogWrapperActivity;
 import com.android.settings.R;
@@ -64,10 +60,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class SystemNavigationGestureSettings extends RadioButtonPickerFragment 
-        implements Preference.OnPreferenceChangeListener {
-
-    private static final String GESTURE_PILL_TOGGLE = "gesture_pill_toggle";
+public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
 
     private static final String TAG = "SystemNavigationGesture";
 
@@ -120,17 +113,13 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
             NAV_BAR_MODE_GESTURAL_OVERLAY_WIDE_BACK_NO_PILL,
             NAV_BAR_MODE_GESTURAL_OVERLAY_EXTRA_WIDE_BACK_NO_PILL
     };
+
     @VisibleForTesting
     static int BACK_GESTURE_INSET_DEFAULT_OVERLAY = 1;
 
     private IOverlayManager mOverlayManager;
 
     private VideoPreference mVideoPreference;
-
-    private PreferenceCategory gestureTweaksCategory;
-    private SwitchPreference gesturePillToggle;
-
-    private static final String KEY_GESTURE_NAV_TWEAKS_CAT = "gesture_nav_tweaks_category";
 
     @Override
     public void onAttach(Context context) {
@@ -148,20 +137,6 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
         mVideoPreference.setHeight( /* Illustration height in dp */
                 getResources().getDimension(R.dimen.system_navigation_illustration_height)
                         / getResources().getDisplayMetrics().density);
-
-        // Gesture tweaks category
-        gestureTweaksCategory = new PreferenceCategory(context);
-        gestureTweaksCategory.setKey(getResources().getString(R.string.navbar_gesture_mode_category_key));
-        gestureTweaksCategory.setTitle(getResources().getString(R.string.navbar_gesture_mode_category_title));
-
-        gesturePillToggle = new SwitchPreference(context);
-        gesturePillToggle.setKey(GESTURE_PILL_TOGGLE);
-        gesturePillToggle.setTitle(getResources().getString(
-                    R.string.navbar_gesture_pill_toggle_title));
-        gesturePillToggle.setChecked(getPillToggleState(context) == 1 ? true : false);
-        gesturePillToggle.setOnPreferenceChangeListener(this);
-        // Adjust Hide Pill pref to match surrounding prefs
-        gesturePillToggle.setIconSpaceReserved(true);
     }
 
     @Override
@@ -189,22 +164,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
             screen.addPreference(pref);
         }
 
-        // Gesture tweaks category
         setBackGestureOverlaysToUse(getContext());
-
-        if (getCurrentSystemNavigationMode(getContext()) == KEY_SYSTEM_NAV_GESTURAL) {
-            gesturePillToggle.setSummary(getResources().getString(
-                    R.string.navbar_gesture_pill_toggle_summary));
-            gesturePillToggle.setEnabled(true);
-            screen.addPreference(gestureTweaksCategory);
-        } else {
-            gesturePillToggle.setSummary(getResources().getString(
-                    R.string.navbar_gesture_pill_toggle_summary_disabled));
-            gesturePillToggle.setEnabled(false);
-            screen.removePreference(gestureTweaksCategory);
-        }
-        screen.addPreference(gestureTweaksCategory);
-        gestureTweaksCategory.addPreference(gesturePillToggle);
 
         mayCheckOnlyRadioButton();
     }
@@ -362,7 +322,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
                 Settings.System.GESTURE_PILL_TOGGLE, 0);
     }
 
-    static void setBackGestureOverlaysToUse(Context context) {
+    public static void setBackGestureOverlaysToUse(Context context) {
         if (getPillToggleState(context) == 1)
             BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS_NO_PILL;
         else
@@ -370,7 +330,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
     }
 
     @VisibleForTesting
-    static String getCurrentSystemNavigationMode(Context context) {
+    public static String getCurrentSystemNavigationMode(Context context) {
         if (SystemNavigationPreferenceController.isEdgeToEdgeEnabled(context)) {
             return KEY_SYSTEM_NAV_GESTURAL;
         } else if (SystemNavigationPreferenceController.isSwipeUpEnabled(context)) {
@@ -381,8 +341,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
     }
 
     @VisibleForTesting
-    static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager,
-            String key) {
+    public static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager,
+                  String key) {
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:
                 int sensitivity = getBackSensitivity(context, overlayManager);
@@ -457,19 +417,4 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment
                     return SystemNavigationPreferenceController.isGestureAvailable(context);
                 }
             };
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == gesturePillToggle) {
-            boolean toggleState = (Boolean) newValue;
-            Settings.System.putInt(getContext().getContentResolver(),
-                    Settings.System.GESTURE_PILL_TOGGLE, toggleState ? 1 : 0);
-
-            setBackGestureOverlaysToUse(getContext());
-            setCurrentSystemNavigationMode(getContext(), mOverlayManager,
-                    getCurrentSystemNavigationMode(getContext()));
-        }
-
-        return true;
-    }
 }
