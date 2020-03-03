@@ -92,7 +92,6 @@ public class DarkUIPreferenceController extends TogglePreferenceController imple
                         Settings.Secure.DARK_MODE_DIALOG_SEEN, 0) == DIALOG_SEEN;
         if (!dialogSeen && isChecked) {
             showDarkModeDialog();
-            return false;
         }
         return mUiModeManager.setNightModeActivated(isChecked);
     }
