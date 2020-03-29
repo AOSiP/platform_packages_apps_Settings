@@ -100,6 +100,12 @@
         settings:controller="com.android.settings.gestures.SwipeToScreenshotGesturePreferenceController" />
 
     <Preference
+        android:key="gesture_adaptive_playback_summary"
+        android:title="@string/adaptive_playback_screen_title"
+        android:fragment="com.android.settings.gestures.AdaptivePlaybackGestureSettings"
+        settings:controller="com.android.settings.gestures.AdaptivePlaybackParentPreferenceController" />
+
+    <Preference
         android:key="double_tap_to_sleep_summary"
         android:title="@string/double_tap_to_sleep_title"
         android:fragment="com.android.settings.gestures.DoubleTapStatusBarSettings"
