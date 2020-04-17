@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">OwlsNest</string>
+    <string name="owlsnest_activity_summary">Home of the Kronic</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">Aktualizace AOSiP</string>
+    <string name="update_settings_summary">Zkontrolujte nejnovější verzi ROM</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Jazyky, aktualizace, čas, záloha</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Zavřít</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Motivy</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Barva zvýraznění</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Písmo nadpisu / těla</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Tvar ikony</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">Výchozí nastavení zařízení</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Vymazat statistiky</string>
+    <string name="battery_stats_message">Chystáte se obnovit historii statistiky baterie</string>
+    <!-- AOSiP Version -->
+    <string name="aosip_version">Sestavení AOSiP</string>
+    <string name="ambient_wake_gestures_title">Gesta pro probuzení</string>
+    <string name="ambient_wake_gestures_summary">Zobrazit Ambientní displej namísto normální zamykací obrazovky při probuzení</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Klepnutím zobrazit informace</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Zvuk př pořízení snímku obrazovky</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Obchod Play</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
+    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
+    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Vyhledejte snímač otisku prstů na <xliff:g id="sensor_location">%1$s</xliff:g> vašeho tabletu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Vyhledejte snímač otisku prstů na <xliff:g id="sensor_location">%1$s</xliff:g> vašeho zařízení.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Vyhledejte snímač otisku prstů <xliff:g id="sensor_location">%1$s</xliff:g> na telefonu.</string>
+    <!-- Twilight -->
+    <string name="unknown_night_light_time">Není známo - stiskněte pro aktualizaci</string>
+    <string name="night_display_location_text">\n\nPlán od západu do východu slunce vyžaduje povolené lokalizační služby k získání správného času pro vaší polohu.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">vzadu</string>
+    <string name="security_settings_fingerprint_sensor_location_front">vpředu</string>
+    <string name="security_settings_fingerprint_sensor_location_left">levá strana</string>
+    <string name="security_settings_fingerprint_sensor_location_right">pravá strana</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Stav SELinux</string>
+    <string name="selinux_status_disabled">Zakázáno</string>
+    <string name="selinux_status_permissive">Mírný</string>
+    <string name="selinux_status_enforcing">Vynucený</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <!-- Ambient music ticker pulse -->
+    <string name="pulse_on_new_tracks_title">Hudební oznámení na Ambientním displeji</string>
+    <string name="pulse_on_new_tracks_summary">Zobrazit Ambientní displej po spuštění nové hudební skladby</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB přes síť</string>
+    <string name="adb_over_network_summary">Povolit ladění přes síťové připojení (např. Wi-Fi nebo síť USB). Toto nastavení bude obnoveno po restartu</string>
+    <string name="adb_over_network_warning">UPOZORNĚNÍ: Pokud je povoleno ADB přes síťové připojení, zařízení je otevřené pro pokusy o průniky na všech připojených sítích, včetně GSM datové sítě!\n\nPoužijte tuto vlastnost pouze pokud jste připojeni k důvěryhodné síti.\n\nOpravdu chcete povolit tuto funkci?</string>
+    <string name="adb_over_network_warning_title">Povolit ADB přes síť?</string>
+    <!-- Density category -->
+    <string name="density_category">Možnosti hustoty zobrazení</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Teplota baterie</string>
+    <string name="battery_temp_summary">Klepnutím přepnete měřítko</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Zapnout svítilnu</string>
+    <string name="double_tap_power_flashlight_title">Zapnout svítilnu tlačítkem napájení při vypnuté obrazovce</string>
+    <string name="torch_power_button_gesture_none">Zakázáno</string>
+    <string name="torch_power_button_gesture_dt">Dvojím klepnutím tlačítka napájení přepínat svítilnu</string>
+    <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Přeskočit hudební skladby</string>
+    <string name="volume_skiptrack_title">Tlačítka hlasitosti přeskočí skladby</string>
+    <string name="volume_skiptrack_summary">Dlouhým stiskem tlačítek hlasitosti přeskočíte skladby při přehrávání hudby, a to i na dálku na TV nebo na PC pomocí např. Spotify (aplikace musí být spuštěna a zobrazovat oznámení).</string>
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Přejetím otiskem prstu vlevo nebo vpravo odmítnout oznámení</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Chcete-li zrušit oznámení, přejeďte prstem vlevo nebo vpravo pře snímač otisků prstů na zadní straně telefonu.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
+    <!-- AOD on charge -->
+    <string name="doze_on_charge_title">Vždy zapnuto při nabíjení</string>
+    <string name="doze_on_charge_summary">Při nabíjení vždy zobrazovat Ambientní displej</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Gesto třemi prsty</string>
+    <string name="swipe_to_screenshot_gesture_summary">Snímek obrazovky přejetím tří prstů</string>
+    <!-- DT2S on statusbar -->
+    <string name="double_tap_to_sleep_title">Dvojím poklepáním na stavový řádek uspat zařízení</string>
+    <string name="double_tap_to_sleep_summary">Dvojí poklepání na stavový řádek vypne obrazovku</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Pokročilá gesta</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Přizpůsobte gesta a nastavte vlastní akce</string>
+    <string name="navbar_gesture_tweaks_cat_title">Pokročilé</string>
+    <string name="long_back_swipe_timeout_title">Časový limit akce dlouhým přejetím vlevo</string>
+    <string name="left_swipe_actions_title">Akce dlouhým přejetím vlevo</string>
+    <string name="left_swipe_app_action_title">Vyberte aplikaci dlouhým přejetím vlevo</string>
+    <string name="right_swipe_actions_title">Akce dlouhým přejetím vpravo</string>
+    <string name="right_swipe_app_action_title">Vyberte aplikaci dlouhým přejetím vpravo</string>
+    <string name="gesture_nav_tweaks_footer_info">Chcete-li vybrat konkrétní aktivitu aplikace pro akci, podržte stisknutou libovolnou aplikaci ve výběru aplikací.\n\nPokud se zobrazuje spouštěč, proveďte akci přejetím prstem v dolní dolní části obrazovky.</string>
+    <string name="back_swipe_extended_title">Pokročilé akce přejetím</string>
+    <string name="back_swipe_extended_summary">Spustí akci, pokud je vodorovné přejetí širší než 3/4 šířky obrazovky</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">Plná</string>
+    <string name="back_height_high_label">Dolní</string>
+    <string name="back_options_dialog_title">Možnosti</string>
+    <string name="back_height_message">Hodnota výšky obrazovky použité jako dotyková oblast pro gesto „Zpět“.</string>
+    <string name="back_block_ime_title">Zakázat výšku virtuální klávesnice jako dotykovou oblast pro gesto Zpět.</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="navbar_gesture_mode_category_title">Vylepšení režimu gest</string>
+    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
+    <string name="navbar_gesture_pill_toggle_title">Gesta přes celou obrazovku</string>
+    <string name="navbar_gesture_pill_toggle_summary">Tímto skryjete jak navigační panel, tak pilulku pro plynulé používání gest přes celou obrazovku.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Tato možnost je k dispozici pouze pro navigaci pomocí gest!</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dvojí poklepání</string>
+    <string name="doze_double_tap_title">Dvojitým klepnutím zkontrolujte telefon</string>
+    <string name="doze_double_tap_summary">Pulzující oznámení dvojitým poklepáním</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Detekce uložení v kapse</string>
+    <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
+    <string name="theme_category">Nastavení motivu</string>
+    <string name="theme_select_title">Motivy</string>
+    <string name="theme_select_summary">Procházet a vybrat nainstalované motivy</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">鹰巢</string>
+    <string name="owlsnest_activity_summary">Kronic 之家</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP 更新</string>
+    <string name="update_settings_summary">检查 Rom 的最新版本</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">语言、更新、备份、时间</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">关闭</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">主题</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">强调色</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">标题/正文字体</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">图标形状</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">默认</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重置统计信息</string>
+    <string name="battery_stats_message">电池历史记录统计信息将被重置</string>
+    <!-- AOSiP Version -->
+    <string name="aosip_version">AOSiP 版本</string>
+    <string name="ambient_wake_gestures_title">环境唤醒手势</string>
+    <string name="ambient_wake_gestures_summary">唤醒手势后显示息屏显示，而不是平常的锁定屏幕</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">点按即可显示信息</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">屏幕截屏快门声音</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
+    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
+    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">在您平板的 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">在您设备的 <xliff:g id="sensor_location">%1$s</xliff:g> 处找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">在您的手机 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指纹感应器。</string>
+    <!-- Twilight -->
+    <string name="unknown_night_light_time">未知 - 点按以更新</string>
+    <string name="night_display_location_text">\n\n需要启用位置服务才能获取您当地的日出日落时间。</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">后面</string>
+    <string name="security_settings_fingerprint_sensor_location_front">前面</string>
+    <string name="security_settings_fingerprint_sensor_location_left">左侧</string>
+    <string name="security_settings_fingerprint_sensor_location_right">右侧</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux 状态</string>
+    <string name="selinux_status_disabled">已停用</string>
+    <string name="selinux_status_permissive">不运行</string>
+    <string name="selinux_status_enforcing">已启用</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <!-- Ambient music ticker pulse -->
+    <string name="pulse_on_new_tracks_title">息屏音乐信息</string>
+    <string name="pulse_on_new_tracks_summary">息屏显示新曲目</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">网络 ADB 调试</string>
+    <string name="adb_over_network_summary">通过网络接口 (WLAN，USB 网络) 启用 TCP/IP 调试。该设置重启后失效</string>
+    <string name="adb_over_network_warning">警告：启用网络 ADB 调试后，您的设备将暴露在所有已连接的网络上（包括 GSM 数据网络）并可能被侵入！\n\n请仅在您信任的网络下使用该功能，\n\n您确定要启用吗？</string>
+    <string name="adb_over_network_warning_title">允许通过网络使用 ADB 调试吗?</string>
+    <!-- Density category -->
+    <string name="density_category">密度选项</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">电池温度</string>
+    <string name="battery_temp_summary">点按切换单位</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">启动手电筒</string>
+    <string name="double_tap_power_flashlight_title">屏幕关闭时按电源键启动手电筒</string>
+    <string name="torch_power_button_gesture_none">已停用</string>
+    <string name="torch_power_button_gesture_dt">双击电源键以开关手电筒</string>
+    <string name="torch_power_button_gesture_lp">长按电源键以开关手电筒</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">跳过音乐曲目</string>
+    <string name="volume_skiptrack_title">音量键切换曲目</string>
+    <string name="volume_skiptrack_summary">播放音乐时，长按音量键跳过曲目，甚至在远程连接设备 TV 或 PC 上使用 ，例如 Spotify (应用程序必须在手机上运行并显示通知)。</string>
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑动指纹以取消通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要取消通知，请从左右两侧滑动手机背面的指纹传感器。</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">链接铃声&amp;通知的音量</string>
+    <!-- AOD on charge -->
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">充电时始终打开息屏显示</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">滑动截屏</string>
+    <string name="swipe_to_screenshot_gesture_summary">三指下滑截屏</string>
+    <!-- DT2S on statusbar -->
+    <string name="double_tap_to_sleep_title">双击状态栏休眠</string>
+    <string name="double_tap_to_sleep_summary">双击状态栏关闭屏幕</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">高级手势</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自定义手势与动作</string>
+    <string name="navbar_gesture_tweaks_cat_title">高级</string>
+    <string name="long_back_swipe_timeout_title">长划超时</string>
+    <string name="left_swipe_actions_title">左长划动作</string>
+    <string name="left_swipe_app_action_title">选择左长划应用</string>
+    <string name="right_swipe_actions_title">右长划动作</string>
+    <string name="right_swipe_app_action_title">选择右长划应用</string>
+    <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按应用，为该手势动作指定一个应用 Activity。\n\n应用切换指示器展示期间，在屏幕底部区域滑动以激活手势动作。</string>
+    <string name="back_swipe_extended_title">扩展滑动动作</string>
+    <string name="back_swipe_extended_summary">滑动超过屏幕横向宽度的 3\/4 以激活动作</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">完整</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">选项</string>
+    <string name="back_height_message">侧滑手势可触发范围</string>
+    <string name="back_block_ime_title">禁用虚拟键盘区域的返回手势操作</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="navbar_gesture_mode_category_title">手势模式调整</string>
+    <string name="navbar_gesture_mode_category_key">手势模式调整</string>
+    <string name="navbar_gesture_pill_toggle_title">全面屏手势</string>
+    <string name="navbar_gesture_pill_toggle_summary">这将隐藏导航栏和药丸以获取无缝全屏手势体验。</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">该选项仅适用于手势导航</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">双击</string>
+    <string name="doze_double_tap_title">双击即可查看手机</string>
+    <string name="doze_double_tap_summary">双击快速显示通知</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按钮操作</string>
+    <string name="theme_category">主题</string>
+    <string name="theme_select_title">主题</string>
+    <string name="theme_select_summary">浏览并选择已安装的主题</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">显示通知历史记录</string>
+</resources>

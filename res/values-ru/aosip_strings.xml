@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">Гнездо Совы</string>
+    <string name="owlsnest_activity_summary">Настройки Kronic</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">Обновления AOSiP</string>
+    <string name="update_settings_summary">Проверить наличие свежей версии прошивки</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Языки, обновления, время, резервное копирование</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Закрыть</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Темы</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Основной цвет</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Заголовок / Основной шрифт</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Форма иконок</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">Устройство по-умолчанию</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика батареи будет сброшена</string>
+    <!-- AOSiP Version -->
+    <string name="aosip_version">Версия AOSiP</string>
+    <string name="ambient_wake_gestures_title">Жесты Ambient Display</string>
+    <string name="ambient_wake_gestures_summary">Показывать Ambient Display вместо обычного экрана блокировки с жестами пробуждения</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук снятия скриншота</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
+    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
+    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s</xliff:g> Вашего телефона.</string>
+    <!-- Twilight -->
+    <string name="unknown_night_light_time">Неизвестно - нажмите для обновления</string>
+    <string name="night_display_location_text">\n\nРасписание заката и рассвета требует включения GPS для получения данных о времени в вашем регионе.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">сзади</string>
+    <string name="security_settings_fingerprint_sensor_location_front">спереди</string>
+    <string name="security_settings_fingerprint_sensor_location_left">слева</string>
+    <string name="security_settings_fingerprint_sensor_location_right">справа</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Режим SELinux</string>
+    <string name="selinux_status_disabled">Выключен</string>
+    <string name="selinux_status_permissive">Только предупреждение</string>
+    <string name="selinux_status_enforcing">Принудительный</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <!-- Ambient music ticker pulse -->
+    <string name="pulse_on_new_tracks_title">\"Сейчас играет\" на Always On дисплее</string>
+    <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении новой музыкальной композиции</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">Режим ADB-отладки по сети</string>
+    <string name="adb_over_network_summary">Включить TCP / IP отладку через сетевые интерфейсы (Wi-Fi, USB). Эта настройка требует перезагрузку системы</string>
+    <string name="adb_over_network_warning">ВНИМАНИЕ: При включенной отладке ADB по сети, ваш телефон доступен к подключению с любой из сетей, включая сети GSM!\n\nИспользуйте эту функцию, только при подключении к надежной сети\n\nВы действительно хотите включить эту функцию?</string>
+    <string name="adb_over_network_warning_title">Разрешить ADB через сети?</string>
+    <!-- Density category -->
+    <string name="density_category">Настройки плотности экрана</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Температура батареи</string>
+    <string name="battery_temp_summary">Нажмите, чтобы изменить масштаб</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Включить фонарик</string>
+    <string name="double_tap_power_flashlight_title">Включение фонарика по кнопке питания</string>
+    <string name="torch_power_button_gesture_none">Выключен</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания для включения фонарика</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания для включения фонарика</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Пропуск музыкальной композиции</string>
+    <string name="volume_skiptrack_title">Пропускать треки кнопками регулировки громкости</string>
+    <string name="volume_skiptrack_summary">Удерживайте кнопку громкости для пропуска треков при воспроизведении музыки, даже удаленно на ТВ или ПК, например, в Spotify (приложение должно работать на телефоне и показывать уведомление).</string>
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Проведите пальцем по сканеру отпечатков влево/вправо, чтобы убрать уведомления</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы убрать Ваши уведомления, проведите пальцем влево или право по сканеру отпечатка пальца.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
+    <!-- AOD on charge -->
+    <string name="doze_on_charge_title">Режим Always on при зарядке</string>
+    <string name="doze_on_charge_summary">Always On Display во время зарядки</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Свайп для создания снимка экрана</string>
+    <string name="swipe_to_screenshot_gesture_summary">Проведите тремя пальцами для создания снимка экрана</string>
+    <!-- DT2S on statusbar -->
+    <string name="double_tap_to_sleep_title">Двойное касание по строке состояния для перехода в режим сна</string>
+    <string name="double_tap_to_sleep_summary">Дважды нажмите на строку состояния, чтобы выключить экран</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Расширенная настройка жестов</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и пользовательских действий</string>
+    <string name="navbar_gesture_tweaks_cat_title">Дополнительные настройки</string>
+    <string name="long_back_swipe_timeout_title">Длительность долгого свайпа</string>
+    <string name="left_swipe_actions_title">Действие при длинном свайпе влево</string>
+    <string name="left_swipe_app_action_title">Выбрать приложение для запуска при длинном свайпе влево</string>
+    <string name="right_swipe_actions_title">Действие для длинного свайпа вправо</string>
+    <string name="right_swipe_app_action_title">Выбрать приложение для запуска при длинном свайпе вправо</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Действие на расширенный свайп</string>
+    <string name="back_swipe_extended_summary">Trigger action if the swipe is horizontally wider than 3\/4 of display size</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">Полный</string>
+    <string name="back_height_high_label">Нижний</string>
+    <string name="back_options_dialog_title">Параметры</string>
+    <string name="back_height_message">Высота экрана, используемая в качестве сенсорной области для жеста \"Назад\".</string>
+    <string name="back_block_ime_title">Block height of virtual keyboard as touchable region for back gesture</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="navbar_gesture_mode_category_title">Настройки режима жестов</string>
+    <string name="navbar_gesture_mode_category_key">Настройки режима жестов</string>
+    <string name="navbar_gesture_pill_toggle_title">Полноэкранные жесты</string>
+    <string name="navbar_gesture_pill_toggle_summary">Это скроет панель навигации для обеспечения корректной работы жестов безграничного экрана.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Эта опция доступна только для навигации жестами!</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Двойное нажатие</string>
+    <string name="doze_double_tap_title">Пробуждение телефона двойным нажатием</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Режим В кармане</string>
+    <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
+    <string name="theme_category">Темы</string>
+    <string name="theme_select_title">Темы</string>
+    <string name="theme_select_summary">Просмотр и выбор установленных тем</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показать журнал истории уведомлений</string>
+</resources>

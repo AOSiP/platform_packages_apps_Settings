@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">Sowie Gniazdo</string>
+    <string name="owlsnest_activity_summary">Wkrocz do świata modyfikacji systemu AOSiP</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">Aktualizacje AOSiP</string>
+    <string name="update_settings_summary">Sprawdź czy aktualizacja systemu jest dostępna</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">Języki, aktualizacje, czas, kopia zapasowa</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Zamknij</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">Motywy</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">Kolor akcentu</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Nagłówek / Czcionka body</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Kształt ikon</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">Domyślne ustawienia urządzenia</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Zresetuj statystyki</string>
+    <string name="battery_stats_message">Statystyki baterii zostaną zresetowane</string>
+    <!-- AOSiP Version -->
+    <string name="aosip_version">Wersja AOSiP</string>
+    <string name="ambient_wake_gestures_title">Gesty ekranu dostosowanego do otoczenia</string>
+    <string name="ambient_wake_gestures_summary">Wyświetl ekran dostosowany do otoczenia zamiast zwykłego ekranu blokady po wykonaniu gestu wybudzania</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Dźwięk zrzutu ekranu</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
+    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
+    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Zlokalizuj czytnik linii papilarnych na <xliff:g id="sensor_location">%1$s </xliff:g> Twojego tabletu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Zlokalizuj czytnik linii papilarnych na <xliff:g id="sensor_location">%1$s</xliff:g> Twojego urządzenia.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Zlokalizuj czytnik linii papilarnych na <xliff:g id="sensor_location">%1$s</xliff:g> Twojego telefonu.</string>
+    <!-- Twilight -->
+    <string name="unknown_night_light_time">Nieznany - naciśnij, aby zaktualizować </string>
+    <string name="night_display_location_text">\n\nHarmonogram od zachodu słońca do wschodu słońca wymaga włączenia usług lokalizacyjnych, aby uzyskać odpowiedni czas dla Twojej lokalizacji.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">tyle</string>
+    <string name="security_settings_fingerprint_sensor_location_front">przodzie</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lewej stronie</string>
+    <string name="security_settings_fingerprint_sensor_location_right">prawej stronie</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Wyłączony</string>
+    <string name="selinux_status_permissive">Pobłażliwy</string>
+    <string name="selinux_status_enforcing">Restrykcyjny</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <!-- Ambient music ticker pulse -->
+    <string name="pulse_on_new_tracks_title">Nazwa utworu na aktywnym wyświetlaczu</string>
+    <string name="pulse_on_new_tracks_summary">Pokaż aktywny wyświetlacz, gdy grany jest nowy utwór</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB przez sieć</string>
+    <string name="adb_over_network_summary">Aktywuj debugowanie TCP/IP przez interfejs sieciowy (Wi-Fi, sieci USB). Ustawienie zostanie zresetowane po ponownym uruchomieniu</string>
+    <string name="adb_over_network_warning">UWAGA: Kiedy ADB przez sieć jest aktywne, telefon jest otwarty na instrukcje w każdej połączonej sieci, w tym GSM!\n\nUżywaj tej funkcji tylko, gdy jesteś połączony z zaufanymi sieciami.\n\nCzy na pewno chcesz aktywować?</string>
+    <string name="adb_over_network_warning_title">Zezwolić na ADB przez sieć?</string>
+    <!-- Density category -->
+    <string name="density_category">Ustawienia gęstości</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura baterii</string>
+    <string name="battery_temp_summary">Kliknij, aby zmienić skalę </string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Aktywuj latarkę</string>
+    <string name="double_tap_power_flashlight_title">Latarka na przycisku zasilania przy wyłączonym ekranie</string>
+    <string name="torch_power_button_gesture_none">Wyłączony</string>
+    <string name="torch_power_button_gesture_dt">Podwójne wciśnięcie przycisku zasilania w celu włączenia Latarki</string>
+    <string name="torch_power_button_gesture_lp">Długie wciśnięcie przycisku zasilania w celu włączenia Latarki</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Przeskocz do następnego utworu</string>
+    <string name="volume_skiptrack_title">Przyciski głośności zmieniają utwór </string>
+    <string name="volume_skiptrack_summary">Długie naciśnięcie przycisku głośności pominie utwór muzyczny, nawet przy odtwarzaniu zdalnym na TV lub komputerze, np. Spotify (aplikacja musi być uruchomiona na smartfonie i mieć włączone powiadomienia).</string>
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Przesuń w prawo lub lewo po czytniku linii papilarnych aby odwołać powiadomienia</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">W celu odwołania powiadomień przesuń palcem w lewo lub w prawo po czytniku linii papilarnych.</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
+    <!-- AOD on charge -->
+    <string name="doze_on_charge_title">Zawsze włączony podczas ładowania</string>
+    <string name="doze_on_charge_summary">Pokaż ekran zgodny z otoczeniem podczas ładowania</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Przesuń, aby zrobić zrzut ekranu</string>
+    <string name="swipe_to_screenshot_gesture_summary">Przesuń trzema palcami, aby zrobić zrzut ekranu</string>
+    <!-- DT2S on statusbar -->
+    <string name="double_tap_to_sleep_title">Stuknij dwukrotnie pasek stanu, aby uśpić</string>
+    <string name="double_tap_to_sleep_summary">Stuknij dwukrotnie pasek stanu, aby uśpić ekran</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Zaawansowane gesty</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
+    <string name="navbar_gesture_tweaks_cat_title">Zaawansowane</string>
+    <string name="long_back_swipe_timeout_title">Czas przesunięcia </string>
+    <string name="left_swipe_actions_title">Akcja przesunięcia w lewo</string>
+    <string name="left_swipe_app_action_title">Wybierz aplikację przeciągnięcia w lewo</string>
+    <string name="right_swipe_actions_title">Akcja przesunięcia w prawo</string>
+    <string name="right_swipe_app_action_title">Wybierz aplikację przeciągnięcia w prawo</string>
+    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_summary">Trigger action if the swipe is horizontally wider than 3\/4 of display size</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">Full</string>
+    <string name="back_height_high_label">Bottom</string>
+    <string name="back_options_dialog_title">Options</string>
+    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
+    <string name="back_block_ime_title">Block height of virtual keyboard as touchable region for back gesture</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
+    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
+    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Wykrywanie kieszeni</string>
+    <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
+    <string name="theme_category">Theming</string>
+    <string name="theme_select_title">Themes</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+</resources>

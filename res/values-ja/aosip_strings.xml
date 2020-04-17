@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- OwlsNest -->
+    <string name="owlsnest_title">OwlsNest</string>
+    <string name="owlsnest_activity_summary">Kronic のすみか</string>
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">AOSiP アップデート</string>
+    <string name="update_settings_summary">ROM の最新バージョンを確認する</string>
+    <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
+    <string name="system_dashboard_custom_summary">言語、アップデーター、時間、バックアップ</string>
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">閉じる</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
+    <string name="theme_customization_category">テーマ</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
+    <string name="theme_customization_accent_color_title">アクセントカラー</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">見出し / 説明フォント</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">アイコンの形状</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
+    <string name="theme_customization_device_default">端末の既定値</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">統計をリセット</string>
+    <string name="battery_stats_message">バッテリーの使用統計はリセットされます</string>
+    <!-- AOSiP Version -->
+    <string name="aosip_version">AOSiP ビルド</string>
+    <string name="ambient_wake_gestures_title">アンビエント復帰ジェスチャー</string>
+    <string name="ambient_wake_gestures_summary">復帰ジェスチャーで通常のロック画面の代わりにアンビエント画面を表示する</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">タップして情報を表示</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">スクリーンショットの音</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Touch sensitivity -->
+    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
+    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
+    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">タブレットの <xliff:g id="sensor_location">%1$s</xliff:g> にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">端末の <xliff:g id="sensor_location">%1$s</xliff:g> にある指紋認証センサーを探します</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">端末の <xliff:g id="sensor_location">%1$s</xliff:g> にある指紋認証センサーを探します</string>
+    <!-- Twilight -->
+    <string name="unknown_night_light_time">不明 - タップして更新</string>
+    <string name="night_display_location_text">\n\n日の出から日の入りからのスケジュールにはあなたの正確な時刻を取得するために位置情報の有効化が必要です。</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">背面</string>
+    <string name="security_settings_fingerprint_sensor_location_front">前面</string>
+    <string name="security_settings_fingerprint_sensor_location_left">左側面</string>
+    <string name="security_settings_fingerprint_sensor_location_right">右側面</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux のステータス</string>
+    <string name="selinux_status_disabled">無効</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Cellular data</string>
+    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <!-- Ambient music ticker pulse -->
+    <string name="pulse_on_new_tracks_title">アンビエント音楽ティッカー</string>
+    <string name="pulse_on_new_tracks_summary">新規楽曲再生時にアンビエント表示をする</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ネット経由の ADB</string>
+    <string name="adb_over_network_summary">ネットワークインターフェース (Wi-Fi、USB ネットワーク) 経由での TCP/IP デバッグを有効にします。この設定は再起動時にリセットされます。</string>
+    <string name="adb_over_network_warning">警告: ネットワーク経由での ADB を有効にすると、あなたの携帯電話は GSM データネットワークを含む接続している全てのネットワークから侵入できるようになります。\n\nこの機能は信頼されたネットワークに接続している時にのみ使用して下さい。\n\nこの機能を本当に有効にしますか?</string>
+    <string name="adb_over_network_warning_title">ネットワーク経由の ADB を許可しますか?</string>
+    <!-- Density category -->
+    <string name="density_category">解像度オプション</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">バッテリー温度</string>
+    <string name="battery_temp_summary">タップしてサイズ変更</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">トーチを有効化</string>
+    <string name="double_tap_power_flashlight_title">画面消灯時のライト点灯</string>
+    <string name="torch_power_button_gesture_none">無効</string>
+    <string name="torch_power_button_gesture_dt">電源ボタンを2回押し</string>
+    <string name="torch_power_button_gesture_lp">電源ボタンを長押し</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">音楽トラックをスキップ</string>
+    <string name="volume_skiptrack_title">音量ボタンで音楽スキップ</string>
+    <string name="volume_skiptrack_summary">音量ボタンを長押しすると、テレビや PC でリモート操作を行っても、音楽再生時にトラックをスキップできます。例: Spotify (アプリは端末で実行し通知を表示する必要があります)</string>
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">指紋センサーで左右にスワイプして通知を削除</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">通知を削除するには端末裏側の指紋センサー上で左右にスワイプして下さい</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
+    <!-- AOD on charge -->
+    <string name="doze_on_charge_title">充電時は常に表示</string>
+    <string name="doze_on_charge_summary">充電時は Always ON アンビエント表示を表示する</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">スワイプでスクリーンショット</string>
+    <string name="swipe_to_screenshot_gesture_summary">3本指でスワイプしてスクリーンショットを取得する</string>
+    <!-- DT2S on statusbar -->
+    <string name="double_tap_to_sleep_title">ダブルタップでスリープ</string>
+    <string name="double_tap_to_sleep_summary">ステータスバーをダブルタップして画面を消灯する</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャー</string>
+    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャー編集とカスタムアクション設定</string>
+    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
+    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
+    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
+    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
+    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
+    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
+    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリピッカーでアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
+    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
+    <string name="back_swipe_extended_summary">スワイプの高さが画面サイズの75%以上ならアクションを起動する</string>
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">全画面</string>
+    <string name="back_height_high_label">下部</string>
+    <string name="back_options_dialog_title">オプション</string>
+    <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さ</string>
+    <string name="back_block_ime_title">戻るジェスチャーのタッチ可能な領域に仮想キーボードの高さを無効化</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="navbar_gesture_mode_category_title">ジェスチャーモードの設定</string>
+    <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
+    <string name="navbar_gesture_pill_toggle_title">全画面のジェスチャー</string>
+    <string name="navbar_gesture_pill_toggle_summary">これによってシームレスなジェスチャー体験のためにナビゲーションバーとピルを両方隠します</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">このオプションはジェスチャーナビゲーションのみ有効です!</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">ダブルタップ</string>
+    <string name="doze_double_tap_title">ダブルタップで端末を確認</string>
+    <string name="doze_double_tap_summary">ダブルタップで通知を点滅させる</string>
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">ポケットに入っている時にタッチやボタン入力を無効化する</string>
+    <string name="theme_category">テーマ</string>
+    <string name="theme_select_title">テーマ</string>
+    <string name="theme_select_summary">インストール済みのテーマを表示して選択する</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">通知履歴を表示する</string>
+</resources>
