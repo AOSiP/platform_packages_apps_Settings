@@ -26,10 +26,12 @@
         app:animation="@raw/gesture_ambient_tap"
         app:preview="@drawable/gesture_ambient_tap" />
 
-    <com.aosip.support.preference.SystemSettingSwitchPreference
+    <SwitchPreference
         android:key="doze_trigger_doubletap"
-        android:defaultValue="false"
         android:title="@string/doze_double_tap_title"
-        android:summary="@string/doze_double_tap_summary" />
+        android:summary="@string/doze_double_tap_summary"
+        app:keywords="@string/keywords_gesture"
+        app:controller="com.android.settings.gestures.DoubleTapAmbientPreferenceController"
+        app:allowDividerAbove="true" />
 
 </PreferenceScreen>
