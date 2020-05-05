@@ -26,11 +26,11 @@
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
     <string name="suggestion_button_close">Chiudi</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
-    <string name="theme_customization_category">Theming</string>
+    <string name="theme_customization_category">Temi</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize accent color. -->
     <string name="theme_customization_accent_color_title">Colore secondario</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
-    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_font_title">Font titoli / paragrafi</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
     <string name="theme_customization_icon_shape_title">Forma delle icone</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
@@ -40,8 +40,8 @@
     <string name="battery_stats_message">Le statistiche cronologia batteria saranno resettate</string>
     <!-- AOSiP Version -->
     <string name="aosip_version">Build AOSiP</string>
-    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal losckreen on wake gestures</string>
+    <string name="ambient_wake_gestures_title">Gesti Ambient display</string>
+    <string name="ambient_wake_gestures_summary">Mostra l\'Ambient display invece della schermata di blocco con i gesti per riaccendere lo schermo</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tocca per mostrare le informazioni</string>
     <!-- Screenshot shutter -->
@@ -49,9 +49,23 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
-    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
-    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <string name="touch_sensitivity_summary">Migliora la sensibilità al tocco quando si utilizzano vetri protettivi</string>
+    <string name="touch_sensitivity_title">Aumenta la sensibilità al tocco</string>
+    <string name="keywords_touch_sensitivity">tocco, sensibilità, sensitivo, protettore dello schermo, pellicola, reattiva, reattività</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none_summary">Off</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Individua il sensore delle impronte sul <xliff:g id="sensor_location">%1$s</xliff:g> del tuo tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Individua il sensore delle impronte sul <xliff:g id="sensor_location">%1$s</xliff:g> del tuo dispositivo.</string>
@@ -70,14 +84,14 @@
     <string name="selinux_status_permissive">Permissivo</string>
     <string name="selinux_status_enforcing">Imposto</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Dati mobili</string>
+    <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
+    <string name="data_usage_app_restrict_vpn">Dati VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Abilita l\'uso dei dati VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati Wi\u2011Fi</string>
     <!-- Ambient music ticker pulse -->
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
+    <string name="pulse_on_new_tracks_title">Ticker Ambient Music</string>
     <string name="pulse_on_new_tracks_summary">Visualizza il Display Ambient quando viene riprodotto un nuovo brano musicale</string>
     <!-- Adb over Network -->
     <string name="adb_over_network">ADB tramite rete</string>
@@ -88,7 +102,7 @@
     <string name="density_category">Opzioni densità</string>
     <!-- Battery temp -->
     <string name="battery_temp_title">Temperatura batteria</string>
-    <string name="battery_temp_summary">Tap to switch scale</string>
+    <string name="battery_temp_summary">Premi per cambiare scala</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">Attiva la torcia</string>
     <string name="double_tap_power_flashlight_title">Torcia a schermo spento col pulsante di alimentazione</string>
@@ -106,7 +120,7 @@
     <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
     <!-- AOD on charge -->
     <string name="doze_on_charge_title">Schermo sempre attivo durante la ricarica</string>
-    <string name="doze_on_charge_summary">Show Always On Ambient display when charging</string>
+    <string name="doze_on_charge_summary">Mostra l\'Ambient display durante la carica</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Scorri per fare uno screenshot</string>
     <string name="swipe_to_screenshot_gesture_summary">Scorri con tre dita per fare uno screenshot</string>
@@ -114,39 +128,39 @@
     <string name="double_tap_to_sleep_title">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     <string name="double_tap_to_sleep_summary">Tocca due volte la barra di stato per spegnere lo schermo</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures</string>
+    <string name="navbar_gesture_tweaks_pref_title">Gesti avanzati</string>
     <string name="navbar_gesture_tweaks_pref_summary">Personalizza le gesture e imposta azioni personalizzate</string>
     <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action if the swipe is horizontally wider than 3\/4 of display size</string>
+    <string name="long_back_swipe_timeout_title">Timeout azione di scorrimento prolungato</string>
+    <string name="left_swipe_actions_title">Azione di scorrimento  prolungato a sinistra</string>
+    <string name="left_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a sinistra</string>
+    <string name="right_swipe_actions_title">Azione di scorrimento  prolungato a destra</string>
+    <string name="right_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a destra</string>
+    <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'applicazione per l\'azione, premi a lungo su qualsiasi app nella selezione dell\'app.\n\nSe il launcher sta mostrando, fai lo swipe nell\'area inferiore dello schermo per attivare l\'azione.</string>
+    <string name="back_swipe_extended_title">Azione scorrimento esteso</string>
+    <string name="back_swipe_extended_summary">Attiva l\'azione se lo scorrimento orizzontalmente è superiore di 3\/4 della dimensione dello schermo</string>
     <!-- Back Gesture Height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
-    <string name="back_block_ime_title">Block height of virtual keyboard as touchable region for back gesture</string>
+    <string name="back_height_low_label">Pieno</string>
+    <string name="back_height_high_label">Dal basso</string>
+    <string name="back_options_dialog_title">Opzioni</string>
+    <string name="back_height_message">Porzione di schermo utilizzabile per il gesto indietro.</string>
+    <string name="back_block_ime_title">Blocca l\'altezza della tastiera virtuale come area utilizzabile per il gesto indietro</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_title">Modifiche gesture</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <string name="navbar_gesture_pill_toggle_title">Gesti a schermo intero</string>
+    <string name="navbar_gesture_pill_toggle_summary">La barra di navigazione e di stato verranno nascoste per un\'esperienza a schermo intero senza interruzioni.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Questa opzione è disponibile solo per la navigazione con gesti!</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">Doppio tocco</string>
+    <string name="doze_double_tap_title">Doppio tocco per controllare il telefono</string>
+    <string name="doze_double_tap_summary">Mostra le notifiche con un doppio tocco</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Rilevazione tasca</string>
     <string name="pocket_judge_summary">Blocca lo schermo e i tasti quando il dispositivo è in tasca</string>
-    <string name="theme_category">Theming</string>
-    <string name="theme_select_title">Themes</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="theme_category">Temi</string>
+    <string name="theme_select_title">Temi</string>
+    <string name="theme_select_summary">Sfoglia e seleziona temi installati </string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Visualizza il registro delle notifiche</string>
 </resources>
