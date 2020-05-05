@@ -49,9 +49,23 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
-    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
-    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <string name="touch_sensitivity_summary">Cải thiện độ nhạy cảm ứng khi sử dụng tấm bảo vệ màn hình</string>
+    <string name="touch_sensitivity_title">Tăng độ nhạy cảm ứng</string>
+    <string name="keywords_touch_sensitivity">cảm ứng, độ nhạy, độ nhạy, bảo vệ màn hình, phim, phản ứng nhanh, phản ứng nhanh</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none_summary">Off</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Định vị cảm biến vân tay trên <xliff:g id="sensor_location">%1$s</xliff:g> của máy tính bảng của bạn.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Định vị cảm biến vân tay trên <xliff:g id="sensor_location">%1$s</xliff:g> của thiết bị của bạn.</string>
@@ -70,12 +84,12 @@
     <string name="selinux_status_permissive">Cho phép</string>
     <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Dữ liệu di động</string>
+    <string name="data_usage_app_restrict_data_summary">Cho phép sử dụng dữ liệu di động</string>
+    <string name="data_usage_app_restrict_vpn">Dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Cho phép sử dụng dữ liệu VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dữ liệu Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Cho phép sử dụng Wi\u2011Fi</string>
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Thẻ âm nhạc</string>
     <string name="pulse_on_new_tracks_summary">Hiển thị màn hình xem nhanh khi một bản nhạc mới được phát</string>
@@ -135,18 +149,18 @@
     <string name="navbar_gesture_mode_category_title">Tùy chỉnh cử chỉ vuốt</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
     <string name="navbar_gesture_pill_toggle_title">Cử chỉ toàn màn hình</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <string name="navbar_gesture_pill_toggle_summary">Điều này sẽ ẩn công cụ điều hướng cho trải nghiệm cử chỉ toàn màn hình liền mạch.</string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Tùy chọn này chỉ có sẵn cho điều hướng cử chỉ!</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">Chạm hai lần</string>
+    <string name="doze_double_tap_title">Chạm 2 lần để kiểm tra điện thoại</string>
+    <string name="doze_double_tap_summary">Thông báo xung bằng cách chạm hai lần</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Phát hiện trong túi</string>
     <string name="pocket_judge_summary">Chặn bật màn hình và các phím khi thiết bị trong túi</string>
-    <string name="theme_category">Theming</string>
-    <string name="theme_select_title">Themes</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="theme_category">Chủ đề</string>
+    <string name="theme_select_title">Chủ đề</string>
+    <string name="theme_select_summary">Duyệt và chọn chủ đề đã cài đặt</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Hiển thị nhật ký lịch sử thông báo</string>
 </resources>

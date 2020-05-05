@@ -49,9 +49,23 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
-    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
-    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <string name="touch_sensitivity_summary">Улучшает чувствительность экрана при использовании защитных стёкол и плёнок</string>
+    <string name="touch_sensitivity_title">Увеличить чувствительность экрана</string>
+    <string name="keywords_touch_sensitivity">касание, чувствительность, защита экрана, плёнка, реагирование, отзывчивость</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none_summary">Off</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Сканер отпечатков пальцев расположен на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
@@ -70,12 +84,12 @@
     <string name="selinux_status_permissive">Только предупреждение</string>
     <string name="selinux_status_enforcing">Принудительный</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Мобильные данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Данные Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi-Fi</string>
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">\"Сейчас играет\" на Always On дисплее</string>
     <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении новой музыкальной композиции</string>
@@ -122,15 +136,15 @@
     <string name="left_swipe_app_action_title">Выбрать приложение для запуска при длинном свайпе влево</string>
     <string name="right_swipe_actions_title">Действие для длинного свайпа вправо</string>
     <string name="right_swipe_app_action_title">Выбрать приложение для запуска при длинном свайпе вправо</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
+    <string name="gesture_nav_tweaks_footer_info">Чтобы выбрать приложение на действие, удерживайте нажатие на любом приложении в меню выбора приложений.\n\nВ лончере выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
     <string name="back_swipe_extended_title">Действие на расширенный свайп</string>
-    <string name="back_swipe_extended_summary">Trigger action if the swipe is horizontally wider than 3\/4 of display size</string>
+    <string name="back_swipe_extended_summary">Активировать действие, если свайп по горизонтали шире, чем 3\/4 размера дисплея</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Полный</string>
     <string name="back_height_high_label">Нижний</string>
     <string name="back_options_dialog_title">Параметры</string>
     <string name="back_height_message">Высота экрана, используемая в качестве сенсорной области для жеста \"Назад\".</string>
-    <string name="back_block_ime_title">Block height of virtual keyboard as touchable region for back gesture</string>
+    <string name="back_block_ime_title">Не использовать высоту виртуальной клавиатуры в качестве сенсорной области для жеста \"Назад\"</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Настройки режима жестов</string>
     <string name="navbar_gesture_mode_category_key">Настройки режима жестов</string>
@@ -140,7 +154,7 @@
     <!-- Doze on double tap -->
     <string name="double_tap_title">Двойное нажатие</string>
     <string name="doze_double_tap_title">Пробуждение телефона двойным нажатием</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="doze_double_tap_summary">Потяните уведомления двойным нажатием</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Режим В кармане</string>
     <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>

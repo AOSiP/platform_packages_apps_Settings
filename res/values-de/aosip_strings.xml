@@ -49,9 +49,23 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
-    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
-    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <string name="touch_sensitivity_summary">Verbessert Berührung bei Verwendung von Bildschirmschutzfolien</string>
+    <string name="touch_sensitivity_title">Erhöhen der Berührungsempfindlichkeit</string>
+    <string name="keywords_touch_sensitivity">Berührung, Empfindlichkeit, Empfindlichkeit, Displayschutz, Film, Reaktionsfähigkeit, Reaktionsfähigkeit</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none_summary">Off</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Finde den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Geräts.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Finde den Fingerabdrucksensor auf der <xliff:g id="sensor_location">%1$s</xliff:g> des Geräts.</string>
@@ -70,12 +84,12 @@
     <string name="selinux_status_permissive">Permissiv</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Mobile Daten</string>
+    <string name="data_usage_app_restrict_data_summary">Mobile Datennutzung aktivieren</string>
+    <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN-Datennutzung erlauben</string>
+    <string name="data_usage_app_restrict_wifi">WLAN-Daten</string>
+    <string name="data_usage_app_restrict_wifi_summary">WLAN-Datenzugriff erlauben</string>
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Ambient-Musiktitelanzeige</string>
     <string name="pulse_on_new_tracks_summary">Ambient Display anzeigen, wenn ein neuer Musiktitel abgespielt wird</string>

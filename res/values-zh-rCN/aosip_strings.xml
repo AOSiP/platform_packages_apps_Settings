@@ -49,9 +49,23 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
-    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
-    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <string name="touch_sensitivity_summary">使用屏幕保护时提高触摸灵敏度</string>
+    <string name="touch_sensitivity_title">增加触摸灵敏度</string>
+    <string name="keywords_touch_sensitivity">触摸、 敏感、 屏幕保护、 影片、 响应</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Adaptive playback</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none_summary">Off</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">在您平板的 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">在您设备的 <xliff:g id="sensor_location">%1$s</xliff:g> 处找到指纹传感器。</string>
@@ -70,12 +84,12 @@
     <string name="selinux_status_permissive">不运行</string>
     <string name="selinux_status_enforcing">已启用</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">移动数据流量</string>
+    <string name="data_usage_app_restrict_data_summary">启用移动网络流量使用统计</string>
+    <string name="data_usage_app_restrict_vpn">VPN 数据</string>
+    <string name="data_usage_app_restrict_vpn_summary">启用 VPN 数据流量使用统计</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
+    <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 流量使用统计</string>
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">息屏音乐信息</string>
     <string name="pulse_on_new_tracks_summary">息屏显示新曲目</string>
