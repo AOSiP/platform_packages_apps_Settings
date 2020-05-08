@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "0956850e_254dcb74",
+        "filename": "src/com/android/settings/gestures/GestureTweaksSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1000357
+      },
+      "writtenOn": "2020-05-08T04:45:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49dc3a5e_7cdaa7f1",
+      "revId": "523655636daf5bcf35e764b6f24d1c1f07855ff3",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1b34aaa5_10001c44",
         "filename": "src/com/android/settings/gestures/GestureTweaksSettings.java",
         "patchSetId": 1
@@ -33,6 +51,24 @@
       "revId": "523655636daf5bcf35e764b6f24d1c1f07855ff3",
       "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8bf378df_846b705c",
+        "filename": "src/com/android/settings/gestures/GestureTweaksSettings.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1000357
+      },
+      "writtenOn": "2020-05-08T04:45:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b34aaa5_10001c44",
+      "revId": "523655636daf5bcf35e764b6f24d1c1f07855ff3",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": false
     }
   ]
 }
