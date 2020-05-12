@@ -52,20 +52,24 @@
     <string name="touch_sensitivity_summary">Migliora la sensibilità al tocco quando si utilizzano vetri protettivi</string>
     <string name="touch_sensitivity_title">Aumenta la sensibilità al tocco</string>
     <string name="keywords_touch_sensitivity">tocco, sensibilità, sensitivo, protettore dello schermo, pellicola, reattiva, reattività</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Gesture bar size</string>
+    <string name="home_handle_low_label">Small (AOSP)</string>
+    <string name="home_handle_high_label">Long</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_screen_title">Riproduzione adattiva</string>
+    <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
     <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 secondi</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Attivo (30 secondi)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Attivo (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuti</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Attivo (2 minuti)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuti</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Attivo (5 minuti)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuti</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Attivo (10 minuti)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Individua il sensore delle impronte sul <xliff:g id="sensor_location">%1$s</xliff:g> del tuo tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Individua il sensore delle impronte sul <xliff:g id="sensor_location">%1$s</xliff:g> del tuo dispositivo.</string>
@@ -136,9 +140,13 @@
     <string name="left_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a sinistra</string>
     <string name="right_swipe_actions_title">Azione di scorrimento  prolungato a destra</string>
     <string name="right_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a destra</string>
+    <string name="left_vertical_swipe_actions_title">Azione di scorrimento verticale a sinistra</string>
+    <string name="left_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento a sinistra verticale</string>
+    <string name="right_vertical_swipe_actions_title">Azione di scorrimento verticale destro</string>
+    <string name="right_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento destro verticale</string>
     <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'applicazione per l\'azione, premi a lungo su qualsiasi app nella selezione dell\'app.\n\nSe il launcher sta mostrando, fai lo swipe nell\'area inferiore dello schermo per attivare l\'azione.</string>
     <string name="back_swipe_extended_title">Azione scorrimento esteso</string>
-    <string name="back_swipe_extended_summary">Attiva l\'azione se lo scorrimento orizzontalmente è superiore di 3\/4 della dimensione dello schermo</string>
+    <string name="back_swipe_extended_summary">Innesca l\'azione su scorrimento più ampio (più di metà della dimensione del display), o uno scorrimento a L (abbastanza più lungo verticalmente)</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Pieno</string>
     <string name="back_height_high_label">Dal basso</string>

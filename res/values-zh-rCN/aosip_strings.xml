@@ -52,20 +52,24 @@
     <string name="touch_sensitivity_summary">使用屏幕保护时提高触摸灵敏度</string>
     <string name="touch_sensitivity_title">增加触摸灵敏度</string>
     <string name="keywords_touch_sensitivity">触摸、 敏感、 屏幕保护、 影片、 响应</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Gesture bar size</string>
+    <string name="home_handle_low_label">Small (AOSP)</string>
+    <string name="home_handle_high_label">Long</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_screen_title">自适应播放</string>
+    <string name="adaptive_playback_timeout_title">超时</string>
+    <string name="adaptive_playback_timeout_none_summary">关闭</string>
+    <string name="adaptive_playback_timeout_30_secs">30 秒</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">开启 (30 秒)</string>
+    <string name="adaptive_playback_timeout_1_min">1 分钟</string>
+    <string name="adaptive_playback_timeout_1_min_summary">开启 (1 分钟)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分钟</string>
+    <string name="adaptive_playback_timeout_2_min_summary">开启 (2 分钟)</string>
+    <string name="adaptive_playback_timeout_5_min">5 分钟</string>
+    <string name="adaptive_playback_timeout_5_min_summary">开启 (5 分钟)</string>
+    <string name="adaptive_playback_timeout_10_min">10 分钟</string>
+    <string name="adaptive_playback_timeout_10_min_summary">开启 (10 分钟)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">在您平板的 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指纹传感器。</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">在您设备的 <xliff:g id="sensor_location">%1$s</xliff:g> 处找到指纹传感器。</string>
@@ -136,9 +140,13 @@
     <string name="left_swipe_app_action_title">选择左长划应用</string>
     <string name="right_swipe_actions_title">右长划动作</string>
     <string name="right_swipe_app_action_title">选择右长划应用</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
     <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按应用，为该手势动作指定一个应用 Activity。\n\n应用切换指示器展示期间，在屏幕底部区域滑动以激活手势动作。</string>
     <string name="back_swipe_extended_title">扩展滑动动作</string>
-    <string name="back_swipe_extended_summary">滑动超过屏幕横向宽度的 3\/4 以激活动作</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">完整</string>
     <string name="back_height_high_label">底部</string>
