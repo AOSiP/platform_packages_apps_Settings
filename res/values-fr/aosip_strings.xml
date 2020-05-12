@@ -52,6 +52,10 @@
     <string name="touch_sensitivity_summary">Améliorer la sensibilité lorsque vous utilisez des protecteurs d\'écran</string>
     <string name="touch_sensitivity_title">Augmenter la sensibilité de l\'écran</string>
     <string name="keywords_touch_sensitivity">toucher, sensibilité, sensible, protecteur d\'écran, film, réactif, réactivité</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Gesture bar size</string>
+    <string name="home_handle_low_label">Small (AOSP)</string>
+    <string name="home_handle_high_label">Long</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
@@ -136,9 +140,13 @@
     <string name="left_swipe_app_action_title">Sélectionner un application pour balayage à gauche long</string>
     <string name="right_swipe_actions_title">Action de balayage à droite long</string>
     <string name="right_swipe_app_action_title">Sélectionner un application pour balayage à droite long</string>
+    <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
+    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
     <string name="gesture_nav_tweaks_footer_info">Pour choisir une activité d\'application spécifique pour l\'action, appuyez longuement sur n\'importe quelle application dans le sélecteur d\'applications. \ N \ nSi le lanceur s\'affiche, faites glisser votre doigt tout en bas de l\'écran pour déclencher l\'action.</string>
     <string name="back_swipe_extended_title">Action de balayage étendue</string>
-    <string name="back_swipe_extended_summary">Déclencher une action si le balayage horizontale est horizontale plus large que 3 \ / 4 de la taille d\'affichage</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Complet</string>
     <string name="back_height_high_label">En Bas</string>

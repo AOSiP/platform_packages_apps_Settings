@@ -52,20 +52,24 @@
     <string name="touch_sensitivity_summary">Mejora el táctil al usar protectores de pantalla</string>
     <string name="touch_sensitivity_title">Aumentar la sensibilidad de los toques</string>
     <string name="keywords_touch_sensitivity">táctil, sensibilidad, sensible, protector de pantalla, película, responsivo, responsividad</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Gesture bar size</string>
+    <string name="home_handle_low_label">Small (AOSP)</string>
+    <string name="home_handle_high_label">Long</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_screen_title">Reproducción adaptativa</string>
+    <string name="adaptive_playback_timeout_title">Use un tiempo de espera de</string>
+    <string name="adaptive_playback_timeout_none_summary">Desactivado</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Activado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Activado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Activado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Activado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localiza el sensor de huella digital en el <xliff:g id="sensor_location">%1$s </xliff:g> de tu teléfono.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localiza el sensor de huella digital en el <xliff:g id="sensor_location">%1$s </xliff:g> de tu teléfono.</string>
@@ -136,9 +140,13 @@
     <string name="left_swipe_app_action_title">Seleccionar aplicación de deslizamiento izquierdo largo</string>
     <string name="right_swipe_actions_title">Acción con deslizamiento derecho largo</string>
     <string name="right_swipe_app_action_title">Seleccionar aplicación de deslizamiento derecho largo</string>
+    <string name="left_vertical_swipe_actions_title">Acción con deslizamiento vertical a la izquierda</string>
+    <string name="left_vertical_swipe_app_action_title">Elegir app con deslizamiento vertical a la izquierda</string>
+    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
+    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
     <string name="gesture_nav_tweaks_footer_info">Para elegir una actividad de aplicación específica para la acción, mantenga presionada cualquier aplicación en el selector de aplicaciones.\n\nSi se muestra el iniciador, deslice el dedo en la parte inferior de la pantalla para activar la acción.</string>
     <string name="back_swipe_extended_title">Acción de deslizamiento extendida</string>
-    <string name="back_swipe_extended_summary">Activa la acción si el deslizamiento es horizontalmente más ancho que 3\/4 del tamaño de la pantalla</string>
+    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Completo</string>
     <string name="back_height_high_label">Abajo</string>
