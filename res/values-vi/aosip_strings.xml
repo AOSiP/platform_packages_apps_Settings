@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">Phiên bản AOSiP</string>
     <string name="ambient_wake_gestures_title">Cử chỉ đánh thức xem nhanh</string>
-    <string name="ambient_wake_gestures_summary">Hiển thị màn hình xem nhanh thay vì màn hình khoá thông thường</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Chạm để hiện thông tin</string>
     <!-- Screenshot shutter -->

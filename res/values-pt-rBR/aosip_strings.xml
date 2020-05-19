@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
     <string name="ambient_wake_gestures_title">Gestos da tela ambiente</string>
-    <string name="ambient_wake_gestures_summary">Mostrar tela ambiente em vez da tela de bloqueio normal quando usar gestos de despertar</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toque para mostrar informações</string>
     <!-- Screenshot shutter -->
@@ -53,9 +53,9 @@
     <string name="touch_sensitivity_title">Aumenta a sensibilidade ao toque</string>
     <string name="keywords_touch_sensitivity">toque, sensibilidade, sensível, protetor de tela, filme, responsivo, responsividade</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Gesture bar size</string>
-    <string name="home_handle_low_label">Small (AOSP)</string>
-    <string name="home_handle_high_label">Long</string>
+    <string name="home_handle_sizer_title">Tamanho da barra de gestos</string>
+    <string name="home_handle_low_label">Pequeno (AOSP)</string>
+    <string name="home_handle_high_label">Longo</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
     <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>

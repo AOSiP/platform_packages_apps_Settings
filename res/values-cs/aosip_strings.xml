@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">Sestavení AOSiP</string>
     <string name="ambient_wake_gestures_title">Gesta pro probuzení</string>
-    <string name="ambient_wake_gestures_summary">Zobrazit Ambientní displej namísto normální zamykací obrazovky při probuzení</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Klepnutím zobrazit informace</string>
     <!-- Screenshot shutter -->
@@ -53,9 +53,9 @@
     <string name="touch_sensitivity_title">Zvýšení citlivosti dotyku</string>
     <string name="keywords_touch_sensitivity">dotyk, citlivost, citlivý, ochranné sklo, fólie, reakce, reagující</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Gesture bar size</string>
-    <string name="home_handle_low_label">Small (AOSP)</string>
-    <string name="home_handle_high_label">Long</string>
+    <string name="home_handle_sizer_title">Velikost panelu pro gesta</string>
+    <string name="home_handle_low_label">Malý (AOSP)</string>
+    <string name="home_handle_high_label">Dlouhý</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptivní přehrávání</string>
     <string name="adaptive_playback_timeout_title">Použít tento časový limit</string>

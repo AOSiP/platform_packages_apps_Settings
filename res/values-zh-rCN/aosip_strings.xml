@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP 版本</string>
     <string name="ambient_wake_gestures_title">环境唤醒手势</string>
-    <string name="ambient_wake_gestures_summary">唤醒手势后显示息屏显示，而不是平常的锁定屏幕</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">点按即可显示信息</string>
     <!-- Screenshot shutter -->
@@ -53,9 +53,9 @@
     <string name="touch_sensitivity_title">增加触摸灵敏度</string>
     <string name="keywords_touch_sensitivity">触摸、 敏感、 屏幕保护、 影片、 响应</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Gesture bar size</string>
-    <string name="home_handle_low_label">Small (AOSP)</string>
-    <string name="home_handle_high_label">Long</string>
+    <string name="home_handle_sizer_title">手势栏大小</string>
+    <string name="home_handle_low_label">短 (AOSP)</string>
+    <string name="home_handle_high_label">长</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">自适应播放</string>
     <string name="adaptive_playback_timeout_title">超时</string>
@@ -140,13 +140,13 @@
     <string name="left_swipe_app_action_title">选择左长划应用</string>
     <string name="right_swipe_actions_title">右长划动作</string>
     <string name="right_swipe_app_action_title">选择右长划应用</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">垂直左滑动作</string>
+    <string name="left_vertical_swipe_app_action_title">选择垂直左滑应用</string>
+    <string name="right_vertical_swipe_actions_title">垂直右滑动作</string>
+    <string name="right_vertical_swipe_app_action_title">选择垂直右滑应用</string>
     <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按应用，为该手势动作指定一个应用 Activity。\n\n应用切换指示器展示期间，在屏幕底部区域滑动以激活手势动作。</string>
     <string name="back_swipe_extended_title">扩展滑动动作</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="back_swipe_extended_summary">长横滑 (超过屏幕一半) 或做 L 形滑动 (垂直方向足够长) 以激活动作</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">完整</string>
     <string name="back_height_high_label">底部</string>
