@@ -32,16 +32,16 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
     <string name="theme_customization_font_title">Fonte do título / corpo do texto</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
-    <string name="theme_customization_icon_shape_title">Formato dos Icones</string>
+    <string name="theme_customization_icon_shape_title">Forma do ícone</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
-    <string name="theme_customization_device_default">Padrão do aparelho</string>
+    <string name="theme_customization_device_default">Padrão do dispositivo</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Resetar estatísticas</string>
     <string name="battery_stats_message">Os históricos e estatísticas da bateria serão reiniciados</string>
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
     <string name="ambient_wake_gestures_title">Gestos da tela ambiente</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Mostrar tela ambiente em vez da tela de bloqueio normal em gestos de ativação</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toque para mostrar informações</string>
     <!-- Screenshot shutter -->
@@ -49,7 +49,7 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Melhora o toque ao usar protetor de tela</string>
+    <string name="touch_sensitivity_summary">Melhora o toque ao usar protetores de tela</string>
     <string name="touch_sensitivity_title">Aumenta a sensibilidade ao toque</string>
     <string name="keywords_touch_sensitivity">toque, sensibilidade, sensível, protetor de tela, filme, responsivo, responsividade</string>
     <!-- Home handle sizing -->

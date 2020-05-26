@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP ビルド</string>
     <string name="ambient_wake_gestures_title">アンビエント復帰ジェスチャー</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+    <string name="ambient_wake_gestures_summary">復帰ジェスチャーで通常のロック画面の代わりにアンビエント画面を表示する</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">タップして情報を表示</string>
     <!-- Screenshot shutter -->

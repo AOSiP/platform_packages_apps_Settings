@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">Wersja AOSiP</string>
     <string name="ambient_wake_gestures_title">Gesty ekranu dostosowanego do otoczenia</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Wyświetl ekran dostosowany do otoczenia zamiast zwykłego ekranu blokady po wykonaniu gestu wybudzania</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
     <!-- Screenshot shutter -->

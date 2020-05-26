@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP 版本</string>
     <string name="ambient_wake_gestures_title">环境唤醒手势</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+    <string name="ambient_wake_gestures_summary">唤醒手势后显示息屏显示，而不是平常的锁定屏幕</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">点按即可显示信息</string>
     <!-- Screenshot shutter -->
