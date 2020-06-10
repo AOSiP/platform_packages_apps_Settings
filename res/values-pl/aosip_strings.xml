@@ -49,27 +49,27 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Touch sensitivity -->
-    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
-    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
-    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <string name="touch_sensitivity_summary">Poprawia dotyk podczas korzystania z ochraniaczy ekranu</string>
+    <string name="touch_sensitivity_title">Zwiększ czułość dotyku</string>
+    <string name="keywords_touch_sensitivity">dotyk, czułość, czuły, ochraniacz ekranu, film, responsywny, responsywny</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Gesture bar size</string>
-    <string name="home_handle_low_label">Small (AOSP)</string>
-    <string name="home_handle_high_label">Long</string>
+    <string name="home_handle_sizer_title">Rozmiar paska gestów</string>
+    <string name="home_handle_low_label">Małe (AOSP)</string>
+    <string name="home_handle_high_label">Długi</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_screen_title">Odtwarzanie adaptacyjne</string>
+    <string name="adaptive_playback_timeout_title">Użyj limit czasu wynoszący</string>
+    <string name="adaptive_playback_timeout_none_summary">Wyłączone</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Włączone (30 sekund)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Włączone (1 minuta)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Włączone (2 minuty)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Włączone (5 minut)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Włączone (10 minut)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Zlokalizuj czytnik linii papilarnych na <xliff:g id="sensor_location">%1$s </xliff:g> Twojego tabletu.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Zlokalizuj czytnik linii papilarnych na <xliff:g id="sensor_location">%1$s</xliff:g> Twojego urządzenia.</string>
@@ -88,12 +88,12 @@
     <string name="selinux_status_permissive">Pobłażliwy</string>
     <string name="selinux_status_enforcing">Restrykcyjny</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Cellular data</string>
-    <string name="data_usage_app_restrict_data_summary">Enable usage of cellular data</string>
-    <string name="data_usage_app_restrict_vpn">VPN data</string>
-    <string name="data_usage_app_restrict_vpn_summary">Enable usage of VPN data</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
-    <string name="data_usage_app_restrict_wifi_summary">Enable usage of Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_data">Dane komórkowe</string>
+    <string name="data_usage_app_restrict_data_summary">Włącz użycie danych komórkowych</string>
+    <string name="data_usage_app_restrict_vpn">Dane VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Włącz użycie danych poprzez VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dane Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Włącz użycie danych Wi\u2011Fi</string>
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Nazwa utworu na aktywnym wyświetlaczu</string>
     <string name="pulse_on_new_tracks_summary">Pokaż aktywny wyświetlacz, gdy grany jest nowy utwór</string>

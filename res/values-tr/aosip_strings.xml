@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Sürümü</string>
     <string name="ambient_wake_gestures_title">Ortam ekranı uyandırma hareketleri</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Uyandırma hareketlerinde normal kilit ekranı yerine Ortam Ekranını göster</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Bilgileri göstermek için tıkla</string>
     <!-- Screenshot shutter -->
@@ -53,23 +53,23 @@
     <string name="touch_sensitivity_title">Dokunma hassasiyetini artırır</string>
     <string name="keywords_touch_sensitivity">dokunma, hassaslılık, hassas, ekran koruyucu, film, uyumlu, uyumluluk</string>
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Gesture bar size</string>
-    <string name="home_handle_low_label">Small (AOSP)</string>
-    <string name="home_handle_high_label">Long</string>
+    <string name="home_handle_sizer_title">Hareket çubuğu boyutu</string>
+    <string name="home_handle_low_label">Kısa (AOSP)</string>
+    <string name="home_handle_high_label">Uzun</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Adaptive playback</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none_summary">Off</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_screen_title">Uyarlanabilir oynatma</string>
+    <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
+    <string name="adaptive_playback_timeout_none_summary">Kapalı</string>
+    <string name="adaptive_playback_timeout_30_secs">30 saniye</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Açık (30 saniye)</string>
+    <string name="adaptive_playback_timeout_1_min">1 dakika</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Açık (1 dakika)</string>
+    <string name="adaptive_playback_timeout_2_min">2 dakika</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Açık (2 dakika)</string>
+    <string name="adaptive_playback_timeout_5_min">5 dakika</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Açık (5 dakika)</string>
+    <string name="adaptive_playback_timeout_10_min">10 dakika</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Açık (10 dakika)</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Tabletinizin <xliff:g id="sensor_location">%1$s</xliff:g> tarafında ki parmak izi sensörünü bulun.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Cihazınızın <xliff:g id="sensor_location">%1$s</xliff:g> tarafında ki parmak izi sensörünü bulun.</string>
@@ -140,13 +140,13 @@
     <string name="left_swipe_app_action_title">Sola uzun kaydırma uygulaması seçin</string>
     <string name="right_swipe_actions_title">Sağa uzun kaydırma hareketi</string>
     <string name="right_swipe_app_action_title">Sağa uzun kaydırma uygulaması seçin</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="left_vertical_swipe_actions_title">Dikey sola kaydırma hareketi</string>
+    <string name="left_vertical_swipe_app_action_title">Sola dikey kaydırma uygulaması seç</string>
+    <string name="right_vertical_swipe_actions_title">Dikey sağa kaydırma hareketi</string>
+    <string name="right_vertical_swipe_app_action_title">Dikey sağa kaydırma uygulamasını seçin</string>
     <string name="gesture_nav_tweaks_footer_info">Eylem için belirli bir uygulama etkinliği seçmek için uygulama seçicideki herhangi bir uygulamaya uzun basın.\n\nBaşlatıcıda gösteriliyorsa, eylemi tetiklemek için ekranın en alt kısmındaki kaydırmayı yapın.</string>
     <string name="back_swipe_extended_title">Genişletilmiş kaydırma hareketi</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <string name="back_swipe_extended_summary">Geniş kaydırmada (ekran boyutunun yarısından fazlası) veya L kaydırmada (dikey olarak yeterince uzun) tetikleme eylemi</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Tam</string>
     <string name="back_height_high_label">Alt</string>
@@ -168,7 +168,7 @@
     <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
     <string name="theme_category">Temalar</string>
     <string name="theme_select_title">Temalar</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="theme_select_summary">Yüklü temalara göz atın ve seçin</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Bildirimler geçmişi günlüğünü göster</string>
 </resources>
