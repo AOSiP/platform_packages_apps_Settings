@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">Version de AOSIP</string>
     <string name="ambient_wake_gestures_title">Gestos de la pantalla ambiente</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toca para mostrar información</string>
     <!-- Screenshot shutter -->
