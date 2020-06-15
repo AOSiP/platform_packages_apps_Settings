@@ -22,6 +22,12 @@
     android:title="@string/gesture_preference_title">
 
     <Preference
+        android:key="gesture_adaptive_playback_summary"
+        android:title="@string/adaptive_playback_screen_title"
+        android:fragment="com.android.settings.gestures.AdaptivePlaybackGestureSettings"
+        settings:controller="com.android.settings.gestures.AdaptivePlaybackParentPreferenceController" />
+
+    <Preference
         android:key="gesture_assist_input_summary"
         android:title="@string/assist_gesture_title"
         android:fragment="com.android.settings.gestures.AssistGestureSettings"
@@ -32,6 +38,12 @@
         android:title="@string/fingerprint_swipe_for_notifications_title"
         android:fragment="com.android.settings.gestures.SwipeToNotificationSettings"
         settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" />
+
+    <Preference
+        android:key="gesture_prevent_ringing_summary"
+        android:title="@string/gesture_prevent_ringing_screen_title"
+        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
+        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
     <Preference
         android:key="gesture_double_tap_power_input_summary"
@@ -76,12 +88,6 @@
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
     <Preference
-        android:key="gesture_prevent_ringing_summary"
-        android:title="@string/gesture_prevent_ringing_screen_title"
-        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
-        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
-
-    <Preference
         android:key="gesture_global_actions_panel_summary"
         android:title="@string/global_actions_panel_short_title"
         android:fragment="com.android.settings.gestures.GlobalActionsPanelSettings"
@@ -94,16 +100,10 @@
         settings:controller="com.android.settings.gestures.VolumeSkipTrackPreferenceController" />
 
     <Preference
-        android:key="gesture_swipe_to_screenshot_summary"
-        android:title="@string/swipe_to_screenshot_gesture_title"
-        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
-        settings:controller="com.android.settings.gestures.SwipeToScreenshotGesturePreferenceController" />
-
-    <Preference
-        android:key="gesture_adaptive_playback_summary"
-        android:title="@string/adaptive_playback_screen_title"
-        android:fragment="com.android.settings.gestures.AdaptivePlaybackGestureSettings"
-        settings:controller="com.android.settings.gestures.AdaptivePlaybackParentPreferenceController" />
+        android:key="statusbar_brightness_summary"
+        android:title="@string/status_bar_brightness_screen_title"
+        android:fragment="com.android.settings.gestures.StatusBarBrightnessSettings"
+        settings:controller="com.android.settings.gestures.StatusBarBrightnessPreferenceController" />
 
     <Preference
         android:key="double_tap_to_sleep_summary"
@@ -112,8 +112,8 @@
         settings:controller="com.android.settings.gestures.DoubleTapStatusBarPreferenceController" />
 
     <Preference
-        android:key="statusbar_brightness_summary"
-        android:title="@string/status_bar_brightness_screen_title"
-        android:fragment="com.android.settings.gestures.StatusBarBrightnessSettings"
-        settings:controller="com.android.settings.gestures.StatusBarBrightnessPreferenceController" />
+        android:key="gesture_swipe_to_screenshot_summary"
+        android:title="@string/swipe_to_screenshot_gesture_title"
+        android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
+        settings:controller="com.android.settings.gestures.SwipeToScreenshotGesturePreferenceController" />
 </PreferenceScreen>
