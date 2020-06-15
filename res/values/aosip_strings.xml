@@ -158,6 +158,11 @@
     <string name="double_tap_to_sleep_title">Double tap to sleep on statusbar</string>
     <string name="double_tap_to_sleep_summary">Double tap on statusbar to switch the screen off</string>
 
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Full</string>
     <string name="back_height_high_label">Bottom</string>
