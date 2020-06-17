@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">Ekran koruyucuları kullanırken dokunuşu iyileştir</string>
     <string name="touch_sensitivity_title">Dokunma hassasiyetini artırır</string>
     <string name="keywords_touch_sensitivity">dokunma, hassaslılık, hassas, ekran koruyucu, film, uyumlu, uyumluluk</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Hareket çubuğu boyutu</string>
-    <string name="home_handle_low_label">Kısa (AOSP)</string>
-    <string name="home_handle_high_label">Uzun</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Uyarlanabilir oynatma</string>
     <string name="adaptive_playback_timeout_title">Zaman aşımı kullanın</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">Durum çubuğunda uyumak için iki kez dokunun</string>
     <string name="double_tap_to_sleep_summary">Ekranı kapatmak için durum çubuğuna iki kez dokunun</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Gelişmiş hareketler</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Hareketleri özelleştirin ve özel eylemler ayarlayın</string>
-    <string name="navbar_gesture_tweaks_cat_title">Gelişmiş</string>
-    <string name="long_back_swipe_timeout_title">Uzun kaydırma hareketi zaman aşımı</string>
-    <string name="left_swipe_actions_title">Uzun sola kaydırma hareketi</string>
-    <string name="left_swipe_app_action_title">Sola uzun kaydırma uygulaması seçin</string>
-    <string name="right_swipe_actions_title">Sağa uzun kaydırma hareketi</string>
-    <string name="right_swipe_app_action_title">Sağa uzun kaydırma uygulaması seçin</string>
-    <string name="left_vertical_swipe_actions_title">Dikey sola kaydırma hareketi</string>
-    <string name="left_vertical_swipe_app_action_title">Sola dikey kaydırma uygulaması seç</string>
-    <string name="right_vertical_swipe_actions_title">Dikey sağa kaydırma hareketi</string>
-    <string name="right_vertical_swipe_app_action_title">Dikey sağa kaydırma uygulamasını seçin</string>
-    <string name="gesture_nav_tweaks_footer_info">Eylem için belirli bir uygulama etkinliği seçmek için uygulama seçicideki herhangi bir uygulamaya uzun basın.\n\nBaşlatıcıda gösteriliyorsa, eylemi tetiklemek için ekranın en alt kısmındaki kaydırmayı yapın.</string>
-    <string name="back_swipe_extended_title">Genişletilmiş kaydırma hareketi</string>
-    <string name="back_swipe_extended_summary">Geniş kaydırmada (ekran boyutunun yarısından fazlası) veya L kaydırmada (dikey olarak yeterince uzun) tetikleme eylemi</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Tam</string>
     <string name="back_height_high_label">Alt</string>

@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP 版本</string>
     <string name="ambient_wake_gestures_title">环境唤醒手势</string>
-    <string name="ambient_wake_gestures_summary">唤醒手势后显示息屏显示，而不是平常的锁定屏幕</string>
+    <string name="ambient_wake_gestures_summary">唤醒手势将显示息屏显示，而不是平常的锁屏</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">点按即可显示信息</string>
     <!-- Screenshot shutter -->
@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">使用屏幕保护时提高触摸灵敏度</string>
     <string name="touch_sensitivity_title">增加触摸灵敏度</string>
     <string name="keywords_touch_sensitivity">触摸、 敏感、 屏幕保护、 影片、 响应</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">手势栏大小</string>
-    <string name="home_handle_low_label">短 (AOSP)</string>
-    <string name="home_handle_high_label">长</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">自适应播放</string>
     <string name="adaptive_playback_timeout_title">超时</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">双击状态栏休眠</string>
     <string name="double_tap_to_sleep_summary">双击状态栏关闭屏幕</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">高级手势</string>
-    <string name="navbar_gesture_tweaks_pref_summary">自定义手势与动作</string>
-    <string name="navbar_gesture_tweaks_cat_title">高级</string>
-    <string name="long_back_swipe_timeout_title">长划超时</string>
-    <string name="left_swipe_actions_title">左长划动作</string>
-    <string name="left_swipe_app_action_title">选择左长划应用</string>
-    <string name="right_swipe_actions_title">右长划动作</string>
-    <string name="right_swipe_app_action_title">选择右长划应用</string>
-    <string name="left_vertical_swipe_actions_title">垂直左滑动作</string>
-    <string name="left_vertical_swipe_app_action_title">选择垂直左滑应用</string>
-    <string name="right_vertical_swipe_actions_title">垂直右滑动作</string>
-    <string name="right_vertical_swipe_app_action_title">选择垂直右滑应用</string>
-    <string name="gesture_nav_tweaks_footer_info">在应用选择器中长按应用，为该手势动作指定一个应用 Activity。\n\n应用切换指示器展示期间，在屏幕底部区域滑动以激活手势动作。</string>
-    <string name="back_swipe_extended_title">扩展滑动动作</string>
-    <string name="back_swipe_extended_summary">长横滑 (超过屏幕一半) 或做 L 形滑动 (垂直方向足够长) 以激活动作</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">完整</string>
     <string name="back_height_high_label">底部</string>

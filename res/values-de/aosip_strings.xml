@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">Verbessert Berührung bei Verwendung von Bildschirmschutzfolien</string>
     <string name="touch_sensitivity_title">Erhöhen der Berührungsempfindlichkeit</string>
     <string name="keywords_touch_sensitivity">Berührung, Empfindlichkeit, Empfindlichkeit, Displayschutz, Film, Reaktionsfähigkeit, Reaktionsfähigkeit</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Gesture bar size</string>
-    <string name="home_handle_low_label">Small (AOSP)</string>
-    <string name="home_handle_high_label">Long</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">Doppeltipp auf die Statusleiste, um den Bildschirm auszuschalten</string>
     <string name="double_tap_to_sleep_summary">Zweimal auf die Statusleiste tippen, um den Bildschirm auszuschalten</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Erweiterte Einstellungen</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Gesten anpassen und benutzerdefinierte Aktionen festlegen </string>
-    <string name="navbar_gesture_tweaks_cat_title">Erweitert</string>
-    <string name="long_back_swipe_timeout_title">Timeout für lange Zurück-Geste</string>
-    <string name="left_swipe_actions_title">Lange links wischen Aktion</string>
-    <string name="left_swipe_app_action_title">Lange links wischen App auswählen</string>
-    <string name="right_swipe_actions_title">Lange rechts wischen Aktion</string>
-    <string name="right_swipe_app_action_title">Lange rechts wischen App auswählen</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">Um eine bestimmte App-Aktivität für die Aktion auszuwählen, drücken Sie lange auf eine App in der Apps-Auswahl. Wenn der Launcher angezeigt wird, streichen Sie ganz unten auf dem Bildschirm, um die Aktion auszulösen.</string>
-    <string name="back_swipe_extended_title">Erweiterte Wischaktion</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Voll</string>
     <string name="back_height_high_label">Unten</string>

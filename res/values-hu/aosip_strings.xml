@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
     <string name="ambient_wake_gestures_title">Környezeti kijelző ébresztő mozdulatai</string>
-    <string name="ambient_wake_gestures_summary">Környezeti kijelző megjelenítése normál képernyőzár helyett ébresztéskor</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Érintse meg az információ megjelenítéséhez</string>
     <!-- Screenshot shutter -->
@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">Érintés javítása képernyővédő fólia használatakor</string>
     <string name="touch_sensitivity_title">Érintési érzékenység javítása</string>
     <string name="keywords_touch_sensitivity">érintés, érzékenység, érzékeny, képernyővédő, fólia, reszponzív, fogékonyság</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Navigációs sáv mérete</string>
-    <string name="home_handle_low_label">Kicsi (AOSP)</string>
-    <string name="home_handle_high_label">Hosszú</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptív lejátszás</string>
     <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">Dupla érintésre alvómód az állapotsoron</string>
     <string name="double_tap_to_sleep_summary">Az állapotsor dupla érintésére a képernyő kikapcsol</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Speciális gesztusok</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Mozdulatok testreszabása és egyedi műveletek beállítása</string>
-    <string name="navbar_gesture_tweaks_cat_title">Speciális</string>
-    <string name="long_back_swipe_timeout_title">Hosszú csúsztatás időkorlátja</string>
-    <string name="left_swipe_actions_title">Hosszú balra csúsztatás időkorlátja</string>
-    <string name="left_swipe_app_action_title">Válassza ki a hosszú balra csúsztatás alkalmazását</string>
-    <string name="right_swipe_actions_title">Hosszú jobbra csúsztatás művelete</string>
-    <string name="right_swipe_app_action_title">Válassza ki a jobb oldali hosszú csúsztatás alkalmazását</string>
-    <string name="left_vertical_swipe_actions_title">Függőleges balra csúsztatás művelete</string>
-    <string name="left_vertical_swipe_app_action_title">Válassza ki a függőleges balra csúsztatás alkalmazását</string>
-    <string name="right_vertical_swipe_actions_title">Függőleges jobbra csúsztatás művelete</string>
-    <string name="right_vertical_swipe_app_action_title">Válassza ki a függőleges jobbra csúsztatás alkalmazását</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Meghosszabbított csúsztatási művelet</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Teljes</string>
     <string name="back_height_high_label">Alul</string>

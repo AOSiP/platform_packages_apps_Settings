@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">Улучшает чувствительность экрана при использовании защитных стёкол и плёнок</string>
     <string name="touch_sensitivity_title">Увеличить чувствительность экрана</string>
     <string name="keywords_touch_sensitivity">касание, чувствительность, защита экрана, плёнка, реагирование, отзывчивость</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Размер полоски жестов</string>
-    <string name="home_handle_low_label">Маленький (AOSP)</string>
-    <string name="home_handle_high_label">Большая</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_timeout_title">Использовать тайм-аут</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">Двойное касание по строке состояния для перехода в режим сна</string>
     <string name="double_tap_to_sleep_summary">Дважды нажмите на строку состояния, чтобы выключить экран</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Расширенная настройка жестов</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Настройка жестов и пользовательских действий</string>
-    <string name="navbar_gesture_tweaks_cat_title">Дополнительные настройки</string>
-    <string name="long_back_swipe_timeout_title">Длительность долгого свайпа</string>
-    <string name="left_swipe_actions_title">Действие при длинном свайпе влево</string>
-    <string name="left_swipe_app_action_title">Выбрать приложение для запуска при длинном свайпе влево</string>
-    <string name="right_swipe_actions_title">Действие для длинного свайпа вправо</string>
-    <string name="right_swipe_app_action_title">Выбрать приложение для запуска при длинном свайпе вправо</string>
-    <string name="left_vertical_swipe_actions_title">Действие на вертикальный свайп слева</string>
-    <string name="left_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп слева</string>
-    <string name="right_vertical_swipe_actions_title">Действие на вертикальный свайп справа</string>
-    <string name="right_vertical_swipe_app_action_title">Выберите приложение на вертикальный свайп справа</string>
-    <string name="gesture_nav_tweaks_footer_info">Чтобы выбрать приложение на действие, удерживайте нажатие на любом приложении в меню выбора приложений.\n\nВ лончере выполните свайп в самой нижней части экрана, чтобы запустить действие.</string>
-    <string name="back_swipe_extended_title">Действие на расширенный свайп</string>
-    <string name="back_swipe_extended_summary">Запуск действия на широкий свайп (более чем на половину экрана), или L-свайп (существенно длиннее по вертикали)</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Полный</string>
     <string name="back_height_high_label">Нижний</string>

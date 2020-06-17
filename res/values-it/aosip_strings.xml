@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">Build AOSiP</string>
     <string name="ambient_wake_gestures_title">Gesti Ambient display</string>
-    <string name="ambient_wake_gestures_summary">Mostra l\'Ambient Display invece della schermata di blocco con le gestures per il risveglio</string>
+    <string name="ambient_wake_gestures_summary">Mostra Schermo Ambiente invece del blocco schermo normale con i gesti di accensione</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tocca per mostrare le informazioni</string>
     <!-- Screenshot shutter -->
@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">Migliora la sensibilità al tocco quando si utilizzano vetri protettivi</string>
     <string name="touch_sensitivity_title">Aumenta la sensibilità al tocco</string>
     <string name="keywords_touch_sensitivity">tocco, sensibilità, sensitivo, protettore dello schermo, pellicola, reattiva, reattività</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Dmensione barra gesti</string>
-    <string name="home_handle_low_label">Piccola (AOSP)</string>
-    <string name="home_handle_high_label">Lunga</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Riproduzione adattiva</string>
     <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
     <string name="double_tap_to_sleep_summary">Tocca due volte la barra di stato per spegnere lo schermo</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Gesti avanzati</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Personalizza le gesture e imposta azioni personalizzate</string>
-    <string name="navbar_gesture_tweaks_cat_title">Avanzate</string>
-    <string name="long_back_swipe_timeout_title">Timeout azione di scorrimento prolungato</string>
-    <string name="left_swipe_actions_title">Azione di scorrimento  prolungato a sinistra</string>
-    <string name="left_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a sinistra</string>
-    <string name="right_swipe_actions_title">Azione di scorrimento  prolungato a destra</string>
-    <string name="right_swipe_app_action_title">Seleziona l\'app a scorrimento prolungato a destra</string>
-    <string name="left_vertical_swipe_actions_title">Azione di scorrimento verticale a sinistra</string>
-    <string name="left_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento a sinistra verticale</string>
-    <string name="right_vertical_swipe_actions_title">Azione di scorrimento verticale destro</string>
-    <string name="right_vertical_swipe_app_action_title">Seleziona l\'app di scorrimento destro verticale</string>
-    <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività specifica dell\'applicazione per l\'azione, premi a lungo su qualsiasi app nella selezione dell\'app.\n\nSe il launcher sta mostrando, fai lo swipe nell\'area inferiore dello schermo per attivare l\'azione.</string>
-    <string name="back_swipe_extended_title">Azione scorrimento esteso</string>
-    <string name="back_swipe_extended_summary">Innesca l\'azione su scorrimento più ampio (più di metà della dimensione del display), o uno scorrimento a L (abbastanza più lungo verticalmente)</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Pieno</string>
     <string name="back_height_high_label">Dal basso</string>

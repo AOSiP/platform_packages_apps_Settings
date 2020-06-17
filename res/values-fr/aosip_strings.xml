@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">Améliorer la sensibilité lorsque vous utilisez des protecteurs d\'écran</string>
     <string name="touch_sensitivity_title">Augmenter la sensibilité de l\'écran</string>
     <string name="keywords_touch_sensitivity">toucher, sensibilité, sensible, protecteur d\'écran, film, réactif, réactivité</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Gesture bar size</string>
-    <string name="home_handle_low_label">Small (AOSP)</string>
-    <string name="home_handle_high_label">Long</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">Double appui pour mettre en veille sur la barre d\'état</string>
     <string name="double_tap_to_sleep_summary">Tap double sur la barre d\'état pour mettre en veille</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Gestes avancés</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Personnalisez les gestes et définissez des actions personnalisées</string>
-    <string name="navbar_gesture_tweaks_cat_title">Avancé</string>
-    <string name="long_back_swipe_timeout_title">Délai de l\'appui long</string>
-    <string name="left_swipe_actions_title">Action de balayage à gauche long</string>
-    <string name="left_swipe_app_action_title">Sélectionner un application pour balayage à gauche long</string>
-    <string name="right_swipe_actions_title">Action de balayage à droite long</string>
-    <string name="right_swipe_app_action_title">Sélectionner un application pour balayage à droite long</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">Pour choisir une activité d\'application spécifique pour l\'action, appuyez longuement sur n\'importe quelle application dans le sélecteur d\'applications. \ N \ nSi le lanceur s\'affiche, faites glisser votre doigt tout en bas de l\'écran pour déclencher l\'action.</string>
-    <string name="back_swipe_extended_title">Action de balayage étendue</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Complet</string>
     <string name="back_height_high_label">En Bas</string>

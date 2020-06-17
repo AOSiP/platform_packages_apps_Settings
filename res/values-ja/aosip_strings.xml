@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">画面フィルム装着時にタッチ感度を改善する</string>
     <string name="touch_sensitivity_title">タッチ感度の改善</string>
     <string name="keywords_touch_sensitivity">タッチ感度、画面フィルム、応答性</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">ジェスチャーバーのサイズ</string>
-    <string name="home_handle_low_label">短い (AOSP)</string>
-    <string name="home_handle_high_label">長い</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_timeout_title">使用する点灯時間</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">ダブルタップでスリープ</string>
     <string name="double_tap_to_sleep_summary">ステータスバーをダブルタップして画面を消灯する</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">高度なジェスチャー</string>
-    <string name="navbar_gesture_tweaks_pref_summary">ジェスチャー編集とカスタムアクション設定</string>
-    <string name="navbar_gesture_tweaks_cat_title">高度な設定</string>
-    <string name="long_back_swipe_timeout_title">長いスワイプアクションの制限時間</string>
-    <string name="left_swipe_actions_title">長い左スワイプアクション</string>
-    <string name="left_swipe_app_action_title">長い左スワイプアクションのアプリ選択</string>
-    <string name="right_swipe_actions_title">長い右スワイプアクション</string>
-    <string name="right_swipe_app_action_title">長い右スワイプアクションのアプリ選択</string>
-    <string name="left_vertical_swipe_actions_title">長い左スワイプのアクション</string>
-    <string name="left_vertical_swipe_app_action_title">アプリを選択</string>
-    <string name="right_vertical_swipe_actions_title">長い右スワイプのアクション</string>
-    <string name="right_vertical_swipe_app_action_title">アプリを選択</string>
-    <string name="gesture_nav_tweaks_footer_info">アクションの特定のアプリアクティビティを選択するには、アプリピッカーでアプリを長押しして下さい。\n\nランチャーが表示されている場合は、画面の一番下の領域でスワイプしてアクションを起動します。</string>
-    <string name="back_swipe_extended_title">拡張スワイプアクション</string>
-    <string name="back_swipe_extended_summary">より広いスワイプ (少なくとも画面の半分より広い) か、「L」スワイプ (縦の方が長い) でアクションを起動する。</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">全画面</string>
     <string name="back_height_high_label">下部</string>

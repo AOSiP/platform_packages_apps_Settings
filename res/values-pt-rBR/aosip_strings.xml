@@ -52,10 +52,6 @@
     <string name="touch_sensitivity_summary">Melhora o toque ao usar protetores de tela</string>
     <string name="touch_sensitivity_title">Aumenta a sensibilidade ao toque</string>
     <string name="keywords_touch_sensitivity">toque, sensibilidade, sensível, protetor de tela, filme, responsivo, responsividade</string>
-    <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Tamanho da barra de gestos</string>
-    <string name="home_handle_low_label">Pequeno (AOSP)</string>
-    <string name="home_handle_high_label">Longo</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
     <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>
@@ -131,22 +127,10 @@
     <!-- DT2S on statusbar -->
     <string name="double_tap_to_sleep_title">Toque duplo na barra de status para desligar</string>
     <string name="double_tap_to_sleep_summary">Toque duas vezes na barra de status para desligar a tela</string>
-    <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Gestos avançados</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Personalize gestos e defina ações personalizadas</string>
-    <string name="navbar_gesture_tweaks_cat_title">Avançado</string>
-    <string name="long_back_swipe_timeout_title">Tempo limite do deslize longo</string>
-    <string name="left_swipe_actions_title">Ação ao deslizar longamente para a esquerda</string>
-    <string name="left_swipe_app_action_title">Selecione o app ao deslizar longamente para a esquerda</string>
-    <string name="right_swipe_actions_title">Ação ao deslizar longamente para a esquerda</string>
-    <string name="right_swipe_app_action_title">Selecione o app ao deslizar longamente para a direita</string>
-    <string name="left_vertical_swipe_actions_title">Ação ao deslizar para a esquerda verticalmente</string>
-    <string name="left_vertical_swipe_app_action_title">Selecionar aplicativo ao deslizar verticalmente para a esquerda</string>
-    <string name="right_vertical_swipe_actions_title">Ação ao deslizar verticalmente para a direita</string>
-    <string name="right_vertical_swipe_app_action_title">Selecione o aplicativo ao deslizar verticalmente para a direita</string>
-    <string name="gesture_nav_tweaks_footer_info">Para escolher uma atividade de aplicativo específica para a ação, pressione e segure qualquer aplicativo no seletor de aplicativos. \n\nSe o iniciador estiver sendo exibido, deslize o dedo na área inferior da tela para acionar a ação.</string>
-    <string name="back_swipe_extended_title">Ação ao fazer um deslize estendido</string>
-    <string name="back_swipe_extended_summary">Acione a ação com um deslize mais amplo (mais da metade do tamanho da tela) ou com um deslize em  L (verticalmente suficiente)</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
+    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Completo</string>
     <string name="back_height_high_label">Botão</string>
