@@ -44,9 +44,9 @@ public class DoubleTapAmbientPreferenceController extends GesturePreferenceContr
 
     @Override
     public int getAvailabilityStatus() {
-        return (aosipUtils.isOlderPixelDevice())
-            ? AVAILABLE
-            : UNSUPPORTED_ON_DEVICE;
+        return (aosipUtils.isNewerPixelDevice())
+            ? UNSUPPORTED_ON_DEVICE
+            : AVAILABLE;
     }
 
     @Override
@@ -62,13 +62,13 @@ public class DoubleTapAmbientPreferenceController extends GesturePreferenceContr
     @Override
     public boolean isChecked() {
         final int enabled = Settings.System.getInt(mContext.getContentResolver(),
-                DOZE_TRIGGER_DOUBLETAP, ON);
+                SYSTEM_KEY, ON);
         return enabled == ON;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        return Settings.System.putInt(mContext.getContentResolver(), DOZE_TRIGGER_DOUBLETAP,
+        return Settings.System.putInt(mContext.getContentResolver(), SYSTEM_KEY,
                 isChecked ? ON : OFF);
     }
 }
