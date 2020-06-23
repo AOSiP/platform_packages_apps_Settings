@@ -28,7 +28,6 @@ import com.android.settings.gestures.GesturePreferenceController;
 public class DoubleTapAmbientPreferenceController extends GesturePreferenceController {
 
     private static final String PREF_KEY_VIDEO = "gesture_double_tap_screen_video";
-    private static final String KEY_DOUBLE_TAP_SETTINGS = "double_tap";
 
     private final String SYSTEM_KEY = DOZE_TRIGGER_DOUBLETAP;
 
@@ -37,16 +36,16 @@ public class DoubleTapAmbientPreferenceController extends GesturePreferenceContr
 
     private Context mContext;
 
-    public DoubleTapAmbientPreferenceController(Context context) {
-        super(context, KEY_DOUBLE_TAP_SETTINGS);
+    public DoubleTapAmbientPreferenceController(Context context, String key) {
+        super(context, key);
         mContext = context;
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return (aosipUtils.isOlderPixelDevice())
-            ? AVAILABLE
-            : UNSUPPORTED_ON_DEVICE;
+        return (aosipUtils.isNewerPixelDevice())
+            ? UNSUPPORTED_ON_DEVICE
+            : AVAILABLE;
     }
 
     @Override
@@ -62,13 +61,13 @@ public class DoubleTapAmbientPreferenceController extends GesturePreferenceContr
     @Override
     public boolean isChecked() {
         final int enabled = Settings.System.getInt(mContext.getContentResolver(),
-                DOZE_TRIGGER_DOUBLETAP, ON);
+                SYSTEM_KEY, ON);
         return enabled == ON;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        return Settings.System.putInt(mContext.getContentResolver(), DOZE_TRIGGER_DOUBLETAP,
+        return Settings.System.putInt(mContext.getContentResolver(), SYSTEM_KEY,
                 isChecked ? ON : OFF);
     }
 }
