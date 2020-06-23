@@ -44,9 +44,9 @@ public class DoubleTapAmbientPreferenceController extends GesturePreferenceContr
 
     @Override
     public int getAvailabilityStatus() {
-        return (aosipUtils.isOlderPixelDevice())
-            ? AVAILABLE
-            : UNSUPPORTED_ON_DEVICE;
+        return (aosipUtils.isNewerPixelDevice())
+            ? UNSUPPORTED_ON_DEVICE
+            : AVAILABLE;
     }
 
     @Override
