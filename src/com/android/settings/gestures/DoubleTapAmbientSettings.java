@@ -16,51 +16,32 @@
 
 package com.android.settings.gestures;
 
-import android.content.Context;
-import android.provider.SearchIndexableResource;
+import android.os.Bundle;
+
+import androidx.preference.Preference;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
-import com.android.settings.dashboard.DashboardFragment;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settingslib.search.SearchIndexable;
+import com.android.settings.SettingsPreferenceFragment;
 
-import java.util.Arrays;
-import java.util.List;
-
-@SearchIndexable
-public class DoubleTapAmbientSettings extends DashboardFragment {
-
-    private static final String TAG = "DoubleTapAmbientSettings";
+public class DoubleTapAmbientSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        addPreferencesFromResource(R.xml.double_tap_ambient_screen_settings);
+
+        getActivity().getActionBar().setTitle(R.string.double_tap_title);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        return false;
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.OWLSNEST;
     }
-
-    @Override
-    protected String getLogTag() {
-        return TAG;
-    }
-
-    @Override
-    protected int getPreferenceScreenResId() {
-        return R.xml.double_tap_ambient_screen_settings;
-    }
-
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider() {
-                @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(
-                        Context context, boolean enabled) {
-                    final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.double_tap_ambient_screen_settings;
-                    return Arrays.asList(sir);
-                }
-            };
 }
