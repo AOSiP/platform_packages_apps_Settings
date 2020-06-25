@@ -128,9 +128,9 @@
     <string name="double_tap_to_sleep_title">Двойное касание по строке состояния для перехода в режим сна</string>
     <string name="double_tap_to_sleep_summary">Дважды нажмите на строку состояния, чтобы выключить экран</string>
     <!-- Brightness control -->
-    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
-    <string name="statusbar_brightness_title">Brightness</string>
-    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_brightness_screen_title">Управление яркостью из строки состояния</string>
+    <string name="statusbar_brightness_title">Яркость</string>
+    <string name="statusbar_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Полный</string>
     <string name="back_height_high_label">Нижний</string>

@@ -32,7 +32,7 @@
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
     <string name="theme_customization_font_title">Fonte do título / corpo do texto</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
-    <string name="theme_customization_icon_shape_title">Forma do ícone</string>
+    <string name="theme_customization_icon_shape_title">Formato dos Icones</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Label for the option that turns off customizations for a given category.-->
     <string name="theme_customization_device_default">Padrão do dispositivo</string>
     <!-- Battery stats reset -->
@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">AOSiP Build</string>
     <string name="ambient_wake_gestures_title">Gestos da tela ambiente</string>
-    <string name="ambient_wake_gestures_summary">Mostrar tela ambiente em vez da tela de bloqueio normal em gestos de ativação</string>
+    <string name="ambient_wake_gestures_summary">Mostrar a tela ambiente ao invés da tela de bloqueio quando usar gestos de despertar</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Toque para mostrar informações</string>
     <!-- Screenshot shutter -->
@@ -128,9 +128,9 @@
     <string name="double_tap_to_sleep_title">Toque duplo na barra de status para desligar</string>
     <string name="double_tap_to_sleep_summary">Toque duas vezes na barra de status para desligar a tela</string>
     <!-- Brightness control -->
-    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
-    <string name="statusbar_brightness_title">Brightness</string>
-    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_brightness_screen_title">Brilho da barra de status</string>
+    <string name="statusbar_brightness_title">Brilho</string>
+    <string name="statusbar_brightness_summary">Ajuste o brilho deslizando pela barra de status</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Completo</string>
     <string name="back_height_high_label">Botão</string>

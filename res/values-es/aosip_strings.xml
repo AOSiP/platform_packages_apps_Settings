@@ -129,7 +129,7 @@
     <string name="double_tap_to_sleep_summary">Toca dos veces la barra de estado para apagar la pantalla</string>
     <!-- Brightness control -->
     <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
-    <string name="statusbar_brightness_title">Brightness</string>
+    <string name="statusbar_brightness_title">Brillo</string>
     <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">Completo</string>

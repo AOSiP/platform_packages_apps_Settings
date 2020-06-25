@@ -128,9 +128,9 @@
     <string name="double_tap_to_sleep_title">双击状态栏休眠</string>
     <string name="double_tap_to_sleep_summary">双击状态栏关闭屏幕</string>
     <!-- Brightness control -->
-    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
-    <string name="statusbar_brightness_title">Brightness</string>
-    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_brightness_screen_title">状态栏亮度</string>
+    <string name="statusbar_brightness_title">亮度</string>
+    <string name="statusbar_brightness_summary">滑动状态栏以调整亮度</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">完整</string>
     <string name="back_height_high_label">底部</string>

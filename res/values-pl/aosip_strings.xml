@@ -41,7 +41,7 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">Wersja AOSiP</string>
     <string name="ambient_wake_gestures_title">Gesty ekranu dostosowanego do otoczenia</string>
-    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal lockscreen on wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Wyświetl ekran dostosowany do otoczenia zamiast zwykłego ekranu blokady po wykonaniu gestu wybudzania</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
     <!-- Screenshot shutter -->
@@ -128,31 +128,31 @@
     <string name="double_tap_to_sleep_title">Stuknij dwukrotnie pasek stanu, aby uśpić</string>
     <string name="double_tap_to_sleep_summary">Stuknij dwukrotnie pasek stanu, aby uśpić ekran</string>
     <!-- Brightness control -->
-    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
-    <string name="statusbar_brightness_title">Brightness</string>
-    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_brightness_screen_title">Kontrola jasności paskiem stanu</string>
+    <string name="statusbar_brightness_title">Jasność</string>
+    <string name="statusbar_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
     <!-- Back Gesture Height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Amount of screen height used as touchable region for back gesture.</string>
-    <string name="back_block_ime_title">Block height of virtual keyboard as touchable region for back gesture</string>
+    <string name="back_height_low_label">Pełna</string>
+    <string name="back_height_high_label">Mała</string>
+    <string name="back_options_dialog_title">Opcje</string>
+    <string name="back_height_message">Ilość ekranu użyta jako obszar dotykowy dla gestu wstecz.</string>
+    <string name="back_block_ime_title">Zablokuj wysokość wirtualnej klawiatury jako dotykowy obszar dla gestu wstecz.</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="navbar_gesture_mode_category_title">Gesture mode tweaks</string>
+    <string name="navbar_gesture_mode_category_title">Poprawki trybu gestów</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>
-    <string name="navbar_gesture_pill_toggle_title">Full screen gestures</string>
-    <string name="navbar_gesture_pill_toggle_summary">This will hide both the navigation bar and the pill for a seamless fullscreen gesture experience.</string>
-    <string name="navbar_gesture_pill_toggle_summary_disabled">This option is only available for gesture navigation!</string>
+    <string name="navbar_gesture_pill_toggle_title">Gesty pełnoekranowe</string>
+    <string name="navbar_gesture_pill_toggle_summary">Dla zapewnienia płynnych gestów na pełnym ekranie ukryty zostanie zarówno pasek nawigacyjny jak i pigułka gestów </string>
+    <string name="navbar_gesture_pill_toggle_summary_disabled">Ta opcja jest dostępna tylko dla nawigacji za pomocą gestów!</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">Podwójne dotknięcie</string>
+    <string name="doze_double_tap_title">Dwukrotne tapnij w ekran, aby wyświetlić powiadomienia</string>
+    <string name="doze_double_tap_summary">Wyświetl powiadomienia po dwukrotnym dotknięciu</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Wykrywanie kieszeni</string>
     <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
-    <string name="theme_category">Theming</string>
-    <string name="theme_select_title">Themes</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="theme_category">Wygląd i personalizacja</string>
+    <string name="theme_select_title">Motywy</string>
+    <string name="theme_select_summary">Przeglądaj i wybierz zainstalowane motywy</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Show notifications history log</string>
+    <string name="notification_log_summary">Pokaż historię powiadomień</string>
 </resources>
