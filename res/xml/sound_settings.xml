@@ -99,6 +99,13 @@
         settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
         settings:keywords="@string/keywords_vibrate_for_calls"/>
 
+    <com.aosip.support.preference.SystemSettingListPreference
+        android:key="systemui_plugin_volume"
+        android:title="@string/volume_panel"
+        android:entries="@array/volume_panel_entries"
+        android:entryValues="@array/volume_panel_values"
+        android:defaultValue="@string/volume_panel_aosp_val" />
+
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
         android:key="zen_mode"
