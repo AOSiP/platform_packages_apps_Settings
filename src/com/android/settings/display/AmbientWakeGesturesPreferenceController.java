@@ -25,6 +25,7 @@ import android.text.TextUtils;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 
+import com.android.internal.util.aosip.aosipUtils;
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
@@ -79,7 +80,7 @@ public class AmbientWakeGesturesPreferenceController extends
 
     @Override
     public int getAvailabilityStatus() {
-        return getAmbientConfig().pulseOnNotificationAvailable()
+        return (getAmbientConfig().pulseOnNotificationAvailable() && !aosipUtils.isNewerPixelDevice())
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
