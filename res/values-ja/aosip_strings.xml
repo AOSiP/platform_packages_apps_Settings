@@ -128,9 +128,9 @@
     <string name="double_tap_to_sleep_title">ダブルタップでスリープ</string>
     <string name="double_tap_to_sleep_summary">ステータスバーをダブルタップして画面を消灯する</string>
     <!-- Brightness control -->
-    <string name="status_bar_brightness_screen_title">Statusbar brightness</string>
-    <string name="statusbar_brightness_title">Brightness</string>
-    <string name="statusbar_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_brightness_screen_title">ステータスバーの明るさ</string>
+    <string name="statusbar_brightness_title">明るさ</string>
+    <string name="statusbar_brightness_summary">ステータスバーの上をスライドして明るさを調整する</string>
     <!-- Back Gesture Height -->
     <string name="back_height_low_label">全画面</string>
     <string name="back_height_high_label">下部</string>
