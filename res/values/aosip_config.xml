@@ -15,6 +15,10 @@
      limitations under the License.
 -->
 <resources>
+
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">true</bool>
+
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 </resources>
