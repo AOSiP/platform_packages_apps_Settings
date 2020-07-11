@@ -23,6 +23,9 @@
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
 
+    <!-- Screen off FOD -->
+    <bool name="config_supportScreenOffFod">false</bool>
+
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 
