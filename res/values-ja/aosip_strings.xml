@@ -21,6 +21,8 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">AOSiP アップデート</string>
     <string name="update_settings_summary">ROM の最新バージョンを確認する</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">言語、アップデーター、時間、バックアップ</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -52,6 +54,9 @@
     <string name="touch_sensitivity_summary">画面フィルム装着時にタッチ感度を改善する</string>
     <string name="touch_sensitivity_title">タッチ感度の改善</string>
     <string name="keywords_touch_sensitivity">タッチ感度、画面フィルム、応答性</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">アダプティブ再生</string>
     <string name="adaptive_playback_timeout_title">使用する点灯時間</string>
@@ -136,7 +141,6 @@
     <string name="back_height_high_label">下部</string>
     <string name="back_options_dialog_title">オプション</string>
     <string name="back_height_message">戻るジェスチャーに使用される操作可能な画面領域の高さ</string>
-    <string name="back_block_ime_title">戻るジェスチャーのタッチ可能な領域に仮想キーボードの高さを無効化</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">ジェスチャーモードの設定</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>

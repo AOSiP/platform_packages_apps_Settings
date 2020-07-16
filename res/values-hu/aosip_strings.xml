@@ -21,6 +21,8 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">AOSiP Frissítő</string>
     <string name="update_settings_summary">Legutóbbi ROM verzió ellenőrzése</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Nyelvek, frissítő, idő, biztonsági mentés</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -52,6 +54,9 @@
     <string name="touch_sensitivity_summary">Érintés javítása képernyővédő fólia használatakor</string>
     <string name="touch_sensitivity_title">Érintési érzékenység javítása</string>
     <string name="keywords_touch_sensitivity">érintés, érzékenység, érzékeny, képernyővédő, fólia, reszponzív, fogékonyság</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptív lejátszás</string>
     <string name="adaptive_playback_timeout_title">A használt időtúllépés mértéke</string>
@@ -136,7 +141,6 @@
     <string name="back_height_high_label">Alul</string>
     <string name="back_options_dialog_title">Beállítások</string>
     <string name="back_height_message">A \'Vissza\'-mozdulat felismeréséhez használt képernyőrész.</string>
-    <string name="back_block_ime_title">Tiltsa le a virtuális billentyűzet magasságát, hogy a vissza mozdulatvezérlés területe érvényesülni tudjon</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Mozdulatok finomhangolása</string>
     <string name="navbar_gesture_mode_category_key">mozdulatok finomhangolása</string>

@@ -21,6 +21,8 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Mise à jour AOSiP</string>
     <string name="update_settings_summary">Vérifier la dernière version de la rom</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Langues, mise à jour, heure, sauvegarde</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -52,6 +54,9 @@
     <string name="touch_sensitivity_summary">Améliorer la sensibilité lorsque vous utilisez des protecteurs d\'écran</string>
     <string name="touch_sensitivity_title">Augmenter la sensibilité de l\'écran</string>
     <string name="keywords_touch_sensitivity">toucher, sensibilité, sensible, protecteur d\'écran, film, réactif, réactivité</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
@@ -136,7 +141,6 @@
     <string name="back_height_high_label">En Bas</string>
     <string name="back_options_dialog_title">Options</string>
     <string name="back_height_message">Zone d\'écran utilisée pour le geste retour (en hauteur).</string>
-    <string name="back_block_ime_title">Zone de Hauteur du clavier virtuel utilisée pour le geste retour.</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Modifications du mode Geste</string>
     <string name="navbar_gesture_mode_category_key">modifications_mode_geste</string>

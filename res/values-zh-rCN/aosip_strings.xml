@@ -21,6 +21,8 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">AOSiP 更新</string>
     <string name="update_settings_summary">检查 Rom 的最新版本</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">语言、更新、备份、时间</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -52,6 +54,9 @@
     <string name="touch_sensitivity_summary">使用屏幕保护时提高触摸灵敏度</string>
     <string name="touch_sensitivity_title">增加触摸灵敏度</string>
     <string name="keywords_touch_sensitivity">触摸、 敏感、 屏幕保护、 影片、 响应</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">自适应播放</string>
     <string name="adaptive_playback_timeout_title">超时</string>
@@ -136,7 +141,6 @@
     <string name="back_height_high_label">底部</string>
     <string name="back_options_dialog_title">选项</string>
     <string name="back_height_message">侧滑手势可触发范围</string>
-    <string name="back_block_ime_title">禁用虚拟键盘区域的返回手势操作</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">手势模式调整</string>
     <string name="navbar_gesture_mode_category_key">手势模式调整</string>

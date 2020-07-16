@@ -21,6 +21,8 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Updater AOSiP</string>
     <string name="update_settings_summary">Controlla l\'ultima versione della ROM</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Lingue, updater, orario, backup</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -52,6 +54,9 @@
     <string name="touch_sensitivity_summary">Migliora la sensibilità al tocco quando si utilizzano vetri protettivi</string>
     <string name="touch_sensitivity_title">Aumenta la sensibilità al tocco</string>
     <string name="keywords_touch_sensitivity">tocco, sensibilità, sensitivo, protettore dello schermo, pellicola, reattiva, reattività</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Riproduzione adattiva</string>
     <string name="adaptive_playback_timeout_title">Usa un timeout di</string>
@@ -136,7 +141,6 @@
     <string name="back_height_high_label">Dal basso</string>
     <string name="back_options_dialog_title">Opzioni</string>
     <string name="back_height_message">Porzione di schermo utilizzabile per il gesto indietro.</string>
-    <string name="back_block_ime_title">Blocca l\'altezza della tastiera virtuale come area utilizzabile per il gesto indietro</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Modifiche gesture</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>

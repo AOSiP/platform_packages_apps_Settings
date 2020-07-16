@@ -21,6 +21,8 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Cập nhật AOSiP</string>
     <string name="update_settings_summary">Kiểm tra cập nhật AOSiP</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Ngôn ngữ, cập nhật, thời gian, sao lưu</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -52,6 +54,9 @@
     <string name="touch_sensitivity_summary">Cải thiện độ nhạy cảm ứng khi sử dụng tấm bảo vệ màn hình</string>
     <string name="touch_sensitivity_title">Tăng độ nhạy cảm ứng</string>
     <string name="keywords_touch_sensitivity">cảm ứng, độ nhạy, độ nhạy, bảo vệ màn hình, phim, phản ứng nhanh, phản ứng nhanh</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
@@ -136,7 +141,6 @@
     <string name="back_height_high_label">Phần dưới</string>
     <string name="back_options_dialog_title">Tùy chọn</string>
     <string name="back_height_message">Chiều cao màn hình dùng cho khu vực nhận cử chỉ vuốt Trở lại.</string>
-    <string name="back_block_ime_title">Phần chiều cao bàn phím sẽ không nhận cử chỉ vuốt trở lại</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Tùy chỉnh cử chỉ vuốt</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>

@@ -21,6 +21,8 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">AOSiP Updater</string>
     <string name="update_settings_summary">Nach der aktuellsten Version suchen</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Sprachen, Gesten, Zeit, Sicherung</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -52,6 +54,9 @@
     <string name="touch_sensitivity_summary">Verbessert Berührung bei Verwendung von Bildschirmschutzfolien</string>
     <string name="touch_sensitivity_title">Erhöhen der Berührungsempfindlichkeit</string>
     <string name="keywords_touch_sensitivity">Berührung, Empfindlichkeit, Empfindlichkeit, Displayschutz, Film, Reaktionsfähigkeit, Reaktionsfähigkeit</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Adaptive playback</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
@@ -136,7 +141,6 @@
     <string name="back_height_high_label">Unten</string>
     <string name="back_options_dialog_title">Optionen</string>
     <string name="back_height_message">Menge der Bildschirmhöhe, der als berührbare Region für die Zurück-Geste genutzt wird.</string>
-    <string name="back_block_ime_title">Deaktiviere die Höhe der virtuellen Tastatur als berührbare Region für die \"Zurück\"-Geste.</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Gestenmodus Anpassungen</string>
     <string name="navbar_gesture_mode_category_key">gesture_mode_tweaks</string>

@@ -21,6 +21,8 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Atualizador AOSiP</string>
     <string name="update_settings_summary">Procure pela versão mais recente da rom</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
     <string name="system_dashboard_custom_summary">Idiomas, horário, backup, atualizações</string>
     <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
@@ -52,6 +54,9 @@
     <string name="touch_sensitivity_summary">Melhora o toque ao usar protetores de tela</string>
     <string name="touch_sensitivity_title">Aumenta a sensibilidade ao toque</string>
     <string name="keywords_touch_sensitivity">toque, sensibilidade, sensível, protetor de tela, filme, responsivo, responsividade</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
     <string name="adaptive_playback_timeout_title">Use um tempo limite de</string>
@@ -136,7 +141,6 @@
     <string name="back_height_high_label">Botão</string>
     <string name="back_options_dialog_title">Opções</string>
     <string name="back_height_message">Quantidade da altura da tela usada como região sensível ao toque para voltar</string>
-    <string name="back_block_ime_title">Bloquear a altura do teclado virtual como região palpável para o gesto voltar</string>
     <!-- NavigationBar Gestural Mode Tweaks -->
     <string name="navbar_gesture_mode_category_title">Ajustes no modo de gesto</string>
     <string name="navbar_gesture_mode_category_key">ajustes no modo de gesto</string>
