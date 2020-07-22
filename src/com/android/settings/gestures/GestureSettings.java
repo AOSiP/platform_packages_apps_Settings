@@ -19,7 +19,10 @@ package com.android.settings.gestures;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.hardware.display.AmbientDisplayConfiguration;
+import android.os.Bundle;
+import android.os.SystemProperties;
 import android.provider.SearchIndexableResource;
+import androidx.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -33,6 +36,8 @@ import java.util.List;
 public class GestureSettings extends DashboardFragment {
 
     private static final String TAG = "GestureSettings";
+    private static final String ACTIVE_EDGE_CATEGORY = "active_edge_category";
+    private static final String AWARE_CATEGORY = "aware_settings";
 
     private AmbientDisplayConfiguration mAmbientDisplayConfig;
 
@@ -49,6 +54,31 @@ public class GestureSettings extends DashboardFragment {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.gestures;
+    }
+
+    @Override
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+
+        Preference ActiveEdge = findPreference(ACTIVE_EDGE_CATEGORY);
+        if (!getResources().getBoolean(R.bool.has_active_edge)) {
+            getPreferenceScreen().removePreference(ActiveEdge);
+        } else {
+            if (!getContext().getPackageManager().hasSystemFeature(
+                    "android.hardware.sensor.assist")) {
+                getPreferenceScreen().removePreference(ActiveEdge);
+            }
+        }
+
+        Preference Aware = findPreference(AWARE_CATEGORY);
+        if (!getResources().getBoolean(R.bool.has_aware)) {
+            getPreferenceScreen().removePreference(Aware);
+        } else {
+            if (!SystemProperties.getBoolean(
+                    "ro.vendor.aware_available", false)) {
+                getPreferenceScreen().removePreference(Aware);
+            }
+        }
     }
 
     @Override
