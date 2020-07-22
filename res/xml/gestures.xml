@@ -25,15 +25,15 @@
         android:key="active_edge_category"
         android:title="@string/active_edge_title"
         android:summary="@string/active_edge_summary"
-        android:fragment="com.aosip.owlsnest.gesture.ActiveEdge"
-        settings:controller="com.aosip.owlsnest.helpers.ActiveEdgeSettingsPreferenceHelper" />
+        android:fragment="com.android.settings.gestures.ActiveEdge"
+        settings:controller="com.android.settings.gestures.ActiveEdgeController" />
 
     <Preference
         android:key="aware_settings"
         android:title="@string/aware_settings_title"
         android:summary="@string/aware_settings_summary"
         android:fragment="com.google.android.settings.aware.AwareSettings"
-        settings:controller="com.aosip.owlsnest.helpers.MotionSensePreferenceHelper" />
+        settings:controller="com.android.settings.gestures.MotionSenseController" />
 
     <Preference
         android:key="gesture_assist_input_summary"
