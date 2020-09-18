@@ -169,6 +169,11 @@
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:keywords="@string/keywords_dark_ui_mode"/>
 
+        <com.aosip.support.preference.SystemSettingSwitchPreference
+            android:key="enable_darker_theme"
+            android:title="@string/darker_theme_enable"
+            android:defaultValue="false" />
+
         <Preference
             android:key="theme_select_activity"
             android:title="@string/theme_select_title"
