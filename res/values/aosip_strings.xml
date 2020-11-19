@@ -204,4 +204,7 @@
     <!-- AoD on charge -->
     <string name="doze_on_charge_title">Ambient display when charging</string>
     <string name="doze_on_charge_summary">Show Ambient display only when charging</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
