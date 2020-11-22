@@ -91,6 +91,10 @@
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal losckreen on wake gestures</string>
 
+    <!-- Hide Gestural Nav -->
+    <string name="show_gestures_navbar_switch_title">Show pill</string>
+    <string name="show_gestures_navbar_switch_summary">Show gestures navbar</string>
+
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Off</string>
     <string name="greatest_tick_label">Half screen</string>
