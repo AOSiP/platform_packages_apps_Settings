@@ -26,7 +26,6 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import com.aosip.support.utils.aosipUtils;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
@@ -34,6 +33,8 @@ import com.android.settings.widget.VideoPreference;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnPause;
 import com.android.settingslib.core.lifecycle.events.OnResume;
+
+import com.android.internal.util.aosip.AOSiPUtils;
 
 public class DoubleTapPowerFlashlightPreferenceController extends BasePreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener,
@@ -51,7 +52,7 @@ public class DoubleTapPowerFlashlightPreferenceController extends BasePreference
 
     @Override
     public int getAvailabilityStatus() {
-        return aosipUtils.deviceHasFlashlight(mContext)
+        return AOSiPUtils.deviceHasFlashlight(mContext)
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
