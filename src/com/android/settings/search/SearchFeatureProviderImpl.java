@@ -26,7 +26,6 @@ import android.text.TextUtils;
 
 import com.android.settingslib.search.SearchIndexableResources;
 import com.android.settingslib.search.SearchIndexableResourcesMobile;
-import com.android.settings.external.SignatureVerifier;
 
 /**
  * FeatureProvider for the refactored search code.
@@ -71,7 +70,7 @@ public class SearchFeatureProviderImpl implements SearchFeatureProvider {
     }
 
     protected boolean isSignatureWhitelisted(Context context, String callerPackage) {
-        return SignatureVerifier.isPackageWhitelisted(context, callerPackage);
+        return false;
     }
 
     private static Uri buildReferrer(Context context, int pageId) {
