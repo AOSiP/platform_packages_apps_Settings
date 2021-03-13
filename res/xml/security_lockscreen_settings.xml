@@ -121,6 +121,13 @@
             android:title="@string/ambient_wake_gestures_title"
             android:summary="@string/ambient_wake_gestures_summary"
             settings:controller="com.android.settings.display.AmbientWakeGesturesPreferenceController" />
+
+        <com.aosip.support.preference.GlobalSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wakeup_when_plugged_unplugged_title"
+            android:summary="@string/wakeup_when_plugged_unplugged_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <!-- Work profile settings are at the bottom with high order value to avoid users thinking that
