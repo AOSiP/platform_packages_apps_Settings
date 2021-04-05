@@ -71,6 +71,13 @@
         android:entryValues="@array/screen_timeout_values"
         settings:keywords="@string/keywords_screen_timeout" />
 
+    <com.aosip.support.preference.GlobalSettingSwitchPreference
+        android:key="wake_when_plugged_or_unplugged"
+        android:title="@string/wakeup_when_plugged_unplugged_title"
+        android:summary="@string/wakeup_when_plugged_unplugged_summary"
+        android:defaultValue="true" />
+
+
     <Preference
         android:key="adaptive_sleep_entry"
         android:title="@string/adaptive_sleep_title"

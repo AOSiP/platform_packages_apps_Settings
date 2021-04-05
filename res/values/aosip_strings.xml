@@ -189,4 +189,9 @@
     <!-- AoD on charge -->
     <string name="doze_on_charge_title">Ambient display when charging</string>
     <string name="doze_on_charge_summary">Show Ambient display only when charging</string>
+
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Wake on charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake display upon plugging/unplugging charger</string>
+
 </resources>
