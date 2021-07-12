@@ -40,29 +40,15 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     private ListPreference mListPreference;
 
-    private List<String> mEntries = new ArrayList<>();
-    private List<String> mValues = new ArrayList<>();
-
     public MinRefreshRatePreferenceController(Context context) {
         super(context, KEY_MIN_REFRESH_RATE);
-
-        if (mContext.getResources().getBoolean(R.bool.config_show_min_refresh_rate_switch)) {
-            Display.Mode mode = mContext.getDisplay().getMode();
-            Display.Mode[] modes = mContext.getDisplay().getSupportedModes();
-            for (Display.Mode m : modes) {
-                if (m.getPhysicalWidth() == mode.getPhysicalWidth() &&
-                        m.getPhysicalHeight() == mode.getPhysicalHeight()) {
-                    mEntries.add(String.format("%.02fHz", m.getRefreshRate())
-                            .replaceAll("[\\.,]00", ""));
-                    mValues.add(String.format(Locale.US, "%.02f", m.getRefreshRate()));
-                }
-            }
-        }
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return mEntries.size() > 1 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        return mContext.getResources().getBoolean(R.bool.config_show_min_refresh_rate_switch) &&
+                mListPreference != null && mListPreference.getEntries().length > 1
+                        ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
@@ -73,8 +59,20 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
     @Override
     public void displayPreference(PreferenceScreen screen) {
         mListPreference = screen.findPreference(getPreferenceKey());
-        mListPreference.setEntries(mEntries.toArray(new String[mEntries.size()]));
-        mListPreference.setEntryValues(mValues.toArray(new String[mValues.size()]));
+
+        List<String> entries = new ArrayList<>(), values = new ArrayList<>();
+        Display.Mode mode = mContext.getDisplay().getMode();
+        Display.Mode[] modes = mContext.getDisplay().getSupportedModes();
+        for (Display.Mode m : modes) {
+            if (m.getPhysicalWidth() == mode.getPhysicalWidth() &&
+                    m.getPhysicalHeight() == mode.getPhysicalHeight()) {
+                entries.add(String.format("%.02fHz", m.getRefreshRate())
+                        .replaceAll("[\\.,]00", ""));
+                values.add(String.format(Locale.US, "%.02f", m.getRefreshRate()));
+            }
+        }
+        mListPreference.setEntries(entries.toArray(new String[entries.size()]));
+        mListPreference.setEntryValues(values.toArray(new String[values.size()]));
 
         super.displayPreference(screen);
     }
